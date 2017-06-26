@@ -1,0 +1,52 @@
+body {
+      background: #FAFAFA;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 300;
+      padding-top: 65px;
+    }
+    
+    a {
+      color: #03A9F4;
+    }
+    
+    a:hover {
+      color: black;
+    }
+    
+    .small-size {
+      width: 40%;
+    }
+    
+    p.logo-spec {
+      text-align: center;
+    }
+    
+    .logo-spec img {
+      width: 600px;
+    }
+	/*	
+		.small-size {
+			width:50%;
+		}*/
+		.tiger-background {
+			background-color:undefined;
+			background-image:url(tiger.jpg);
+			background-size:cover;
+			background-repeat:no-repeat;
+			background-position:0 0;
+			color:white;
+			padding:15px; /**так делается отступ для всего дива*/
+		}
+		/** так можно поставить текст слева, например, Картинка-текст*/
+		img {
+			float:left;
+			margin-right:30px;
+			margin-bottom:50px;
+			
+		}
+		.anchor-hack {
+			padding-top: 60px;
+			margin-top: -60px;
+		}
+		
+	
