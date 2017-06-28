@@ -14,11 +14,7 @@
     }
     
     a img:hover {
-      border: 3px solid #fff999;
-    }
-    
-    .small-size {
-      width: 40%;
+      /** Убрали прыганье при наведении мышки border: 3px solid #fff999;*/
     }
     
     p.logo-spec {
@@ -60,6 +56,9 @@
 		img.center {
 			display: block;
 			margin: 0 auto;
+		}
+		ul.a {
+    list-style-type: circle;
 		}
 	
 	    
