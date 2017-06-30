@@ -9,6 +9,24 @@
 	<!-- Latest compiled and minified JavaScript -->
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type="text/javascript">
+				// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+		
+		function scrollFunction() {
+		    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		        document.getElementById("myBtn").style.display = "block";
+		    } else {
+		        document.getElementById("myBtn").style.display = "none";
+		    }
+		}
+		
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		    document.body.scrollTop = 0; // For Chrome, Safari and Opera 
+		    document.documentElement.scrollTop = 0; // For IE and Firefox
+		}	
+	</script>
 	<meta name="description" content="Полезные товары: компьютер Xiaomi Mi Air 13.3, наушники 1More Piston, зарядка Ugreen и Qualcomm 4-usb, Junsun7 видеорегистратор, сумка на цепочке">
 </head>
 
@@ -34,7 +52,7 @@
          				</a>
 			            <ul class="dropdown-menu">
 				            <li class="active"><a href="dvr.html">Junsun7"</a></li>
-				            <li><a href="#">Action</a></li>
+				            <li><a href="mi-air.html">Xiaomi Mi Air 13.3"</a></li>
 				            <li><a href="#">Another action</a></li>
 				            <li><a href="#">Something else here</a></li>
 				            <li role="separator" class="divider"></li>
@@ -58,7 +76,7 @@
 		<div class="row">
 			<div class="col-xs-12 col-md-5">
 				<a href="https://goo.gl/R1vWXL" target="_blank">
-					<img src="small-dvr.jpg">
+					<img src="images-dvr/small-dvr.jpg">
 				</a>
 			</div>
 			<div class="col-xs-12 col-md-7">
@@ -124,7 +142,7 @@
 						</tr>
 						<tr>
 							<td><span>Макс внешней памяти:</span></td>
-							<td>32 ГБ</td>
+							<td>32GB</td>
 						</tr>
 						<tr>
 							<td><span>Кадров в секунду:</span></td>
@@ -212,7 +230,7 @@
 			<div>
 				<p>
 					<a href="images-dvr/big-size.jpg" target="_blank">
-						<img src="size.jpg" class="center" alt="size">
+						<img src="images-dvr/size.jpg" class="center" alt="size">
 					</a>
 				</p>
 			</div>
@@ -226,7 +244,7 @@
 			<div>
 				<p>
 					<a href="images-dvr/big-3G.jpg" target="_blank">
-						<img src="3G.jpg" class="center" alt="3G">
+						<img src="images-dvr/3G.jpg" class="center" alt="3G">
 					</a>
 				</p>
 			</div>
@@ -239,7 +257,7 @@
 			<div>
 				<p>
 					<a href="images-dvr/big-video.jpg" target="_blank">
-						<img src="video.jpg" class="center" alt="video">
+						<img src="images-dvr/video.jpg" class="center" alt="video">
 					</a>
 				</p>
 			</div>
@@ -252,7 +270,7 @@
 			<div>
 				<p>
 					<a href="images-dvr/big-split-screen.jpg" target="_blank">
-						<img src="img/split-screen.jpg" class="center" alt="split-screen">
+						<img src="images-dvr/split-screen.jpg" class="center" alt="split-screen">
 					</a>
 				</p>
 			</div>	
@@ -265,14 +283,14 @@
 			<div>
 				<p>
 					<a href="images-dvr/big-rear-view-camera.jpg" target="_blank">
-						<img src="rear-view-camera.jpg" class="center" alt="rear-view-camera">
+						<img src="images-dvr/rear-view-camera.jpg" class="center" alt="rear-view-camera">
 					</a>
 				</p>
 			</div>
 			<div>
 				<p>
 					<a href="images-dvr/big-rear-view-camera2.jpg" target="_blank">
-						<img src="rear-view-camera2.jpg" class="center" alt="rear-view-camera2">
+						<img src="images-dvr/rear-view-camera2.jpg" class="center" alt="rear-view-camera2">
 					</a>
 				</p>
 			</div>
@@ -285,7 +303,7 @@
 			<div>
 				<p>
 					<a href="images-dvr/big-GPS.jpg" target="_blank">
-						<img src="GPS.jpg" class="center" alt="GPS">
+						<img src="images-dvr/GPS.jpg" class="center" alt="GPS">
 					</a>
 				</p>
 				
@@ -321,7 +339,7 @@
 			<div>
 				<p>
 					<a href="images-dvr/big-touch-screen.jpg" target="_blank">
-						<img src="touch-screen.jpg" class="center" alt="touch-screen">
+						<img src="images-dvr/touch-screen.jpg" class="center" alt="touch-screen">
 					</a>
 				</p>
 				
@@ -335,7 +353,7 @@
 			<div>
 				<p>
 					<a href="images-dvr/big-android.jpg" target="_blank">
-						<img src="android.jpg" class="center" alt="android">
+						<img src="images-dvr/android.jpg" class="center" alt="android">
 					</a>
 				</p>
 			</div>
@@ -348,7 +366,7 @@
 			<div>
 				<p>
 					<a href="images-dvr/big-bluetooth.jpg" target="_blank">
-						<img src="bluetooth.jpg" class="center" alt="bluetooth">
+						<img src="images-dvr/bluetooth.jpg" class="center" alt="bluetooth">
 					</a>
 				</p>
 			</div>
@@ -361,7 +379,7 @@
 			<div>
 				<p>
 					<a href="images-dvr/big-radio.jpg" target="_blank">
-						<img src="radio.jpg" class="center" alt="radio">
+						<img src="images-dvr/radio.jpg" class="center" alt="radio">
 					</a>
 				</p>
 			</div>
@@ -372,7 +390,7 @@
 			<div>
 				<p>
 					<a href="images-dvr/big-car.jpg" target="_blank">
-						<img src="car.jpg" class="center" alt="car">
+						<img src="images-dvr/car.jpg" class="center" alt="car">
 					</a>
 				</p>
 			</div>
@@ -380,7 +398,7 @@
 			<div>
 				<p>
 					<a href="images-dvr/big-view.jpg" target="_blank">
-						<img src="view.jpg" class="center" alt="car">
+						<img src="images-dvr/view.jpg" class="center" alt="car">
 					</a>
 				</p>
 			</div>
@@ -390,7 +408,7 @@
 			<div>
 				<p>
 					<a href="images-dvr/big-front-back.jpg" target="_blank">
-						<img src="front-back.jpg" class="center" alt="car">
+						<img src="images-dvr/front-back.jpg" class="center" alt="car">
 					</a>
 				</p>
 			</div>
@@ -400,7 +418,7 @@
 			<div>
 				<p>
 					<a href="images-dvr/big-package.jpg" target="_blank">
-						<img src="package.jpg" class="center" alt="package">
+						<img src="images-dvr/package.jpg" class="center" alt="package">
 					</a>
 				</p>
 			</div>
@@ -490,13 +508,13 @@
 				<div class="col-md-4">
 					<!-- https://goo.gl/R1vWXL -->
 					<a href="#registrator" title="Junsun 3G видеорегистратор">
-						<img src="small-dvr.jpg" style="width:100%">
+						<img src="images-dvr/small-dvr.jpg" style="width:100%">
 					</a>
 				</div>
 				<div class="col-md-4">
 					<!--https://goo.gl/fcNqWM-->
-					<a href="#notebook" title="Ноутбук Xiaomi Mi Air 13.3">
-						<img src="small-Mi Air 13.3.jpg" style="width:100%">
+					<a href="mi-air.html" title="Ноутбук Xiaomi Mi Air 13.3">
+						<img src="images-mi-air/small-Mi-Air-13.3.jpg" style="width:100%">
 					</a>
 				</div>
 				<div class="col-md-4">
@@ -550,7 +568,7 @@
 				</ul>
 	</div>	
 
-
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 </body>
 
 </html>
