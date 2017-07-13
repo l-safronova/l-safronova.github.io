@@ -1,215 +1,232 @@
 <!doctype html>
 <html>
 <head>
-	<title>Обучение html. Мои заметки</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-			<!-- Latest compiled and minified JavaScript -->
-	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<script type="text/javascript">
-				// When the user scrolls down 20px from the top of the document, show the button
-		window.onscroll = function() {scrollFunction()};
-		
-		function scrollFunction() {
-		    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-		        document.getElementById("myBtn").style.display = "block";
-		    } else {
-		        document.getElementById("myBtn").style.display = "none";
-		    }
-		}
-		
-		// When the user clicks on the button, scroll to the top of the document
-		function topFunction() {
-		    document.body.scrollTop = 0; // For Chrome, Safari and Opera 
-		    document.documentElement.scrollTop = 0; // For IE and Firefox
-		}	
-	</script>
-	<meta name="description" content="Главная страница сайта с результатами обучания на курсах HTML от центра Специалист. Итоги">
+    <title>Обучение html. Мои заметки</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Chrome, Safari and Opera
+            document.documentElement.scrollTop = 0; // For IE and Firefox
+        }
+    </script>
+    <meta name="description"
+          content="Главная страница сайта с результатами обучания на курсах HTML от центра Специалист. Итоги">
 </head>
 <body>
-   <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">l-safronova.github.io</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Главная</a></li>
-            <li><a href="goods.html">Анонс</a></li>
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                        Товары с Aliexpress <span class="caret"></span>
-                </a>
-                <ul class="dropdown-menu">
-                    <li class="active"><a href="dvr.html">Junsun7" - видеорегистратор</a></li>
-                    <li><a href="mi-air.html">Xiaomi Mi Air 13.3" - ноутбук</a></li>
-                    <li><a href="one-more.html">1More Piston - наушники</a></li>
-                    <li><a href="ugreen.html">Ugreen и Qualcomm 3.0 - зарядное устройство</a></li>
-                    <li><a href="small-bag.html">Небольшая сумка на цепочке</a></li>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                        aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">l-safronova.github.io</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Главная</a></li>
+                    <li><a href="goods.html">Анонс</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                           aria-expanded="false">
+                            Товары с Aliexpress <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="active"><a href="dvr.html">Junsun7" - видеорегистратор</a></li>
+                            <li><a href="mi-air.html">Xiaomi Mi Air 13.3" - ноутбук</a></li>
+                            <li><a href="one-more.html">1More Piston - наушники</a></li>
+                            <li><a href="ugreen.html">Ugreen и Qualcomm 3.0 - зарядное устройство</a></li>
+                            <li><a href="small-bag.html">Небольшая сумка на цепочке</a></li>
+                        </ul>
+                    </li>
                 </ul>
-            </li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
+            </div><!--/.nav-collapse -->
+        </div>
     </nav>
-   <div class="container">
-       <p class="logo-spec">
-      <img src="logo_spec2016.png" > 
-      </p>
+    <div class="container">
+        <p class="logo-spec">
+            <img src="logo_spec2016.png">
+        </p>
 
-    <div class="row">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <p>
+                    <span class="letter">Р</span>епозиторий создан для обучения на курсах HTML в Учебном центре при МГТУ им.
+                    Баумана.
+                    Как с "нуля" можно стать программистом или web-верстальщиком за 2 недели
+                    (3 занятия по 2,5часа).
+                </p>
+                <a href="goods.html">Последние интересные товары с Алиэкспресс
+                </a>
+                <p>
+                    Хочу научиться создавать сайты, знать разметку, теги, правила написания.
+                    Знаю уже:
+                </p>
+                <ul>
+                    <li>&lt!doctype&gt,</li>
+                    <li>&lthead&gt,</li>
+                    <li>&ltbody&gt,</li>
+                    <li>&ltp&gt,</li>
+                    <li>&lth1&gt(h1 - h6),</li>
+                    <li>&lthr&gt,</li>
+                    <li>&ltol&gt,</li>
+                    <li>&ltul&gt,</li>
+                    <li>&ltli&gt,</li>
+
+                </ul>
+                <p>
+                    Были использованы следующие команды в командной строке:
+                </p>
+                <ul class="a">
+
+                    <li>ls - показать файлы в текущей папке</li>
+
+                    <li>ls -la - то же самое, но в виде таблицы</li>
+
+                    <li>cd .. - перейти на каталог выше</li>
+
+                    <li>cp 1.jpg 2.jpg скопировать файл 1.jpg в файл 2.jpg</li>
+
+                    <li>mv 1.jpg 2.jpg переименовать (переместить) файл 1.jpg в файл 2.jpg</li>
+
+                    <li>rm 1.jpg - удалить файл 1.jpg</li>
+                </ul>
+                <p>
+                    <strong><span style="color:#2D83DA">с9.io - Cloud9</span></strong> - облачная IDE, используется для
+                    создания и редактирования кода,
+                    хранения проектов и их файлов, а также работы с github.com репозиториями из
+                    коммандной строки.
+                </p>
+                <p>
+                    <b>hostfood.ru</b> - аренда сервера для хостинга сайтов от 12 руб в месяц
+                    регистрация доменов .RU от 150 руб в год
+                </p>
+                <p>
+                    <b>github.com</b> - репозитории для хранения кода и хостинга сайтов (Github Pages)
+                </p>
+
+                <p>
+                    <b>GIT</b> - система контроля версий, выбрана как самая популярная.
+                    Также существуют SVN, Mercurial.
+                </p>
+                <p>
+                    Были изучены базовые приёмы работы с github репозиторием (хранилищем кода) из коммандной строки:
+                </p>
+                <ul>
+                    <li><b>git add .</b> - добавление в коммит всех файлов из текущей папки и вложенных
+                        папок рекурсивно.
+                    </li>
+
+                    <li><b>git commit -m "комментарий"</b> - сохранение коммит из добавленых ранее в него
+                        файлов с комментарием
+                    </li>
+
+                    <li><b>git pull --rebase origin</b> - скачивание и применение к локальному репозиторию
+                        всех изменений из удалённого (внешнего) репозитория
+                    </li>
+
+                    <li><b>git push origin</b> - отправка всех сохранённых коммитов в удалённых репозиторий
+                    </li>
+                </ul>
+                <p>
+                    Были использованы:
+                </p>
+                <ol>
+                    <li>
+                        адаптивная верстка для двух вариантов ширины дисплея (xs и md)
+                        для каждого варианта были заданы свои ширины столбцов сетки :
+                        col-xs-12 (для одноколоночного мобильного варианти)
+                        col-md-4 (для 3-х колоночного варианта верстки)
+                        col-md-1 col-md-10 col-md-1 для увеличения боковых отступов
+                    </li>
+                    <li>
+                        адаптивное растягивание изображнений с помощью css класса img-responsive
+                        (для лучшего отображения и для отмены горизонтального скроллинга - полосы прокрутки)
+                    </li>
+                    <li>
+                        выпадающее меню на JavaScript:
+                        был подключены js-модули jQuery и Bootstrap, и вставлен html код с элементом
+                        &ltnav&gt, таким образом было сделано dropdown (выпадающее) меню
+                    </li>
+                    <li>
+                        Был зарегистрирован в компании hostfood.ru и добавлен домен второго уровня l-safronova.ru,
+                        а также был настроен редирект (redirect перенаправление) со старого домена l-safronova.github.io
+                    </li>
+                </ol>
+                <p> Научилась пользоваться <b>автозаменой на c9.io</b></p>
+                <ul>
+                    <li>Нажимаем Ctrl+F</li>
+                    <li>В поле ввода (внизу экрана) с надписью Find записываем, то что надо найти и заменить</li>
+                    <li>В следующем поле Replace With написать то, на что надо заменить</li>
+                    <li>Далее нажимаем Replace, удаляется одно значение</li>
+                    <li>Можно нажать All и удалятся все найденные и выделенные значения</li>
+                </ul>
+                <p>Собираюсь выучить:
+                    &ltdiv&gt,
+                    &ltspan&gt,
+                    &ltstyle&gt,
+                    &ltdd&gt,
+                    &ltdt&gt,
+                    &lttable&gt,
+                    &lta&gt,
+                    &ltclass&gt...
+                </p>
+                <hr>
+                <p>Ссылка на моё резюме, в формате:
+                    <a href="SafronovaL.pdf">pdf</a>
+                    <a href="SafronovaL.doc">doc</a>
+                </p>
+                <hr style="border-width: 2px; border-color: #bbb4b4;">
+            </div>
+        </div>
         <div class="col-md-3"></div>
-        <div class="col-md-6">
-            <p>
-                <span class="letter">Р</span>епозиторий создан для обучения на курсах HTML в Учебном центре при МГТУ им. Баумана.
-            Как с "нуля" можно стать программистом или web-верстальщиком за 2 недели
-            (3 занятия по 2,5часа).
-            </p>
-            <a href="goods.html">Последние интересные товары с Алиэкспресс
-            </a>
-            <p>
-                Хочу научиться создавать сайты, знать разметку, теги, правила написания.
-                Знаю уже:
-            </p>
-            <ul>
-                <li>&lt!doctype&gt,</li>
-                <li>&lthead&gt,</li>
-                <li>&ltbody&gt,</li>
-                <li>&ltp&gt,</li>
-                <li>&lth1&gt(h1 - h6),</li>
-                <li>&lthr&gt,</li>
-                <li>&ltol&gt,</li>
-                <li>&ltul&gt,</li>
-                <li>&ltli&gt,</li>
-
-            </ul>
-            <p>
-              Были использованы следующие команды в командной строке:
-            </p>
-            <ul class="a">
-
-                <li>ls - показать файлы в текущей папке</li>
-
-                <li>ls -la - то же самое, но в виде таблицы</li>
-
-                <li>cd .. - перейти на каталог выше</li>
-
-                <li>cp 1.jpg 2.jpg скопировать файл 1.jpg в файл 2.jpg</li>
-
-                <li>mv 1.jpg 2.jpg переименовать (переместить) файл 1.jpg в файл 2.jpg</li>
-
-                <li>rm 1.jpg - удалить файл 1.jpg</li>
-            </ul>
-            <p>
-                <strong><span style="color:#2D83DA">с9.io - Cloud9</span></strong> - облачная IDE, используется для создания и редактирования кода,
-                хранения проектов и их файлов, а также работы с github.com репозиториями из
-                коммандной строки.
-            </p>
-            <p>
-                <b>hostfood.ru</b> - аренда сервера для хостинга сайтов от 12 руб в месяц
-                регистрация доменов .RU от 150 руб в год
-            </p>
-            <p>
-              <b>github.com</b> - репозитории для хранения кода и хостинга сайтов (Github Pages)
-            </p>
-    
-            <p>
-              <b>GIT</b> - система контроля версий, выбрана как самая популярная.
-            Также существуют SVN, Mercurial.
-            </p>
-            <p>
-              Были изучены базовые приёмы работы с github репозиторием (хранилищем кода) из коммандной строки:
-            </p>
-            <ul>
-                <li><b>git add .</b> - добавление в коммит всех файлов из текущей папки и вложенных
-                  папок рекурсивно.
-                </li>
-
-                <li><b>git commit -m "комментарий"</b> - сохранение коммит из добавленых ранее в него
-                файлов с комментарием
-                </li>
-
-                <li><b>git pull --rebase origin</b> - скачивание и применение к локальному репозиторию
-                всех изменений из удалённого (внешнего) репозитория
-                </li>
-
-                <li><b>git push origin</b> - отправка всех сохранённых коммитов в удалённых репозиторий
-                </li>
-            </ul>
-            <p>
-                Были использованы:
-            </p>
-            <ol>
-                  <li>
-                       адаптивная верстка для двух вариантов ширины дисплея (xs и md)
-                      для каждого варианта были заданы свои ширины столбцов сетки :
-                      col-xs-12 (для одноколоночного мобильного варианти)
-                      col-md-4 (для 3-х колоночного варианта верстки)
-                      col-md-1 col-md-10 col-md-1 для увеличения боковых отступов
-                  </li>
-                  <li>
-                      адаптивное растягивание изображнений с помощью css класса img-responsive
-                      (для лучшего отображения и для отмены горизонтального скроллинга - полосы прокрутки)
-                  </li>
-                  <li>
-                      выпадающее меню на JavaScript:
-                      был подключены js-модули jQuery и Bootstrap, и вставлен html код с элементом
-                      &ltnav&gt, таким образом было сделано dropdown (выпадающее) меню
-                  </li>
-                  <li>
-                      Был зарегистрирован в компании hostfood.ru и добавлен домен второго уровня l-safronova.ru,
-                     а также был настроен редирект (redirect перенаправление) со старого домена l-safronova.github.io
-                  </li>
-            </ol>
-        <p> Научилась пользоваться <b>автозаменой на c9.io</b></p>
-      <ul>
-        <li>Нажимаем Ctrl+F</li>
-        <li>В поле ввода (внизу экрана) с надписью Find записываем, то что надо найти и заменить</li>
-        <li>В следующем поле Replace With написать то, на что надо заменить</li>
-        <li>Далее нажимаем Replace, удаляется одно значение</li>
-        <li>Можно нажать All и удалятся все найденные и выделенные значения</li>
-      </ul>
-        <p>Собираюсь выучить:
-              &ltdiv&gt,
-            &ltspan&gt,
-            &ltstyle&gt,
-            &ltdd&gt,
-            &ltdt&gt,
-            &lttable&gt,
-            &lta&gt,
-            &ltclass&gt...
-        </p>
-        <hr>
-        <p>Ссылка на моё резюме, в формате:
-            <a href="SafronovaL.pdf">pdf</a>
-            <a href="SafronovaL.doc">doc</a>
-        </p>
-        <hr style="border-width: 2px; border-color: #bbb4b4;">
-      </div>
+        <script type="text/javascript">
+            (function () {
+                if (window.pluso)if (typeof window.pluso.start == "function") return;
+                if (window.ifpluso == undefined) {
+                    window.ifpluso = 1;
+                    var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
+                    s.type = 'text/javascript';
+                    s.charset = 'UTF-8';
+                    s.async = true;
+                    s.src = ('https:' == window.location.protocol ? 'https' : 'http') + '://share.pluso.ru/pluso-like.js';
+                    var h = d[g]('body')[0];
+                    h.appendChild(s);
+                }
+            })();
+        </script>
+        <div id="soc">
+            <div class="pluso" data-background="#ebebeb" data-options="medium,square,line,vertical,counter,theme=04"
+                 data-services="google,odnoklassniki,vkontakte,email,print">
+            </div>
+        </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     </div>
-    <div class="col-md-3"></div>
-    <script type="text/javascript">
-            (function() {
-            if (window.pluso)if (typeof window.pluso.start == "function") return;
-            if (window.ifpluso==undefined) { window.ifpluso = 1;
-              var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
-              s.type = 'text/javascript'; s.charset='UTF-8'; s.async = true;
-              s.src = ('https:' == window.location.protocol ? 'https' : 'http')  + '://share.pluso.ru/pluso-like.js';
-              var h=d[g]('body')[0];
-              h.appendChild(s);
-            }})();
-    </script>
-    <div class="pluso" data-background="#ebebeb" data-options="medium,square,line,horizontal,counter,theme=04" data-services="google,odnoklassniki,vkontakte,email,print">
-    </div>
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-   </div>
 </body>
 </html>

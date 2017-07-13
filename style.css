@@ -3,6 +3,7 @@
  	font-family: 'Roboto', sans-serif;
  	font-weight: 300;
  	padding-top: 65px !important;
+
  }
  
  a {
@@ -105,10 +106,17 @@
  	/* Some padding */
  	border-radius: 10px;
  	/* Rounded corners */
+
  }
  
  #myBtn:hover {
  	background-color: #555;
  	/* Add a dark-grey background on hover */
  }
- 
+
+ #soc {
+     position: fixed;
+     right: 10px;
+     top: 30%;
+     z-index: 1000;
+ }
