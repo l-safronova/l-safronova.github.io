@@ -45,7 +45,9 @@
  .my_span {
      color: #D26319;
  }
-
+.main_span{
+    color: #2D83DA;
+}
 
  .letter {
      color: red; /* Красный цвет символов */
