@@ -1,0 +1,29 @@
+body {
+    background-color: #D2D2D2;
+    font: 11px Verdana;
+    color: #696969;
+}
+#wrapper {
+    margin: 30px auto;
+    background-color: #F4F4F4;
+    height: 520px;
+    min-width: 650px;
+    max-width: 1100px;
+}
+#sidebarL {
+    width: 200px;
+    height: 500px;
+    float: left;
+    outline: 1px solid #cc0000;
+}
+#sidebarR {
+    width: 200px;
+    height: 500px;
+    float: right;
+    outline: 1px solid #cc0000;
+}
+#content {
+    height: 500px;
+    margin: 0 220px 0 220px;
+    outline: 1px solid #333333;
+}
