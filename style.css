@@ -33,7 +33,7 @@
  
  .tiger-background {
      background-color: undefined;
-     background-image: url(tiger.jpg);
+     background-image: url(images/tiger.jpg);
      background-size: cover;
      background-repeat: no-repeat;
      background-position: 0 0;
