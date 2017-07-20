@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+<head>
+    <title>Счетчик Яндекс Метрики</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Chrome, Safari and Opera
+            document.documentElement.scrollTop = 0; // For IE and Firefox
+        }
+    </script>
+    <meta name="description" content="Изучение html, css">
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">l-safronova.github.io</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="goods.html">Анонс</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            Товары с Aliexpress <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="active"><a href="dvr.html">Junsun7" - видеорегистратор</a></li>
+                            <li><a href="mi-air.html">Xiaomi Mi Air 13.3" - ноутбук</a></li>
+                            <li><a href="one-more.html">1More Piston - наушники</a></li>
+                            <li><a href="ugreen.html">Ugreen и Qualcomm 3.0 - зарядное устройство</a></li>
+                            <li><a href="small-bag.html">Небольшая сумка на цепочке</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            Изучение html, css <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="min-max-width.html">min, max - ширина сайта</a></li>
+                            <li class="active"><a href="yandex.metrika.html">Установка счетчика Яндекс Метрики</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <a>
+                    <h1 class="anchor-hack">
+                    Добавление Яндекс счетчика на свой сайт
+                    </h1>
+                </a>
+                <p>
+                <blockquote>
+                    <a href="https://metrika.yandex.ru">«Яндекс.Метрика»</a> — бесплатный сервис, предназначенный для оценки посещаемости веб-сайтов, и анализа
+                    поведения пользователей. На данный момент Яндекс.Метрика является второй по размеру системой web-аналитики в Европе
+                </blockquote>
+                </p>
+                <figure>
+                    <figcaption>
+                        <b>Пример 1. Сайт Яндекс Метрики</b>
+                    </figcaption>
+                    <a href="images/metrika/screencapture-metrika-yandex-ru.png" target="_blank">
+                        <img src="images/metrika/screencapture-metrika-yandex-ru.png" class="center" style="width: 80%" alt="screencapture">
+                    </a>
+                </figure>
+                <p>
+                    Здесь можно получить наглядные отчеты, оценить источники трафика, эффективность рекламы и ...<br>
+                    <a href="https://metrika.yandex.ru">
+                        https://metrika.yandex.ru
+                    </a>
+                </p>
+                <figure>
+                    <figcaption>
+                        <b>Пример 2. Добавляем счетчик</b>
+                    </figcaption>
+                <img src="images/metrika/to-add.png" class="center" style="width: 70%" alt="to-add">
+                </figure>
+                <p>
+                    Это более короткий путь когда надо добавить к существующим еще один счетчик.<br>
+                    Нажать кнопку "Добавить счетчик"
+                </p>
+                <figure>
+                    <figcaption>
+                        <b>Пример 3. Новый счетчик</b>
+                    </figcaption>
+                <a href="images/metrika/counter.png" target="_blank">
+                    <img src="images/metrika/counter.png" class="center" style="width: 80%" alt="counter">
+                </a>
+                </figure>
+                <p>Заполнить поля:
+                    <ul>
+                        <li>Название счетчика (например: адрес сайта или мой первый счетчик)</li>
+                        <li>Адрес вашего сайта (это мой l-safronova.ru)</li>
+                        <li>Поставить галочку - Принимаю условия</li>
+                        <li>Нажать кнопку - Создать счетчик</li>
+                    </ul>
+
+                </p>
+                <figure>
+                    <figcaption>
+                        <b>Пример 4.Скопировать код</b>
+                    </figcaption>
+                    <a href="images/metrika/kod.png" target="_blank">
+                        <img src="images/metrika/kod.png" class="center" style="width: 90%" alt="kod">
+                    </a>
+                </figure>
+                <p>
+                    Вставить код на все страницы сайта.
+                </p>
+                <figure>
+                    <figcaption>
+                        <b>Пример 5. css файл</b>
+                    </figcaption>
+                    <a href="images/metrika/php.png" target="_blank">
+                <img src="images/metrika/php.png" class="center" style="width: 70%" alt="php">
+                    </a>
+                </figure>
+                <p>
+                    Я решила поставить счетчик Яндекс метрики в конце страницы сайта перед тегом &lt/body&gt
+                    <ul>
+                        <li>Нажимаем Ctrl + Shift + R (PHPStorm)</li>
+                        <li>На верхней строчке пишем &lt/body&gt, это то что меняем</li>
+                        <li>На второй строчке вставляем скопированный код и в конце добавляем тег &lt/body&gt</li>
+                        <li>Далее, нажать кнопку - Replace all, заменить все</li>
+                        <li>В итоге получаем код Яндекс Метрики на всех страницах сайта</li>
+                        <li>Последнее. Не забыть запушить в github! Только тогда изменения вступят в силу на сайте</li>
+                    </ul>
+                </p>
+                <p>
+                    Проверить правильность постановки счетчика яндекс метрики можно нажав на круглый значок
+                    слева в списке счетчиков. Должен быть зеленого цвета.
+                </p>
+
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        <script type="text/javascript">
+            (function() {
+                if (window.pluso)
+                    if (typeof window.pluso.start == "function") return;
+                if (window.ifpluso == undefined) {
+                    window.ifpluso = 1;
+                    var d = document,
+                        s = d.createElement('script'),
+                        g = 'getElementsByTagName';
+                    s.type = 'text/javascript';
+                    s.charset = 'UTF-8';
+                    s.async = true;
+                    s.src = ('https:' == window.location.protocol ? 'https' : 'http') + '://share.pluso.ru/pluso-like.js';
+                    var h = d[g]('body')[0];
+                    h.appendChild(s);
+                }})();
+        </script>
+        <div id="soc">
+            <div class="pluso" data-background="#ebebeb" data-options="big,square,line,vertical,counter,theme=04" data-services="google,odnoklassniki,vkontakte,email,print">
+            </div>
+        </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <hr style="border-width: 2px; border-color: #bbb4b4;">
+    </div>
+<!-- Yandex.Metrika counter --> <script type="text/javascript" > (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter45370293 = new Ya.Metrika({ id:45370293, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/45370293" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+</body>
+</html>
+
+
