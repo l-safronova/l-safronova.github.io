@@ -1,0 +1,57 @@
+body {
+    width: 350px;
+    margin: 0;
+    padding: 0 10px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+table {
+    border-collapse: collapse;
+    padding: 10px;
+    border-top: 2px;
+    border-bottom: 2px;
+}
+th {
+    width: 33%;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    color: white;
+    border-top: 1px solid black;
+
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+    border-top: 2px;
+
+}
+.one {
+    background-color: lightblue;
+    text-align: center;
+}
+
+.two-1 {
+    background-color: darkcyan;
+    text-align: left;
+}
+
+.two-2 {
+    background-color: darkcyan;
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+
+
+
+
+
+
