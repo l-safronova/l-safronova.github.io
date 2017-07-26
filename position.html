@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-    <title>min, max - ширина сайта</title>
+    <title>Position: абсолютное</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -83,151 +83,204 @@
                     </h1>
                 </a>
                 <p>
-                    Какую задать ширину сайта? Это один из способов, который используется на сайтах со 100% шириной.
-                    В этом случае, сайт хорошо смотрится как на больших, так и на маленьких экранах. Нарисуем макет, для
-                    большей наглядности (пример 1).
+                    Положение элементов относительно системы координат называют <strong>позиционированием</strong>.
+                    Типы позиционирования: асболютное, относительное, фиксированное, нормальное или статическое.
+                    Z-индексы - позиционирование работает, когда задано одно из свойств позиционирования: absolute, relative or fixed.
                 </p>
-                <figure>
-                    <figcaption>
-                        <b>Пример 1. Макет</b>
-                    </figcaption>
-                    <img src="images/min-max-site/start.png" class="center" style="width: 70%" alt="start">
-                </figure>
-                <ol>
-                    <li>
-                        header - занимает всю ширину экрана;
-                    </li>
-                    <li>
-                        sidebarL - занимает 200px, фиксированная ширина;
-                    </li>
-                    <li>
-                        sidebarR - также 200px, фиксированная ширина;
-                    </li>
-                    <li>
-                        content - занимает блок, неограниченный по ширине;
-                    </li>
-                    <li>
-                        footer - во всю ширину экрана браузера.
-                    </li>
-                </ol>
-                <figure>
-                    <figcaption>
-                        <b>Пример 2. На двух мониторах</b>
-                    </figcaption>
-                <img src="images/min-max-site/2-makets.png" class="center" style="width: 60%" alt="2-makets">
-                </figure>
                 <p>
-                    Как видим, на большом мониторе, header и footer растягиваются на всю ширину браузера, sidebarL и sidebarR остаются
-                    на месте (пример 2).
+                    Создала index_p.html файл (Пример 1). Три абзаца с текстом сгенерировала на сайте <a href="http://lipsum.com/">http://lipsum.com</a>
                 </p>
                 <figure>
                     <figcaption>
-                        <b>Пример 3. Сайты с разными мониторами</b>
+                        <b>Пример 1. html-файл</b>
                     </figcaption>
-                <a href="images/min-max-site/2-screen.png" target="_blank">
-                    <img src="images/min-max-site/2-screen.png" class="center" style="width: 80%" alt="2-screen">
+                <a href="images/position/html.png" target="_blank">
+                    <img src="images/position/html.png" class="center" style="width: 70%" alt="html-file">
                 </a>
                 </figure>
                 <p>
-                    Так выглядит 15" и 24" монитор. Строчки растягиваются, читать на большом экране не так удобно (пример 3).
+                    Свойства прописала в style_p.css (Пример 2).
                 </p>
                 <figure>
                     <figcaption>
-                        <b>Пример 4. html файл</b>
+                        <b>Пример 2. css-файл</b>
                     </figcaption>
-                    <a href="images/min-max-site/html.png" target="_blank">
-                        <img src="images/min-max-site/html.png" class="center" style="width: 60%" alt="html">
-                    </a>
+                <a href="images/position/css.png" target="_blank">
+                    <img src="images/position/css.png" class="center" style="width: 70%" alt="css-file">
+                </a>
                 </figure>
                 <p>
-                    Создадим html и css файлы  (пример 4,5).
+                    Красная картинка над текстом шириной 650px и высотой 75px.
                 </p>
                 <figure>
                     <figcaption>
-                        <b>Пример 5. css файл</b>
+                        <b>Пример 3. Изображение в браузере</b>
                     </figcaption>
-                    <a href="images/min-max-site/css.png" target="_blank">
-                <img src="images/min-max-site/css.png" class="center" style="width: 40%" alt="css">
-                    </a>
+                    <img src="images/position/start.png" class="center" style="width: 70%" alt="start">
                 </figure>
                 <figure>
+                <p>
+                    В див &ltcontent&gt добавляем изображение (Пример 4) 104px на 104px
+                </p>
                     <figcaption>
-                        <b>Пример 6. Это образец такого сайта</b>
+                        <b>Пример 4. Код с новым изображением</b>
                     </figcaption>
-                    <a href="images/min-max-site/site.png" target="_blank">
-                        <img src="images/min-max-site/site.png" class="center" style="width: 80%" alt="site">
+                    <a href="images/position/before-html.png" target="_blank">
+                <img src="images/position/before-html.png" class="center" style="width: 70%" alt="before">
                     </a>
                 </figure>
                 <p>
-                    Два сайтбара фиксированной ширины, в центре контент, который занимает все свободное пространство
+                  Как и в коде (Пример 4) картинка встала перед абзацами с текстом (Пример 5), занимая целую строку
                 </p>
                 <figure>
                     <figcaption>
-                        <b>Пример 7. Это построили мы</b>
+                        <b>Пример 5. Перед текстом</b>
                     </figcaption>
-                        <img src="images/min-max-site/move1.png" class="center" style="width: 60%" alt="move1">
+                        <img src="images/position/before.png" class="center" style="width: 60%" alt="site">
                 </figure>
+                <h2>
+                    Абсолютное позиционирование
+                </h2>
+                <p>
+                    Теперь в html файле допишем для картинки идентификатор id="new", а в css пропишем для него правило, не
+                    забывая при этом про фигурные скобки
+                </p>
+                <pre>
+                    #new {
+                            position:absolute;
+                            top: 0;
+                            left: 0;
+                    }
+                </pre>
+
                 <figure>
                     <figcaption>
-                        <b>Пример 8. Сжимаем браузер</b>
+                        <b>Пример 6. Над текстом</b>
                     </figcaption>
-                    <img src="images/min-max-site/move2.png" class="center" style="width: 50%" alt="move2">
+                        <img src="images/position/above.png" class="center" style="width: 60%" alt="above">
                 </figure>
                 <figure>
+                <p>
+                    Картинка оказалась над текстом (Пример 6), картинка как будто не видит другие элементы, то есть позиционирование
+                    оказалось абсолютным, не зависящим от других тегов, которые есть на странице.<br>
+                    Получается, что если указать свойство position-absolute, то объект остается на первоначальном
+                    месте, но перестает замечать другие объекты. Чтобы спозиционировать его, надо применить два
+                    значения из: top, right, bottom, left
+                </p>
                     <figcaption>
-                        <b>Пример 9. Что получается дальше? Катастрофа!</b>
+                        <b>Пример 7. В css файле</b>
                     </figcaption>
-                    <img src="images/min-max-site/move3.png" class="center" style="width: 60%" alt="move3">
+                <a href="images/position/top-left-css.png" target="_blank">
+                    <img src="images/position/top-left-css.png" class="center" style="width: 50%" alt="css">
+                </a>
                 </figure>
                 <p>
-                    Блок с контентом сжимается, все летит ...(Пример 9)<br>
-                    Итак, что же делать?<br>
-                    Сделаем ограничение ширины сайта воспользуясь правилом. Уменьшение размера браузера будет
-                    происходить до определенного момента, затем появится полоса
-                    прокрутки. С ней можно просматривать сайт.
+                    В css файле (Пример 7) пропишем значения top and left
+                </p>
+                <figure>
+                    <figcaption>
+                        <b>Пример 8. Результат в браузере</b>
+                    </figcaption>
+                <a href="images/position/ruler.png" target="_blank">
+                    <img src="images/position/ruler.png" class="center" style="width: 70%" alt="ruler">
+                </a>
+                </figure>
+                <p>
+                    Видим, что картинка (Пример 8) позиционируется <b>относительно окна браузера</b>, 50px по вертикали
+                    и 50px по горизонтали. В итоге получается, что если нет других дополнительных условий, то свойство position absolute,
+                    дает право элементу позиционироваться, относительно окна браузера.
+                </p>
+                <figure>
+                    <figcaption>
+                        <b>Пример 9. Расположение картинки: top, left, right, bottom</b>
+                    </figcaption>
+                <a href="images/position/all.png" target="_blank">
+                    <img src="images/position/all.png" class="center" style="width: 70%" alt="all">
+                </a>
+                </figure>
+                <figure>
+                    <figcaption>
+                        <b>Пример 10. Верхний левый угол</b>
+                    </figcaption>
+                <a href="images/position/top-left-0.png" target="_blank">
+                    <img src="images/position/top-left-0.png" class="center" style="width: 60%" alt="top-left-0">
+                </a>
+                </figure>
+                <p>
+                   И если стоит цель спозиционировать в верхний левый угол (Пример 10), то значениям top and left поставить 0,
+                    т.е. от верха и от левого края. Всё получилось!
+                </p>
+                <figure>
+                    <figcaption>
+                        <b>Пример 11. Новый &ltdiv&gt в html файле</b>
+                    </figcaption>
+                    <a href="images/position/div-html.png" target="_blank">
+                        <img src="images/position/div-html.png" class="center" style="width: 60%" alt="div-html">
+                    </a>
+                </figure>
+                <p>
+                    Посмотрим, что еще можно делать с абсолютным позиционированием. В html файл добавим новый див
+                    контейнер (Пример 11).
+                </p>
+                <figure>
+                    <figcaption>
+                        <b>Пример 12. Новый &ltdiv&gt в css файле</b>
+                    </figcaption>
+                    <img src="images/position/div-css.png" class="center" style="width: 60%" alt="div-css">
+                </figure>
+                <p>
+                   В css файле (Пример 12) для идентификатора "container" зададим абсолютное позиционирование, ширину и высоту, фоновый цвет
+                </p>
+                <figure>
+                    <figcaption>
+                        <b>Пример 13. Див контейнер</b>
+                    </figcaption>
+                    <img src="images/position/div-pic.png" class="center" style="width: 80%" alt="div-pic">
+                </figure>
+                <figure>
+                    <figcaption>
+                        <b>Пример 14. Контейнер в верхнем правом углу </b>
+                    </figcaption>
+                    <img src="images/position/top-right.png" class="center" style="width: 80%" alt="top-right">
+                </figure>
+                <p>
+                    В файле css для идентификатора "container" задали top: 0; right: 0; Светлая картинка-блок (Пример 14)
+                    улетает в верхний правый угол.
+                </p>
+                <p>
+                    А теперь картинку поместим в див контейнер (Пример 15).
+                </p>
+                <figure>
+                    <figcaption>
+                        <b>Пример 15. В html файле. Изображение уже в контейнере</b>
+                    </figcaption>
+                    <a href="images/position/img-in-container.png" target="_blank">
+                        <img src="images/position/img-in-container.png" class="center" style="width: 70%" alt="img-in-container">
+                    </a>
+                </figure>
+                <figure>
+                    <figcaption>
+                        <b>Пример 16. В css файле</b>
+                    </figcaption>
+                    <a href="images/position/css-file.png" target="_blank">
+                        <img src="images/position/css-file.png" class="center" style="width: 50%" alt="css file">
+                    </a>
+                </figure>
+                <p>
 
                 </p>
                 <figure>
                     <figcaption>
-                        <b>Пример 10. Ширина 650px в css файле</b>
+                        <b>Пример 17. Позиционирование относительно контейнера</b>
                     </figcaption>
-                    <a href="images/min-max-site/min.png" target="_blank">
-                        <img src="images/min-max-site/min.png" class="center" style="width: 40%" alt="min">
+                    <a href="images/position/img-in-container-browser.png" target="_blank">
+                        <img src="images/position/img-in-container-browser.png" class="center" style="width: 70%" alt="browser">
                     </a>
                 </figure>
                 <p>
-                    Для дива wrapper или "обертка" пропишем минимальную ширину. Блок будет занимать пространство не менее
-                    650px (Пример 10).
-                </p>
-                <figure>
-                    <figcaption>
-                        <b>Пример 11. Минимальный размер сайта 650px</b>
-                    </figcaption>
-                        <img src="images/min-max-site/min-screen.png" class="center" style="width: 40%" alt="min-screen">
-                </figure>
-                <p>
-                   Когда ширина дойдет 650px появится полоса прокрутки и можно будет смотреть содержимое сайта (Пример 11)<br>
-                    А для того, чтобы на большим мониторах, содержимое не растеклось по всему экрану, зададим другое правило. То есть,
-                    ограничим максимальную широту сайта. Для дива wrapper или "обертка" пропишем еще и максимальную ширину (Пример 12).
-                </p>
-                <figure>
-                    <figcaption>
-                        <b>Пример 12. Ширина 1100px в css файле</b>
-                    </figcaption>
-                    <a href="images/min-max-site/max.png" target="_blank">
-                        <img src="images/min-max-site/max.png" class="center" style="width: 40%" alt="max">
-                    </a>
-                </figure>
-                <figure>
-                    <figcaption>
-                        <b>Пример 13. Максимальный размер сайта 1100px</b>
-                    </figcaption>
-                    <img src="images/min-max-site/max-screen.png" class="center" style="width: 60%" alt="max-screen">
-                </figure>
-                <p>
-                   На очень Большом экране монитора ширина сайта не растягивается больше 1100px, остается на месте. Все как и должно
-                    быть, все отлично читается и смотрится (Пример 13). Мы достигли своей цели, сайт можно будет смотреть на разных
-                    мониторах.
+                    В итоге получаем, что если элемент с абсолютным позиционированием находится внутри другого элемента с
+                    абсолютным позиционированием, то он начинает позиционироваться не относительно окна браузера, а
+                    относительно своего родителя.
                 </p>
                 <hr>
                 <p>Собираюсь выучить:
