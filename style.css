@@ -121,4 +121,6 @@
      top: 30%;
      z-index: 1000;
  }
-
+.ls_lower {
+    text-transform: uppercase;
+}
