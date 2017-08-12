@@ -1,0 +1,166 @@
+body, html {
+    height: 100%
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px
+}
+
+.navbar-brand .font16 {
+    font-size: 16px
+}
+
+.navbar .navbar-brand img {
+    float: left;
+    padding-right: 8px;
+    margin-top: -10px
+}
+
+#map {
+    height: 700px
+}
+
+#gb {
+    position: absolute;
+    left: 10px;
+    bottom: 60px;
+    padding: 5px
+}
+
+#social {
+    background-color: #fff;
+    border-radius: 5px;
+    position: absolute;
+    right: 10px;
+    bottom: 80px;
+    padding: 5px
+}
+
+#social-top div a {
+    padding-right: 10px
+}
+
+#alert {
+    position: fixed;
+    left: 0;
+    bottom: 60px;
+    width: 100%;
+    display: none
+}
+
+#alert > div {
+    margin: 0 auto;
+    max-width: 50%
+}
+
+@media screen and (max-width: 470px) {
+    #alert > div {
+        max-width: 90%
+    }
+}
+
+.discount {
+    color: orange;
+    font-weight: 700
+}
+
+.news-list div {
+    padding-bottom: 10px
+}
+
+td.bg_youdrive, tr.bg_youdrive td {
+    background-color: rgba(69, 255, 111, .16)
+}
+
+td.bg_delimobil, tr.bg_delimobil td {
+    background-color: rgba(255, 158, 18, .15)
+}
+
+td.bg_belkacar, tr.bg_belkacar td {
+    background-color: rgba(92, 117, 255, .16)
+}
+
+td.bg_anytime, tr.bg_anytime td {
+    background-color: rgba(255, 148, 145, .16)
+}
+
+td.bg_car5, tr.bg_car5 td {
+    background-color: rgba(106, 217, 255, .16)
+}
+
+td.bg_urentcar, tr.bg_urentcar td {
+    background-color: rgba(145, 220, 90, .16)
+}
+
+td.bg_sharemobil, td.bg_yourmove, tr.bg_sharemobil td, tr.bg_yourmove td {
+    background-color: rgba(45, 109, 226, .16)
+}
+
+td.bg_colesa, tr.bg_colesa td {
+    background-color: rgba(14, 134, 200, .16)
+}
+
+#menu-mobile-filters {
+    padding-left: 15px;
+    color: #777
+}
+
+.menu-mobile-filters-item {
+    padding-left: 15px
+}
+
+#menu-mobile-city span {
+    padding-left: 5px
+}
+
+#menu-mobile-discount label {
+    padding-left: 15px;
+    color: #777
+}
+
+#menu-mobile-discount input {
+    position: initial;
+    margin-left: 0
+}
+
+#form-filters-companies div.checkbox, #form-filters-models div.checkbox {
+    margin-top: 15px;
+    margin-bottom: 15px
+}
+
+@media screen and (max-width: 991px) {
+    #btm-line {
+        background-color: #812034;
+        color: #fff;
+        padding: 0 5px;
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 0;
+        width: 100%
+    }
+
+    #btm-line a {
+        color: #fff;
+        font-weight: 700
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #btm-line {
+        display: none
+    }
+}

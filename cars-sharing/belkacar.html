@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-param" content="_csrf">
+    <meta name="csrf-token" content="eWw2TW1IZmJLAm8bLi0TDR07RSAAJRIMLzVGHgIkACohNAILBzsXNA==">
+    <title>Каршеринг - BelkaCar</title>
+    <meta name="description" content="Машины каршеринга BelkaCar на карте Москвы">
+    <meta name="keywords"
+          content="Каршеринг, каршеринг BelkaCar, каршеринг БелкаКар, каршеринг в Москве, каршеринг в Подмосковье, автомобили BelkaCar,
+           машины BelkaCar, отзывы BelkaCar, новости BelkaCar, тарифы проката BelkaCar, каршеринг в Екатеринбурге, каршеринг в Казани,
+            каршеринг в Сочи, каршеринг BelkaBlack">
+    <meta property="og:title" content="Cars-Sharing.ru - Каршеринг в Москве, все доступные машины на одной карте">
+    <meta property="og:url" content="https://www.cars-sharing.ru/belkacar">
+    <meta property="og:image" content="https://www.cars-sharing.ru/images/logof.png">
+    <meta property="og:type" content="website">
+    <meta property="fb:app_id" content="1647244368882768">
+    <!-- здесь должна быть ссылка rel на bootstrap.css файл. -->
+    <!--
+       <link href="/assets/1ea77804/css/bootstrap.min.css?v=1491162093" rel="stylesheet">
+    -->
+    <!-- возьмём этот файл: -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- файл belkacar-style.css находится по адресу /cars-sharing/belkacar-style.css
+    а здес ссылка на него говорит, что он находится выше -->
+    <!--
+        <link href="/belkacar-style.css" rel="stylesheet">
+    -->
+    <!-- вот так правильно: (относительный путь, без / в начале)-->
+    <link href="belkacar-style.css" rel="stylesheet">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/images/icons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/icons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/icons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/icons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/icons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/icons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/icons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/icons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/icons/apple-touch-icon-152x152.png">
+    <link rel="icon" type="image/png" sizes="36x36" href="/images/icons/android-icon-36x36.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="/images/icons/android-icon-48x48.png">
+    <link rel="icon" type="image/png" sizes="72x72" href="/images/icons/android-icon-72x72.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/icons/android-icon-96x96.png">
+    <link rel="icon" type="image/png" sizes="144x144" href="/images/icons/android-icon-144x144.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/images/icons/android-icon-192x192.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/icons/ms-icon-144x144.png">
+    <meta name="msapplication-config" content="/browserconfig.xml">
+    <meta name="mobile-web-app-capable" content="yes">
+</head>
+<body>
+<div class="wrap">
+    <nav id="w0" class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w0-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a id="link-index" class="navbar-brand" href="/">
+                    <img src="images/logo.png" alt="Cars-Sharing.ru - Агрегатор каршеринга"
+                         title="Cars-Sharing.ru - Агрегатор каршеринга">
+                    <span class="font16 hidden-sm hidden-md hidden-lg">Агрегатор каршеринга</span>
+                    <span class="hidden-xs hidden-lg">Агрегатор каршеринг машин Москвы</span>
+                    <span class="hidden-xs hidden-sm hidden-md">Cars-Sharing.ru - Каршеринг в Москве, все машины на одной карте
+                        <a href="/urentcar" class="hidden-xs hidden-sm hidden-md">
+                            <img src="images/companies/urentcar.jpg" alt="Каршеринг Urentcar в Сочи"
+                                 title="Каршеринг Urentcar в Сочи" style="padding-top: 5px;">
+                        </a>
+                    </span>
+                </a></div>
+            <div id="w0-collapse" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/carsharing" id="link-carsharing">Каршеринг</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+
+                           aria-expanded="false">Компании <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/youdrive">Youdrive</a></li>
+                            <li><a href="/delimobil">Делимобиль</a></li>
+                            <li><a href="/anytime">Anytime</a></li>
+                            <li><a href="/car5">Car5</a></li>
+                            <li><a href="/belkacar">BelkaCar</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/urentcar">UrentCar в Сочи</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                            aria-haspopup="true"
+                                            aria-expanded="false">О проекте <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/about">О проекте</a></li>
+                            <li><a href="/forum/">Форум</a></li>
+                        </ul>
+                    </li>
+                    <li id="social-top" class="visible-xs-block">
+                        <div><a href="https://play.google.com/store/apps/details?id=ru.cars_sharing.app&hl=ru"><img
+                                alt="Доступно в Google Play" src="images/ru_badge_web_generic.png"/>
+                        </a>
+                            <a href="https://vk.com/carssharingru" target="_blank">
+                                <img src="images/vk.png" alt="ВКонтакте">
+                            </a>
+                            <a href="https://www.facebook.com/carssharingru/" target="_blank">
+                                <img src="images/fb.png" alt="Facebook">
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <ul class="breadcrumb">
+            <li><a href="/">Главная</a></li>
+            <li><a href="/carsharing">Каршеринг</a></li>
+            <li class="active">BelkaCar</li>
+        </ul>
+        <div><h1>BelkaCar</h1>
+            <h3>Автомобильный парк</h3>
+            <p>Парк автомобилей состоит из 800 Kia Rio Hatchback, 50 автомобилей Ford Fiesta и 100 автомобилей
+                Mercedes-Benz CLA 200 Urban с автоматическими коробками передач. Все машины оснащены зимним пакетом,
+                т.е. имеют подогрев передних сидений,
+                зеркал и руля, а так же зарядными устройствами для телефонов на базе платформ
+                <a href="https://app.appsflyer.com/id1113709902?pid=aerotaxi_int&af_click_lookback=7d&c=cars&order_id=cars_1502368414">iOS
+                </a> и
+                <a href="https://app.appsflyer.com/ru.belkacar.belkacar?pid=aerotaxi_int&af_click_lookback=7d&c=cars&order_id=cars_1502368414">Android
+                </a>, и держателями для телефонов.
+            </p>
+            <p>Автомобили Mercedes-Benz CLA 200 доступны клиентам возрастом старше 25 лет и имеющих стаж вождения не
+                менее 5 лет.</p>
+            <p class="text-center"><img src="images/cars/belkacar-kia-rio.jpg" class="img-thumbnail img-responsive"
+                                        alt="Kia Rio Belkacar">&nbsp;
+                <img src="images/cars/belkacar-mercedes-cla.jpg" class="img-thumbnail img-responsive"
+                     alt="Mercedes-Benz CLA 200 Urban Belkacar"></p></div>
+        <h3>Регистрация и подписание договора</h3>
+        <p>Для регистрации и подписания договора, достаточно заполнить анкету на сайте компании. После <a
+                href="https://belkacar.onelink.me/3838803050?pid=FixTaxi_Cars" target="_blank" rel="nofollow">регистрации</a>,
+            указав в мобильном приложении <strong style="color:#00aa00">промокод: NRLC2220</strong> клиент получает 300
+            руб. на счёт, на первые поездки.</p>
+        <div style="padding-top: 15px;">
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- Cars-Sharing.ru -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-5432614741564879"
+                 data-ad-slot="4360064460"
+                 data-ad-format="auto"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+        <div><h3>Зона эксплуатации</h3>
+            <p>Эксплуатировать автомобиль можно в пределах Московской области. Но завершить аренду разрешено в пределах
+                МКАД, у <a href="/?lat=55.823832&lng=37.388920&zoom=15&companies=7">метро Мякинино</a>, в <a
+                        href="#parking-dme">аэропорту Домодедово</a>, в аэропорту Шереметьево, <a
+                        href="/?lat=55.910076&lng=37.412831&zoom=17&companies=7">Химки Бизнес Парк</a>, <a
+                        href="/?lat=55.694553&lng=37.386798&zoom=18&companies=7">Сколково</a>, <a
+                        href="/?lat=55.789743&lng=37.253730&zoom=16&companies=7">Major City</a>, <a
+                        href="/?lat=55.632819&lng=37.435347&zoom=16&&companies=7">БЦ ComCity (м. Румянцево)</a>.</p>
+            <h3>Тарифы и оплата</h3>
+            <p><strong>Аренда (Ford Fiesta, Kia Rio):</strong> 8 руб/мин.</p>
+            <p><strong>Аренда (Mercedes-Benz CLA):</strong> 16 руб/мин.</p>
+            <p><strong>Ожидание днём (Ford Fiesta, Kia Rio):</strong> 2 руб./мин.</p>
+            <p><strong>Ожидание днём (Mercedes-Benz CLA):</strong> 4 руб./мин.</p>
+            <p><strong>Ожидание ночью (с 00:00 до 06:00):</strong> 0 руб./мин.</p>
+            <p><strong>Парковка на муниципальных стоянках Москвы:</strong> бесплатно.</p>
+            <p>Также компания предлагает пакетные тарифы:</p>
+            <ul>
+                <li>Ford Fiesta и Kia Rio - 2000 руб./сутки (включено 70 км пробега, далее 8 руб./км.). Тариф
+                    активируется автоматически при достижении стоимости текущей поездки 2000 руб. Деньги перестают
+                    списываться со счёта в эти сутки, при условии что нет превышения пробега. Если превышение пробега
+                    есть, то далее будет списываться только стоимость каждого километра.
+                </li>
+                <li>Mercedes-Benz CLA - 6000 руб./сутки (включено 100 км пробега, далее 16 руб./км.). Тариф активируется
+                    автоматически при достижении стоимости текущей поездки 6000 руб. Деньги перестают списываться со
+                    счёта в эти сутки, при условии что нет превышения пробега. Если превышение пробега есть, то далее
+                    будет списываться только стоимость каждого километра.
+                </li>
+            </ul>
+            <h3>Заправка топливом</h3>
+            <p>Заправляется автомобиль по топливной карте. В случае, когда автомобиль требует заправки, клиенту на
+                телефон приходит об этом сообщение, и в приложении появляется активная кнопка "Заправка". Нажав на
+                кнопку, приложение прокладывает маршрут до ближайшей заправки. Приехав на заправку, в приложении
+                появляется кнопка "Приступить к заправке", нажав на которую, клиенту показывается ПИН-код необходимый
+                для активации топливной карты, вид и количество топлива, которое необходимо заправить. За каждый факт
+                заправки, клиенту на бонусный счёт начисляются 120 руб. компенсации за потраченное время.</p>
+            <p>Более подробно, процесс заправки можно увидеть в коротком <a
+                    href="https://www.youtube.com/watch?v=mT1F8R3Aolk" target="_blank" rel="nofollow">видео-ролике</a>.
+            </p>
+            <h3>Страховка и ответственность</h3>
+            <p>В случае попадания каршеринг автомобиля BelkaCar в ДТП, и сотрудники ГИБДД признают арендатора не
+                виновным в данном происшествии, то все расходы по ущербу возмещает страховая компания и клиент не несет
+                никакой финансовой ответствености.</p>
+            <p>В случае если ДТП с машиной BelkaCar произошло по вине арендатора, то при ущербе до 100 тыс. руб., клиент
+                обязан возместить стоимость ущерба до 30 тыс. руб. В случае, если ущерб составляет более 100 тыс. руб.,
+                то клиент помимо фиксированной суммы в 30 тыс. руб. выплачивает ещё 15% от суммы ущерба более 100 тыс.
+                руб.</p>
+            <h3 id="aero-parking-msk">Парковка в аэропортах Москвы</h3>
+            <p>Клиенты BelkaCar имеют возможность завершать аренду в аэропорте Домодедово и Шереметьево, парковка для
+                машин BelkaCar абсолютно бесплатна.</p><br><h4 id="parking-dme">Парковка в Домодедово</h4>
+            <div class="row">
+                <div class="col-md-6" style="text-align: center;"><a href="images/companies/belkacar_dme.png"><img
+                        src="images/companies/belkacar_dme_mini.png"
+                        alt="Схема парковки Belkacar в аэропорте Домодедово"></a></div>
+                <div class="col-md-6" style="vertical-align: top;padding-left: 10px;"><p><strong>Инструкция по въезду и
+                    выезду:</strong></p>
+                    <p>Клиенты каршеринга BelkaCar могут начинать и завершать аренду в аэропорту Домодедово на парковке
+                        Р4. Въезд и выезд с парковки осуществляется в автоматическом режиме, парковочную карту брать не
+                        нужно. Камеры на парковке считывают госномер машин BelkaCar и осуществляют подъем шлагбаума.
+                        Предварительно убедитесь в чистоте госномера автомобиля.</p></div>
+            </div>
+            <br>
+            <h3>Акции Belkacar</h3>
+            <p>За каждые потраченные 15 рублей в сервисе Belkacar, компания начисляет 1 милю в бонусной программе «S7
+                Airlines».</p>
+            <h3>Планы на будущее</h3>
+            <p>В 2017 году, компания планирует расширить географию своего сервиса и начать предоставлять каршеринг
+                услуги в <a href="/carsharing-spb">Санкт-Петербурге</a>, <a href="/carsharing-ekb">Екатеринбурге</a>, <a
+                        href="/carsharing-kzn">Казани</a>, <a href="/carsharing-chelyabinsk">Челябинске</a> и <a
+                        href="/carsharing-sochi">Сочи</a>.</p></div>
+        <div style="padding-bottom: 10px;"><!-- Cars-Sharing.ru -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-5432614741564879"
+                 data-ad-slot="4360064460"
+                 data-ad-format="auto"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+        <div><h3>Новости BelkaCar</h3>
+            <ul>
+                <li><a href="https://www.cars-sharing.ru/news/vakansii-v-karsering-kompaniah-v-avguste">Вакансии августа
+                    в каршеринг компаниях</a>
+                    - 8 августа 2017
+                </li>
+                <li><a href="https://www.cars-sharing.ru/news/rassirennoe-kasko-u-karseringa-belkacar">Расширенное КАСКО
+                    у каршеринга Belkacar</a>
+                    - 3 августа 2017
+                </li>
+                <li><a href="https://www.cars-sharing.ru/news/belkablack-novyj-karsering-biznes-klassa-ot-belkacar">BelkaBlack
+                    новый каршеринг бизнес-класса от Belkacar</a>
+                    - 3 августа 2017
+                </li>
+                <li>
+                    <a href="https://www.cars-sharing.ru/news/poavilas-predvaritelnaa-informacia-o-cenah-na-carsharing-mercedes-cla-ot-belkacar">Появилась
+                        предварительная информация о ценах на каршеринг машины Mercedes CLA от Belkacar</a>
+                    - 25 июля 2017
+                </li>
+                <li>
+                    <a href="https://www.cars-sharing.ru/news/1500-voditelej-okazalis-v-cernom-spiske-karsering-kompanij">1500
+                        водителей оказались в чёрных списках каршеринг компаний</a>
+                    - 4 июля 2017
+                </li>
+                <li><a href="https://www.cars-sharing.ru/news/rabota-v-carsharing-kompaniah">Вакансии в каршеринг
+                    компаниях</a>
+                    - 3 июля 2017
+                </li>
+                <li>
+                    <a href="https://www.cars-sharing.ru/news/carsering-belkacar-dobavil-200-novyh-avtomobilej-v-moskve">Каршеринг
+                        Belkacar добавил 200 новых автомобилей в Москве</a>
+                    - 29 июня 2017
+                </li>
+                <li>
+                    <a href="https://www.cars-sharing.ru/news/arendu-karsering-belkacar-mozno-zaversat-v-aeroportu-seremetevo">Аренду
+                        каршеринг Belkacar можно завершать в аэропорту Шереметьево</a>
+                    - 27 июня 2017
+                </li>
+                <li>
+                    <a href="https://www.cars-sharing.ru/news/belkacar-dobavila-v-svoj-karsering-100-novyh-avtomobiliej-kia-rio">Belkacar
+                        добавил в свой каршеринг 100 новых автомобилией Kia Rio</a>
+                    - 11 июня 2017
+                </li>
+                <li><a href="https://www.cars-sharing.ru/news/200-novyh-avtomobiley-belkacar">200 новых автомобилей у
+                    BelkaCar</a>
+                    - 24 мая 2017
+                </li>
+            </ul>
+        </div>
+        <div>
+            <blockquote>
+                <small>
+                    Вся представленная на сайте информации размещена только для ознакомления, и может менять в любой
+                    момент без уведомления. Для получения самой актуальной информации, рекомендуем Вам обращаться
+                    напрямую в компании, предоставляющие каршеринг услуги.
+                </small>
+            </blockquote>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+    <div class="container"><p class="pull-left">&copy; Cars-Sharing.ru - Каршеринг агрегатор в России</p>
+        <div class="pull-right hidden-xs hidden-sm" style="margin-top: -10px"><a
+                href="https://play.google.com/store/apps/details?id=ru.cars_sharing.app&hl=ru"><img
+                src="images/ru_badge_web_generic.png" alt="Доступно в Google Play"></a><a
+                href="https://vk.com/carssharingru" target="_blank"
+                onclick="yaCounter33817964.reachGoal('vk_down'); return true;"><img src="images/vk.png"
+                                                                                    alt="ВКонтакте"></a><a
+                href="https://www.facebook.com/carssharingru/" target="_blank"
+                onclick="yaCounter33817964.reachGoal('fb_down'); return true;"><img src="images/fb.png"
+                                                                                    alt="Facebook"></a></div>
+    </div>
+</footer>
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-70681948-1', 'auto');
+    ga('send', 'pageview');
+
+</script><!-- Yandex.Metrika counter -->
+<script type="text/javascript"> (function (d, w, c) {
+    (w[c] = w[c] || []).push(function () {
+        try {
+            w.yaCounter33817964 = new Ya.Metrika({
+                id: 33817964,
+                clickmap: true,
+                trackLinks: true,
+                accurateTrackBounce: true,
+                triggerEvent: true
+            });
+        } catch (e) {
+        }
+    });
+    var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () {
+        n.parentNode.insertBefore(s, n);
+    };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = "https://mc.yandex.ru/metrika/watch.js";
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else {
+        f();
+    }
+})(document, window, "yandex_metrika_callbacks"); </script>
+<noscript>
+    <div><img src="https://mc.yandex.ru/watch/33817964" style="position:absolute; left:-9999px;" alt=""/></div>
+</noscript><!-- /Yandex.Metrika counter -->
+<script src="/assets/d507df6b/jquery.min.js?v=1491162093"></script>
+<script src="/assets/90a3ad0f/yii.js?v=1491162093"></script>
+<script src="https://www.gstatic.com/firebasejs/3.6.9/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.6.9/firebase-messaging.js"></script>
+<script src="/js/push_fcm.min.js?v=1486699816" async="async"></script>
+<script src="/assets/1ea77804/js/bootstrap.min.js?v=1491162093"></script>
+</body>
+</html>
