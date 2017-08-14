@@ -164,7 +164,7 @@ td.bg_colesa, tr.bg_colesa td {
         display: none
     }
 }
-a {
+a:hover {
     text-decoration: none; /* Убираем подчеркивание у ссылок */
     color: #333;
 }
@@ -180,7 +180,7 @@ a h3 {
     /* Hidden by default */
     position: fixed;
     /* Fixed/sticky position */
-    bottom: 20px;
+    bottom: 50px;
     /* Place the button at the bottom of the page */
     right: 30px;
     /* Place the button 30px from the right */
@@ -190,7 +190,7 @@ a h3 {
     /* Remove borders */
     outline: none;
     /* Remove outline */
-    background-color: red;
+    background-color: #72B21F;
     /* Set a background color */
     color: white;
     /* Text color */
@@ -202,12 +202,7 @@ a h3 {
     /* Rounded corners */
 
 }
-#soc {
-    position: fixed;
-    right: 10px;
-    top: 30%;
-    z-index: 1000;
-}
+
 #myBtn:hover {
     background-color: #555;
     /* Add a dark-grey background on hover */

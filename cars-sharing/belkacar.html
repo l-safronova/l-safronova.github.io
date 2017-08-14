@@ -52,6 +52,26 @@
     <meta name="msapplication-TileImage" content="/images/icons/ms-icon-144x144.png">
     <meta name="msapplication-config" content="/browserconfig.xml">
     <meta name="mobile-web-app-capable" content="yes">
+    <script type="text/javascript">
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Chrome, Safari and Opera
+            document.documentElement.scrollTop = 0; // For IE and Firefox
+        }
+    </script>
 </head>
 <body>
 <div class="wrap">
@@ -94,7 +114,7 @@
                 <a href="#aero-parking-msk" title="Парковка в аэропортах Москвы">Парковка в аэропортах Москвы</a>
             </li>
             <li>
-                <a href="#shares-plans-news" title="Акции BelkaCar, планы, новости">Акции BelkaCar. Планы</a>
+                <a href="#shares-plans" title="Акции BelkaCar. Планы">Акции BelkaCar. Планы</a>
             </li>
         </ul>
         <div><h1>BelkaCar</h1>
@@ -196,8 +216,9 @@
                         Предварительно убедитесь в чистоте госномера автомобиля.</p>
                 </div>
             </div>
+            <button onclick="topFunction()" id="myBtn" title="Вверх↑">Вверх↑</button>
             <br>
-            <a name="shares-plans-news">
+            <a name="shares-plans">
                 <h3 class="anchor-hack">Акции BelkaCar. Планы</h3>
             </a>
             <p>За каждые потраченные 15 рублей в сервисе Belkacar, компания начисляет 1 милю в бонусной программе «S7
@@ -207,6 +228,7 @@
                 услуги в Санкт-Петербурге, Екатеринбурге, Казани, Челябинске и Сочи.</p></div>
         <div style="padding-bottom: 10px;">
         </div>
+
         <div>
             <blockquote>
                 <small>
@@ -219,7 +241,7 @@
     </div>
 
 </div>
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
 <footer class="footer">
     <div class="container"><p class="pull-left">&copy; Каршеринг агрегатор в России</p>
     </div>
