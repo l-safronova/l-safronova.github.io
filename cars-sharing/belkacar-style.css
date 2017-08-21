@@ -236,4 +236,7 @@ a h3 {
 .ls-delimiter {
     padding-top: 20px;
 }
-
+.ls-logo {
+    width:30px;
+    margin-right:3px
+}
