@@ -1,0 +1,50 @@
+.body {
+    background: black;
+    height: 500px;
+}
+
+
+.wrapper {
+    max-width: 1180px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 0 5px;
+    overflow: hidden;
+
+}
+.row {
+    border: 1px solid #ff0;
+    /*приблизили к желтому бордеру margin: 0 -15px;*/
+
+
+}
+.profit {
+    background: #232324;
+    padding: 15px 0;
+}
+.profit .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.profit .item {
+    text-align: center;
+    margin: 15px;
+    flex-basis: 300px;
+    /*background: #999;*/ /*background: #999;*/ /*убрали фон*/
+}
+.profit .item .subtitle {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 3px 0;
+}
+.profit .item .text {
+    color: #d94948;
+
+}
+@media screen and (max-width: 650px ){  /* медиа запрос email встает первым*/
+    .profit .item-email {
+        order: -1;
+    }
+
+}
