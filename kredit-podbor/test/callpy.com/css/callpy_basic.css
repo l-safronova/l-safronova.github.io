@@ -1,0 +1,522 @@
+
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Sans+Caption:400,700&subset=latin,cyrillic);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700&subset=latin,cyrillic-ext);
+
+/* FONTS ########################################## */
+@font-face {
+    font-family: fregatregular;
+    src: local("fregatregular"),
+    url(../fonts/Fregat.eot);
+}
+@font-face {
+    font-family: fregatbold;
+    src: local("fregatbold"),
+    url(../fonts/Fregat_Bold.eot);
+}
+@font-face {
+    font-family: fregatregular;
+    src: local("fregatregular"),
+    url(../fonts/Fregat.otf);
+}
+@font-face {
+    font-family: fregatbold;
+    src: local("fregatbold"),
+    url(../fonts/Fregat_Bold.otf);
+}
+/* ############################################ END */
+
+/* BOXES ########################################## */
+.callpy_default_box {
+    position: fixed;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1001;
+}
+.callpy_default_box_gradient {
+    border-radius: 5px;
+    box-shadow: 
+        0 7px 40px -1px rgba(22, 24, 28, 0.6),
+        0 1px 0 0 #FFF inset;
+    background: #d1e5ed;
+    background: linear-gradient(to bottom, #eef6f9 0%,#f2f7fb 1%,#f2f7fb 7%,#eff7f9 8%,#ecf3f9 13%,#eaf4f6 14%,#eaf3f8 15%,#e7f2f4 17%,#e5f0f6 20%,#e2f0f3 21%,#e4eff5 22%,#e1eff2 23%,#ddecf3 28%,#d4e7ee 35%,#d6e7ef 36%,#d3e6ed 36%,#d2e6ef 38%,#d1e5ec 40%,#d1e5ec 96%,#dcebf2 98%,#ddecf3 99%,#dcebf0 100%,#e2eff5 100%);
+}
+.callpy_default_box_gradient:before {
+    background-image: url(../images/modal_window_left_bg.png);
+    width: 227px;
+    height: 150px;
+    position: absolute;
+    content: "";
+    bottom: 0px;
+    left: 0;
+    opacity: .7;
+}
+.callpy_default_box_gradient:after {
+    content: "";
+    background-image: url(../images/modal_window_right_bg.png);   
+    width: 131px;
+    height: 115px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: .7;
+}
+.callpy_default_box_wavers_gradient {
+    border-radius: 8px;
+    box-shadow: 0 7px 40px -1px rgba(22, 24, 28, 0.6), 0 -4px 8px -1px rgba(255, 255, 255, 0.68) inset;
+    background: url(../images/callpy_background_waves.png) 50%, #ebf0f4;
+    background: url(../images/callpy_background_waves.png) 50%, -moz-linear-gradient(top,  #ebf0f4 0%, #f4f8f9 1%, #f6f9fb 1%, #f3f6f9 1%, #e8eff4 2%, #e3ebf1 3%, #d8e3eb 5%, #cad9e4 27%, #a3bdd0 74%, #93b0c7 100%);
+    background: url(../images/callpy_background_waves.png) 50%, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ebf0f4), color-stop(1%,#f4f8f9), color-stop(1%,#f6f9fb), color-stop(1%,#f3f6f9), color-stop(2%,#e8eff4), color-stop(3%,#e3ebf1), color-stop(5%,#d8e3eb), color-stop(27%,#cad9e4), color-stop(74%,#a3bdd0), color-stop(100%,#93b0c7));
+    background: url(../images/callpy_background_waves.png) 50%, -webkit-linear-gradient(top,  #ebf0f4 0%,#f4f8f9 1%,#f6f9fb 1%,#f3f6f9 1%,#e8eff4 2%,#e3ebf1 3%,#d8e3eb 5%,#cad9e4 27%,#a3bdd0 74%,#93b0c7 100%);
+    background: url(../images/callpy_background_waves.png) 50%, -o-linear-gradient(top,  #ebf0f4 0%,#f4f8f9 1%,#f6f9fb 1%,#f3f6f9 1%,#e8eff4 2%,#e3ebf1 3%,#d8e3eb 5%,#cad9e4 27%,#a3bdd0 74%,#93b0c7 100%);
+    background: url(../images/callpy_background_waves.png) 50%, -ms-linear-gradient(top,  #ebf0f4 0%,#f4f8f9 1%,#f6f9fb 1%,#f3f6f9 1%,#e8eff4 2%,#e3ebf1 3%,#d8e3eb 5%,#cad9e4 27%,#a3bdd0 74%,#93b0c7 100%);
+    background: url(../images/callpy_background_waves.png) 50%, linear-gradient(to bottom,  #ebf0f4 0%,#f4f8f9 1%,#f6f9fb 1%,#f3f6f9 1%,#e8eff4 2%,#e3ebf1 3%,#d8e3eb 5%,#cad9e4 27%,#a3bdd0 74%,#93b0c7 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebf0f4', endColorstr='#93b0c7',GradientType=0 );
+}
+/* ############################################ END */
+
+/* INPUTS ######################################### */
+.callpy_blur {
+
+}
+
+.callpy_blur_wrapper {
+    position: fixed;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0,0,0,.4);
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.callpy_default_input {
+    position: relative;
+    height: 46px;
+}
+.callpy_default_input input {
+    border: none;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    color: #4a6081;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 1px 0 0 18px;
+    border-radius: 4px;
+    box-shadow:
+        0 1px 0px 0 rgba(255, 255, 255, 0.69),
+        0 0 0px 1px #8ea6c3 inset,
+        0px 2px 6px 0 rgba(128, 143, 157, 1) inset;
+
+    background: #f9f9f9;
+    background: -moz-linear-gradient(top,  #f9f9f9 0%, #f9f9f9 29%, #ffffff 67%, #fefefe 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9f9f9), color-stop(29%,#f9f9f9), color-stop(67%,#ffffff), color-stop(100%,#fefefe));
+    background: -webkit-linear-gradient(top,  #f9f9f9 0%,#f9f9f9 29%,#ffffff 67%,#fefefe 100%);
+    background: -o-linear-gradient(top,  #f9f9f9 0%,#f9f9f9 29%,#ffffff 67%,#fefefe 100%);
+    background: -ms-linear-gradient(top,  #f9f9f9 0%,#f9f9f9 29%,#ffffff 67%,#fefefe 100%);
+    background: linear-gradient(to bottom,  #f9f9f9 0%,#f9f9f9 29%,#ffffff 67%,#fefefe 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#fefefe',GradientType=0 );
+}
+.callpy_default_input input:focus {
+    outline: none !important;
+    border: none !important;
+    box-shadow: 0 1px 0px 0 rgba(255, 255, 255, 0.69), 0 0 0px 1px #8ea6c3 inset, 0 2px 10px 0 rgba(128, 143, 157, 0.85) inset, 0 2px 3px 0px rgba(55, 67, 79, 0.53) inset;
+}
+.callpy_default_input input.callpy_error {
+    box-shadow: 0 1px 0px 0 rgba(255, 255, 255, 0.69), 0 0 0px 1px #d82f33 inset, 0 2px 4px 0 rgba(128, 143, 157, 0.85) inset;
+}
+.callpy_default_input input.callpy_error:focus {
+    outline: none;
+    border: none;
+    box-shadow: 0 1px 0px 0 rgba(255, 255, 255, 0.69), 0 0 0px 1px #d82f33 inset, 0 2px 10px 0 rgba(128, 143, 157, 0.85) inset, 0 2px 3px 0px rgba(55, 67, 79, 0.53) inset;
+}
+.callpy_default_input input.ajax {
+    background: #f9f9f9;
+    background: url(../images/demo_ajax.gif) no-repeat calc(100% - 12px) 50%, linear-gradient(to bottom,  #f9f9f9 0%,#f9f9f9 29%,#ffffff 67%,#fefefe 100%);
+}
+/* ############################################ END */
+
+/* ###################################### ANIMATION */
+.callpy-animation-target {
+    -webkit-animation: callpy-animation-target 700ms linear both;
+    animation: callpy-animation-target 700ms linear both;
+}
+
+@-webkit-keyframes callpy-animation-target {
+    0% { -webkit-transform: matrix3d(0.2, 0, 0, 0, 0, 0.2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.2, 0, 0, 0, 0, 0.2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    3.333333% { -webkit-transform: matrix3d(0.51304, 0, 0, 0, 0, 0.51304, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.51304, 0, 0, 0, 0, 0.51304, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    6.666667% { -webkit-transform: matrix3d(0.76234, 0, 0, 0, 0, 0.76234, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.76234, 0, 0, 0, 0, 0.76234, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    10% { -webkit-transform: matrix3d(0.92687, 0, 0, 0, 0, 0.92687, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.92687, 0, 0, 0, 0, 0.92687, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    13.333333% { -webkit-transform: matrix3d(1.01648, 0, 0, 0, 0, 1.01648, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.01648, 0, 0, 0, 0, 1.01648, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    16.666667% { -webkit-transform: matrix3d(1.05253, 0, 0, 0, 0, 1.05253, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.05253, 0, 0, 0, 0, 1.05253, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    20% { -webkit-transform: matrix3d(1.05664, 0, 0, 0, 0, 1.05664, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.05664, 0, 0, 0, 0, 1.05664, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    23.333333% { -webkit-transform: matrix3d(1.04563, 0, 0, 0, 0, 1.04563, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.04563, 0, 0, 0, 0, 1.04563, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    26.666667% { -webkit-transform: matrix3d(1.0304, 0, 0, 0, 0, 1.0304, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.0304, 0, 0, 0, 0, 1.0304, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    30% { -webkit-transform: matrix3d(1.01675, 0, 0, 0, 0, 1.01675, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.01675, 0, 0, 0, 0, 1.01675, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    33.333333% { -webkit-transform: matrix3d(1.0069, 0, 0, 0, 0, 1.0069, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.0069, 0, 0, 0, 0, 1.0069, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    36.666667% { -webkit-transform: matrix3d(1.00096, 0, 0, 0, 0, 1.00096, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.00096, 0, 0, 0, 0, 1.00096, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    40% { -webkit-transform: matrix3d(0.99811, 0, 0, 0, 0, 0.99811, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.99811, 0, 0, 0, 0, 0.99811, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    43.333333% { -webkit-transform: matrix3d(0.99727, 0, 0, 0, 0, 0.99727, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.99727, 0, 0, 0, 0, 0.99727, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    46.666667% { -webkit-transform: matrix3d(0.99752, 0, 0, 0, 0, 0.99752, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.99752, 0, 0, 0, 0, 0.99752, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    50% { -webkit-transform: matrix3d(0.99819, 0, 0, 0, 0, 0.99819, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.99819, 0, 0, 0, 0, 0.99819, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    53.333333% { -webkit-transform: matrix3d(0.9989, 0, 0, 0, 0, 0.9989, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.9989, 0, 0, 0, 0, 0.9989, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    56.666667% { -webkit-transform: matrix3d(0.99946, 0, 0, 0, 0, 0.99946, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.99946, 0, 0, 0, 0, 0.99946, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    60% { -webkit-transform: matrix3d(0.99983, 0, 0, 0, 0, 0.99983, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.99983, 0, 0, 0, 0, 0.99983, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    63.333333% { -webkit-transform: matrix3d(1.00004, 0, 0, 0, 0, 1.00004, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.00004, 0, 0, 0, 0, 1.00004, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    66.666667% { -webkit-transform: matrix3d(1.00012, 0, 0, 0, 0, 1.00012, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.00012, 0, 0, 0, 0, 1.00012, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    70% { -webkit-transform: matrix3d(1.00013, 0, 0, 0, 0, 1.00013, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.00013, 0, 0, 0, 0, 1.00013, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    73.333333% { -webkit-transform: matrix3d(1.0001, 0, 0, 0, 0, 1.0001, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.0001, 0, 0, 0, 0, 1.0001, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    76.666667% { -webkit-transform: matrix3d(1.00007, 0, 0, 0, 0, 1.00007, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.00007, 0, 0, 0, 0, 1.00007, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    80% { -webkit-transform: matrix3d(1.00004, 0, 0, 0, 0, 1.00004, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.00004, 0, 0, 0, 0, 1.00004, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    83.333333% { -webkit-transform: matrix3d(1.00002, 0, 0, 0, 0, 1.00002, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.00002, 0, 0, 0, 0, 1.00002, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    86.666667% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    90% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    93.333333% { -webkit-transform: matrix3d(0.99999, 0, 0, 0, 0, 0.99999, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.99999, 0, 0, 0, 0, 0.99999, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    96.666667% { -webkit-transform: matrix3d(0.99999, 0, 0, 0, 0, 0.99999, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.99999, 0, 0, 0, 0, 0.99999, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    100% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+}
+
+@-moz-keyframes callpy-animation-target {
+    0% { -moz-transform: matrix3d(0.2, 0, 0, 0, 0, 0.2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    3.333333% { -moz-transform: matrix3d(0.51304, 0, 0, 0, 0, 0.51304, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    6.666667% { -moz-transform: matrix3d(0.76234, 0, 0, 0, 0, 0.76234, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    10% { -moz-transform: matrix3d(0.92687, 0, 0, 0, 0, 0.92687, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    13.333333% { -moz-transform: matrix3d(1.01648, 0, 0, 0, 0, 1.01648, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    16.666667% { -moz-transform: matrix3d(1.05253, 0, 0, 0, 0, 1.05253, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    20% { -moz-transform: matrix3d(1.05664, 0, 0, 0, 0, 1.05664, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    23.333333% { -moz-transform: matrix3d(1.04563, 0, 0, 0, 0, 1.04563, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    26.666667% { -moz-transform: matrix3d(1.0304, 0, 0, 0, 0, 1.0304, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    30% { -moz-transform: matrix3d(1.01675, 0, 0, 0, 0, 1.01675, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    33.333333% { -moz-transform: matrix3d(1.0069, 0, 0, 0, 0, 1.0069, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    36.666667% { -moz-transform: matrix3d(1.00096, 0, 0, 0, 0, 1.00096, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    40% { -moz-transform: matrix3d(0.99811, 0, 0, 0, 0, 0.99811, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    43.333333% { -moz-transform: matrix3d(0.99727, 0, 0, 0, 0, 0.99727, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    46.666667% { -moz-transform: matrix3d(0.99752, 0, 0, 0, 0, 0.99752, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    50% { -moz-transform: matrix3d(0.99819, 0, 0, 0, 0, 0.99819, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    53.333333% { -moz-transform: matrix3d(0.9989, 0, 0, 0, 0, 0.9989, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    56.666667% { -moz-transform: matrix3d(0.99946, 0, 0, 0, 0, 0.99946, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    60% { -moz-transform: matrix3d(0.99983, 0, 0, 0, 0, 0.99983, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    63.333333% { -moz-transform: matrix3d(1.00004, 0, 0, 0, 0, 1.00004, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    66.666667% { -moz-transform: matrix3d(1.00012, 0, 0, 0, 0, 1.00012, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    70% { -moz-transform: matrix3d(1.00013, 0, 0, 0, 0, 1.00013, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    73.333333% { -moz-transform: matrix3d(1.0001, 0, 0, 0, 0, 1.0001, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    76.666667% { -moz-transform: matrix3d(1.00007, 0, 0, 0, 0, 1.00007, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    80% { -moz-transform: matrix3d(1.00004, 0, 0, 0, 0, 1.00004, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    83.333333% { -moz-transform: matrix3d(1.00002, 0, 0, 0, 0, 1.00002, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    86.666667% { -moz-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    90% { -moz-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    93.333333% { -moz-transform: matrix3d(0.99999, 0, 0, 0, 0, 0.99999, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    96.666667% { -moz-transform: matrix3d(0.99999, 0, 0, 0, 0, 0.99999, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    100% { -moz-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+}
+
+@keyframes callpy-animation-target {
+    0% { transform: matrix3d(0.2, 0, 0, 0, 0, 0.2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    3.333333% { transform: matrix3d(0.51304, 0, 0, 0, 0, 0.51304, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    6.666667% { transform: matrix3d(0.76234, 0, 0, 0, 0, 0.76234, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    10% { transform: matrix3d(0.92687, 0, 0, 0, 0, 0.92687, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    13.333333% { transform: matrix3d(1.01648, 0, 0, 0, 0, 1.01648, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    16.666667% { transform: matrix3d(1.05253, 0, 0, 0, 0, 1.05253, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    20% { transform: matrix3d(1.05664, 0, 0, 0, 0, 1.05664, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    23.333333% { transform: matrix3d(1.04563, 0, 0, 0, 0, 1.04563, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    26.666667% { transform: matrix3d(1.0304, 0, 0, 0, 0, 1.0304, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    30% { transform: matrix3d(1.01675, 0, 0, 0, 0, 1.01675, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    33.333333% { transform: matrix3d(1.0069, 0, 0, 0, 0, 1.0069, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    36.666667% { transform: matrix3d(1.00096, 0, 0, 0, 0, 1.00096, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    40% { transform: matrix3d(0.99811, 0, 0, 0, 0, 0.99811, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    43.333333% { transform: matrix3d(0.99727, 0, 0, 0, 0, 0.99727, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    46.666667% { transform: matrix3d(0.99752, 0, 0, 0, 0, 0.99752, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    50% { transform: matrix3d(0.99819, 0, 0, 0, 0, 0.99819, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    53.333333% { transform: matrix3d(0.9989, 0, 0, 0, 0, 0.9989, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    56.666667% { transform: matrix3d(0.99946, 0, 0, 0, 0, 0.99946, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    60% { transform: matrix3d(0.99983, 0, 0, 0, 0, 0.99983, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    63.333333% { transform: matrix3d(1.00004, 0, 0, 0, 0, 1.00004, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    66.666667% { transform: matrix3d(1.00012, 0, 0, 0, 0, 1.00012, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    70% { transform: matrix3d(1.00013, 0, 0, 0, 0, 1.00013, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    73.333333% { transform: matrix3d(1.0001, 0, 0, 0, 0, 1.0001, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    76.666667% { transform: matrix3d(1.00007, 0, 0, 0, 0, 1.00007, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    80% { transform: matrix3d(1.00004, 0, 0, 0, 0, 1.00004, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    83.333333% { transform: matrix3d(1.00002, 0, 0, 0, 0, 1.00002, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    86.666667% { transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    90% { transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    93.333333% { transform: matrix3d(0.99999, 0, 0, 0, 0, 0.99999, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    96.666667% { transform: matrix3d(0.99999, 0, 0, 0, 0, 0.99999, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    100% { transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+}
+
+/* ############################################ END */
+
+/* ######################################## BUTTONS */
+
+.callpy_button {
+    position: relative;
+    overflow: visible;
+    display: inline-block;
+    padding: 0.5em 1.4em;
+    border: 1px solid #739fbb;
+    border-bottom-color: #225681;
+    border-left-color: #5881a2;
+    border-right-color: #5881a2;
+    margin: 0;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 0px -1px 0 #2b5777;
+
+    font: 14px/normal "PT Sans", sans-serif;
+
+    font-weight: bold;
+    color: #FFF;
+
+    background: #85aac4;
+    background: linear-gradient(to bottom,  #85aac4 0%,#83acc2 6%,#7ca6be 16%,#6697b5 32%,#6396b5 35%,#5b8dae 42%,#4d85aa 52%,#4a7fa7 55%,#407aa0 61%,#336c97 77%,#316a97 90%,#36719b 100%);
+
+    white-space: nowrap;
+    cursor: pointer;
+    outline: none;
+
+    border-radius: 8px;
+    zoom: 1;
+    box-shadow: 0 2px 2px -1px #7f9eb7, 0 1px 2px -1px #7f9eb7, 0 1px 0 0 rgba(243, 255, 255, 0.49) inset;
+}
+.callpy_easy_button {
+    position: relative;
+    overflow: visible;
+    display: inline-block;
+    padding: 0.5em 1.4em;
+    margin: 0;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 0px -1px 0 rgba(35, 101, 6, 0.85);
+
+    font: 14px/normal "PT Sans", sans-serif;
+
+    font-weight: bold;
+    color: #FFF;
+
+    background: #6eaa42;
+
+    white-space: nowrap;
+    cursor: pointer;
+    outline: none;
+
+    border-radius: 4px;
+    zoom: 1;
+    border: none;
+}
+.callpy_easy_button.callpy_easy_button_red {
+    background: #ae4646;
+    text-shadow: 0px -1px 0 rgba(101, 6, 6, 0.85);
+}
+
+.callpy_button:hover {
+    background: #8fb9d2;
+    background: linear-gradient(to bottom,  #8fb9d2 0%,#8fb9d2 6%,#87b5cf 16%,#66a1c3 42%,#4988b4 65%,#4184b1 71%,#3b7dad 84%,#3a7ead 90%,#3f83b2 100%);
+}
+.callpy_button:active {
+    background: #7ba0b3;
+    background: linear-gradient(to bottom,  #7ba0b3 0%,#7a9eb4 6%,#6e96af 19%,#51809e 42%,#3f7091 55%,#306086 71%,#2a5c81 81%,#2a5a80 90%,#2c6087 100%);
+}
+.callpy_button.callpy_button_color_green {
+    border-radius: 6px;
+    background: #90c559;
+    background: linear-gradient(to bottom,  #90c559 0%,#8ec659 14%,#85bf4f 24%,#76b741 34%,#59a624 52%,#49991c 62%,#34880f 79%,#30830d 86%,#2f820c 97%,#378810 100%);
+    border: none;
+    /* box-shadow: 0px 0px 1px 0px rgba(232, 248, 224, 0.25) inset, 0px 1px 1px 0px rgba(232, 248, 224, 0.89) inset, 0px 1px 1px 1px rgba(35, 101, 6, 0.85); */
+    box-shadow: none;
+    box-shadow:
+        0 1px 0px 0px #236506,
+        0 -1px 0px 0px rgba(35, 101, 6, 0.38),
+        -1px 0px 0px 0px rgba(35, 101, 6, 0.38),
+        1px 0px 0px 0px rgba(35, 101, 6, 0.38),
+        0 1px 2px 0px rgba(35, 101, 6, 0.65),
+        0 1px 0px 0px rgba(232, 248, 224, 0.55) inset,
+        -1px 0px 0px 0px rgba(232, 248, 224, 0.55) inset,
+        1px 0px 0px 0px rgba(232, 248, 224, 0.15) inset,
+        0 -1px 0px 0px rgba(232, 248, 224, 0.15) inset;
+}
+
+.callpy_button.callpy_button_big {
+    font-size: 15px;
+    padding: 0.7em 2.1em;
+}
+.callpy_button.callpy_button_small {
+    padding: 0.3em 2.1em;
+}
+
+
+/* ############################################ END */
+
+/* ####################################### SWITCHER */
+.onoffswitch {
+    position: relative; 
+    width: 31px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    /* border: 2px solid #999999; */ 
+    border-radius: 3px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100% !important;
+    -moz-transition: margin 0.15s ease-in 15s; -webkit-transition: margin 0.15s ease-in 0s;
+    -o-transition: margin 0.15s ease-in 15s; transition: margin 0.15s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; 
+    height: 16px; padding: 0; 
+    line-height: 16px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "";
+
+    background: #41891b;
+    background: -moz-linear-gradient(top,  #41891b 0%, #37820c 7%, #36840d 13%, #3a8810 20%, #529d1c 47%, #61ab20 60%, #74bc2c 80%, #7ec72f 93%, #8ccb3c 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#41891b), color-stop(7%,#37820c), color-stop(13%,#36840d), color-stop(20%,#3a8810), color-stop(47%,#529d1c), color-stop(60%,#61ab20), color-stop(80%,#74bc2c), color-stop(93%,#7ec72f), color-stop(100%,#8ccb3c));
+    background: -webkit-linear-gradient(top,  #41891b 0%,#37820c 7%,#36840d 13%,#3a8810 20%,#529d1c 47%,#61ab20 60%,#74bc2c 80%,#7ec72f 93%,#8ccb3c 100%);
+    background: -o-linear-gradient(top,  #41891b 0%,#37820c 7%,#36840d 13%,#3a8810 20%,#529d1c 47%,#61ab20 60%,#74bc2c 80%,#7ec72f 93%,#8ccb3c 100%);
+    background: -ms-linear-gradient(top,  #41891b 0%,#37820c 7%,#36840d 13%,#3a8810 20%,#529d1c 47%,#61ab20 60%,#74bc2c 80%,#7ec72f 93%,#8ccb3c 100%);
+    background: linear-gradient(to bottom,  #41891b 0%,#37820c 7%,#36840d 13%,#3a8810 20%,#529d1c 47%,#61ab20 60%,#74bc2c 80%,#7ec72f 93%,#8ccb3c 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#41891b', endColorstr='#8ccb3c',GradientType=0 );
+
+}
+.onoffswitch-inner:after {
+    content: "";
+
+    background: #444c61;
+    background: -moz-linear-gradient(top,  #444c61 0%, #3a4257 7%, #4d556c 67%, #545c71 93%, #5f677a 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#444c61), color-stop(7%,#3a4257), color-stop(67%,#4d556c), color-stop(93%,#545c71), color-stop(100%,#5f677a));
+    background: -webkit-linear-gradient(top,  #444c61 0%,#3a4257 7%,#4d556c 67%,#545c71 93%,#5f677a 100%);
+    background: -o-linear-gradient(top,  #444c61 0%,#3a4257 7%,#4d556c 67%,#545c71 93%,#5f677a 100%);
+    background: -ms-linear-gradient(top,  #444c61 0%,#3a4257 7%,#4d556c 67%,#545c71 93%,#5f677a 100%);
+    background: linear-gradient(to bottom,  #444c61 0%,#3a4257 7%,#4d556c 67%,#545c71 93%,#5f677a 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444c61', endColorstr='#5f677a',GradientType=0 );
+
+}
+.onoffswitch-switch {
+    display: block; 
+    width: 17px; 
+    margin: 0px;
+
+    background: #ffffff;
+    background: -moz-linear-gradient(top,  #ffffff 0%, #f1ffff 13%, #e2f4ff 27%, #c5d8e6 53%, #b9cfdd 67%, #b3c9d7 80%, #b6cddb 87%, #c1d8e6 93%, #d3e9f7 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(13%,#f1ffff), color-stop(27%,#e2f4ff), color-stop(53%,#c5d8e6), color-stop(67%,#b9cfdd), color-stop(80%,#b3c9d7), color-stop(87%,#b6cddb), color-stop(93%,#c1d8e6), color-stop(100%,#d3e9f7));
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#f1ffff 13%,#e2f4ff 27%,#c5d8e6 53%,#b9cfdd 67%,#b3c9d7 80%,#b6cddb 87%,#c1d8e6 93%,#d3e9f7 100%);
+    background: -o-linear-gradient(top,  #ffffff 0%,#f1ffff 13%,#e2f4ff 27%,#c5d8e6 53%,#b9cfdd 67%,#b3c9d7 80%,#b6cddb 87%,#c1d8e6 93%,#d3e9f7 100%);
+    background: -ms-linear-gradient(top,  #ffffff 0%,#f1ffff 13%,#e2f4ff 27%,#c5d8e6 53%,#b9cfdd 67%,#b3c9d7 80%,#b6cddb 87%,#c1d8e6 93%,#d3e9f7 100%);
+    background: linear-gradient(to bottom,  #ffffff 0%,#f1ffff 13%,#e2f4ff 27%,#c5d8e6 53%,#b9cfdd 67%,#b3c9d7 80%,#b6cddb 87%,#c1d8e6 93%,#d3e9f7 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d3e9f7',GradientType=0 );
+
+    border-radius: 3px;
+    position: absolute; 
+    top: 0px; bottom: 0; 
+    right: 15px;
+    -moz-transition: right 0.15s ease-in; -webkit-transition: right 0.15s ease-in;
+    -o-transition: right 0.15s ease-in; transition: right 0.15s ease-in;
+    box-shadow: 0 1px 2px 0 #0f2f3d, 0 0px 1px 0 rgba(15, 47, 61, 0.42);
+}
+.onoffswitch-switcher-text{
+    display: block;
+    width: 300px;
+    text-align: left;
+    position: absolute;
+    top: -2px;
+    left: 45px;
+    font: 14px/normal "PT Sans", sans-serif;
+    color: #1b3c5d;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0 !important;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: -1px;
+}
+.onoffswitch-shadow {
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 16px;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.71) inset, 0 1px 2px 0 rgba(0, 0, 0, 0.57) inset;
+}
+/* ############################################ END */
+
+/* ############################## ENTER CHAT BUTTON */
+.callpy_message_enter_button {
+    position: absolute;
+    background: #c2c9cc;
+    width: 22px;
+    height: 17px;
+    right: 3px;
+    bottom: 3px;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px rgba(167, 167, 167, 0.78) inset, 4px 0 5px -2px rgba(255, 255, 255, 0.68) inset, -4px 0 5px -1px rgba(255, 255, 255, 0.68) inset, 0px 1px 2px -1px rgba(0, 0, 0, 0.25), 0px 2px 2px -1px rgba(0, 0, 0, 0.17);
+}
+
+.callpy_message_enter_button2 {
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    width: 22px;
+    height: 17px;
+    border-radius: 3px;
+    right: 0px;
+    top: -2px;
+
+    box-shadow: 0 0 0 1px #d4d4d4 inset, 1px 2px 0 0 #ffffff inset;
+    background: #e2e2e2;
+    background: -moz-linear-gradient(top,  #e2e2e2 0%, #e7e7e7 19%, #f4f4f4 44%, #f8f8f8 56%, #f9f9f9 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e2e2e2), color-stop(19%,#e7e7e7), color-stop(44%,#f4f4f4), color-stop(56%,#f8f8f8), color-stop(100%,#f9f9f9));
+    background: -webkit-linear-gradient(top,  #e2e2e2 0%,#e7e7e7 19%,#f4f4f4 44%,#f8f8f8 56%,#f9f9f9 100%);
+    background: -o-linear-gradient(top,  #e2e2e2 0%,#e7e7e7 19%,#f4f4f4 44%,#f8f8f8 56%,#f9f9f9 100%);
+    background: -ms-linear-gradient(top,  #e2e2e2 0%,#e7e7e7 19%,#f4f4f4 44%,#f8f8f8 56%,#f9f9f9 100%);
+    background: linear-gradient(to bottom,  #e2e2e2 0%,#e7e7e7 19%,#f4f4f4 44%,#f8f8f8 56%,#f9f9f9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#f9f9f9',GradientType=0 );
+}
+
+.callpy_message_enter_button2:active, .callpy_message_enter_button2.active {
+    top: 0px;
+}
+
+.callpy_message_enter_button2 > span {
+    background-image: url(../images/callpy_message_enter_button.png);
+    width: 8px;
+    height: 9px;
+    position: absolute;
+    display: block;
+    bottom: 2px;
+    right: 4px;
+}
+
+.callpy_message_enter_button2:hover {
+    background: #f3f3f3;
+    background: -moz-linear-gradient(top,  #f3f3f3 0%, #f8f8f8 46%, #f8f8f8 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f3f3f3), color-stop(46%,#f8f8f8), color-stop(100%,#f8f8f8));
+    background: -webkit-linear-gradient(top,  #f3f3f3 0%,#f8f8f8 46%,#f8f8f8 100%);
+    background: -o-linear-gradient(top,  #f3f3f3 0%,#f8f8f8 46%,#f8f8f8 100%);
+    background: -ms-linear-gradient(top,  #f3f3f3 0%,#f8f8f8 46%,#f8f8f8 100%);
+    background: linear-gradient(to bottom,  #f3f3f3 0%,#f8f8f8 46%,#f8f8f8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#f8f8f8',GradientType=0 );
+}
+/* ############################################ END */
+/* ################################################ */
+/* ################################################ */
+/* ################################################ */
+/* ################################################ */
+/* ################################################ */
+/* ################################################ */

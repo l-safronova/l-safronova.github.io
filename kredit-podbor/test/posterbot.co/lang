@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset="utf-8">
+    <title>PosterBot — bot who can send posts from different social services to Telegram channels</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="PosterBot — bot who can send posts from different social services to your Telegram channel">
+    <meta property="og:site_name" content="PosterBot">
+    <meta property="og:image" content="/assets/img/apple-touch-icon.png">
+    <meta property="og:description" content="">
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/img/apple-touch-icon.png" />
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bulma.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/app.css">
+    
+</head>
+<body>
+<section class="hero is-dark is-medium home">
+    <div class="hero-head">
+        <header class="nav animate-3">
+            <div class="container">
+                <div class="nav-left">
+                    <a href="lang" class="nav-item is-active">
+                        PosterBot
+                    </a>
+                </div>
+                <span id="nav-toggle" class="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+                <div class="nav-right nav-menu" id="nav-menu">
+                    <a href="premium/lang" class="nav-item">Premium</a>
+                    <a href="help" class="nav-item">Help</a>
+                    <a href="https://telegram.me/pstrnews" class="nav-item">News</a>
+                    
+                </div>
+            </div>
+        </header>
+    </div>
+</section>
+
+
+<section class="hero is-dark is-medium home">
+    <div class="hero-body dark-home">
+        <div class="container has-text-centered">
+            <img src="assets/img/logo-web@2x.png" class="logo-big animate-1"><br>
+            <img src="assets/img/logo-home@2x.png" class="logo-home animate-1" data-rjs="2">
+            <h1 class="home title animate-2">
+            Telegram Bot who can send posts<br> from different social services to your channels.
+            </h1>
+            <h2 class="open-in-app animate-2">
+                <a href="https://telegram.me/pstrbot" class="telegram"><i class="fa fa-telegram" aria-hidden="true"></i> Open in Telegram</a>
+            </h2>
+        </div>
+    </div>
+    <div class="hero-foot dark-home">
+    <div class="container has-text-centered">
+            <img src="assets/img/cover_en.png" class="home-cover animate-2">
+            </div>
+            </div>
+</section>
+
+<section class="section is-medium">
+    <div class="container">
+        <div class="columns is-vcentered">
+            <div class="column">
+                <img src="assets/img/s1_en.png">
+            </div>
+            <div class="column">
+                <h3 class="title is-2">
+                    <span class="icon is-large">
+                    <i class="fa fa-comment-o" aria-hidden="true"></i>
+                    </span>
+                    Send posts
+                </h3>
+                <h4 class="subtitle is-4">At the moment, you can add any public Instagram, Twitter or VK page and any RSS feed.</h4>
+                <h4 class="subtitle is-4">It is enough to press <i>Add source</i>, and send the URL of source to the bot.</h4>
+                <h4 class="subtitle is-4">You can add up to 10 sources and 30 with Premium subscription.</h4>
+                </div>
+        </div>
+    </div>
+</section>
+
+<hr class="is-marginless">
+
+<section class="section is-medium">
+    <div class="container">
+        <div class="columns is-vcentered">
+            <div class="column">
+                <h3 class="title is-2">
+                    <span class="icon is-large">
+                    <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                    </span>
+                    To your @channels
+                </h3>
+                <h4 class="subtitle is-4">Its enough to once connect the channel to a bot and add to it sources from different social services.</h4>
+                <h4 class="subtitle is-4">To connect the channel just press <i>Add channel</i> then make a bot <strong>@pstrbot</strong> channel administartor and send any message from the channel to the bot.</h4>
+            </div>
+            <div class="column">
+                <img src="assets/img/s2_en.png">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section is-medium hero is-primary">
+    <div class="container">
+        <div class="columns is-vcentered">
+            <div class="column">
+                <img src="assets/img/s3_en.png">
+            </div>
+            <div class="column">
+                <h3 class="title is-2">
+                    <span class="icon is-large">
+                    <i class="fa fa-sliders" aria-hidden="true"></i>
+                    </span>
+                    With settings
+                </h3>
+                <h4 class="subtitle is-4"><strong>There is no need to send posts with links?</strong> You are welcome. <strong>Do you want to get posts only with certain words?</strong> Already done.</h4>
+                <h4 class="subtitle is-4">Posts sending can be set as you need. In the literal and figurative sense of the word.</h4>
+                <h4 class="subtitle is-4">With the so-called <strong>filters</strong> for each page you can configure which entries will be coming and how to come. It is also super easy to customize to send attachments (photos, GIF, audio, etc.)</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section is-medium">
+    <div class="container">
+        <p class="title has-text-centered">Join us, it's free.</p>
+        <div class="hero-buttons">
+            <a href="lang" class="telegram-big">
+                <span class="icon">
+                <i class="fa fa-telegram" aria-hidden="true"></i>
+                </span>
+                <span>Open in Telegram</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="content has-text-centered">
+            <p>
+                <strong>PosterBot</strong> was develoved by <a href='https://kostya.co/'>Kostya Kozak</a> and uses open APIs of side services.
+            </p>
+            <p>
+                <strong>2017.</strong> All rights reserved.
+            </p>
+            <p>
+                <a href="lang">По-русски</a>
+            </p>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter41578429 = new Ya.Metrika({ id:41578429, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/41578429" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<script src="assets/js/jquery-2.2.0.min.js"></script>
+<script src="assets/js/bulma.js"></script>
+</body>
+</html>

@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Callpy - онлайн консультирование, чат, звонки</title>
+    <meta name="description" content="Онлайн консультант для сайта. Чат-виджет для вашего сайта бесплатно! Онлайн видео и аудио свзяь!"/>
+    <meta name="keywords" content="онлайн консультант, online консультант, чат-виджет"/>
+
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="site/css/style.index.new.css">
+    <link rel="stylesheet" href="site/css/buttons-main.css">
+    <link rel="stylesheet" href="css/site/footer.css">
+    <link rel="stylesheet" href="css/site/header.css">
+
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="ru/js/callpy.general.js"></script>
+
+    
+    <!-- registration form files -->
+<link rel="stylesheet" href="css/callpy_basic.css"/>
+<link rel="stylesheet" href="css/site/callpy_registration_box.css"/>
+<link rel="stylesheet" href="css/site/modal.callpy.css"/>
+
+<script src="ru/js/callpy.utils.js"></script>
+<script src="ru/js/callpy.modal.js"></script>
+<script src="ru/js/callpy-tooltip.js"></script>
+<script src="ru/js/callpy-error.js"></script>
+<script src="ru/site/js/callpy_registration.js"></script>
+<!-- /registration form files --></head>
+<body>
+
+<!-- BEGIN CALLPY CODE {literal}  --><script>(function(w,t,p,v,c,f,s,r,h,l,d){w[p]="//kallpy.com/";w[v]="3.83";w[c]=false;if(t==w){var tmp=l.callpy_data;if(tmp==null||!l.callpy_html||!l[c]){w[f]=false}else{w[f]=true;w[s]=JSON.parse(tmp);var tm=new Date().getTime();if(tm-w[s].lastSave<20000){if(w[s].insertcode){eval(w[s].insertcode)}else{w[f]=false}}else{w[f]=false}}}else{w[f]=false}var callpy_script=d.createElement("script");try{var tmp=parent.window.location.href?1:0}catch(e){var tmp=0}callpy_script.type="text/javascript";callpy_script.async=true;if(!w[f]||!l[h]){l[h]=new Date().getTime()}callpy_script.src=w[p]+"c/"+w.location.host.replace(/www./i,"")+"/"+(t==w?(w[f]?1:2):(tmp==1?4:3))+".js?id=132&m="+l[h];callpy_script.onload=function(){iowisp.init()};d.body.appendChild(callpy_script)})(window,window.top,"callpy_path","callpy_version","tiny","sven","callpy_storage","callpy_chat_scroller","callpy_lastchat",localStorage,document);</script><!-- {/literal} END CALLPY CODE  --><section class="page-wrapper">
+<script>
+    var callpyLogin = null;
+</script>
+<header class="b-callpy-header  b-callpy-header--main-page ">
+    <article class="h-gr-cnt">
+        <section class="h-gr-3 no_p">
+            <article class="b-logo--header">
+                <a href="index.html" class="b-logo__link--header">
+                    <img src="images/site/header-img/callpy-logo-header.png" width="159" height="61" title="Callpy.com" alt="Callpy.com">
+                </a>
+            </article>
+        </section>
+        <nav class="h-gr-7 no_p">
+            <ul class="b-header__menu h-gr-cnt">
+                <li class="b-header__item"><a href="features" class="b-header__menu-link  h-gr">Возможности</a></li>
+                <li class="b-header__item"><a href="prices" class="b-header__menu-link  h-gr">Цены</a></li>
+                <li class="b-header__item"><a href="http://blog.callpy.com" class="b-header__menu-link h-gr">Блог</a></li>
+                <li class="b-header__item"><a href="support" class="b-header__menu-link  h-gr">Поддержка</a></li>
+                <!--<li class="b-header__item"><a href="/partner" class="b-header__menu-link  h-gr md-callpy-trigger">Партнерам</a></li>-->
+            </ul>
+        </nav>
+
+                    //не авторизован        <section class="h-gr-6 no_p">
+            <p class="b-header__phone"><a href="tel:+74952483987" class="site-phone-text">+7 (495) 248-39-87</a></p>
+            <article class="b-header__connect">
+                <a href="index.html?lang=ru#" class="b-header__connect-link callpy-registration-link">Подключить</a>
+            </article>
+            <article class="b-header__login">
+                <a href="index.html?lang=ru#" class="b-header__login-link callpy-login-link">Войти</a>
+            </article>
+        </section>
+        
+            </article>
+</header>
+<section class="wrapper row1">
+    <article class="gr-cnt">
+        <hgroup class="row1__titles gr-16">
+            <h3 class="row1__subtitle">ЧАТ-ВИДЖЕТ ДЛЯ ВАШЕГО САЙТА</h3>
+            <h2 class="row1__title">ЖИВОЕ ОБЩЕНИЕ С ПОСЕТИТЕЛЯМИ</h2>
+        </hgroup>
+        <section class="row1__descriptor gr-8">
+            <p class="row1__descriptor-title">Callpy позволит реализовать возможности <br>общения с посетителями Вашего сайта.</p>
+            <p class="row1__descriptor-text">
+                Это обеспечит рост продаж, в разы улучшит <br>конверсию сайта, увеличит повторные<br>обращения посетителей.
+            </p>
+            <p class="row1__more-link-holder">
+                <a href="features" class="row1__more-link">Подробнее</a>
+            </p>
+            <button class="row1__descriptor-button slide-down" href="#test-drive">Тест-драйв без регистрации</button>
+        </section>
+
+        <section class="row1__eggs gr-8">
+            <ul class="row1__items">
+                <li class="row1__item row1__item--free-chat">Бесплатный чат </li>
+                <li class="row1__item row1__item--free-19">19 дней бесплатных звонков</li>
+                <li class="row1__item row1__item--browse-consult">Консультируйте в браузере</li>
+            </ul>
+            <p class="row1__more-link-holder row1__more-link-holder--eggs">
+                <a href="features" class="row1__more-link">Подробнее</a>
+            </p>
+            <button class="callpy-registration-link button-single-orange row1__eggs-button " onclick="yaCounter32384895.reachGoal('reg1'); return true;">
+                <p class="button-single-orange__title">Попробовать бесплатно</p>
+                <p class="button-single-orange__subtitle">Получить 19 дней Демо-периода</p>
+            </button>
+        </section>
+
+        <section class="gr-16 row1__options">
+            <ul class="row1__options-list gr-cnt">
+                <li class="row1__option row1__option--text-chat gr-4">Текстовый чат</li>
+                <li class="row1__option row1__option--voice-call gr-4">Голосовые звонки</li>
+                <li class="row1__option row1__option--video-call gr-4">Видео-звонки</li>
+                <li class="row1__option row1__option--managing gr-4">Управление навигацией</li>
+            </ul>
+        </section>
+    </article>
+</section>
+
+<section class="row2 wrapper">
+    <article class="gr-cnt">
+        <section class="row2__pics" data-block-animate="animated">
+
+            <article class="row2__pic"></article>
+        </section>
+    </article>
+</section>
+    <!--
+<section class="row21 wrapper">
+    <div class="row21__pic"></div>
+    <article class="row21__content gr-cnt">
+        <section class="row21__content gr-8">
+            <h2 class="row21__title">Уникальная<br/>возможность</h2>
+            <h3 class="row21__subtitle">Получайте Контакты посетителей из<br/>открытых источников!</h3>
+            <section class="row21__sources">
+                <ul class="sources gr-cnt">
+                    <li class="sources__item sources__item--1 gr-8"><span class="sources__text">Фотографию</span></li>
+                    <li class="sources__item sources__item--2 gr-8"><span class="sources__text">Телефон</span></li>
+                    <li class="sources__item sources__item--3 gr-8"><span class="sources__text">Имя, Фамилию</span></li>
+                    <li class="sources__item sources__item--4 gr-8"><span class="sources__text">Skype</span></li>
+                    <li class="sources__item sources__item--5 gr-8"><span class="sources__text">Город </span></li>
+                    <li class="sources__item sources__item--6 gr-8"><span class="sources__text">Поисковый запрос</span></li>
+                    <li class="sources__item sources__item--7 gr-8"><span class="sources__text">Ссылку на страницу<br/>в соц. сети</span></li>
+                    <li class="sources__item sources__item--8 gr-8"><span class="sources__text">Посещаемые страницы сайта</span></li>
+                </ul>
+            </section>
+        </section>
+    </article>
+</section>
+-->
+<section class="row22 wrapper">
+    <div class="row22__pic row22__pic--cpanel"></div>
+    <div class="row22__pic row22__pic--mac"></div>
+    <div class="row22__pic row22__pic--task"></div>
+    <div class="row22__pic row22__pic--newlead"></div>
+    <div class="row22__pic row22__pic--manageclient"></div>
+    <article class="row22__content gr-cnt">
+        <hgroup class="row22__titles gr-16">
+            <h2 class="row22__title">Данные, которые оставляет пользователь, можно загрузить в CRM <br/>и также выгрузить в виде файла</h2>
+            <h3 class="row22__subtitles">Сбор данных посетителей осуществляется независимо от наличия консультанта.<br/>Контакты будут налету попадать в CRM (АМО или Мегаплан) без вашего участия.</h3>
+        </hgroup>
+    </article>
+</section>
+
+<section class="row-crm wrapper">
+    <div class="row-crm__picture"></div>
+    <article class="gr-cnt">
+        <hgroup class="row-crm__titles gr-16">
+            <h2 class="row-crm__title">интеграция с популярными crm</h2>
+            <h3 class="row-crm__subtitle">Добавляйте новых клиентов и задачи в CRM в процессе диалога</h3>
+        </hgroup>
+        <section class="row-crm__about-crm gr-16">
+            <article class="about-crm gr-cnt">
+                <section class="about-crm__video-holder gr-8">
+                    <div class="about-crm__video" style="height: 280px; background-color: #cecece">
+                        <iframe width="470" height="280" src="https://www.youtube.com/embed/gm_MV-ULxIY" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </section>
+                <section class="about-crm__pictures-holder gr-8">
+
+                </section>
+            </article>
+        </section>
+    </article>
+</section>
+
+<section class="row3 wrapper" data-block-animate="animated">
+    <div class="row3__gradient-bg"></div>
+    <article class="gr-cnt">
+        <hgroup class="row3__titles gr-16">
+            <h2 class="row3__title">все просто</h2>
+            <h3 class="row3__subtitles">бесплатный чат с посетителями без ограничения функций</h3>
+        </hgroup>
+
+        <section class="row3__key-visual gr-cnt" data-block-animate="animated">
+            <article class="gr-8 row3__key-visual-baloon">
+                <div class="row3__key-visual-inner"></div>
+            </article>
+            <article class="gr-8 row3__key-visual-rocket">
+                <div class="row3__key-visual-inner"></div>
+            </article>
+        </section>
+
+        <section class="row3__options gr-cnt">
+            <article class="row3__h-options gr-8">
+                <p class="row3__options-title">либо <span>бесплатно!</span></p>
+            </article>
+            <article class="row3__h-options gr-8">
+                <p class="row3__options-title">либо <span>платно!</span></p>
+            </article>
+
+            <article class="row3__options-holder gr-8">
+                <ul class="row3__options-list">
+                    <li class="row3_option">
+                        <p class="row3-option__title row3-option__title--chat row3-option__title--slided">Бесплатный чат навечно</p>
+                        <p class="row3-option__description">Без ограничения функций, без ограничения срока</p>
+                    </li>
+                    <li class="row3_option">
+                        <p class="row3-option__title row3-option__title--competitors">Мы лучше конкурентов</p>
+                        <p class="row3-option__description">Бесплатный функциональный чат</p>
+                    </li>
+                    <li class="row3_option">
+                        <p class="row3-option__title row3-option__title--27">27 функций бесплатно</p>
+                        <p class="row3-option__description">27 инструментов контроля качества сервиса</p>
+                    </li>
+                    <li class="row3_option">
+                        <p class="row3-option__title row3-option__title--free">Получайте вознаграждение</p>
+                        <p class="row3-option__description">Дарим подарки за привлечение друзей</p>
+                    </li>
+                </ul>
+
+                <button class="callpy-registration-link row3__bipart-button--dark-blue" onclick="yaCounter32384895.reachGoal('reg1'); return true;">
+                    <div class="row3__bipart-button-left">Получить бесплатно</div>
+                    <div class="row3__bipart-button-right">Без ограничения<br>функций!</div>
+                </button>
+
+            </article>
+            <article class="row3__options-holder gr-8">
+                <ul class="row3__options-list">
+                    <li class="row3_option">
+                        <p class="row3-option__title row3-option__title--cheap row3-option__title--slided">Это дёшево</p>
+                        <p class="row3-option__description">От 215 &#8381; за рабочее место консультанта в месяц</p>
+                    </li>
+                    <li class="row3_option">
+                        <p class="row3-option__title row3-option__title--3channels">3 дополнительных канала связи</p>
+                        <p class="row3-option__description">Чат, аудио, видео, наблюдение действий</p>
+                    </li>
+                    <li class="row3_option">
+                        <p class="row3-option__title row3-option__title--prof">Профессиональные функции</p>
+                        <p class="row3-option__description">Перехват управления, аудио/видео связь</p>
+                    </li>
+                    <li class="row3_option">
+                        <p class="row3-option__title row3-option__title--demo">Расширенный демо-период</p>
+                        <p class="row3-option__description">19 дней роста продаж, 20 рабочих мест</p>
+                    </li>
+                </ul>
+                <button class="callpy-registration-link row3__bipart-button--orange " onclick="yaCounter32384895.reachGoal('reg1'); return true;">
+                    <div class="row3__bipart-button-left">Попробуй бесплатно</div>
+                    <div class="row3__bipart-button-right">19 дней<br>в подарок</div>
+                </button>
+
+            </article>
+        </section>
+    </article>
+</section>
+
+<section class="row4 wrapper" data-block-animate="animated">
+    <section class="row4__bg wrapper" data-block-animate="animated"></section>
+    <article class="gr-cnt">
+        <hgroup class="row4__titles gr-16">
+            <h2 class="row4__title">ВСЕ ВОЗМОЖНОСТИ</h2>
+            <h3 class="row4__subtitle">ГИБКОСТЬ И ПРОСТОТА ФУНКЦИЙ И ИНСТРУМЕНТОВ</h3>
+        </hgroup>
+
+        <section class="row4__abilities-holder gr-16">
+            <ul class="row4__abilities gr-cnt">
+                <li class="row4__ability gr-x3">
+                    <p class="ability__title">ТЕКСТОВЫЙ ЧАТ</p>
+                    <p class="ability__text">Традиционный способ <br>консультирования онлайн</p>
+                </li>
+                <li class="row4__ability gr-x3">
+                    <p class="ability__title">ЗВОНКИ с сайта</p>
+                    <p class="ability__text">Бесплатные онлайн звонки <br>от посетителей</p>
+                </li>
+                <li class="row4__ability gr-x3">
+                    <p class="ability__title">ВИДЕО-ЗВОНКИ</p>
+                    <p class="ability__text">Проводите живые видео <br>консультации на сайте</p>
+                </li>
+                <li class="row4__ability gr-x3">
+                    <p class="ability__title">УПРАВЛЕНИЕ НАВИГАЦИЕЙ</p>
+                    <p class="ability__text">Переводите посетителя по <br>страницам, демонстрируйте <br>контент</p>
+                </li>
+                <li class="row4__ability gr-x3">
+                    <p class="ability__title">ЖИВОЕ НАБЛЮДЕНИЕ</p>
+                    <p class="ability__text">Наблюдайте за действиями <br>посетителя в реальном <br>времени</p>
+                </li>
+                <li class="row4__ability gr-x3">
+                    <p class="ability__title">ПОДСКАЗКИ</p>
+                    <p class="ability__text">Выделяйте и комментируйте <br/>элементы на странице <br/>посетителя</p>
+                </li>
+                <li class="row4__ability gr-x3">
+                    <p class="ability__title">АВТО-ПРИВЕТСТВИЕ</p>
+                    <p class="ability__text">Callpy автоматически предложит<br>помощь заскучавшему <br>посетителю</p>
+                </li>
+                <li class="row4__ability gr-x3">
+                    <p class="ability__title">БРЕНДИРОВАННЫЙ ЧАТ</p>
+                    <p class="ability__text">Глубокая кастомизация стиля <br/>виджета элементами<br/>фирменного стиля</p>
+                </li>
+                <li class="row4__ability gr-x3">
+                    <p class="ability__title">ИНТЕГРАЦИЯ С CRM</p>
+                    <p class="ability__text">Автоматически сохраняйте <br/>контакты клиентов в CRM</p>
+                </li>
+                <li class="row4__ability gr-x3">
+                    <p class="ability__title">КОНТАКТЫ ПОСЕТИТЕЛЕЙ</p>
+                    <p class="ability__text">Сбор контактов <br/>посетителей сайта<br/>через форму Callpy</p>
+                </li>
+                <li class="row4__ability gr-x3">
+                    <p class="ability__title">ОТДЕЛЫ</p>
+                    <p class="ability__text">Создавайте группы консультантов<br/>Распределяйте на них<br/>потоки посетителей</p>
+                </li>
+                <li class="row4__ability gr-x3">
+                    <p class="ability__title">СООБЩЕНИЕ ВДОГОНКУ</p>
+                    <p class="ability__text">Напишите сообщение<br/>посетителю, который<br/>покинул сайт</p>
+                </li>
+            </ul>
+        </section>
+    </article>
+</section>
+
+<section class="row41 wrapper">
+    <div class="row41__pic"></div>
+    <article class="row41__content gr-cnt">
+            <hgroup class="row41__titles gr-8">
+                <h2 class="row41__title">Возможность написать <br/>сообщение посетителю,<br/>который покинул сайт.</h2>
+                <h3 class="row41__subtitle">Посетитель примет сообщение, если повторно вернется на сайт. <br/>Ему откроется чат в который будут загружены все сообщения
+                    <br/>даже если менеджера нет на сайте.</h3>
+            </hgroup>
+
+    </article>
+</section>
+
+<section class="row5 wrapper" data-block-animate="animated">
+    <article class="gr-cnt">
+        <hgroup class="row5__titles">
+            <h2 class="row5_title">КАБИНЕТ КОНСУЛЬТАНТА</h2>
+            <h3 class="row5__subtitle">КОНСУЛЬТИРУЙТЕ В ЛЮБОМ МЕСТЕ, НА ЛЮБОМ КОМПЬЮТЕРЕ</h3>
+        </hgroup>
+
+
+        <section class="row5__slider-holder">
+            <ul class="row5__slider">
+                <li class="row5__slider-item"><img src="site/img_new/slider/1.jpg" alt=""></li>
+                <li class="row5__slider-item"><img src="site/img_new/slider/2.jpg" alt=""></li>
+                <li class="row5__slider-item"><img src="site/img_new/slider/3.jpg" alt=""></li>
+                <li class="row5__slider-item"><img src="site/img_new/slider/4.jpg" alt=""></li>
+                <li class="row5__slider-item"><img src="site/img_new/slider/5.jpg" alt=""></li>
+            </ul>
+
+        </section>
+
+        <article class="row5__descriptor gr-16">
+            <p class="row5__title">Протестируй все наши инструменты <span>бесплатно на протяжении 19 дней!</span></p>
+            <button class="callpy-registration-link row5__bipart-button--orange" onclick="yaCounter32384895.reachGoal('reg1'); return true;">
+                <div class="row5__bipart-button-left">Попробуй бесплатно</div>
+                <div class="row5__bipart-button-right">19 дней<br>в подарок</div>
+            </button>
+        </article>
+    </article>
+</section>
+
+<section class="row6 wrapper" data-block-animate="animated" id="test-drive">
+    <div class="row6__inner wrapper"></div>
+    <article class="gr-cnt">
+        <section class="row6__form-holder gr-16">
+            <hgroup class="row6__titles">
+                <h2 class="row6__form-title">ТЕСТ-ДРАЙВ</h2>
+                <h3 class="row6__form-subtitle">СЕЙЧАС И ПРЯМО НА ВАШЕМ САЙТЕ</h3>
+            </hgroup>
+            <form action="index.html?lang=ru" class="row6__form gr-cnt">
+                <input type="text" name="" id="test-drive-input" class="row6__form-input gr" placeholder="Например вашсайт.рф">
+                <button class="row6__form-button gr test-drive-button"></button>
+            </form>
+            <p class="row6__descriptor">без установки</p>
+        </section>
+    </article>
+</section>
+
+<section class="b-popup" style="display: none" id="warning_message">
+    <div class="popup-close"></div>
+    <section class="b-popup-row">
+        <article class="popup-header gr-cnt">
+            <section class="popup-header__inner popup-header__inner--edit-consultant-bio gr-16">
+                <p class="popup-header__title popup-header__title--edit-consultant-bio">
+                    В вашу панель осуществлён вход с другого устройства или браузера.<br/>
+                                    </p>
+            </section>
+        </article>
+    </section>
+</section>
+
+<!-- FOOTER -->
+<footer class="page-foot ">
+    <article class="page-foot__label">
+        лучший функционал для вашего сайта    </article>
+    <article class="f-gr-cnt">
+        <section class="f-gr-3 no_p">
+            <article class="b-logo--footer">
+                <a href="index.html" class="b-logo__link--footer">
+                    <img src="images/site/footer-img/callpy-logo-footer.png" width="169" height="47" title="Callpy.com" alt="Callpy.com">
+                </a>
+            </article>
+            <article class="b-footer__mail">
+                <a href="mailto: info@callpy.com" class="b-footer__mail-link">info@callpy.com</a>
+            </article>
+
+            <article class="license">
+                <a href="doc/public_offerts_ver2.pdf" class="license__link">Лицензионное соглашение</a>
+            </article>
+        </section>
+        <nav class="f-gr-7 no_p">
+            <ul class="b-footer__menu f-gr-cnt">
+                <li class="b-footer__menu-item"><a href="features/index.html" class="b-footer__menu-link  f-gr">Возможности</a>
+                <li class="b-footer__menu-item"><a href="prices" class="b-footer__menu-link  f-gr">Цены</a>
+                <li class="b-footer__menu-item"><a href="http://blog.callpy.com" class="b-footer__menu-link f-gr">Блог</a>
+                <li class="b-footer__menu-item"><a href="support" class="b-footer__menu-link  f-gr">Помощь</a>
+                <!--<li class="b-footer__menu-item"><a href="/partner" class="b-footer__menu-link  f-gr">Партнерам</a>-->
+            </ul>
+            <article class="copyright">
+                <p class="copyright__link">Сallpy &copy; 2017</p>
+            </article>
+        </nav>
+
+        <section class="f-gr-6">
+            <a href="index.html?lang=ru#" class="footer__connect callpy-registration-link">
+                <p href="" class="footer__connect-link">Подключить бесплатно</p>
+            </a>
+
+                <article class="callpy-footer__language-switch f-gr-cnt">
+
+                    <section class="language-switch f-gr-16">
+                        <a class="language-link language-indicator language-indicator--ru js-language-switch" href="index.html?lang=ru#">
+                        <span class="language-link__text">
+                            Русский                        </span>
+                        </a>
+                        <section class="language-popup tooltip-holder js-lang-popup">
+                            <article class="language-popup__inner">
+                                <ul class="language-popup__list languages-list">
+                                                                        <li class="languages-list__item">
+                                        <a class="language-list__link language-indicator language-indicator--az" href="index.html?lang=az">
+                                            <span class="language-list__text">Azerbaijani</span></a></li>
+                                                                        <li class="languages-list__item">
+                                        <a class="language-list__link language-indicator language-indicator--en" href="index.html?lang=en">
+                                            <span class="language-list__text">English</span></a></li>
+                                                                        <li class="languages-list__item">
+                                        <a class="language-list__link language-indicator language-indicator--es" href="index.html?lang=es">
+                                            <span class="language-list__text">Español</span></a></li>
+                                                                        <li class="languages-list__item">
+                                        <a class="language-list__link language-indicator language-indicator--fr" href="index.html?lang=fr">
+                                            <span class="language-list__text">Français</span></a></li>
+                                                                        <li class="languages-list__item">
+                                        <a class="language-list__link language-indicator language-indicator--he" href="index.html?lang=he">
+                                            <span class="language-list__text">עברית</span></a></li>
+                                                                        <li class="languages-list__item">
+                                        <a class="language-list__link language-indicator language-indicator--ru" href="index.html?lang=ru">
+                                            <span class="language-list__text">Русский</span></a></li>
+                                                                        <li class="languages-list__item">
+                                        <a class="language-list__link language-indicator language-indicator--uk" href="index.html?lang=uk">
+                                            <span class="language-list__text">Український</span></a></li>
+                                                                        <li class="languages-list__item">
+                                        <a class="language-list__link language-indicator language-indicator--zh" href="index.html?lang=zh">
+                                            <span class="language-list__text">中國</span></a></li>
+                                                                    </ul>
+                            </article>
+                        </section>
+                    </section>
+                </article>
+
+                <section class="b-footer__phone">
+                    <a href="tel:+74952483987" class="site-phone-text">+7 (495) 248-39-87</a>
+                </section>
+        </section>
+    </article>
+</footer>
+<!-- SYSTEM REG POPUP -->
+</section>
+
+<script src="ru/site/js/jquery.bxslider.min.js"></script>
+<script src="ru/site/js/main.index.new.js"></script>
+
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-51998657-1', 'auto');
+    ga('send', 'pageview');
+</script>
+
+
+<!-- Yandex.Metrika counter --><script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter32384895 = new Ya.Metrika({ id:32384895, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="https://mc.yandex.ru/watch/32384895" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter --><div class="md-callpy-modal md-callpy-effect-3" id="registration__window">
+    <!-- MODAL SIGNIN -->
+    <div class="md-callpy-content">
+        <section class="callpy-registration-container">
+            <div class="crc-close md-callpy-close"></div>
+            <div class="callpy-registration-container__logo"></div>
+            <p class="callpy-registration-container__title">Регистрация в 1 клик!</p>
+
+            <form class="callpy-registration-container__form" action="index.html?lang=ru" method="post" id="sign-in-form">
+                <div class="callpy_default_input callpy-registration-container__input-holder" style="">
+                    <input class="callpy-registration-container__input callpy-registration-container__input--ajax" type="text" placeholder="Введите Ваш email: "/>
+                </div>
+                <input type="submit" class="callpy-hidden-submit" value=""/>
+
+                <button class="callpy-registration-container__button callpy_button" id="sign-in-form-button" onclick="yaCounter32384895.reachGoal('reg2'); return true;">Зарегистрироваться</button>
+            </form>
+        </section>
+    </div>
+</div>
+
+
+<div class="md-callpy-modal md-callpy-effect-3" id="positive_registration_window">
+    <!-- MODAL SIGNIN POSITIVE-->
+    <div class="md-callpy-content">
+        <section class="callpy-registration-container">
+            <div class="crc-close md-callpy-close"></div>
+            <div class="callpy-registration-container__logo"></div>
+            <p class="callpy-registration-container__title">Письмо отправлено!</p>
+
+            <section class="callpy-registration-container__notification">
+                <p>Мы отправили на ваш e-mail<br/>
+                    ссылку для активации учетной записи.</p>
+            </section>
+
+            <button class="callpy-registration-container__button callpy_button md-callpy-close">Закрыть</button>
+        </section>
+    </div>
+</div>
+
+<div class="md-callpy-modal md-callpy-effect-2" id="login__window">
+    <!-- MODAL SIGN UP -->
+    <div class="md-callpy-content">
+        <section class="callpy-registration-container">
+            <div class="crc-close md-callpy-close"></div>
+            <div class="callpy-registration-container__logo--login"></div>
+            <p class="callpy-registration-container__title">Войти в личный кабинет</p>
+
+            <form class="callpy-registration-container__form" action="index.html?lang=ru" id="sign-up-form">
+                <div class="callpy_default_input callpy-registration-container__input-holder" style="">
+                    <input class="callpy-registration-container__input" type="text" name="email" id="login_email" placeholder="Введите Ваш email: "/>
+                </div>
+
+                <div class="callpy_default_input callpy-registration-container__input-holder" style="">
+                    <input class="callpy-registration-container__input" type="password" name="password" id="login_password" placeholder="Введите Ваш пароль: "/>
+                    <a class="callpy-registration-container__forgotten-password-link password-recovery-link" href="index.html?lang=ru#">Забыли пароль?</a>
+                </div>
+
+                <input type="submit" class="callpy-hidden-submit" value=""/>
+
+                <button class="callpy-registration-container__button callpy_button" id="sign-up-form-button">Войти</button>
+            </form>
+        </section>
+    </div>
+</div>
+
+<div class="md-callpy-modal md-callpy-effect-2" id="password__recovery">
+    <!-- MODAL SIGN UP -->
+    <div class="md-callpy-content">
+        <section class="callpy-registration-container">
+            <div class="crc-close md-callpy-close"></div>
+            <div class="callpy-registration-container__logo--password-recovery"></div>
+            <p class="callpy-registration-container__title">Восстановить пароль</p>
+            <p class="callpy-registration-container__subtitle">
+                Укажите ваш e-mail который вы указывали <br/>при регистрации в системе            </p>
+
+            <form class="callpy-registration-container__form" action="index.html?lang=ru" id="password-recovery-form">
+                <div class="callpy_default_input callpy-registration-container__input-holder" style="">
+                    <input class="callpy-registration-container__input" type="text" name="email_forgot" id="email_forgot_input" placeholder="Введите Ваш email: "/>
+                </div>
+                <input type="submit" class="callpy-hidden-submit" value=""/>
+                <button class="callpy-registration-container__button callpy_button" id="password-recovery-form-button">Восстановить</button>
+            </form>
+        </section>
+    </div>
+</div>
+
+<div class="md-callpy-modal md-callpy-effect-3" id="recovered_password">
+    <!-- MODAL SIGNIN POSITIVE-->
+    <div class="md-callpy-content">
+        <section class="callpy-registration-container">
+            <div class="crc-close md-callpy-close"></div>
+            <div class="callpy-registration-container__logo callpy-registration-container__logo--recovered-password"></div>
+            <p class="callpy-registration-container__title callpy-registration-container__title--recovered-password">
+                Ссылка для смены пароля <br/>выслана на ваш e-mail
+            </p>
+        </section>
+    </div>
+</div>
+
+<div class="md-callpy-modal md-callpy-effect-1" id="testdrive_popup">
+    <!-- TEST DRIVE POPUP-->
+    <div class="md-callpy-content">
+        <section class="callpy-registration-container--testdrive">
+            <div class="crc-close md-callpy-close"></div>
+            <p class="test-drive__title">Тест-драйв Callpy на <br/><span class="test-drive__subtitle">test</span></p>
+            <div class="test-drive__icon"></div>
+
+            <div class="test-drive__result-links">
+                <div class="test-drive__result-link">
+                    <p class="test-drive__result-link-title">Консультант</p>
+                    <a href="http://callpy.com/manager/" target="_blank" class="test-drive__result-button">Открыть</a>
+                    <input class="test-drive__input" type="text" value="http://callpy.com/manager/"/>
+                </div>
+                <div class="test-drive__result-link">
+                    <p class="test-drive__result-link-title">Посетитель</p>
+                    <a href="index.html?lang=ru#" id="user_site_link2" target="_blank" class="test-drive__result-button">Открыть</a>
+                    <input class="test-drive__input" type="text" id="user_site_link" value=''/>
+                </div>
+            </div>
+            <p class="test-drive__descriptor">
+                Для наглядного эффекта, поделитесь ссылками <br/>
+                с коллегами или друзьями. В демо-версии Вы можете столкнуться с частичной <br/>неработоспособностью некоторых функций Callpy.
+            </p>
+        </section>
+    </div>
+</div>
+</body>
+</html>

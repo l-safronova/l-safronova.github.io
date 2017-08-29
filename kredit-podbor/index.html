@@ -1,0 +1,486 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Подбор кредитов онлайн по РФ</title>
+    <meta name="description" content="Подбор кредитов онлайн по всей России. Оформление заявки на кредит онлайн круглосуточно. Быстрое получение кредита без справок и поручителей. Кредиты по паспорту. Решение по кредиту за час.">
+    <meta name="Keywords" content="потребительский кредит, кредит наличными, кредит без справок, кредит по паспорту, кредит быстро, кредит срочно, кредит онлайн, заявка на кредит, заявка онлайн, кредит с плохой кредитной историей, кредит с плохой ки, помощь в получении кредита, кредитный брокер, кредит без поручителей, экспресс кредит, кредит в день обращения, кредит без отказа.">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/anketa.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+
+    <script src="/templates/landing/js/jquery-1.12.4.min.js"></script>
+    <script src="/templates/landing/js/common.js"></script>
+    <script src="/templates/landing/js/jquery.maskedinput.min.js" type="text/javascript"></script>
+    <script src="/templates/landing/js/jquery.kladr.min.js" type="text/javascript"></script>
+    <script src="/templates/landing/js/scripts.js" type="text/javascript"></script>
+    <script src="/templates/landing/js/fio.js" type="text/javascript"></script>
+    <script src="/templates/landing/js/jquery.fancybox.pack.js?v=2.1.5" type="text/javascript" ></script>
+</head>
+<body>
+
+<div id="wrapper">
+
+    <header>
+        <div class="container">
+            <a href="/" class="logo h__logo" title="Подбор кредитов онлайн по РФ">
+                <img src="/templates/landing/img/logo.png" alt="Подбор кредитов онлайн по РФ">
+                <span class="logo__t">podbor-kreditov.<span class="blue">com</span></span>
+                <span class="logo__b">Подбор кредитов онлайн по РФ</span>
+            </a>
+            <a href="#form" class="btn btn-blue h__btn anch nfm">Отправить заявку</a>
+        </div>
+    </header>
+
+    <section id="c1">
+        <div class="container">
+            <h1>Решение по кредиту <span class="blue">за 1 час</span></h1>
+            <div class="wrap clearfix">
+                <div class="c1__text">
+                    <div class="mobile-wrap">
+                        <ul class="list list__advantages">
+                            <li class="nfm">Сумма кредита до 3 000 000 рублей</li>
+                            <li class="nfm">От 18 лет</li>
+                            <li>По всей России</li>
+                            <li>Любая кредитная история</li>
+                            <li>Наши услуги бесплатные</li>
+                        </ul>
+                        <h2 class="c1__title nfm">Как мы <span class="green">работаем</span></h2>
+                        <ul class="list list__work nfm">
+                            <li>Вы заполняете нашу анкету на кредит</li>
+                            <li>Мы подбираем для Вас банки, МФО и кредитных брокеров</li>
+                            <li>Вы выбираете из поступивших одобрений лучшее для себя</li>
+                        </ul>
+                        <a href="#form" class="btn btn-blue anch mobile-anch">Отправить заявку</a>
+                    </div>
+                </div>
+
+                <div class="c1__form">
+                    <h2 class="c1__title" id="form">Заполните анкету на кредит</h2>
+                    <div id="main_anketa"><noscript>Для работы анкеты необходимо включить JavaScript в настройках браузера</noscript>
+                        <ul class="credit_menu">
+                            <li class="credit_active"><a class="credit_choice" href="#consumer" id="konvert_potreb">Потребительский</a></li>
+                            <li><a class="credit_choice" href="#ipoteca" id="konvert_ipoteka">Ипотека</a></li>
+                            <li><a class="credit_choice" href="#business" id="konvert_biznes">Бизнес кредит</a></li>
+                            <li><a class="credit_choice" href="#zalog" id="konvert_zalog">Кредит под залог</a></li>
+                            <li><a class="credit_choice" href="#autocredit" id="konvert_avto">Автокредит</a></li>
+                        </ul>
+                        <div class="content">
+                            <div class="content_block">
+                                <form name="fieldform" id="fieldform" action="/">
+                                    <div id="fieldtabs">
+                                        <div id="consumer">
+                                            <div class="field_tab">
+                                                <p>Сумма кредита</p>
+                                                <input type="text" name="fkform[1][summa]" id="summ" value="" rule="minsum"
+                                                       maxlength='36' title="Сумма кредита" class="validate money" placeholder="5000"/>
+                                                <p>ФИО</p>
+                                                <input type="text" name="fkform[1][fio]" value="" maxlength = '100' title="ФИО" class="validate wordf" placeholder="Иванов Иван Иванович"/>
+                                                <div class="fio_err" style="color:red"></div>
+                                                <p>Дата рождения</p>
+                                                <div class="date_check">
+                                                    <select name="fkform[1][birth_day]" class="day validate" rule="selpic" title="День рождения">
+                                                        <option value="0" disabled selected>День</option>
+                                                        <option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option>        </select>
+                                                    <select name="fkform[1][birth_month]" class="month validate" rule="selpic" title="Месяц рождения">
+                                                        <option value="0" disabled selected>Месяц</option>
+                                                        <option value="01">Январь</option><option value="02">Февраль</option><option value="03">Март</option><option value="04">Апрель</option><option value="05">Май</option><option value="06">Июнь</option><option value="07">Июль</option><option value="08">Август</option><option value="09">Сентябрь</option><option value="10">Октябрь</option><option value="11">Ноябрь</option><option value="12">Декабрь</option>        </select>
+                                                    <select name="fkform[1][birth_year]" class="year validate" rule="selpic" title="Год рождения">
+                                                        <option value="0" disabled selected>Год</option>
+                                                        <option value="2000">2000</option><option value="1999">1999</option><option value="1998">1998</option><option value="1997">1997</option><option value="1996">1996</option><option value="1995">1995</option><option value="1994">1994</option><option value="1993">1993</option><option value="1992">1992</option><option value="1991">1991</option><option value="1990">1990</option><option value="1989">1989</option><option value="1988">1988</option><option value="1987">1987</option><option value="1986">1986</option><option value="1985">1985</option><option value="1984">1984</option><option value="1983">1983</option><option value="1982">1982</option><option value="1981">1981</option><option value="1980">1980</option><option value="1979">1979</option><option value="1978">1978</option><option value="1977">1977</option><option value="1976">1976</option><option value="1975">1975</option><option value="1974">1974</option><option value="1973">1973</option><option value="1972">1972</option><option value="1971">1971</option><option value="1970">1970</option><option value="1969">1969</option><option value="1968">1968</option><option value="1967">1967</option><option value="1966">1966</option><option value="1965">1965</option><option value="1964">1964</option><option value="1963">1963</option><option value="1962">1962</option><option value="1961">1961</option><option value="1960">1960</option><option value="1959">1959</option><option value="1958">1958</option><option value="1957">1957</option><option value="1956">1956</option><option value="1955">1955</option><option value="1954">1954</option><option value="1953">1953</option><option value="1952">1952</option><option value="1951">1951</option><option value="1950">1950</option><option value="1949">1949</option><option value="1948">1948</option><option value="1947">1947</option><option value="1946">1946</option><option value="1945">1945</option><option value="1944">1944</option><option value="1943">1943</option><option value="1942">1942</option><option value="1941">1941</option><option value="1940">1940</option><option value="1939">1939</option><option value="1938">1938</option><option value="1937">1937</option>        </select>
+                                                </div>
+                                                <p>Телефон</p>
+                                                <input type="text" name="fkform[1][tel]" id="tel" value="" title="Телефон"
+                                                       class="tel validate" placeholder="+7(999) 999-9999"/>
+                                                <p>Email</p>
+                                                <input type="email" name="email" id="email1" value="" rule="mail" maxlength='90'
+                                                       title="Email" class="email_field" placeholder="ivan.ivanov@mail.ru"/>
+                                                <input type="hidden" name="fkform[type][]" value="1"/>
+                                                <input type="hidden" name="fkform[step][]" value="1"/>
+                                            </div>				</div>
+                                        <div id="ipoteca" style="display:none;">
+                                            <div class="field_tab ipoteca-fields">
+                                                <p>Сумма кредита</p>
+                                                <input type="text" name="fkform[2][summa]" id="summ2" value="" rule="minsum" maxlength = '36' title="Сумма кредита" class="validate money" disabled="disabled"/>
+                                                <p>Ф.И.О. (Полностью)</p>
+                                                <input type="text" name="fkform[2][fio]" value="" maxlength = '100' title="Ф.И.О. (Полностью)" class="validate wordf" disabled="disabled"/>
+                                                <div class="fio_err" style="color:red"></div>
+                                                <p>Дата рождения</p>
+                                                <div class="date_check">
+                                                    <select name="fkform[2][birth_day]" class="day validate" rule="selpic" title="День рождения" disabled="disabled">
+                                                        <option value="0" disabled selected>День</option>
+                                                        <option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option>			</select>
+                                                    <select name="fkform[2][birth_month]" class="month validate" rule="selpic" title="Месяц рождения" disabled="disabled">
+                                                        <option value="0" disabled selected>Месяц</option>
+                                                        <option value="01">Январь</option><option value="02">Февраль</option><option value="03">Март</option><option value="04">Апрель</option><option value="05">Май</option><option value="06">Июнь</option><option value="07">Июль</option><option value="08">Август</option><option value="09">Сентябрь</option><option value="10">Октябрь</option><option value="11">Ноябрь</option><option value="12">Декабрь</option>			</select>
+                                                    <select name="fkform[2][birth_year]" class="year validate" rule="selpic" title="Год рождения" disabled="disabled">
+                                                        <option value="0" disabled selected>Год</option>
+                                                        <option value="2000">2000</option><option value="1999">1999</option><option value="1998">1998</option><option value="1997">1997</option><option value="1996">1996</option><option value="1995">1995</option><option value="1994">1994</option><option value="1993">1993</option><option value="1992">1992</option><option value="1991">1991</option><option value="1990">1990</option><option value="1989">1989</option><option value="1988">1988</option><option value="1987">1987</option><option value="1986">1986</option><option value="1985">1985</option><option value="1984">1984</option><option value="1983">1983</option><option value="1982">1982</option><option value="1981">1981</option><option value="1980">1980</option><option value="1979">1979</option><option value="1978">1978</option><option value="1977">1977</option><option value="1976">1976</option><option value="1975">1975</option><option value="1974">1974</option><option value="1973">1973</option><option value="1972">1972</option><option value="1971">1971</option><option value="1970">1970</option><option value="1969">1969</option><option value="1968">1968</option><option value="1967">1967</option><option value="1966">1966</option><option value="1965">1965</option><option value="1964">1964</option><option value="1963">1963</option><option value="1962">1962</option><option value="1961">1961</option><option value="1960">1960</option><option value="1959">1959</option><option value="1958">1958</option><option value="1957">1957</option><option value="1956">1956</option><option value="1955">1955</option><option value="1954">1954</option><option value="1953">1953</option><option value="1952">1952</option><option value="1951">1951</option><option value="1950">1950</option><option value="1949">1949</option><option value="1948">1948</option><option value="1947">1947</option><option value="1946">1946</option><option value="1945">1945</option><option value="1944">1944</option><option value="1943">1943</option><option value="1942">1942</option><option value="1941">1941</option><option value="1940">1940</option><option value="1939">1939</option><option value="1938">1938</option><option value="1937">1937</option>			</select>
+                                                </div>
+                                                <p>Телефон</p>
+                                                <input type="text" name="fkform[2][tel]" id="tel2" value="" title="Телефон" class="tel validate" disabled="disabled"/>
+                                                <p>Тип недвижимости</p>
+                                                <select name="fkform[2][property_type]" id="property_type" rule="sel" class="validate" title="Тип недвижимости" disabled="disabled">
+                                                    <option value="0"></option><option value="1">Квартира на вторичном рынке</option><option value="2">Квартира на первичном рынке</option><option value="3">Часть квартиры или комната</option><option value="4">Земельный участок</option><option value="5">Земельный участок с жилым домом</option><option value="6">Земельный участок с жилым домом на стадии строительства</option><option value="7">Нежилая коммерческая недвижимость</option><option value="8">Нежилая коммерческая недвижимость на стадии строительства</option>		</select>
+                                                <input type="hidden" name="fkform[type][]" value="2" disabled="disabled"/>
+                                                <input type="hidden" name="fkform[step][]" value="1" disabled="disabled"/>
+                                            </div>
+                                        </div>
+                                        <div id="business" style="display:none;">
+                                            <div class="field_tab">
+                                                <p>Сумма кредита</p>
+                                                <input type="text" name="fkform[3][summa]" id="summ3" value="" rule="minsum" maxlength = '36' alt="Сумма кредита" title="Сумма кредита" class="validate money" disabled="disabled"/>
+                                                <p>Название организации</p>
+                                                <input type="text" name="fkform[3][orgname]" id="orgname" value="" maxlength = '36' alt="Название организации" title="Название организации" class="validate text" disabled="disabled"/>
+                                                <p>ИНН организации</p>
+                                                <input type="text" name="fkform[3][inn]" id="orginn" value="" maxlength = '36' alt="ИНН организации" title="ИНН организации" class="validate digits" disabled="disabled"/>
+                                                <p>Сфера деятельности</p>
+                                                <select name="fkform[3][activity]" id="activity" rule="sel" class="validate" title="Сфера деятельности" disabled="disabled">
+                                                    <option value="0"></option><option value="1">Производство</option><option value="2">Сельское хозяйство</option><option value="3">Строительство</option><option value="4">Оптовая торговля</option><option value="5">Розничная торговля</option><option value="6">Услуги</option>        </select>
+                                                <p>Срок регистрации</p>
+                                                <select name="fkform[3][firm_srok]" id="firm_srok" rule="sel" class="validate" title="Срок регистрации" disabled="disabled">
+                                                    <option value="0"></option><option value="1">до 1 года</option><option value="2">от 1 года</option><option value="3">от 2 лет</option><option value="4">от 3 лет</option><option value="5">от 4 лет</option><option value="6">от 5 лет и более</option>        </select>
+                                                <p>Годовая выручка</p>
+                                                <input type="text" name="fkform[3][year_profit]" id="year_profit" value="" maxlength = '36' alt="Объем годовой выручки организации" title="Объем годовой выручки организации" class="validate money" disabled="disabled"/>
+                                                <p>Залог</p>
+                                                <select name="fkform[3][org_zalog]" id="org_zalog" rule="sel" class="validate" title="Залог" disabled="disabled">
+                                                    <option value="0"></option><option value="1">Без залога</option><option value="2">Недвижимость</option><option value="3">Земельный участок</option><option value="4">Оборудование</option><option value="5">Транспортное средство</option><option value="6">Товар в обороте</option><option value="7">Ценные бумаги</option><option value="8">Другое имущество</option>        </select>
+
+
+
+                                                <p>Кредитная история</p>
+                                                <select name="fkform[3][credit_history]" id="credit_history" rule="sel" class="validate"
+                                                        title="Кредитная история">
+                                                    <option value="0"></option><option value="1">Никогда не брал кредитов</option><option value="2">Кредиты есть просрочек нет</option><option value="3">Просрочки были, сейчас нет</option><option value="4">Просрочки сейчас есть</option><option value="5">Кредиты закрыты, просрочек не было</option><option value="6">Кредиты закрыты просрочки были</option>        </select>
+
+
+
+                                                <p>Email организации</p>
+                                                <input type="text" name="fkform[3][email]" id="email3" value="" rule="mail" maxlength = '90' alt="email" title="email" class="validate email_field" disabled="disabled"/>
+                                                <h4>Контактное лицо:</h4>
+                                                <p>Ф.И.О. (Полностью)</p>
+                                                <input type="text" name="fkform[3][fio]" value="" maxlength = '100' title="Ф.И.О. (Полностью)" class="validate wordf" disabled="disabled"/>
+                                                <div class="fio_err" style="color:red"></div>
+                                                <p>Телефон</p>
+                                                <input type="text" name="fkform[3][tel]" id="tel3" value="" alt="Телефон" title="Телефон" class="tel validate" disabled="disabled"/>
+                                                <input type="hidden" name="fkform[type][]" value="3" disabled="disabled"/>
+                                                <input type="hidden" name="fkform[step][]" value="1" disabled="disabled"/>
+                                            </div>				</div>
+                                        <div id="zalog" style="display:none;">
+                                            <div class="field_tab zalog-fields">
+                                                <p>Сумма кредита</p>
+                                                <input type="text" name="fkform[4][summa]" id="summ4" value="" rule="minsum" maxlength = '36' title="Сумма кредита" class="validate money" disabled="disabled"/>
+
+                                                <p>Ф.И.О. (Полностью)</p>
+                                                <input type="text" name="fkform[4][fio]" value="" maxlength = '100' title="Ф.И.О. (Полностью)" class="validate wordf" disabled="disabled"/>
+                                                <div class="fio_err" style="color:red"></div>
+                                                <p>Дата рождения</p>
+                                                <div class="date_check">
+                                                    <select name="fkform[4][birth_day]" class="day day_picker validate" rule="selpic" title="День рождения">
+                                                        <option value="0" disabled selected>День</option>
+                                                        <option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option>	        </select>
+                                                    <select name="fkform[4][birth_month]" class="month month_picker validate" rule="selpic" title="Месяц рождения">
+                                                        <option value="0" disabled selected>Месяц</option>
+                                                        <option value="01">Январь</option><option value="02">Февраль</option><option value="03">Март</option><option value="04">Апрель</option><option value="05">Май</option><option value="06">Июнь</option><option value="07">Июль</option><option value="08">Август</option><option value="09">Сентябрь</option><option value="10">Октябрь</option><option value="11">Ноябрь</option><option value="12">Декабрь</option>	        </select>
+                                                    <select name="fkform[4][birth_year]" class="year year_picker validate" rule="selpic" title="Год рождения">
+                                                        <option value="0" disabled selected>Год</option>
+                                                        <option value="2000">2000</option><option value="1999">1999</option><option value="1998">1998</option><option value="1997">1997</option><option value="1996">1996</option><option value="1995">1995</option><option value="1994">1994</option><option value="1993">1993</option><option value="1992">1992</option><option value="1991">1991</option><option value="1990">1990</option><option value="1989">1989</option><option value="1988">1988</option><option value="1987">1987</option><option value="1986">1986</option><option value="1985">1985</option><option value="1984">1984</option><option value="1983">1983</option><option value="1982">1982</option><option value="1981">1981</option><option value="1980">1980</option><option value="1979">1979</option><option value="1978">1978</option><option value="1977">1977</option><option value="1976">1976</option><option value="1975">1975</option><option value="1974">1974</option><option value="1973">1973</option><option value="1972">1972</option><option value="1971">1971</option><option value="1970">1970</option><option value="1969">1969</option><option value="1968">1968</option><option value="1967">1967</option><option value="1966">1966</option><option value="1965">1965</option><option value="1964">1964</option><option value="1963">1963</option><option value="1962">1962</option><option value="1961">1961</option><option value="1960">1960</option><option value="1959">1959</option><option value="1958">1958</option><option value="1957">1957</option><option value="1956">1956</option><option value="1955">1955</option><option value="1954">1954</option><option value="1953">1953</option><option value="1952">1952</option><option value="1951">1951</option><option value="1950">1950</option><option value="1949">1949</option><option value="1948">1948</option><option value="1947">1947</option><option value="1946">1946</option><option value="1945">1945</option><option value="1944">1944</option><option value="1943">1943</option><option value="1942">1942</option><option value="1941">1941</option><option value="1940">1940</option><option value="1939">1939</option><option value="1938">1938</option><option value="1937">1937</option>	        </select>
+                                                </div>
+
+                                                <p>Телефон</p>
+                                                <input type="text" name="fkform[4][tel]" id="tel4" value="" title="Телефон" class="tel validate" disabled="disabled"/>
+
+                                                <p>Вид залога</p>
+                                                <select name="fkform[4][zalog_type]" id="zalog_type4" rule="sel" class="validate" title="вид залога" disabled="disabled">
+                                                    <option value="0"></option><option value="1">Квартира</option><option value="2">Комната</option><option value="3">Земельный участок</option><option value="4">Земельный участок с жилым домом</option><option value="5">Земельный участок с жилым домом на стадии строительства</option><option value="6">Нежилая коммерческая недвижимость</option><option value="7">Авто</option><option value="8">Электронная техника</option>		</select>
+                                                <input type="hidden" name="fkform[type][]" value="4" disabled="disabled"/>
+                                                <input type="hidden" name="fkform[step][]" value="1" disabled="disabled"/>
+                                            </div>				</div>
+                                        <div id="autocredit" style="display:none;">
+                                            <div class="field_tab auto-fields">
+                                                <p>Сумма кредита</p>
+                                                <input type="text" name="fkform[5][summa]" id="summ5" value="" rule="minsum" maxlength = '36' title="Сумма кредита" class="validate money" disabled="disabled"/>
+                                                <p>Ф.И.О. (Полностью)</p>
+                                                <input type="text" name="fkform[5][fio]" value="" maxlength = '100' title="Ф.И.О. (Полностью)" class="validate wordf" disabled="disabled"/>
+                                                <div class="fio_err" style="color:red"></div>
+                                                <p>Дата рождения</p>
+                                                <div class="date_check">
+                                                    <select name="fkform[5][birth_day]" class="day validate" rule="selpic" disabled="disabled" title="День рождения">
+                                                        <option value="0" disabled selected>День</option>
+                                                        <option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option>			</select>
+                                                    <select name="fkform[5][birth_month]" class="month validate" rule="selpic" disabled="disabled" title="Месяц рождения">
+                                                        <option value="0" disabled selected>Месяц</option>
+                                                        <option value="01">Январь</option><option value="02">Февраль</option><option value="03">Март</option><option value="04">Апрель</option><option value="05">Май</option><option value="06">Июнь</option><option value="07">Июль</option><option value="08">Август</option><option value="09">Сентябрь</option><option value="10">Октябрь</option><option value="11">Ноябрь</option><option value="12">Декабрь</option>			</select>
+                                                    <select name="fkform[5][birth_year]" class="year validate" rule="selpic" disabled="disabled" title="Год рождения">
+                                                        <option value="0" disabled selected>Год</option>
+                                                        <option value="2000">2000</option><option value="1999">1999</option><option value="1998">1998</option><option value="1997">1997</option><option value="1996">1996</option><option value="1995">1995</option><option value="1994">1994</option><option value="1993">1993</option><option value="1992">1992</option><option value="1991">1991</option><option value="1990">1990</option><option value="1989">1989</option><option value="1988">1988</option><option value="1987">1987</option><option value="1986">1986</option><option value="1985">1985</option><option value="1984">1984</option><option value="1983">1983</option><option value="1982">1982</option><option value="1981">1981</option><option value="1980">1980</option><option value="1979">1979</option><option value="1978">1978</option><option value="1977">1977</option><option value="1976">1976</option><option value="1975">1975</option><option value="1974">1974</option><option value="1973">1973</option><option value="1972">1972</option><option value="1971">1971</option><option value="1970">1970</option><option value="1969">1969</option><option value="1968">1968</option><option value="1967">1967</option><option value="1966">1966</option><option value="1965">1965</option><option value="1964">1964</option><option value="1963">1963</option><option value="1962">1962</option><option value="1961">1961</option><option value="1960">1960</option><option value="1959">1959</option><option value="1958">1958</option><option value="1957">1957</option><option value="1956">1956</option><option value="1955">1955</option><option value="1954">1954</option><option value="1953">1953</option><option value="1952">1952</option><option value="1951">1951</option><option value="1950">1950</option><option value="1949">1949</option><option value="1948">1948</option><option value="1947">1947</option><option value="1946">1946</option><option value="1945">1945</option><option value="1944">1944</option><option value="1943">1943</option><option value="1942">1942</option><option value="1941">1941</option><option value="1940">1940</option><option value="1939">1939</option><option value="1938">1938</option><option value="1937">1937</option>			</select>
+                                                </div>
+                                                <p>Телефон</p>
+                                                <input type="text" name="fkform[5][tel]" id="tel5" value="" title="Телефон" class="tel validate" disabled="disabled"/>
+
+                                                <p>Email</p>
+                                                <input type="email" name="fkform[5][email]" id="email5" value="" rule="mail" maxlength='90' title="Email" class="validate email_field" disabled="disabled"/>
+
+                                                <div class="field_wrap sel_wrap">
+                                                    <p>Первоначальный взнос</p>
+                                                    <select name="fkform[5][auto_vznos]" id="auto_vznos5" rule="sel" class="validate" title="Первоначальный взнос">
+                                                        <option value="0"></option><option value="1">10-20%</option><option value="2">20-30%</option><option value="3">30% и более</option>			</select>
+                                                </div>
+
+                                                <div class="field_wrap sel_wrap">
+                                                    <p>Тип автомобиля</p>
+                                                    <select name="fkform[5][auto_type]" id="auto_type5" rule="sel" class="validate" title="Тип автомобиля">
+                                                        <option value="0"></option><option value="1">Новый</option><option value="2">Подержанный до 3 лет</option><option value="3">Подержанный до 5 лет</option><option value="4">Подержанный до 7 лет</option>			</select>
+                                                </div>
+
+
+                                                <input type="hidden" name="fkform[type][]" value="5" disabled="disabled"/>
+                                                <input type="hidden" name="fkform[step][]" value="1" disabled="disabled"/>
+                                            </div>				</div>
+                                    </div>
+                                    <div id="addr_area">
+                                        <h4>Выберите регион и город нахождения:</h4>
+                                        <div class="field_wrap sel_wrap addr_field">
+                                            <p>Регион</p>
+                                            <select name="fkform[1][region_id]" id="code_region" class="validate" rule="sel"
+                                                    title="Регион проживания">
+                                                <option value="0"></option>
+                                                <option value="77">Москва г.</option>
+                                                <option value="50">Московская обл.</option>
+                                                <option value="78">Санкт-Петербург г.</option>
+                                                <option value="47">Ленинградская обл.</option>
+                                                <option value="01">Адыгея Респ.</option><option value="04">Алтай Респ.</option><option value="22">Алтайский край.</option><option value="28">Амурская обл.</option><option value="29">Архангельская обл.</option><option value="30">Астраханская обл.</option><option value="99">Байконур г.</option><option value="02">Башкортостан Респ.</option><option value="31">Белгородская обл.</option><option value="32">Брянская обл.</option><option value="03">Бурятия Респ.</option><option value="33">Владимирская обл.</option><option value="34">Волгоградская обл.</option><option value="35">Вологодская обл.</option><option value="36">Воронежская обл.</option><option value="05">Дагестан Респ.</option><option value="79">Еврейская Аобл.</option><option value="75">Забайкальский край.</option><option value="80">Забайкальский край Агинский Бурятский округ.</option><option value="37">Ивановская обл.</option><option value="06">Ингушетия Респ.</option><option value="38">Иркутская обл.</option><option value="85">Иркутская обл Усть-Ордынский Бурятский округ.</option><option value="07">Кабардино-Балкарская Респ.</option><option value="39">Калининградская обл.</option><option value="08">Калмыкия Респ.</option><option value="40">Калужская обл.</option><option value="41">Камчатский край.</option><option value="09">Карачаево-Черкесская Респ.</option><option value="10">Карелия Респ.</option><option value="42">Кемеровская обл.</option><option value="43">Кировская обл.</option><option value="11">Коми Респ.</option><option value="81">Коми-Пермяцкий АО.</option><option value="82">Корякский АО.</option><option value="44">Костромская обл.</option><option value="23">Краснодарский край.</option><option value="24">Красноярский край.</option><option value="91">Крым Респ.</option><option value="45">Курганская обл.</option><option value="46">Курская обл.</option><option value="48">Липецкая обл.</option><option value="49">Магаданская обл.</option><option value="12">Марий Эл Респ.</option><option value="13">Мордовия Респ.</option><option value="51">Мурманская обл.</option><option value="83">Ненецкий АО.</option><option value="52">Нижегородская обл.</option><option value="53">Новгородская обл.</option><option value="54">Новосибирская обл.</option><option value="55">Омская обл.</option><option value="56">Оренбургская обл.</option><option value="57">Орловская обл.</option><option value="58">Пензенская обл.</option><option value="59">Пермский край.</option><option value="25">Приморский край.</option><option value="60">Псковская обл.</option><option value="61">Ростовская обл.</option><option value="62">Рязанская обл.</option><option value="63">Самарская обл.</option><option value="64">Саратовская обл.</option><option value="14">Саха /Якутия/ Респ.</option><option value="65">Сахалинская обл.</option><option value="66">Свердловская обл.</option><option value="92">Севастополь г.</option><option value="15">Северная Осетия - Алания Респ.</option><option value="67">Смоленская обл.</option><option value="26">Ставропольский край.</option><option value="84">Таймырский (Долгано-Ненецкий) АО.</option><option value="68">Тамбовская обл.</option><option value="16">Татарстан Респ.</option><option value="69">Тверская обл.</option><option value="70">Томская обл.</option><option value="71">Тульская обл.</option><option value="17">Тыва Респ.</option><option value="72">Тюменская обл.</option><option value="18">Удмуртская Респ.</option><option value="73">Ульяновская обл.</option><option value="27">Хабаровский край.</option><option value="19">Хакасия Респ.</option><option value="86">Ханты-Мансийский Автономный округ - Югра АО.</option><option value="74">Челябинская обл.</option><option value="20">Чеченская Респ.</option><option value="21">Чувашская Республика - Чувашия.</option><option value="87">Чукотский АО.</option><option value="88">Эвенкийский АО.</option><option value="89">Ямало-Ненецкий АО.</option><option value="76">Ярославская обл.</option>					</select>
+                                        </div>
+                                        <div style="display:none;" class="field_wrap sel_wrap addr_field">
+                                            <p>Город (р-н)</p>
+                                            <select name="fkform[1][city_id]" id="id_city" rule="sel" title="Город проживания"></select>
+                                        </div>
+                                        <div style="display:none;" class="field_wrap sel_wrap addr_field">
+                                            <p>Населенный пункт</p>
+                                            <select name="fkform[1][nas_punkt]" id="nas_punkt" rule="sel" title="Населеннный пункт"></select>
+                                        </div>
+                                        <div class="clr"></div>
+                                    </div>
+                                    <input type="hidden" name="fkform[code]" id="area_code" value=""/>
+                                    <input type="hidden" name="fkform[region]" id="area_region" value=""/>
+                                    <input type="hidden" name="fkform[city]" id="area_city" value=""/>
+                                    <input type="hidden" name="fkform[npunkt]" id="area_npunkt" value=""/>
+
+                                    <input type="hidden" name="fkform[roistat]" id="roistat" value=""/>
+
+                                    <input type="hidden" name="fkform[ip]" id="ip" value="31.185.5.45"/>
+                                    <input type='hidden' name='fkform[source]' value='3'/>
+                                    <input type="hidden" name="fkform[patron]" id="anketa_patron" value="" size="12" readonly="readonly"
+                                           maxlength='18'/>
+                                    <div class="yes">
+                                        <input name="fkform[agree]" type="checkbox" checked="checked" rule="chbox" class="agree_check validate"
+                                               title="Согласие на обработку персональных данных"/>
+                                        <p>Я даю свое согласие на обработку моих персональных данных <a href="#popup_agreement" class="fancybox">(подробнее)</a></p>
+                                        <div class="clr"></div>
+                                    </div>
+                                    <div class="button">
+                                        <button type="submit" id="sub_but" class="next sub_but send_button">Отправить анкету</button>
+                                        <button type="button" id="back_but" class="back" style="display:none;">Назад</button>
+                                        <div class="clr"></div>
+                                    </div>
+                                </form>
+
+
+                                <div id="popup_agreement" class="popup_agreement" style="display: none;">
+                                    <p>
+                                        <span>Согласие на обработку и передачу данных</span>
+                                        Для того, чтобы мы могли как можно скорее подобрать для вас выгодное предложение, нам необходимо ваше согласие на обработку персональных данных, указанных вами в заявке. Их увидят сотрудники банков и компаний кредитных брокеров в вашем городе и никто другой. Пожалуйста, внимательно прочитайте все, что написано в этом разделе, прежде чем поставить галочку в поле «Согласен».
+                                    </p>
+                                    <p>
+                                        <span>Что такое персональные данные</span>
+                                        Под персональными данными подразумевается любая информация, относящаяся к вам, как к субъекту персональных данных. В том числе: фамилия, имя и отчество, дата рождения, адрес, контактные данные (телефон, адрес электронной почты) и иные данные, предусмотренные 152-ФЗ «О персональных данных».
+                                    </p>
+                                    <p>
+                                        <span>Цель обработки персональных данных</span>
+                                        Целью обработки персональных данных является оказание порталом https://podbor-kreditov.com/ услуг поиска и подбора для вас кредитного решения.
+                                    </p>
+                                    <p>
+                                        <span>Ваше согласие</span>
+                                        Соглашаясь на передачу ваших персональных и контактных данных, оставленных на https://podbor-kreditov.com/ в
+                                        качестве кредитной заявки, вы подтверждаете:
+                                    </p>
+                                    <ul>
+                                        <li>Что внимательно прочитали условия обработки нашим порталом ваших данных и полностью согласны с ними.</li>
+                                        <li>Что все указанные вами данные принадлежат лично вам.</li>
+                                        <li>Что даете согласие порталу https://podbor-kreditov.com/ на обработку всех персональных данных, содержащихся в заполняемой форме заявки на кредит любым способом.</li>
+                                        <li>Что даете согласие на получение сервисной рассылки и уведомлений доступными методами средствами телефонной связи, смс, сообщений по VIBER, e-mail.</li>
+                                        <li>Что даете согласие на получение предложений от банков в виде уведомлений доступными методами средствами телефонной связи, e-mail.</li>
+                                        <li>Вы можете отписаться от рассылки в любой момент, перейдя по соответствующей ссылке в сообщениях. </li>
+                                        <li>Данное соглашение действует бессрочно и может быть отозвано путем отправки заявления в свободной форме на e-mail - otkaz.rassylki@mail.ru с пометкой в теме "Отказ от сотрудничества".</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="c2">
+        <div class="container">
+            <h2>Условия <span class="blue">кредита</span></h2>
+
+            <div class="table table_l clearfix">
+                <div class="table__title clearfix">
+                    <div>ОСНОВНЫЕ УСЛОВИЯ:</div>
+                </div>
+                <div class="table__body clearfix">
+                    <div class="body__item">Сумма кредита от 1 000 руб. до 3 000 000 руб.</div>
+                    <div class="body__item">Годовая процентная ставка от 16% до 29%</div>
+                    <div class="body__item">Срок кредита - от 3 месяцев до 60 месяцев</div>
+                </div>
+            </div>
+
+            <div class="table table_r clearfix">
+                <div class="table__title clearfix">
+                    <div>ТРЕБОВАНИЯ К ЗАЕМЩИКУ:</div>
+                </div>
+                <div class="table__body clearfix">
+                    <div class="body__item">Гражданство – Российская Федерация</div>
+                    <div class="body__item">Возраст от 18 до 75 лет</div>
+                    <div class="body__item">Стаж работы от 3-х месяцев</div>
+                </div>
+            </div>
+
+            <h3 class="mobile-dropdown" data-toggle="1">ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ</h3>
+            <div class="mobile-text" id="toggle-1">
+                <button class="btn-dropdown" data-toggle="1"><span></span><span></span></button>
+                <p class="text-center">В случае нарушения сроков, размеры неустойки составляют 0,10% от суммы просрочки в день, но не более 10% от суммы кредита.</p>
+                <p class="text-center">В случае длительной задержки выплаты, информация будет передана в БКИ.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="c3" class="bg-gray">
+        <div class="container">
+            <img id="girl" src="/templates/landing/img/c3-img.png" alt="">
+            <h2>РЕШЕНИЕ ПО ВАШЕМУ <br>КРЕДИТУ <span class="blue">ЗА 1 ЧАС</span></h2>
+            <ul class="list list__advantages">
+                <li>Подберем для Вас банки с минимальными ставками</li>
+                <li>Заявка отправится в 5 банков или кредитному брокеру</li>
+                <li>Наши услуги бесплатные, за выданный кредит нам платят банки</li>
+            </ul>
+            <a href="#form" class="btn btn-blue anketa-btn anch nfm">Отправить заявку</a>
+        </div>
+    </section>
+
+    <section id="c4">
+        <div class="container">
+            <h2>Информация о <span class="blue">компании</span> и <span class="blue">тарифах</span></h2>
+            <div class="tabs">
+                <div class="tabs__links clearfix">
+                    <button class="mobile-dropdown tabs__link" data-tab="1" data-toggle="2">Что мы за компания <br>и чем занимаемся</button>
+                    <div class="mobile-text" id="toggle-2">
+                        <button class="btn-dropdown" data-toggle="2"><span></span><span></span></button>
+                        <p>Наш сервис является бесплатным инструментом для подбора выгодного варианта кредита. Пользуясь нашими услугами, Вы сможете быстро решить свои финансовые трудности,  с наименьшими затратами и на выгодных условиях!</p>
+                        <p>На данный момент мы сотрудничаем с более чем 50 организациями по всей России, предоставляющими различные кредитные программы. Количество наших партнеров постоянно растёт, и поэтому мы рекомендуем периодически заполнять заявку на нашем сайте. Конечные условия получения кредита согласовываются с компаниями-партнерами, работающие в строгом соответствии с законодательством РФ.</p>
+                        <p>Заполняя анкету на кредит, Вы можете быть уверены, что в течение короткого времени получите одобренные решения и сможете самостоятельно выбрать наиболее выгодный вариант.</p>
+                    </div>
+
+                    <button class="mobile-dropdown tabs__link" data-tab="2" data-toggle="3">Тарифы по <br>кредитам</button>
+                    <div class="mobile-text" id="toggle-3">
+                        <button class="btn-dropdown" data-toggle="3"><span></span><span></span></button>
+                        <p>Кредиты предоставляются в размере от 1 000 рублей до 3 000 000 рублей, и зависит  от Ваших потребностей и возможностей. Годовой процент за пользование кредитом (с учетом требований ФЗ №353-ФЗ) - 16%-29%. Окончательные условия получения кредита будут предложены в индивидуальном порядке</p>
+                        <p>Размер неустойки составляет 0,10% от суммы просроченной задолженности за каждый день нарушения обязательств, но не более 10% от суммы.</p>
+                    </div>
+
+                    <button class="mobile-dropdown tabs__link" data-tab="3" data-toggle="4">Последствия <br>невыплаты кредита</button>
+                    <div class="mobile-text" id="toggle-4">
+                        <button class="btn-dropdown" data-toggle="4"><span></span><span></span></button>
+                        <p>Обратите внимание, что в случае невозвращения общей суммы полученного кредита, кредитор вынуждено начислит штраф за просрочку платежей. В большинстве случаев кредиторы предоставляют для оплаты дополнительные 3  рабочих дня, чтобы учесть время банковского перевода.</p>
+                        <p>В случае неполучения от Вас какой-либо реакции в течение продолжительного времени, будет начислен штраф за просрочку срока погашения кредита размером в среднем 0,10% от первоначальной суммы кредита, данные о Вас, могут быть переданы в реестр должников, а задолженность коллекторскому агентству для взыскания долга.</p>
+                        <p>О всех приближающихся сроках платежа, кредитор своевременно информируем Вас по СМС и электронной рассылкой писем. Рекомендуем Вам вносить платеж в день получения данных напоминаний. Так, Вы сохраните репутацию добросовестного заемщика и сможете получить скидки при последующем обращении в организацию.</p>
+                        <p>Предложение не является оффертой. Конечные условия уточняйте при прямом общении с кредиторами.</p>
+                    </div>
+                </div>
+
+                <div class="tabs-text nfm" id="tab-1">
+                    <p>Наш сервис является бесплатным инструментом для подбора выгодного варианта кредита. Пользуясь нашими услугами, Вы сможете быстро решить свои финансовые трудности,  с наименьшими затратами и на выгодных условиях!</p>
+                    <p>На данный момент мы сотрудничаем с более чем 50 организациями по всей России, предоставляющими различные кредитные программы. Количество наших партнеров постоянно растёт, и поэтому мы рекомендуем периодически заполнять заявку на нашем сайте. Конечные условия получения кредита согласовываются с компаниями-партнерами, работающие в строгом соответствии с законодательством РФ.</p>
+                    <p>Заполняя анкету на кредит, Вы можете быть уверены, что в течение короткого времени получите одобренные решения и сможете самостоятельно выбрать наиболее выгодный вариант.</p>
+                </div>
+                <div class="tabs-text nfm" id="tab-2">
+                    <p>Кредиты предоставляются в размере от 1 000 рублей до 3 000 000 рублей, и зависит  от Ваших потребностей и возможностей. Годовой процент за пользование кредитом (с учетом требований ФЗ №353-ФЗ) - 16%-29%. Окончательные условия получения кредита будут предложены в индивидуальном порядке</p>
+                    <p>Размер неустойки составляет 0,10% от суммы просроченной задолженности за каждый день нарушения обязательств, но не более 10% от суммы.</p>
+                </div>
+                <div class="tabs-text nfm" id="tab-3">
+                    <p>Обратите внимание, что в случае невозвращения общей суммы полученного кредита, кредитор вынуждено начислит штраф за просрочку платежей. В большинстве случаев кредиторы предоставляют для оплаты дополнительные 3  рабочих дня, чтобы учесть время банковского перевода.</p>
+                    <p>В случае неполучения от Вас какой-либо реакции в течение продолжительного времени, будет начислен штраф за просрочку срока погашения кредита размером в среднем 0,10% от первоначальной суммы кредита, данные о Вас, могут быть переданы в реестр должников, а задолженность коллекторскому агентству для взыскания долга.</p>
+                    <p>О всех приближающихся сроках платежа, кредитор своевременно информируем Вас по СМС и электронной рассылкой писем. Рекомендуем Вам вносить платеж в день получения данных напоминаний. Так, Вы сохраните репутацию добросовестного заемщика и сможете получить скидки при последующем обращении в организацию.</p>
+                    <p>Предложение не является оффертой. Конечные условия уточняйте при прямом общении с кредиторами.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="c5" class="bg-gray">
+        <div class="container">
+            <h2 class="mobile-dropdown" data-toggle="5">Условия <span class="blue">получения</span></h2>
+            <div class="mobile-text" id="toggle-5">
+                <button class="btn-dropdown" data-toggle="5"><span></span><span></span></button>
+                <p>Кредит предоставляется в размере 1 000 руб. – 3 000 000 руб. годовой процент за пользование кредитом (с учетом требований ФЗ №353-ФЗ) – 16%-29%. Окончательные условия получения будут предложены в индивидуальном порядке.</p>
+
+                <p>Размер неустойки составляет 0,10% от суммы просроченной задолженности за каждый день нарушения обязательств, но не более 10% от суммы. Пример расчета кредита: Вы берете 50 000 рублей на 4 месяца с процентной ставкой 20% годовых. Переплата за весь срок составит 2 100,55 руб. Итого Вы возвращаете 52 100,55 руб.</p>
+
+                <p>Срок кредита от 65 дней до 5 лет. Возможно как продление кредита, так и его досрочного погашение. При досрочном погашении комиссия за использование займа будет пересчитана пропорционально сроку пользования деньгами.</p>
+
+                <p>Последствия невыплаты заёмных средств: <br>В случае невозвращения общей суммы займа, кредитор вынуждено начислит штраф за просрочку займа. Большинство кредиторов идут на уступки и дают дополнительные 3 рабочих дня для оплаты. Они предусмотрены специально для Вас на случай, к примеру, если банковский перевод занял больше времени, чем обычно, или Вы просто поздно отправили сумму. <br>Однако, в случае неполучения от Вас какой-либо реакции в течение продолжительного времени, будет начислен штраф за просрочку срока погашения займа размером в среднем 0,10% от первоначальной суммы займа, данные о Вас могут быть переданы в реестр должников, а задолженность коллекторскому агентству для взыскания долга.</p>
+
+                <p>О всех приближающихся сроках платежа, кредитор своевременно информируем Вас по СМС и электронной рассылкой писем. Рекомендуем Вам вносить платеж в день получения данных напоминаний. Так, Вы сохраните репутацию добросовестного заемщика и сможете получить скидки при последующем обращении в организацию. Предложение не является оффертой.</p>
+
+                <p>Заявка направляется в банки – партнеры: АО «Тинькофф Банк", ПАО «Совкомбанк», АО «ОТП Банк», АО КБ «Ситибанк», ПАО "СКБ-банк" и другие.</p>
+
+                <p><b>Лицензии организаций-партнеров:</b> <br> №1481, №2673, №1326, №1460, №3251, №3354, №2120177002022, №1127746537764, №2110552000304, №2120742002054, №651303045004102, №2120754001243, №651303552003006, №651303045003951, №1145476064711, №651303042002657, №651303045003161, №651403045004794, №2110177000037, №2110177000006</p>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    <div class="container">
+        <a href="/" class="logo f__logo" title="Подбор кредитов онлайн по РФ">
+            <img src="/templates/landing/img/logo.png" alt="Подбор кредитов онлайн по РФ">
+            <span class="logo__t">podbor-kreditov.com</span>
+            <span class="logo__b">Подбор кредитов онлайн по РФ</span>
+        </a>
+        <nav class="f__navbar clearfix">
+            <a class="navbar__link" href="/usloviya.html">УСЛОВИЯ ВЫДАЧИ</a>
+            <a class="navbar__link" href="/posledstviya.html">ПОСЛЕДСТВИЯ НЕВЫПЛАТЫ</a>
+            <a class="navbar__link" href="/about.html">О НАС</a>
+            <a class="navbar__link" href="/contact.html">наши контакты</a>
+        </nav>
+    </div>
+</footer>
+
+<div class="mobile-bottom">
+    <a href="#form" class="btn btn-blue anch">Отправить заявку</a>
+</div>
+
+
+
+
+
+
+<!--[if lt IE 9]>
+<script>
+    document.createElement('header');
+    document.createElement('nav');
+    document.createElement('main');
+    document.createElement('article');
+    document.createElement('aside');
+    document.createElement('footer');
+</script>
+<![endif]-->
+</body>
+</html>

@@ -1,0 +1,141 @@
+.background_size {
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -ms-background-size: cover;
+}
+[class*='__bipart-button-left'] {
+  width: 200px;
+  height: 59px;
+  line-height: 59px;
+  text-align: center;
+}
+[class*='__bipart-button-right'] {
+  width: 130px;
+  height: 59px;
+  padding-top: 13px;
+  padding-left: 18px;
+  line-height: 16px;
+  text-align: left;
+}
+button[class*='__bipart-button--blue'] {
+  width: 336px;
+  height: 59px;
+  cursor: pointer;
+  background-image: url('../img_new/buttons-main/sprites.png');
+  background-position: 0 0;
+}
+button[class*='__bipart-button--blue'] > div {
+  float: left;
+}
+button[class*='__bipart-button--blue']:hover {
+  background-position: 0 -59px;
+}
+button[class*='__bipart-button--blue']:active {
+  background-position: 0 -118px;
+}
+button[class*='__bipart-button--blue'] [class*='__bipart-button-left'] {
+  font-size: 19px;
+  font-weight: bold;
+  font-family: 'PT Sans';
+  color: #ffffff;
+  text-shadow: 0px 1px 0px #426176;
+}
+button[class*='__bipart-button--blue'] [class*='small-text']{
+  font-size: 17px!important;
+}
+button[class*='__bipart-button--blue'] [class*='__bipart-button-right'] {
+  font-size: 14px;
+  font-weight: normal;
+  font-family: 'PT Sans';
+  color: #bceaff;
+}
+button[class*='__bipart-button--dark-blue'] {
+  width: 336px;
+  height: 59px;
+  cursor: pointer;
+  background-image: url('../img_new/buttons-main/sprites.png');
+  background-position: -364px -188px;
+}
+button[class*='__bipart-button--dark-blue'] > div {
+  float: left;
+}
+button[class*='__bipart-button--dark-blue']:hover {
+  background-position: -364px -247px;
+}
+button[class*='__bipart-button--dark-blue']:active {
+  background-position: -364px -307px;
+}
+button[class*='__bipart-button--dark-blue'] [class*='__bipart-button-left'] {
+  font-size: 19px;
+  font-weight: bold;
+  font-family: 'PT Sans';
+  color: #ffffff;
+  text-shadow: 0px 1px 0px #426176;
+}
+button[class*='__bipart-button--dark-blue'] [class*='__bipart-button-right'] {
+  font-size: 14px;
+  font-weight: normal;
+  font-family: 'PT Sans';
+  color: #bceaff;
+}
+button[class*='__bipart-button--orange'] {
+  width: 336px;
+  height: 59px;
+  cursor: pointer;
+  background-image: url('../img_new/buttons-main/sprites.png');
+  background-position: -364px 0;
+}
+button[class*='__bipart-button--orange'] > div {
+  float: left;
+}
+button[class*='__bipart-button--orange']:hover {
+  background-position: -364px -59px;
+}
+button[class*='__bipart-button--orange']:active {
+  background-position: -364px -118px;
+}
+button[class*='__bipart-button--orange'] [class*='__bipart-button-left'] {
+  font-size: 19px;
+  font-weight: bold;
+  font-family: 'PT Sans';
+  color: #ffffff;
+  text-shadow: 0px 1px 0px #b02000;
+}
+button[class*='__bipart-button--orange'] [class*='__bipart-button-right'] {
+  font-size: 14px;
+  font-weight: normal;
+  font-family: 'PT Sans';
+  color: #fff0bc;
+  padding-left: 30px;
+}
+.button-single-orange {
+  width: 269px;
+  height: 60px;
+  padding-bottom: 2px;
+  background-color: transparent;
+  background-image: url('../img_new/buttons-main/sprites.png');
+  background-position: 0 -187px;
+  background-repeat: no-repeat;
+}
+.button-single-orange:hover {
+  background-position: 0 -247px;
+}
+.button-single-orange:active {
+  background-position: 0 -307px;
+}
+.button-single-orange .button-single-orange__title {
+  font-size: 19px;
+  font-weight: bold;
+  font-family: 'PT Sans';
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0px -1px 0px #e83200;
+}
+.button-single-orange .button-single-orange__subtitle {
+  font-size: 14px;
+  font-weight: normal;
+  font-family: 'PT Sans';
+  color: #ffe7c6;
+  text-align: center;
+}

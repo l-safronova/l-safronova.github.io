@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .menu li {
+            display: inline;
+            text-transform: uppercase;
+            margin-left: 0px;
+            margin-right: 70px;
+            margin-top: 17px;
+        }
+        .menu li a:hover {
+            color:white;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .menu li a{
+            color:white;
+        }
+        .menu {
+            background-color: #246E3D;
+            color: white;
+            text-align: center;
+            padding-top: 14px;
+            padding-bottom: 4px;
+            margin-left: 81px;
+            margin-right: 81px;
+        }
+        .my-container {
+            width: 1430px;
+            padding-left: 90px;
+            padding-right: 90px;
+            text-align: center;
+        }
+        .background-image {
+            background: url("background.png");
+            height: 533px;
+        }
+        .below {
+            width: 1240px;
+            height: 70px;
+            background: #54B3B7;
+            color: white;
+            text-align: center;
+            font-size: 19px;
+            padding-top: 19px;
+            position: relative;
+            bottom: 26px;
+            left: 81px;
+
+        }
+        input.sign-up {
+            background: #246E3D;
+            border: none;
+            padding: 5px 20px;
+
+        }
+        input.email {
+            border: none;
+            margin-right: 20px;
+            margin-left: 20px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+
+
+
+        }
+        .start {
+            width: 700px;
+            height: 200px;
+            text-align: center;
+            color: white;
+            font-size: 15px;
+            padding: 30px 10px 10px;
+            position: relative;
+            top: 110px;
+            left: 320px;
+            background: rgba(44, 135, 94, 0.5);
+        }
+        .content {
+            background: #F4F8F9;
+            padding-top: 75px;
+            position:relative;
+            top: -24px;
+        }
+        .about {
+            padding-top: 30px;
+            padding-bottom: 76px;
+            text-align: left;
+            font-size: 16px;
+
+        }
+        .content {
+            padding-left: 76px;
+            padding-right: 76px;
+        }
+        .part-1, .part-2, .part-3,.part-4 {
+            width: 280px;
+            height: 140px;
+            background: #D3EEF0;
+            margin-bottom: 15px;
+
+
+        }
+        .caption-1, .caption-2, .caption-3, .caption-4 {
+            text-align: left;
+            padding-top: 14px;
+            padding-left: 14px;
+            color: #54B2B6;
+            font-weight: 600; /* Жирное начертание */
+
+        }
+        .text-1, .text-2, .text-3, .text-4 {
+            text-align: left;
+            color: #54B2B6;
+            padding-top: 8px;
+            padding-left: 14px;
+            width: 160px;
+        }
+
+        .pic-1 {
+            position: absolute;
+            top: -1px;
+            right: -32px;
+        }
+        .pic-2 {
+            position: absolute;
+            top: 33px;
+            right: 0;
+        }
+        .pic-3 {
+            position: absolute;
+            top: 20px;
+            right: 0;
+        }
+        .pic-4 {
+            position: absolute;
+            top: 20px;
+            right: 10px;
+        }
+        .row {
+            padding-bottom: 78px;
+        }
+        .loc {
+            text-align: left;
+        }
+        .logo-loc {
+            text-align: right;
+        }
+    </style>
+
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <div class="container-fluid my-container" >
+        <div class="background-image">
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a>
+                            about us
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            categories
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            manufactures
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            parts
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            repairs
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            store
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            contact us
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="start">
+                            Добрый день!
+
+                    Необходимо сверстать макеты сайта из Sketch.
+                    Интересуют десктопная и мобильная версии.
+
+                    Main, About us - слайдер
+                    RepairsSurgical - форма отправки на email - с возможностью загрузки файлов (прогресс бары присутствуют)
+                    Contacts Us - карта Google, переключение между "Quote" и "Send us a Message".
+
+                    Технологии: HTML5, СSS3, JavaScript & libraries, SVG
+
+                    Демо: https://sketch.cloud/s/Qngb
+
+                    Жду от Вас цену и сроки.
+            </div>
+        </div>
+        <div class="below">
+            <form action="https://#" method="post">
+                <label>For subscribe to our news letter to receive updates and discount coupons
+                        <input type="text" name="email" class="email">
+                        <input type="submit" value="Sign Up" class="sign-up">
+                </label>
+            </form>
+        </div>
+        <div class="content">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="img/around.svg" style="width: 45%">
+                </div>
+                <div class="col-md-3">
+                    <img src="img/button.svg" style="width: 45%">
+                </div>
+                <div class="col-md-3">
+                    <img src="img/intel-logo.svg" style="width: 45%">
+                </div>
+                <div class="col-md-3">
+                    <img src="img/fish.svg" style="width: 45%">
+                </div>
+            </div>
+            <br>
+            <h1>About us</h1>
+            <div class="about">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus eu elit eu rutrum. Vivamus accumsan
+                    et leo at blandit. Phasellus eget ornare tellus, ut aliquet tortor. Quisque vitae tristique ex. Curabitur
+                    rutrum commodo facilisis. Vestibulum ut facilisis massa, in gravida nunc. Nullam vel condimentum justo.
+                    Sed non odio sapien. Nullam vel ante efficitur, finibus orci quis, vulputate nisi. Quisque vel sapien
+                    ullamcorper, gravida velit et, aliquam dui. Duis maximus nisi urna, at auctor libero malesuada non.
+                    Nam eleifend, justo quis vehicula elementum, mi orci commodo purus, id vulputate nibh mi ac magna.
+                    Maecenas sit amet enim tincidunt, feugiat elit eu, ornare eros. Donec mollis urna nec lectus rutrum
+                    commodo.
+                </p>
+
+                <p>Aliquam non justo blandit, egestas justo a, congue magna. Nunc eu quam sed sem eleifend sodales.
+                    Suspendisse ac ex nisl. Aenean scelerisque purus arcu, a ultricies sapien consequat scelerisque.
+                    Vestibulum porta varius leo et elementum. Curabitur nisl libero, posuere vitae feugiat vitae,
+                    hendrerit at nunc. Sed interdum magna augue, nec dignissim justo tempor id. Etiam sollicitudin,
+                    orci et tempor maximus, massa est consectetur odio, non blandit orci justo id risus. Suspendisse
+                    laoreet, lectus ac malesuada sollicitudin, sapien arcu mollis elit, et fermentum turpis elit a sapien.
+                    Mauris hendrerit rutrum lorem hendrerit semper. Etiam neque augue, malesuada id purus sit amet, congue
+                    maximus leo.
+                </p>
+
+                <p>In a sem semper, scelerisque lectus quis, volutpat arcu. Pellentesque sed eros nec libero feugiat laoreet
+                    et non sem. Aenean tincidunt feugiat neque. Proin mollis lorem dolor, sed imperdiet elit porttitor a. Suspendisse
+                    consequat pellentesque imperdiet. Nullam feugiat faucibus erat, at volutpat nibh vestibulum convallis. Morbi pharetra,
+                    enim non finibus consequat, elit dolor accumsan purus, et cursus nulla massa sed velit. Maecenas aliquam porttitor
+                    euismod. Ut sodales elit cursus, aliquam massa sed, bibendum enim. Sed tristique lorem tellus, in pretium mi finibus
+                    vel.
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="part-1">
+                        <h3 class="caption-1">Buy</h3>
+                        <p class="text-1">Certified Pre Owned Medical Equipment</p>
+                        <img src="img/buy.svg" class="pic-1" style="width: 50%">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="part-2">
+                        <h3 class="caption-2">Sell</h3>
+                        <p class="text-2">We Buy Used Medical Equipment</p>
+                        <img src="img/sell.svg" class="pic-2" style="width: 45%">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="part-3">
+                        <h3 class="caption-3">Rentals</h3>
+                        <p class="text-3">Medical Equipment for Rent</p>
+                        <img src="img/rentals.svg" class="pic-3" style="width: 45%">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="part-4">
+                        <h3 class="caption-4">Services</h3>
+                        <p class="text-4">Repairs, Certifications, Maintenance, Technicians</p>
+                        <img src="img/service.svg" class="pic-4" style="width: 45%">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-1 logo-loc">
+                    <img src="img/address.svg" style="width: 30%">
+                </div>
+                <div class="col-md-2">
+                    <h4 class="loc">Address</h4>
+                    <p class="loc">3161 Street Road,STED Bensalem, PA 19020</p>
+                </div>
+                <div class="col-md-1 logo-loc" >
+                    <img src="img/phone.svg" style="width: 30%">
+                </div>
+                <div class="col-md-2">
+                    <h4 class="loc">Phone</h4>
+                    <p class="loc">3161 Street Road,STED Bensalem, PA 19020</p>
+                </div>
+                <div class="col-md-1 logo-loc">
+                    <img src="img/email.svg" style="width: 30%">
+                </div>
+                <div class="col-md-2">
+                    <h4 class="loc">Email</h4>
+                    <p class="loc">3161 Street Road,STED Bensalem, PA 19020</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

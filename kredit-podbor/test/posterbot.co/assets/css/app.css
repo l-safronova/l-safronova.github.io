@@ -1,0 +1,256 @@
+h1.home {
+    line-height: 1.4;
+}
+
+.logo-home {
+    margin-bottom: 25px;
+    max-width: 222px;
+}
+.logo-big {
+    margin-bottom: 25px;
+    max-width: 100px;
+}
+
+.dark-home {
+    background-color: #101010;
+}
+
+h2.open-in-app {
+    margin-top: 40px;
+}
+
+.hero.is-dark {
+    background-color: #101010;
+    color: whitesmoke;
+}
+
+.hero.is-dark .nav {
+    box-shadow: 0 1px 0 rgba(245, 245, 245, 0.07);
+}
+
+a.telegram-big {
+    border-radius: 999px;
+    font-size: 1.2rem;  
+    background-color: #0088cc;
+    color: white;
+    padding: .6em 1.3em;
+    letter-spacing: -.02em;
+     -webkit-transition: opacity .2s;
+     -moz-transition: opacity .2s;
+     -o-transition: opacity .2s;
+     transition: opacity .2s;
+}
+
+a.telegram-big:hover {
+    opacity: 0.5;
+}
+
+a.telegram-big strong {
+    color: white;
+}
+
+.telegram-big .fa {
+    margin-top: 0px;
+    margin-right: 3px;
+    text-align: center;
+    vertical-align: top;
+}
+
+a.telegram {
+    border-radius: 999px;
+    font-size: 1.2rem;  
+    background-color: white;
+    color: #0088cc;
+    padding: .6em 1.1em;
+    letter-spacing: -.02em;
+     -webkit-transition: color .2s, background .2s;
+     -moz-transition: color .2s, background .2s;
+     -o-transition: color .2s, background .2s;
+     transition: color .2s, background .2s;
+}
+
+a.telegram:hover {
+    background-color: #0088cc;
+    color: #fff;
+}
+
+a.telegram-small {
+    border-radius: 999px;
+    background-color: #0088cc;
+    color: #fff;
+    padding: .3em .9em;
+    letter-spacing: -.02em;
+     -webkit-transition: color .2s, background .2s;
+     -moz-transition: color .2s, background .2s;
+     -o-transition: color .2s, background .2s;
+     transition: color .2s, background .2s;
+}
+
+.telegram-small .fa {
+    margin-top: 3px;
+    margin-right: 3px;
+    font-size: inherit;
+    text-align: center;
+    vertical-align: top;
+}
+
+a.telegram-small:hover {
+    background-color: #0088cc;
+    color: #fff;
+}
+
+.fa {
+    margin-top: -3px;
+}
+
+.telegram .fa {
+    margin-top: 2px;
+    margin-right: 3px;
+    font-size: 19px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.subtitle.is-4 {
+    font-size: 22px;
+    line-height: 1.25;
+}
+
+.nav-item a.is-tab:hover, a.nav-item.is-tab:hover {
+    border-bottom: 1px solid #0088cc;
+    border-top: 1px solid transparent;
+}
+
+.premium-btn {
+    margin-top: 40px;
+}
+
+.nav-item a.is-tab.is-active, a.nav-item.is-tab.is-active {
+    border-bottom: 3px solid #0088cc;
+    border-top: 3px solid transparent;
+    color: #0088cc;
+}
+
+.is-marginless {
+    margin: 0 !important;
+}
+hr {
+    background-color: #dbdbdb;
+    border: none;
+    display: block;
+    height: 1px;
+    margin: 20px 0;
+}
+
+@media screen and (min-width: 769px) {
+.hero.is-medium .hero-body {
+    padding-bottom: 20px;
+    padding-top: 70px;
+}}
+
+@media screen and (max-width: 769px) {
+.hero-buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+} 
+.hero.is-medium .hero-body {
+    padding-bottom: 20px;
+}
+.home-cover {
+    max-width: 80%;
+    margin: 20px 0px;
+}
+.title {
+    font-size: 20px;
+}
+.title.is-2 {
+    font-size: 25px;
+}
+.fa {
+    margin-top: -11px;
+}
+.icon.is-large {
+    font-size: 30px;
+}
+.subtitle.is-4 {
+    font-size: 18px;
+}
+.nav > .container > .nav-left > .nav-item:first-child:not(.is-tab) {
+    padding-left: 20px;
+}
+.hero.is-dark .nav-menu .nav-item {
+    border-top: 1px solid rgba(245, 245, 245, 0.07);
+}
+.hero.is-dark .nav-menu {
+    background-color: #191919;
+}
+}
+
+@media screen and (min-width: 1180px) {
+.container {
+    max-width: 960px;
+}
+.icon.is-large {
+    display: inline-block;
+    font-size: 37px;
+    margin-right: 1px;
+}
+}
+
+.animate-1 {
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+
+.animate-2 {
+    -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1.5s; /* Firefox < 16 */
+        -ms-animation: fadein 1.5s; /* Internet Explorer */
+         -o-animation: fadein 1.5s; /* Opera < 12.1 */
+            animation: fadein 1.5s;
+}
+
+.animate-3 {
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 4s; /* Firefox < 16 */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera < 12.1 */
+            animation: fadein 4s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

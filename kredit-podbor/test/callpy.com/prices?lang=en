@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Callpy - online consultation, chat, calls - Prices</title>
+    <meta name="description" content="Online consultant for the site. Chat-widget for your site for free! Online video and audio calls!"/>
+    <meta name="keywords" content="online consultant, online consultant, chat-widget"/>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=cyrillic-ext,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="site/css/price.new.css">
+    <link rel="stylesheet" href="site/css/buttons-main.css">
+    <link rel="stylesheet" href="css/site/footer.css">
+    <link rel="stylesheet" href="css/site/header.css">
+
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+    <script src="en/site/js/price.js"></script>
+    <script src="en/site/js/main.price.new.js"></script>
+    <script>
+        jQuery1 = $;
+    </script>
+    <script src="en/js/callpy.general.js"></script>
+    <script src="ru/js/baron.full.js"></script>
+
+
+    <link rel="stylesheet" href="site/css/tarif.css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
+    <!-- registration form files -->
+<link rel="stylesheet" href="css/callpy_basic.css"/>
+<link rel="stylesheet" href="css/site/callpy_registration_box.css"/>
+<link rel="stylesheet" href="css/site/modal.callpy.css"/>
+
+<script src="en/js/callpy.utils.js"></script>
+<script src="en/js/callpy.modal.js"></script>
+<script src="en/js/callpy-tooltip.js"></script>
+<script src="en/js/callpy-error.js"></script>
+<script src="en/site/js/callpy_registration.js"></script>
+<!-- /registration form files -->
+</head>
+<body>
+<!-- BEGIN CALLPY CODE {literal}  --><script>(function(w,t,p,v,c,f,s,r,h,l,d){w[p]="//kallpy.com/";w[v]="3.83";w[c]=false;if(t==w){var tmp=l.callpy_data;if(tmp==null||!l.callpy_html||!l[c]){w[f]=false}else{w[f]=true;w[s]=JSON.parse(tmp);var tm=new Date().getTime();if(tm-w[s].lastSave<20000){if(w[s].insertcode){eval(w[s].insertcode)}else{w[f]=false}}else{w[f]=false}}}else{w[f]=false}var callpy_script=d.createElement("script");try{var tmp=parent.window.location.href?1:0}catch(e){var tmp=0}callpy_script.type="text/javascript";callpy_script.async=true;if(!w[f]||!l[h]){l[h]=new Date().getTime()}callpy_script.src=w[p]+"c/"+w.location.host.replace(/www./i,"")+"/"+(t==w?(w[f]?1:2):(tmp==1?4:3))+".js?id=132&m="+l[h];callpy_script.onload=function(){iowisp.init()};d.body.appendChild(callpy_script)})(window,window.top,"callpy_path","callpy_version","tiny","sven","callpy_storage","callpy_chat_scroller","callpy_lastchat",localStorage,document);</script><!-- {/literal} END CALLPY CODE  --><section class="page-wrapper">
+    <script>
+    var callpyLogin = null;
+</script>
+<header class="b-callpy-header  ">
+    <article class="h-gr-cnt">
+        <section class="h-gr-3 no_p">
+            <article class="b-logo--header">
+                <a href="index.html" class="b-logo__link--header">
+                    <img src="images/site/header-img/callpy-logo-header.png" width="159" height="61" title="Callpy.com" alt="Callpy.com">
+                </a>
+            </article>
+        </section>
+        <nav class="h-gr-7 no_p">
+            <ul class="b-header__menu h-gr-cnt">
+                <li class="b-header__item"><a href="features" class="b-header__menu-link  h-gr">Features</a></li>
+                <li class="b-header__item"><a href="prices" class="b-header__menu-link  active h-gr">Prices</a></li>
+                <li class="b-header__item"><a href="http://blog.callpy.com" class="b-header__menu-link h-gr">Blog</a></li>
+                <li class="b-header__item"><a href="support" class="b-header__menu-link  h-gr">Support</a></li>
+                <!--<li class="b-header__item"><a href="/partner" class="b-header__menu-link  h-gr md-callpy-trigger">For partners</a></li>-->
+            </ul>
+        </nav>
+
+                    //no authorization        <section class="h-gr-6 no_p">
+            <p class="b-header__phone"><a href="tel:+74952483987" class="site-phone-text">+7 (495) 248-39-87</a></p>
+            <article class="b-header__connect">
+                <a href="prices?lang=en#" class="b-header__connect-link callpy-registration-link">Get</a>
+            </article>
+            <article class="b-header__login">
+                <a href="prices?lang=en#" class="b-header__login-link callpy-login-link">Enter</a>
+            </article>
+        </section>
+        
+            </article>
+</header>
+<!-- ROW 2 -->
+<section class="wrapper row2">
+    <div class="gr-cnt b-animate" data-block-animate="animated">
+        <div class="gr-16">
+            <hgroup class="b-row2__headers">
+                <h1 class="b-row2__title">Free options</h1>
+                <h2 class="b-row2__subtitle">We have no limitations in chat functions — you can use <br>all online consultant features.</h2>
+            </hgroup>
+        </div>
+        <div class="b-row2__free-chat-pic gr-5 ">
+            <div class="b-row2__free-chat"></div>
+        </div>
+        <div class="gr-11 row2__b-free-holder">
+            <ul class="b-free gr-cnt">
+                <li class="b-free__item b-free__item--1 gr-x3">
+                    <span class="b-free__item-text prices-tooltip-link">One consultant for free</span>
+
+                    <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">You have one place for the consultant for free</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="b-free__item b-free__item--2 gr-x3">
+                    <span class="b-free__item-text prices-tooltip-link">Chat on the site with guests</span>
+
+                    <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Classic way of consulting online. We don't limit chat functions. You pay only for extra options</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="b-free__item b-free__item--3 gr-x3">
+                    <span class="b-free__item-text prices-tooltip-link">Rapid answers</span>
+
+                    <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Use ready answers for frequently asked questions of guests. The system will automatically continue the answer as soon as you start typing</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="b-free__item b-free__item--4 gr-x3">
+                    <span class="b-free__item-text prices-tooltip-link">Brief information <br>about the guests</span>
+
+                    <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">The source of transition to the site, date of the first calling, number of visits, the city is displayed. browser type, quantity and addresses of the seen pages</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="b-free__item b-free__item--5 gr-x3">
+                    <span class="b-free__item-text prices-tooltip-link">Offline-form</span>
+
+                    <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Callpy will send questions of guests to e-mail so far consultants are offline, will collect contacts of guests. You can adjust a window form offline so that it was automatically developed and suggested clients to leave contacts (e-mail, phone)</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="b-free__item b-free__item--6 gr-x3">
+                    <span class="b-free__item-text prices-tooltip-link">Typing supervision<br>of the guests</span>
+
+                    <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">The operator can supervise the guest of the site typing the message, even before its sending</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="b-free__item b-free__item--7 gr-x3">
+                    <span class="b-free__item-text prices-tooltip-link">Browser<br>notifications</span>
+
+                    <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Do what you need to. The system will inform you about new events (new guest on the site, incoming messages and calls, missed calls)</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="b-free__item b-free__item--8 gr-x3">
+                    <span class="b-free__item-text prices-tooltip-link">Spell-check</span>
+
+                    <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Spell -check before sending messages to client</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="b-free__item b-free__item--9 gr-x3">
+                    <span class="b-free__item-text prices-tooltip-link">Adjustable design of site and label</span>
+
+                    <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Online consultant will perfectly integrate in your site's deign</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="b-free__item b-free__item--10 gr-x3">
+                    <span class="b-free__item-text prices-tooltip-link">Photos<br>of the operators</span>
+
+                    <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Operators photo may be displayed in chat window and on the label</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="b-free__item b-free__item--11 gr-x3">
+                    <span class="b-free__item-text prices-tooltip-link">Ulimited quantity of sites</span>
+
+                    <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Callpy supports operator's work on several sites</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="b-free__item b-free__item--12 gr-x3">
+                    <span class="b-free__item-text prices-tooltip-link">Sound notifications</span>
+
+                    <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Sound alert for consultants about new important events (new guest on the site, incoming messages and calls)</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="b-free__item b-free__item--13 gr-x3">
+                    <span class="b-free__item-text prices-tooltip-link">Chat movement<br>on the screen</span>
+
+                    <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Guest and manager always see the needed content</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="b-free__item b-free__item--14 gr-x3">
+                    <span class="b-free__item-text prices-tooltip-link">Stable work in all of the tabs of the browser</span>
+
+                    <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Chat and video-calls are available in all of the opened tabs (with saving of the chat history)</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="b-free__item b-free__item--15 gr-x3">
+                    <span class="b-free__item-text prices-tooltip-link">Protected connection (via HTTPS protocol)</span>
+
+                    <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">We support websites working at HTTPS</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="b-free__item b-free__item--16 gr-x3">
+                    <span class="b-free__item-text prices-tooltip-link">Chat history<br/>(in the consultant panel)</span>
+
+                    <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">The chat history with clients is always available to the consultant right in the consultation panel</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <button class="callpy-registration-trigger row2__bipart-button--blue callpy-registration-link" onclick="yaCounter32384895.reachGoal('reg1'); return true;">
+                <div class="row2__bipart-button-left row2__bipart-button-left--small-text">Get for free</div>
+                <div class="row2__bipart-button-right">With no limit <br>of functions</div>
+            </button>
+        </div>
+    </div>
+</section>
+<!-- ROW3 -->
+<section class="wrapper row3">
+    <div class="gr-cnt">
+        <div class="gr-16">
+        <!--<section class="b-row3__offer">
+            <p class="b-row3__offer-title">Успей оплатить по акции!</p>
+            <p class="b-row3__offer-subtitle">-40% скидка на все лицензии Callpy до 31.12.2015 и МЕСЯЦ<br/>бесплатного пользования В ПОДАРОК!</p>
+        </section>-->
+            <hgroup class="b-row3__headers">
+                <h2 class="b-row3__title">Additional paid function</h2>
+                <h3 class="b-row3__subtitle">Get the full access to all paid Callpy functions for reasonable price</h3>
+            </hgroup>
+
+            <section class="b-row3__calc b-animate js-animate-calc" data-block-animate="animated">
+                <div class="b-row3__calc-inner">
+                    <div class="counst_block-options counst_block-options--new-prices">
+                        <div class="counst-options">
+                            <div class="content_left_counst_block-options content_left_counst_block-options--new-prices">
+
+                                <div class="line_vibor_block_left">
+                                    <div class="line_vibor line_vibor_1">
+                                        <p id="text_price_consultant">5 consultants</p>
+                                        <span class="line_vibor_span line_vibor_span_1">Consultants</span>
+                                        <div style="width: 202px; position: relative; margin: 0 113px;">
+                                            <div id="slider-consultant-range"></div>
+                                            <div class="slider-consultant step-1"></div>
+                                            <div class="slider-consultant step-3"></div>
+                                            <div class="slider-consultant step-5"></div>
+                                            <div class="slider-consultant step-20"></div>
+                                            <div class="slider-consultant step-max"></div>
+
+                                            <div class="slider-consultant-text step-1">1</div>
+                                            <div class="slider-consultant-text step-3">3</div>
+                                            <div class="slider-consultant-text step-5">5</div>
+                                            <div class="slider-consultant-text step-20">20</div>
+                                            <div class="slider-consultant-text step-max">VIP</div>
+                                        </div>
+                                    </div>
+                                    <div class="line_vibor line_vibor_2">
+                                        <p id="text_price_month">3 month</p>
+                                        <span class="line_vibor_span line_vibor_span_2">Due day</span>
+                                        <div style="width: 202px; position: relative; margin: 0 113px;">
+                                            <div id="slider-month-range"></div>
+                                            <div class="slider-month step-1"></div>
+                                            <div class="slider-month step-3"></div>
+                                            <div class="slider-month step-6"></div>
+                                            <div class="slider-month step-9"></div>
+                                            <div class="slider-month step-12"></div>
+
+                                            <div class="slider-month-text step-1">1</div>
+                                            <div class="slider-month-text step-3">3</div>
+                                            <div class="slider-month-text step-6">6</div>
+                                            <div class="slider-month-text step-9">9</div>
+                                            <div class="slider-month-text step-12">12</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="line_vibor_block_right" style="float: right; width: 336px;">
+                                    <span class="line_vibor_block_right_title lvbrt_1">Consultant cost</span>
+                                    <span class="line_vibor_block_right_title lvbrt_2">Contract cost</span>
+
+                                    <div class="tarif_row_price_wrapper">
+                                        <div class="tarif_row_price_body">
+                                            <div id="price_of_consultant_font" style="font-size: 23.877px;"><span id="price_of_consultant">396</span> rub.</div>
+                                            <div id="price_of_consultant_height" style="height: 41.41px;"></div>
+                                        </div>
+
+                                        <div class="tarif_row_summ_body">
+                                            <div class="tarif_row_summ_body_text"><span id="summ_of_all">5940</span> rub.</div>
+                                            <div class="tarif_row_summ_discount" style="height: 23px; line-height: 23px; font-size: 18.75px;"><span>-10%</span></div>
+                                            <div class="tarif_row_summ_body_summ" style="height: 80px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="row3__bipart-button--orange callpy-registration-link" onclick="yaCounter32384895.reachGoal('reg1'); return true;">
+                    <div class="row3__bipart-button-left">Get right now</div>
+                    <div class="row3__bipart-button-right">19 days<br>demo period</div>
+                </button>
+            </section>
+            <section class="row3__functions-list-holder">
+                <ul class="functions-list gr-cnt b-animate js-animate-functions" data-block-animate="animated">
+                    <li class="functions-list__item functions-list__item--1 gr">
+                        <span class="function-list__text prices-tooltip-link">More than one consultant<br>(Possibility to hire<br>consultants)</span>
+                        <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">You will be able to hire unlimited amount of consultants and manage them between you sites</p>
+                        </div>
+                    </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--2 gr">
+                        <span class="function-list__text prices-tooltip-link">Detailed information<br>about clients including<br>contacts</span>
+                        <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">The system collects contacts of clients from open sources (a name, an avatar, phone, Skype, the site, the VK profile) even when consultants aren't online</p>
+                        </div>
+                    </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--3 gr">
+                        <span class="function-list__text prices-tooltip-link">Unloading of contacts <br>of clients (in *CSV)</span>
+                        <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">You can save the contacts of site's guests in the file</p>
+                        </div>
+                    </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--4 gr">
+                        <span class="function-list__text prices-tooltip-link">Live watching</span>
+                        <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Supervise guest actions in real-time</p>
+                        </div>
+                    </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--5 gr">
+                        <span class="function-list__text prices-tooltip-link">Automatic greeting</span>
+                        <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Callpy will automatically offer the help to the missing guest</p>
+                        </div>
+                    </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--6 gr">
+                        <span class="function-list__text prices-tooltip-link">Holding<br>messages</span>
+                        <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">If the operator doesn't answer the client, a message with the offer to wait for the answer or to leave the email  will be sent to the client</p>
+                        </div>
+                    </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--7 gr">
+                        <span class="function-list__text prices-tooltip-link">Calls from site</span>
+                        <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Free online calls between clients and managers</p>
+                        </div>
+                    </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--8 gr">
+                        <span class="function-list__text prices-tooltip-link">Video calls</span>
+                        <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Make live video consultations on the site</p>
+                        </div>
+                    </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--9 gr">
+                        <span class="function-list__text prices-tooltip-link">Navigation management</span>
+                        <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Guide the guest by the pages, show the content</p>
+                        </div>
+                    </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--10 gr">
+                        <span class="function-list__text prices-tooltip-link">Hints</span>
+                        <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Higlight and comment the items on the guest's opened page</p>
+                        </div>
+                    </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--11 gr">
+                        <span class="function-list__text prices-tooltip-link">Highliting of the areas</span>
+                        <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Highlight something on the page and your guest will see it</p>
+                        </div>
+                    </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--12 gr">
+                        <span class="function-list__text prices-tooltip-link">Chat transfer<br>to colleague</span>
+                        <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Operators can transfer the dialogues between each other</p>
+                        </div>
+                    </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--13 gr">
+                        <span class="function-list__text prices-tooltip-link">Branded chat<br>with possibility of downloading<br>images and logos</span>
+                        <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Expanded customization of style of a widget. You will be able to introduce elements of a corporate style, to create your own unique design of a chat and label</p>
+                        </div>
+                    </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--14 gr">
+                        <span class="function-list__text prices-tooltip-link">Integration with CRM</span>
+                        <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Allows to attach the dialogues in the chat to contacts, create new contacts right from Callpy, give targets, automatically save the chat history in the CRM, automatically save the client's contacts in the CRM</p>
+                        </div>
+                    </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--15 gr">
+                        <span class="function-list__text prices-tooltip-link">Detailed statistics</span>
+                        <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Represent visually the quality of work of consultants. Control of chats, operating time, efficiency of employees</p>
+                        </div>
+                    </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--16 gr">
+                        <span class="function-list__text prices-tooltip-link">Client blocking</span>
+                        <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Consultant can block the client by adding him to the blacklist</p>
+                        </div>
+                    </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--17 gr">
+                        <span class="function-list__text prices-tooltip-link">Sending of the dialogues<br>by email</span>
+                        <div class="prices-tooltip-holder">
+                            <div class="prices-tooltip-inner">
+                                <p class="prices-tooltip-text">Sending of the dialogues history by email</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--18 gr">
+                        <span class="function-list__text prices-tooltip-link">Notification if the client adds the good to cart</span>
+                        <div class="prices-tooltip-holder">
+                            <div class="prices-tooltip-inner">
+                                <p class="prices-tooltip-text">If the client adds the good to cart the system will notify the consultant about this immediately</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--19 gr">
+                        <span class="function-list__text prices-tooltip-link">Contacts request form</span>
+                        <div class="prices-tooltip-holder">
+                            <div class="prices-tooltip-inner">
+                                <p class="prices-tooltip-text">Offers visitors to share their contacts before starting a dialog or during a dialog</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="functions-list__item functions-list__item--20 gr">
+                        <span class="function-list__text prices-tooltip-link">Сбор контактов<br/>посетителей сайта</span>
+                        <div class="prices-tooltip-holder">
+                            <div class="prices-tooltip-inner">
+                                <p class="prices-tooltip-text">Сбор контактов посетителей сайта через форму Callpy даже когда консультантов нет на сайте. Вы можете настроить поля в форме для сбора данных по Вашему усмотрению. Эта информация доступна консультантам в &laquo;информации о посетителе&raquo; и в списке клиентов. Данные могут автоматически направляться в CRM-систему — создаются контакты. Все контакты можно выгрузить в *.CSV файл</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--21 gr">
+                        <span class="function-list__text prices-tooltip-link">Distribution by departments</span>
+                        <div class="prices-tooltip-holder">
+                            <div class="prices-tooltip-inner">
+                                <p class="prices-tooltip-text">Create groups of consultants and distribute flows of visitors. Set filters by region or by page URL. In each department you can tune separate form with pre-chat fields.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--22 gr">
+                        <span class="function-list__text prices-tooltip-link">Prechat fields</span>
+                        <div class="prices-tooltip-holder">
+                            <div class="prices-tooltip-inner">
+                                <p class="prices-tooltip-text">Create personal forms to collect data about visitors of your site.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="functions-list__item functions-list__item--23 gr">
+                        <span class="function-list__text prices-tooltip-link">Offline message</span>
+                        <div class="prices-tooltip-holder">
+                            <div class="prices-tooltip-inner">
+                                <p class="prices-tooltip-text">The possibility to write message to a visitor, which has already left the site. Visitor will receive message when he is back on the site. Visitor will receive the message when he is back on the site. The chat window will be opened and all unread messages will be shown.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--24 gr">
+                        <span class="function-list__text prices-tooltip-link">Sending dialog to<br/>email from the consultant panel</span>
+                        <div class="prices-tooltip-holder">
+                            <div class="prices-tooltip-inner">
+                                <p class="prices-tooltip-text">If consultant during a dialog receive important information from visitor, he will be able to send the dialog to any email address.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--25 gr">
+                        <span class="function-list__text prices-tooltip-link">Mobile application<br/>for Android</span>
+                        <div class="prices-tooltip-holder">
+                            <div class="prices-tooltip-inner">
+                                <p class="prices-tooltip-text">Consult your visitors using mobile device on Android OS</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="functions-list__item functions-list__item--26 gr">
+                        <span class="function-list__text prices-tooltip-link">Mobile application<br/>for iOS</span>
+                        <div class="prices-tooltip-holder">
+                            <div class="prices-tooltip-inner">
+                                <p class="prices-tooltip-text">Consult your visitors using mobile device on iOS</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--27 gr">
+                        <span class="function-list__text prices-tooltip-link">Targeted<br/>messages<br/>depending on page URL</span>
+                        <div class="prices-tooltip-holder">
+                            <div class="prices-tooltip-inner">
+                                <p class="prices-tooltip-text">Sending messages to visitor's chat depending on page URL of the visitor.</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <section class="row3__pic b-animate js-row3-pic" data-block-animate="animated">
+                    <img src="site/img_price/row3__pic.png" alt="" class="row3-pic__img"/>
+                </section>
+            </section>
+            <section class="row3__button-holder">
+                <button class="row3__bipart-button--orange callpy-registration-link row3__final-button" onclick="yaCounter32384895.reachGoal('reg1'); return true;">
+                    <div class="row3__bipart-button-left">Try for free</div>
+                    <div class="row3__bipart-button-right">19 days<br>demo period</div>
+                </button>
+            </section>
+
+        </div>
+    </div>
+</section>
+
+<!-- ROW 4 -->
+<section class="wrapper row4">
+    <div class="gr-cnt">
+        <div class="gr-16">
+
+            <section class="row4__pay">
+                <article class="row4__pay-type"><img src="site/images/MC-logo.png" alt=""/></article>
+                <article class="row4__pay-type"><img src="site/images/visa-logo.png" alt=""/></article>
+                <article class="row4__pay-type"><img src="site/images/yade-logo.png" alt=""/></article>
+                <article class="row4__pay-type"><img src="site/images/qiwi-logo.png" alt=""/></article>
+                <article class="row4__pay-type"><img src="site/images/assist-logo.png" alt=""/></article>
+            </section>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="page-foot ">
+    <article class="page-foot__label">
+        best functional for your site    </article>
+    <article class="f-gr-cnt">
+        <section class="f-gr-3 no_p">
+            <article class="b-logo--footer">
+                <a href="index.html" class="b-logo__link--footer">
+                    <img src="images/site/footer-img/callpy-logo-footer.png" width="169" height="47" title="Callpy.com" alt="Callpy.com">
+                </a>
+            </article>
+            <article class="b-footer__mail">
+                <a href="mailto: info@callpy.com" class="b-footer__mail-link">info@callpy.com</a>
+            </article>
+
+            <article class="license">
+                <a href="doc/public_offerts_ver2.pdf" class="license__link">License agreement</a>
+            </article>
+        </section>
+        <nav class="f-gr-7 no_p">
+            <ul class="b-footer__menu f-gr-cnt">
+                <li class="b-footer__menu-item"><a href="features/index.html" class="b-footer__menu-link  f-gr">Features</a>
+                <li class="b-footer__menu-item"><a href="prices" class="b-footer__menu-link active f-gr">Prices</a>
+                <li class="b-footer__menu-item"><a href="http://blog.callpy.com" class="b-footer__menu-link f-gr">Blog</a>
+                <li class="b-footer__menu-item"><a href="support" class="b-footer__menu-link  f-gr">Help</a>
+                <!--<li class="b-footer__menu-item"><a href="/partner" class="b-footer__menu-link  f-gr">For partners</a>-->
+            </ul>
+            <article class="copyright">
+                <p class="copyright__link">Сallpy &copy; 2017</p>
+            </article>
+        </nav>
+
+        <section class="f-gr-6">
+            <a href="prices?lang=en#" class="footer__connect callpy-registration-link">
+                <p href="" class="footer__connect-link">Get for free</p>
+            </a>
+
+                <article class="callpy-footer__language-switch f-gr-cnt">
+
+                    <section class="language-switch f-gr-16">
+                        <a class="language-link language-indicator language-indicator--en js-language-switch" href="prices?lang=en#">
+                        <span class="language-link__text">
+                            English                        </span>
+                        </a>
+                        <section class="language-popup tooltip-holder js-lang-popup">
+                            <article class="language-popup__inner">
+                                <ul class="language-popup__list languages-list">
+                                                                        <li class="languages-list__item">
+                                        <a class="language-list__link language-indicator language-indicator--az" href="prices?lang=az">
+                                            <span class="language-list__text">Azerbaijani</span></a></li>
+                                                                        <li class="languages-list__item">
+                                        <a class="language-list__link language-indicator language-indicator--en" href="prices?lang=en">
+                                            <span class="language-list__text">English</span></a></li>
+                                                                        <li class="languages-list__item">
+                                        <a class="language-list__link language-indicator language-indicator--es" href="prices?lang=es">
+                                            <span class="language-list__text">Español</span></a></li>
+                                                                        <li class="languages-list__item">
+                                        <a class="language-list__link language-indicator language-indicator--fr" href="prices?lang=fr">
+                                            <span class="language-list__text">Français</span></a></li>
+                                                                        <li class="languages-list__item">
+                                        <a class="language-list__link language-indicator language-indicator--he" href="prices?lang=he">
+                                            <span class="language-list__text">עברית</span></a></li>
+                                                                        <li class="languages-list__item">
+                                        <a class="language-list__link language-indicator language-indicator--ru" href="prices?lang=ru">
+                                            <span class="language-list__text">Русский</span></a></li>
+                                                                        <li class="languages-list__item">
+                                        <a class="language-list__link language-indicator language-indicator--uk" href="prices?lang=uk">
+                                            <span class="language-list__text">Український</span></a></li>
+                                                                        <li class="languages-list__item">
+                                        <a class="language-list__link language-indicator language-indicator--zh" href="prices?lang=zh">
+                                            <span class="language-list__text">中國</span></a></li>
+                                                                    </ul>
+                            </article>
+                        </section>
+                    </section>
+                </article>
+
+                <section class="b-footer__phone">
+                    <a href="tel:+74952483987" class="site-phone-text">+7 (495) 248-39-87</a>
+                </section>
+        </section>
+    </article>
+</footer>
+<!-- SYSTEM REG POPUP -->
+</section>
+<div class="md-callpy-modal md-callpy-effect-3" id="registration__window">
+    <!-- MODAL SIGNIN -->
+    <div class="md-callpy-content">
+        <section class="callpy-registration-container">
+            <div class="crc-close md-callpy-close"></div>
+            <div class="callpy-registration-container__logo"></div>
+            <p class="callpy-registration-container__title">One click 1 registration!</p>
+
+            <form class="callpy-registration-container__form" action="prices?lang=en" method="post" id="sign-in-form">
+                <div class="callpy_default_input callpy-registration-container__input-holder" style="">
+                    <input class="callpy-registration-container__input callpy-registration-container__input--ajax" type="text" placeholder="Enter your email: "/>
+                </div>
+                <input type="submit" class="callpy-hidden-submit" value=""/>
+
+                <button class="callpy-registration-container__button callpy_button" id="sign-in-form-button" onclick="yaCounter32384895.reachGoal('reg2'); return true;">Register</button>
+            </form>
+        </section>
+    </div>
+</div>
+
+
+<div class="md-callpy-modal md-callpy-effect-3" id="positive_registration_window">
+    <!-- MODAL SIGNIN POSITIVE-->
+    <div class="md-callpy-content">
+        <section class="callpy-registration-container">
+            <div class="crc-close md-callpy-close"></div>
+            <div class="callpy-registration-container__logo"></div>
+            <p class="callpy-registration-container__title">Mail has been sent!</p>
+
+            <section class="callpy-registration-container__notification">
+                <p>We send you by mail<br/>
+                    a link for activation of your account.</p>
+            </section>
+
+            <button class="callpy-registration-container__button callpy_button md-callpy-close">Close</button>
+        </section>
+    </div>
+</div>
+
+<div class="md-callpy-modal md-callpy-effect-2" id="login__window">
+    <!-- MODAL SIGN UP -->
+    <div class="md-callpy-content">
+        <section class="callpy-registration-container">
+            <div class="crc-close md-callpy-close"></div>
+            <div class="callpy-registration-container__logo--login"></div>
+            <p class="callpy-registration-container__title">Enter account</p>
+
+            <form class="callpy-registration-container__form" action="prices?lang=en" id="sign-up-form">
+                <div class="callpy_default_input callpy-registration-container__input-holder" style="">
+                    <input class="callpy-registration-container__input" type="text" name="email" id="login_email" placeholder="Enter your email: "/>
+                </div>
+
+                <div class="callpy_default_input callpy-registration-container__input-holder" style="">
+                    <input class="callpy-registration-container__input" type="password" name="password" id="login_password" placeholder="Enter your password: "/>
+                    <a class="callpy-registration-container__forgotten-password-link password-recovery-link" href="prices?lang=en#">Forgot your password?</a>
+                </div>
+
+                <input type="submit" class="callpy-hidden-submit" value=""/>
+
+                <button class="callpy-registration-container__button callpy_button" id="sign-up-form-button">Enter</button>
+            </form>
+        </section>
+    </div>
+</div>
+
+<div class="md-callpy-modal md-callpy-effect-2" id="password__recovery">
+    <!-- MODAL SIGN UP -->
+    <div class="md-callpy-content">
+        <section class="callpy-registration-container">
+            <div class="crc-close md-callpy-close"></div>
+            <div class="callpy-registration-container__logo--password-recovery"></div>
+            <p class="callpy-registration-container__title">Recover your password</p>
+            <p class="callpy-registration-container__subtitle">
+                Enter your e-mail which you have used <br/>during the registration in our system            </p>
+
+            <form class="callpy-registration-container__form" action="prices?lang=en" id="password-recovery-form">
+                <div class="callpy_default_input callpy-registration-container__input-holder" style="">
+                    <input class="callpy-registration-container__input" type="text" name="email_forgot" id="email_forgot_input" placeholder="Enter your email: "/>
+                </div>
+                <input type="submit" class="callpy-hidden-submit" value=""/>
+                <button class="callpy-registration-container__button callpy_button" id="password-recovery-form-button">Recover</button>
+            </form>
+        </section>
+    </div>
+</div>
+
+<div class="md-callpy-modal md-callpy-effect-3" id="recovered_password">
+    <!-- MODAL SIGNIN POSITIVE-->
+    <div class="md-callpy-content">
+        <section class="callpy-registration-container">
+            <div class="crc-close md-callpy-close"></div>
+            <div class="callpy-registration-container__logo callpy-registration-container__logo--recovered-password"></div>
+            <p class="callpy-registration-container__title callpy-registration-container__title--recovered-password">
+                Link for password change <br/>was sent to your e-mail
+            </p>
+        </section>
+    </div>
+</div>
+
+<div class="md-callpy-modal md-callpy-effect-1" id="testdrive_popup">
+    <!-- TEST DRIVE POPUP-->
+    <div class="md-callpy-content">
+        <section class="callpy-registration-container--testdrive">
+            <div class="crc-close md-callpy-close"></div>
+            <p class="test-drive__title">Test-drive Callpy on <br/><span class="test-drive__subtitle">test</span></p>
+            <div class="test-drive__icon"></div>
+
+            <div class="test-drive__result-links">
+                <div class="test-drive__result-link">
+                    <p class="test-drive__result-link-title">Consultant</p>
+                    <a href="http://callpy.com/manager/" target="_blank" class="test-drive__result-button">Open</a>
+                    <input class="test-drive__input" type="text" value="http://callpy.com/manager/"/>
+                </div>
+                <div class="test-drive__result-link">
+                    <p class="test-drive__result-link-title">Visitor</p>
+                    <a href="prices?lang=en#" id="user_site_link2" target="_blank" class="test-drive__result-button">Open</a>
+                    <input class="test-drive__input" type="text" id="user_site_link" value=''/>
+                </div>
+            </div>
+            <p class="test-drive__descriptor">
+                For better understanding share links <br/>
+                with colleagues and friends. In demo-version you may face the partial <br/>inefficiency of some functions Callpy.
+            </p>
+        </section>
+    </div>
+</div></body>
+</html>

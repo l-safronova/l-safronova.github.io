@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Callpy - онлайн консультування, чат, дзвінки - Ціни</title>
+    <meta name="description" content="Онлайн консультант для сайту. Чат-віджет для вашого сайту безкоштовно! Онлайн відео та аудіо зв'язок!"/>
+    <meta name="keywords" content="онлайн консультант, online консультант, чат-віджет"/>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=cyrillic-ext,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="site/css/price.new.css">
+    <link rel="stylesheet" href="site/css/buttons-main.css">
+    <link rel="stylesheet" href="css/site/footer.css">
+    <link rel="stylesheet" href="css/site/header.css">
+
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+    <script src="uk/site/js/price.js"></script>
+    <script src="uk/site/js/main.price.new.js"></script>
+    <script>
+        jQuery1 = $;
+    </script>
+    <script src="uk/js/callpy.general.js"></script>
+    <script src="ru/js/baron.full.js"></script>
+
+
+    <link rel="stylesheet" href="site/css/tarif.css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
+    <!-- registration form files -->
+<link rel="stylesheet" href="css/callpy_basic.css"/>
+<link rel="stylesheet" href="css/site/callpy_registration_box.css"/>
+<link rel="stylesheet" href="css/site/modal.callpy.css"/>
+
+<script src="uk/js/callpy.utils.js"></script>
+<script src="uk/js/callpy.modal.js"></script>
+<script src="uk/js/callpy-tooltip.js"></script>
+<script src="uk/js/callpy-error.js"></script>
+<script src="uk/site/js/callpy_registration.js"></script>
+<!-- /registration form files -->
+</head>
+<body>
+<!-- BEGIN CALLPY CODE {literal}  --><script>(function(w,t,p,v,c,f,s,r,h,l,d){w[p]="//kallpy.com/";w[v]="3.83";w[c]=false;if(t==w){var tmp=l.callpy_data;if(tmp==null||!l.callpy_html||!l[c]){w[f]=false}else{w[f]=true;w[s]=JSON.parse(tmp);var tm=new Date().getTime();if(tm-w[s].lastSave<20000){if(w[s].insertcode){eval(w[s].insertcode)}else{w[f]=false}}else{w[f]=false}}}else{w[f]=false}var callpy_script=d.createElement("script");try{var tmp=parent.window.location.href?1:0}catch(e){var tmp=0}callpy_script.type="text/javascript";callpy_script.async=true;if(!w[f]||!l[h]){l[h]=new Date().getTime()}callpy_script.src=w[p]+"c/"+w.location.host.replace(/www./i,"")+"/"+(t==w?(w[f]?1:2):(tmp==1?4:3))+".js?id=132&m="+l[h];callpy_script.onload=function(){iowisp.init()};d.body.appendChild(callpy_script)})(window,window.top,"callpy_path","callpy_version","tiny","sven","callpy_storage","callpy_chat_scroller","callpy_lastchat",localStorage,document);</script><!-- {/literal} END CALLPY CODE  --><section class="page-wrapper">
+    <script>
+    var callpyLogin = null;
+</script>
+<header class="b-callpy-header  ">
+    <article class="h-gr-cnt">
+        <section class="h-gr-3 no_p">
+            <article class="b-logo--header">
+                <a href="index.html" class="b-logo__link--header">
+                    <img src="images/site/header-img/callpy-logo-header.png" width="159" height="61" title="Callpy.com" alt="Callpy.com">
+                </a>
+            </article>
+        </section>
+        <nav class="h-gr-7 no_p">
+            <ul class="b-header__menu h-gr-cnt">
+                <li class="b-header__item"><a href="features" class="b-header__menu-link  h-gr">Можливості</a></li>
+                <li class="b-header__item"><a href="prices" class="b-header__menu-link  active h-gr">Ціни</a></li>
+                <li class="b-header__item"><a href="http://blog.callpy.com" class="b-header__menu-link h-gr">Блог</a></li>
+                <li class="b-header__item"><a href="support" class="b-header__menu-link  h-gr">Поддержка</a></li>
+                <!--<li class="b-header__item"><a href="/partner" class="b-header__menu-link  h-gr md-callpy-trigger">Партнерам</a></li>-->
+            </ul>
+        </nav>
+
+                    //не авторизований        <section class="h-gr-6 no_p">
+            <p class="b-header__phone"><a href="tel:+74952483987" class="site-phone-text">+7 (495) 248-39-87</a></p>
+            <article class="b-header__connect">
+                <a href="prices?lang=uk#" class="b-header__connect-link callpy-registration-link">Підключити</a>
+            </article>
+            <article class="b-header__login">
+                <a href="prices?lang=uk#" class="b-header__login-link callpy-login-link">Увійти</a>
+            </article>
+        </section>
+        
+            </article>
+</header>
+<!-- ROW 2 -->
+<section class="wrapper row2">
+    <div class="gr-cnt b-animate" data-block-animate="animated">
+        <div class="gr-16">
+            <hgroup class="b-row2__headers">
+                <h1 class="b-row2__title">Безкоштовні можливості</h1>
+                <h2 class="b-row2__subtitle">У нас немає штучного обмеження функцій чату — вам доступні <br>всі можливості онлайн консультанта.</h2>
+            </hgroup>
+        </div>
+        <div class="b-row2__free-chat-pic gr-5 ">
+            <div class="b-row2__free-chat"></div>
+        </div>
+        <div class="gr-11 row2__b-free-holder">
+            <ul class="b-free gr-cnt">
+                <li class="b-free__item b-free__item--1 gr-x3">
+                    <span class="b-free__item-text prices-tooltip-link">Один консультант безкоштовно</span>
+
+                    <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Вам надається одне робоче місце консультанта абсолютно безкоштовно</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="b-free__item b-free__item--2 gr-x3">
+                    <span class="b-free__item-text prices-tooltip-link">Чат на сайті з відвідувачами</span>
+
+                    <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Традиційний спосіб консультування онлайн. Ми не обмежуємо чат функціонально. Ви платите тільки за надможливості</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="b-free__item b-free__item--3 gr-x3">
+                    <span class="b-free__item-text prices-tooltip-link">Швидкі відповіді</span>
+
+                    <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Використовуйте готові відповіді на часті запитання відвідувачів. Система автоматично запропонує відповідь як тільки ви почнете набір тексту</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="b-free__item b-free__item--4 gr-x3">
+                    <span class="b-free__item-text prices-tooltip-link">коротка інформація <br>про відвідувачів</span>
+
+                    <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Відображається джерело переходу на сайт, дата першого заходу, кількість заходів, місто. тип браузера, кількість і адреси переглянутих сторінок</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="b-free__item b-free__item--5 gr-x3">
+                    <span class="b-free__item-text prices-tooltip-link">Офлайн форма</span>
+
+                    <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Callpy відправить запитання відвідувачів на e-mail поки консультанти відсутні, збере контакти відвідувачів. Ви можете налаштувати вікно оффлайн форми так, щоб воно автоматично розгорталося і пропонувало клієнтам залишити контакти (e-mail, телефон)</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="b-free__item b-free__item--6 gr-x3">
+                    <span class="b-free__item-text prices-tooltip-link">Спостереження за печаткою<br>відвідувачів</span>
+
+                    <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Оператор може спостерігати за тим, як відвідувач сайту набирає повідомлення, ще до його відправлення</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="b-free__item b-free__item--7 gr-x3">
+                    <span class="b-free__item-text prices-tooltip-link">Браузерні<br>повідомлення</span>
+
+                    <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Займайтеся будь-якою роботою. Система повідомить Вас про важливі події (нові клієнти, вхідні повідомлення, що надійшли дзвінки, пропущені дзвінки)</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="b-free__item b-free__item--8 gr-x3">
+                    <span class="b-free__item-text prices-tooltip-link">Перевірка правопису</span>
+
+                    <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Перевірка орфографії перед відправкою повідомлень клієнту</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="b-free__item b-free__item--9 gr-x3">
+                    <span class="b-free__item-text prices-tooltip-link">Настроюваний дизайн чату та ярлика</span>
+
+                    <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Онлайн консультант ідеально впишеться до дизайну вашого сайта</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="b-free__item b-free__item--10 gr-x3">
+                    <span class="b-free__item-text prices-tooltip-link">Фотографії<br>операторів</span>
+
+                    <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">У вікні чату і на ярлику може відображатися фотографія оператора</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="b-free__item b-free__item--11 gr-x3">
+                    <span class="b-free__item-text prices-tooltip-link">Необмежену кількість сайтів</span>
+
+                    <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Callpy підтримує роботу оператора на декількох сайтах</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="b-free__item b-free__item--12 gr-x3">
+                    <span class="b-free__item-text prices-tooltip-link">Звукові оповіщення</span>
+
+                    <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Звукові повідомлення консультантів і відвідувачів про важливі події (новий клієнт на сайті, вхідні повідомлення і дзвінки)</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="b-free__item b-free__item--13 gr-x3">
+                    <span class="b-free__item-text prices-tooltip-link">Переміщення чату<br>по екрану</span>
+
+                    <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Відвідувач і менеджер завжди бачать необхідний контент</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="b-free__item b-free__item--14 gr-x3">
+                    <span class="b-free__item-text prices-tooltip-link">Стабільна робота в усіх вкладках браузера</span>
+
+                    <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Повідомлення і відео-зв'язок доступні у всіх відкритих вкладках сайту (із збереженням історії листування)</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="b-free__item b-free__item--15 gr-x3">
+                    <span class="b-free__item-text prices-tooltip-link">Захищене з'єднання (по протоколу HTTPS)</span>
+
+                    <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Ми підтримуємо роботу сайтів на HTTPS</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="b-free__item b-free__item--16 gr-x3">
+                    <span class="b-free__item-text prices-tooltip-link">Історія переписки <br/> (в панелі консультування)</span>
+
+                    <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Консультанту завжди доступна історія листування з клієнтами прямо в панелі консультування</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <button class="callpy-registration-trigger row2__bipart-button--blue callpy-registration-link" onclick="yaCounter32384895.reachGoal('reg1'); return true;">
+                <div class="row2__bipart-button-left row2__bipart-button-left--small-text">Підключити безкоштовно</div>
+                <div class="row2__bipart-button-right">Без обмеження <br>функцій!</div>
+            </button>
+        </div>
+    </div>
+</section>
+<!-- ROW3 -->
+<section class="wrapper row3">
+    <div class="gr-cnt">
+        <div class="gr-16">
+        <!--<section class="b-row3__offer">
+            <p class="b-row3__offer-title">Успей оплатить по акции!</p>
+            <p class="b-row3__offer-subtitle">-40% скидка на все лицензии Callpy до 31.12.2015 и МЕСЯЦ<br/>бесплатного пользования В ПОДАРОК!</p>
+        </section>-->
+            <hgroup class="b-row3__headers">
+                <h2 class="b-row3__title">Додаткові платні функції</h2>
+                <h3 class="b-row3__subtitle">Отримайте повний доступ до всіх платним функціям Callpy за доступною ціною</h3>
+            </hgroup>
+
+            <section class="b-row3__calc b-animate js-animate-calc" data-block-animate="animated">
+                <div class="b-row3__calc-inner">
+                    <div class="counst_block-options counst_block-options--new-prices">
+                        <div class="counst-options">
+                            <div class="content_left_counst_block-options content_left_counst_block-options--new-prices">
+
+                                <div class="line_vibor_block_left">
+                                    <div class="line_vibor line_vibor_1">
+                                        <p id="text_price_consultant">5 консультантів</p>
+                                        <span class="line_vibor_span line_vibor_span_1">Консультанти</span>
+                                        <div style="width: 202px; position: relative; margin: 0 113px;">
+                                            <div id="slider-consultant-range"></div>
+                                            <div class="slider-consultant step-1"></div>
+                                            <div class="slider-consultant step-3"></div>
+                                            <div class="slider-consultant step-5"></div>
+                                            <div class="slider-consultant step-20"></div>
+                                            <div class="slider-consultant step-max"></div>
+
+                                            <div class="slider-consultant-text step-1">1</div>
+                                            <div class="slider-consultant-text step-3">3</div>
+                                            <div class="slider-consultant-text step-5">5</div>
+                                            <div class="slider-consultant-text step-20">20</div>
+                                            <div class="slider-consultant-text step-max">VIP</div>
+                                        </div>
+                                    </div>
+                                    <div class="line_vibor line_vibor_2">
+                                        <p id="text_price_month">3 місяці</p>
+                                        <span class="line_vibor_span line_vibor_span_2">Термін оплати</span>
+                                        <div style="width: 202px; position: relative; margin: 0 113px;">
+                                            <div id="slider-month-range"></div>
+                                            <div class="slider-month step-1"></div>
+                                            <div class="slider-month step-3"></div>
+                                            <div class="slider-month step-6"></div>
+                                            <div class="slider-month step-9"></div>
+                                            <div class="slider-month step-12"></div>
+
+                                            <div class="slider-month-text step-1">1</div>
+                                            <div class="slider-month-text step-3">3</div>
+                                            <div class="slider-month-text step-6">6</div>
+                                            <div class="slider-month-text step-9">9</div>
+                                            <div class="slider-month-text step-12">12</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="line_vibor_block_right" style="float: right; width: 336px;">
+                                    <span class="line_vibor_block_right_title lvbrt_1">Ціна консультанту</span>
+                                    <span class="line_vibor_block_right_title lvbrt_2">Сума контракту</span>
+
+                                    <div class="tarif_row_price_wrapper">
+                                        <div class="tarif_row_price_body">
+                                            <div id="price_of_consultant_font" style="font-size: 23.877px;"><span id="price_of_consultant">396</span> руб.</div>
+                                            <div id="price_of_consultant_height" style="height: 41.41px;"></div>
+                                        </div>
+
+                                        <div class="tarif_row_summ_body">
+                                            <div class="tarif_row_summ_body_text"><span id="summ_of_all">5940</span> руб.</div>
+                                            <div class="tarif_row_summ_discount" style="height: 23px; line-height: 23px; font-size: 18.75px;"><span>-10%</span></div>
+                                            <div class="tarif_row_summ_body_summ" style="height: 80px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="row3__bipart-button--orange callpy-registration-link" onclick="yaCounter32384895.reachGoal('reg1'); return true;">
+                    <div class="row3__bipart-button-left">Підключити зараз</div>
+                    <div class="row3__bipart-button-right">19 днів<br>демо-період</div>
+                </button>
+            </section>
+            <section class="row3__functions-list-holder">
+                <ul class="functions-list gr-cnt b-animate js-animate-functions" data-block-animate="animated">
+                    <li class="functions-list__item functions-list__item--1 gr">
+                        <span class="function-list__text prices-tooltip-link">Більше одного консультанта<br>(Можливість найму<br>консультантів)</span>
+                        <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Ви зможете наймати необмежена число консультантів і розподіляти їх між своїми сайтами</p>
+                        </div>
+                    </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--2 gr">
+                        <span class="function-list__text prices-tooltip-link">Детальна інформація<br>про клієнтів, включаючи<br>контакти</span>
+                        <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Система збирає контакти клієнтів з відкритих джерел (ім'я, аватар, телефон, скайп, сайт, профіль VK) навіть коли консультантів немає на сайті</p>
+                        </div>
+                    </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--3 gr">
+                        <span class="function-list__text prices-tooltip-link">Вивантаження контактів<br>клієнтів (в * CSV)</span>
+                        <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Ви зможете зберегти контакти клієнтів, що заходили на ваш сайт, у файл</p>
+                        </div>
+                    </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--4 gr">
+                        <span class="function-list__text prices-tooltip-link">Живое наблюдение</span>
+                        <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Спостерігайте за діями відвідувача в реальному часі</p>
+                        </div>
+                    </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--5 gr">
+                        <span class="function-list__text prices-tooltip-link">Авто-привітання</span>
+                        <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Callpy автоматично запропонує допомогу занудьгував відвідувачеві</p>
+                        </div>
+                    </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--6 gr">
+                        <span class="function-list__text prices-tooltip-link">Утримують<br>повідомлення</span>
+                        <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Якщо оператор не відповість клієнту, то клієнтові відправиться повідомлення з пропозицією почекати відповіді або залишити свій е-мeйл</p>
+                        </div>
+                    </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--7 gr">
+                        <span class="function-list__text prices-tooltip-link">Дзвінки з сайту</span>
+                        <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Безкоштовні онлайн дзвінки між клієнтами і менеджерами</p>
+                        </div>
+                    </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--8 gr">
+                        <span class="function-list__text prices-tooltip-link">Відео-дзвінки</span>
+                        <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Проводьте живі відео консультації на сайті</p>
+                        </div>
+                    </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--9 gr">
+                        <span class="function-list__text prices-tooltip-link">Управління <br/> навігацією</span>
+                        <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Переводите відвідувача по сторінкам, демонструйте контент</p>
+                        </div>
+                    </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--10 gr">
+                        <span class="function-list__text prices-tooltip-link">Підказки</span>
+                        <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Виділяйте і коментуйте елементи на сторінці відвідувача</p>
+                        </div>
+                    </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--11 gr">
+                        <span class="function-list__text prices-tooltip-link">Підсвічування області</span>
+                        <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Обведіть місце на сторінці і його відразу ж побачить відвідувач</p>
+                        </div>
+                    </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--12 gr">
+                        <span class="function-list__text prices-tooltip-link">Переклад чату<br>колезі</span>
+                        <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Оператори можуть передавати один одному діалоги</p>
+                        </div>
+                    </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--13 gr">
+                        <span class="function-list__text prices-tooltip-link">Брендований чат<br>з можливістю завантаження<br>картинок і логотипів</span>
+                        <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Глибока кастомизация стилю віджету. Ви зможете впровадити елементи фірмового стилю, створити власний неповторний дизайн чату та ярлика</p>
+                        </div>
+                    </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--14 gr">
+                        <span class="function-list__text prices-tooltip-link">Інтеграція з CRM</span>
+                        <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Дозволяє прив'язувати діалоги в чаті до контактів, створювати нові контакти прямо з Callpy, ставити завдання, автоматично зберігати журнал листування з клієнтом в CRM, автоматично зберігати контакти клієнтів в CRM</p>
+                        </div>
+                    </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--15 gr">
+                        <span class="function-list__text prices-tooltip-link">Детальна <br> статистика</span>
+                        <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Наочно уявляйте якість роботи консультантів. Контроль чатів, часу роботи, ефективності співробітників</p>
+                        </div>
+                    </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--16 gr">
+                        <span class="function-list__text prices-tooltip-link">Блокування клієнта</span>
+                        <div class="prices-tooltip-holder">
+                        <div class="prices-tooltip-inner">
+                            <p class="prices-tooltip-text">Консультант може заблокувати клієнта, додавши його в чорний список</p>
+                        </div>
+                    </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--17 gr">
+                        <span class="function-list__text prices-tooltip-link">Відправка діалогів<br>на E-mail</span>
+                        <div class="prices-tooltip-holder">
+                            <div class="prices-tooltip-inner">
+                                <p class="prices-tooltip-text">Відправка історії діалогів на e-mail</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--18 gr">
+                        <span class="function-list__text prices-tooltip-link">Повідомлення, якщо клієнт додає товар у кошик</span>
+                        <div class="prices-tooltip-holder">
+                            <div class="prices-tooltip-inner">
+                                <p class="prices-tooltip-text">Якщо відвідувач сайту додасть товар у кошик, то система відразу повідомить консультанта про цю подію</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--19 gr">
+                        <span class="function-list__text prices-tooltip-link">Форма запиту <br/> контактів</span>
+                        <div class="prices-tooltip-holder">
+                            <div class="prices-tooltip-inner">
+                                <p class="prices-tooltip-text">Пропонує відвідувачам сайту представитися і залишити свої контактні дані перед початком або в ході діалогу</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="functions-list__item functions-list__item--20 gr">
+                        <span class="function-list__text prices-tooltip-link">Сбор контактов<br/>посетителей сайта</span>
+                        <div class="prices-tooltip-holder">
+                            <div class="prices-tooltip-inner">
+                                <p class="prices-tooltip-text">Сбор контактов посетителей сайта через форму Callpy даже когда консультантов нет на сайте. Вы можете настроить поля в форме для сбора данных по Вашему усмотрению. Эта информация доступна консультантам в &laquo;информации о посетителе&raquo; и в списке клиентов. Данные могут автоматически направляться в CRM-систему — создаются контакты. Все контакты можно выгрузить в *.CSV файл</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--21 gr">
+                        <span class="function-list__text prices-tooltip-link">Розподіл <br/> по відділах</span>
+                        <div class="prices-tooltip-holder">
+                            <div class="prices-tooltip-inner">
+                                <p class="prices-tooltip-text">Створюйте групи консультантів і розподіляйте на них потоки відвідувачів сайту. Налаштуйте фільтри відвідувачів по регіону або по знаходженню на конкретних сторінках сайту. До кожного відділу Ви зможете прив'язати окрему форму з пречат-полями.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--22 gr">
+                        <span class="function-list__text prices-tooltip-link">Пречат-поля</span>
+                        <div class="prices-tooltip-holder">
+                            <div class="prices-tooltip-inner">
+                                <p class="prices-tooltip-text">Створюйте персональні форми для збору даних про відвідувачів сайту.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="functions-list__item functions-list__item--23 gr">
+                        <span class="function-list__text prices-tooltip-link">Повідомлення навздогін</span>
+                        <div class="prices-tooltip-holder">
+                            <div class="prices-tooltip-inner">
+                                <p class="prices-tooltip-text">Можливість написати повідомлення відвідувачеві, який вже залишив сайт. Відвідувач прийме повідомлення, якщо повторно повернеться на сайт. Йому відкриється чат в який будуть завантажені всі повідомлення.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--24 gr">
+                        <span class="function-list__text prices-tooltip-link">Відправка діалогу з <br/> панелі на Email</span>
+                        <div class="prices-tooltip-holder">
+                            <div class="prices-tooltip-inner">
+                                <p class="prices-tooltip-text">Якщо консультант в процесі діалогу отримає від відвідувача важливу інформацію, то він може направити діалог який вже вiдбувся на будь-яку поштову адресу.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--25 gr">
+                        <span class="function-list__text prices-tooltip-link">Мобільна програма<br/> для ОС IOS</span>
+                        <div class="prices-tooltip-holder">
+                            <div class="prices-tooltip-inner">
+                                <p class="prices-tooltip-text">Консультуїтє відвідувачів сайту з мобільних усройсв під управлінням Android</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="functions-list__item functions-list__item--26 gr">
+                        <span class="function-list__text prices-tooltip-link">Мобільна програма<br/> для ОС IOS</span>
+                        <div class="prices-tooltip-holder">
+                            <div class="prices-tooltip-inner">
+                                <p class="prices-tooltip-text">Консультує відвідувачів сайту з мобільних усройсв під управлінням IOS.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="functions-list__item functions-list__item--27 gr">
+                        <span class="function-list__text prices-tooltip-link">Таргетувані <br/> повідомлення на <br/> сторінках сайту</span>
+                        <div class="prices-tooltip-holder">
+                            <div class="prices-tooltip-inner">
+                                <p class="prices-tooltip-text">Виведення набудовуюмих повідомлень в чат відвідувачу в залежності від адреси сторінки, на якій він знаходиться.</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <section class="row3__pic b-animate js-row3-pic" data-block-animate="animated">
+                    <img src="site/img_price/row3__pic.png" alt="" class="row3-pic__img"/>
+                </section>
+            </section>
+            <section class="row3__button-holder">
+                <button class="row3__bipart-button--orange callpy-registration-link row3__final-button" onclick="yaCounter32384895.reachGoal('reg1'); return true;">
+                    <div class="row3__bipart-button-left">Спробуй безкоштовно</div>
+                    <div class="row3__bipart-button-right">19 днів<br>демо-період</div>
+                </button>
+            </section>
+
+        </div>
+    </div>
+</section>
+
+<!-- ROW 4 -->
+<section class="wrapper row4">
+    <div class="gr-cnt">
+        <div class="gr-16">
+
+            <section class="row4__pay">
+                <article class="row4__pay-type"><img src="site/images/MC-logo.png" alt=""/></article>
+                <article class="row4__pay-type"><img src="site/images/visa-logo.png" alt=""/></article>
+                <article class="row4__pay-type"><img src="site/images/yade-logo.png" alt=""/></article>
+                <article class="row4__pay-type"><img src="site/images/qiwi-logo.png" alt=""/></article>
+                <article class="row4__pay-type"><img src="site/images/assist-logo.png" alt=""/></article>
+            </section>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="page-foot ">
+    <article class="page-foot__label">
+        кращий функціонал для вашого сайту    </article>
+    <article class="f-gr-cnt">
+        <section class="f-gr-3 no_p">
+            <article class="b-logo--footer">
+                <a href="index.html" class="b-logo__link--footer">
+                    <img src="images/site/footer-img/callpy-logo-footer.png" width="169" height="47" title="Callpy.com" alt="Callpy.com">
+                </a>
+            </article>
+            <article class="b-footer__mail">
+                <a href="mailto: info@callpy.com" class="b-footer__mail-link">info@callpy.com</a>
+            </article>
+
+            <article class="license">
+                <a href="doc/public_offerts_ver2.pdf" class="license__link">Ліцензійна угода</a>
+            </article>
+        </section>
+        <nav class="f-gr-7 no_p">
+            <ul class="b-footer__menu f-gr-cnt">
+                <li class="b-footer__menu-item"><a href="features/index.html" class="b-footer__menu-link  f-gr">Можливості</a>
+                <li class="b-footer__menu-item"><a href="prices" class="b-footer__menu-link active f-gr">Ціни</a>
+                <li class="b-footer__menu-item"><a href="http://blog.callpy.com" class="b-footer__menu-link f-gr">Блог</a>
+                <li class="b-footer__menu-item"><a href="support" class="b-footer__menu-link  f-gr">Допомога</a>
+                <!--<li class="b-footer__menu-item"><a href="/partner" class="b-footer__menu-link  f-gr">Партнерам</a>-->
+            </ul>
+            <article class="copyright">
+                <p class="copyright__link">Сallpy &copy; 2017</p>
+            </article>
+        </nav>
+
+        <section class="f-gr-6">
+            <a href="prices?lang=uk#" class="footer__connect callpy-registration-link">
+                <p href="" class="footer__connect-link">Підключити безкоштовно</p>
+            </a>
+
+                <article class="callpy-footer__language-switch f-gr-cnt">
+
+                    <section class="language-switch f-gr-16">
+                        <a class="language-link language-indicator language-indicator--uk js-language-switch" href="prices?lang=uk#">
+                        <span class="language-link__text">
+                            Український                        </span>
+                        </a>
+                        <section class="language-popup tooltip-holder js-lang-popup">
+                            <article class="language-popup__inner">
+                                <ul class="language-popup__list languages-list">
+                                                                        <li class="languages-list__item">
+                                        <a class="language-list__link language-indicator language-indicator--az" href="prices?lang=az">
+                                            <span class="language-list__text">Azerbaijani</span></a></li>
+                                                                        <li class="languages-list__item">
+                                        <a class="language-list__link language-indicator language-indicator--en" href="prices?lang=en">
+                                            <span class="language-list__text">English</span></a></li>
+                                                                        <li class="languages-list__item">
+                                        <a class="language-list__link language-indicator language-indicator--es" href="prices?lang=es">
+                                            <span class="language-list__text">Español</span></a></li>
+                                                                        <li class="languages-list__item">
+                                        <a class="language-list__link language-indicator language-indicator--fr" href="prices?lang=fr">
+                                            <span class="language-list__text">Français</span></a></li>
+                                                                        <li class="languages-list__item">
+                                        <a class="language-list__link language-indicator language-indicator--he" href="prices?lang=he">
+                                            <span class="language-list__text">עברית</span></a></li>
+                                                                        <li class="languages-list__item">
+                                        <a class="language-list__link language-indicator language-indicator--ru" href="prices?lang=ru">
+                                            <span class="language-list__text">Русский</span></a></li>
+                                                                        <li class="languages-list__item">
+                                        <a class="language-list__link language-indicator language-indicator--uk" href="prices?lang=uk">
+                                            <span class="language-list__text">Український</span></a></li>
+                                                                        <li class="languages-list__item">
+                                        <a class="language-list__link language-indicator language-indicator--zh" href="prices?lang=zh">
+                                            <span class="language-list__text">中國</span></a></li>
+                                                                    </ul>
+                            </article>
+                        </section>
+                    </section>
+                </article>
+
+                <section class="b-footer__phone">
+                    <a href="tel:+74952483987" class="site-phone-text">+7 (495) 248-39-87</a>
+                </section>
+        </section>
+    </article>
+</footer>
+<!-- SYSTEM REG POPUP -->
+</section>
+<div class="md-callpy-modal md-callpy-effect-3" id="registration__window">
+    <!-- MODAL SIGNIN -->
+    <div class="md-callpy-content">
+        <section class="callpy-registration-container">
+            <div class="crc-close md-callpy-close"></div>
+            <div class="callpy-registration-container__logo"></div>
+            <p class="callpy-registration-container__title">Реєстрація в 1 клік!</p>
+
+            <form class="callpy-registration-container__form" action="prices?lang=uk" method="post" id="sign-in-form">
+                <div class="callpy_default_input callpy-registration-container__input-holder" style="">
+                    <input class="callpy-registration-container__input callpy-registration-container__input--ajax" type="text" placeholder="Введіть Ваш email: "/>
+                </div>
+                <input type="submit" class="callpy-hidden-submit" value=""/>
+
+                <button class="callpy-registration-container__button callpy_button" id="sign-in-form-button" onclick="yaCounter32384895.reachGoal('reg2'); return true;">Зареєструватися</button>
+            </form>
+        </section>
+    </div>
+</div>
+
+
+<div class="md-callpy-modal md-callpy-effect-3" id="positive_registration_window">
+    <!-- MODAL SIGNIN POSITIVE-->
+    <div class="md-callpy-content">
+        <section class="callpy-registration-container">
+            <div class="crc-close md-callpy-close"></div>
+            <div class="callpy-registration-container__logo"></div>
+            <p class="callpy-registration-container__title">Лист відправлено!</p>
+
+            <section class="callpy-registration-container__notification">
+                <p>Ми відправили на ваш e-mail<br/>
+                    посилання для активації облікового запису.</p>
+            </section>
+
+            <button class="callpy-registration-container__button callpy_button md-callpy-close">Закрити</button>
+        </section>
+    </div>
+</div>
+
+<div class="md-callpy-modal md-callpy-effect-2" id="login__window">
+    <!-- MODAL SIGN UP -->
+    <div class="md-callpy-content">
+        <section class="callpy-registration-container">
+            <div class="crc-close md-callpy-close"></div>
+            <div class="callpy-registration-container__logo--login"></div>
+            <p class="callpy-registration-container__title">Увійти в особистий кабінет</p>
+
+            <form class="callpy-registration-container__form" action="prices?lang=uk" id="sign-up-form">
+                <div class="callpy_default_input callpy-registration-container__input-holder" style="">
+                    <input class="callpy-registration-container__input" type="text" name="email" id="login_email" placeholder="Введіть Ваш email: "/>
+                </div>
+
+                <div class="callpy_default_input callpy-registration-container__input-holder" style="">
+                    <input class="callpy-registration-container__input" type="password" name="password" id="login_password" placeholder="Введіть Ваш пароль: "/>
+                    <a class="callpy-registration-container__forgotten-password-link password-recovery-link" href="prices?lang=uk#">Забули пароль?</a>
+                </div>
+
+                <input type="submit" class="callpy-hidden-submit" value=""/>
+
+                <button class="callpy-registration-container__button callpy_button" id="sign-up-form-button">Увійти</button>
+            </form>
+        </section>
+    </div>
+</div>
+
+<div class="md-callpy-modal md-callpy-effect-2" id="password__recovery">
+    <!-- MODAL SIGN UP -->
+    <div class="md-callpy-content">
+        <section class="callpy-registration-container">
+            <div class="crc-close md-callpy-close"></div>
+            <div class="callpy-registration-container__logo--password-recovery"></div>
+            <p class="callpy-registration-container__title">Відновити пароль</p>
+            <p class="callpy-registration-container__subtitle">
+                Вкажіть ваш e-mail який ви вказували <br/>при реєстрації у системі            </p>
+
+            <form class="callpy-registration-container__form" action="prices?lang=uk" id="password-recovery-form">
+                <div class="callpy_default_input callpy-registration-container__input-holder" style="">
+                    <input class="callpy-registration-container__input" type="text" name="email_forgot" id="email_forgot_input" placeholder="Введіть Ваш email: "/>
+                </div>
+                <input type="submit" class="callpy-hidden-submit" value=""/>
+                <button class="callpy-registration-container__button callpy_button" id="password-recovery-form-button">Відновити</button>
+            </form>
+        </section>
+    </div>
+</div>
+
+<div class="md-callpy-modal md-callpy-effect-3" id="recovered_password">
+    <!-- MODAL SIGNIN POSITIVE-->
+    <div class="md-callpy-content">
+        <section class="callpy-registration-container">
+            <div class="crc-close md-callpy-close"></div>
+            <div class="callpy-registration-container__logo callpy-registration-container__logo--recovered-password"></div>
+            <p class="callpy-registration-container__title callpy-registration-container__title--recovered-password">
+                Посилання для зміни пароля <br/>відіслане на ваш e-mail
+            </p>
+        </section>
+    </div>
+</div>
+
+<div class="md-callpy-modal md-callpy-effect-1" id="testdrive_popup">
+    <!-- TEST DRIVE POPUP-->
+    <div class="md-callpy-content">
+        <section class="callpy-registration-container--testdrive">
+            <div class="crc-close md-callpy-close"></div>
+            <p class="test-drive__title">Тест-драйв Callpy на <br/><span class="test-drive__subtitle">test</span></p>
+            <div class="test-drive__icon"></div>
+
+            <div class="test-drive__result-links">
+                <div class="test-drive__result-link">
+                    <p class="test-drive__result-link-title">Консультант</p>
+                    <a href="http://callpy.com/manager/" target="_blank" class="test-drive__result-button">Відкрити</a>
+                    <input class="test-drive__input" type="text" value="http://callpy.com/manager/"/>
+                </div>
+                <div class="test-drive__result-link">
+                    <p class="test-drive__result-link-title">Відвідувач</p>
+                    <a href="prices?lang=uk#" id="user_site_link2" target="_blank" class="test-drive__result-button">Відкрити</a>
+                    <input class="test-drive__input" type="text" id="user_site_link" value=''/>
+                </div>
+            </div>
+            <p class="test-drive__descriptor">
+                Для наочного ефекту, поділіться посиланнями <br/>
+                з колегами і друзями. У демо-версії Ви можете зіткнутися з частковою <br/>непрацездатністю деяких функцій Callpy.
+            </p>
+        </section>
+    </div>
+</div></body>
+</html>

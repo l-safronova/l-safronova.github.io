@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset="utf-8">
+    <title>PosterBot — Premium подписка</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="PosterBot — bot who can send posts from different social services to your Telegram channel">
+    <meta property="og:site_name" content="PosterBot">
+    <meta property="og:image" content="/assets/img/apple-touch-icon.png">
+    <meta property="og:description" content="">
+    <link rel="shortcut icon" href="../assets/img/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/img/apple-touch-icon.png" />
+    <link rel="stylesheet" href="../assets/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/bulma.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/app.css">
+    
+</head>
+<body>
+<section class="hero">
+    <div class="hero-head">
+        <header class="nav ">
+            <div class="container">
+                <div class="nav-left">
+                    <a href="../lang" class="nav-item">
+                        PosterBot
+                    </a>
+                </div>
+                <span id="nav-toggle" class="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+                <div class="nav-right nav-menu" id="nav-menu">
+                    <a href="lang" class="nav-item is-active">Premium</a>
+                    <a href="../help" class="nav-item">Помощь</a>
+                    <a href="https://telegram.me/pstrnews" class="nav-item">Новости</a>
+                    <span class="nav-item">
+                        <a href="https://telegram.me/pstrbot" class="telegram-small"><i class="fa fa-telegram" aria-hidden="true"></i> Открыть в Telegram</a>
+                    </span>
+                </div>
+            </div>
+        </header>
+    </div>
+</section>
+
+
+<section class="hero">  
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="home title">
+            PosterBot <strong>Premium</strong>.<br>Для лучших пользователей.<br><br>— добавление до 30 источников из любых социальных сервисов<br>— возможность использовать все доступные фильтры, в том числе ключевые- и стоп-слова, а также лайки для сообщений<br>— задержка сообщений всего несколько минут<br>— полное отсутствие какой-либо рекламы<br>— повышенный приоритет при обращении в службу поддержки
+            </h1>
+            <h1 class="home title">Всё это за <strong>$5</strong>, либо <strong>299₽</strong> в месяц.<br>Мгновенная активация и оплата в боте.<br></h1>
+            <div class="premium-btn">
+                <a href="https://telegram.me/pstrbot" class="telegram-big">
+                    <span class="icon">
+                      <i class="fa fa-telegram" aria-hidden="true"></i>
+                    </span>
+                <span>Перейти в Telegram</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="content has-text-centered">
+            <p>
+                <strong>PosterBot</strong> является разработкой <a href='https://kostya.co/'>Kostya Kozak</a> и использует открытые и общедоступные методы API сторонних сервисов.
+            </p>
+            <p>
+                <strong>2017.</strong> Все права сохранены.
+            </p>
+            <p>
+                <a href="lang">In English</a>
+            </p>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter41578429 = new Ya.Metrika({ id:41578429, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/41578429" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<script src="../assets/js/jquery-2.2.0.min.js"></script>
+<script src="../assets/js/bulma.js"></script>
+</body>
+</html>

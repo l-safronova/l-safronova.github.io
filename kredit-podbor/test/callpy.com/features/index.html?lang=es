@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Callpy - consultando en línea, chat, llamadas - Caracteristicas</title>
+    <meta name="description" content="Consultor en línea ahora en el Sitio. Chatear-Reproductor párr su sitio de forma Gratuita! Online video and audio calls!"/>
+    <meta name="keywords" content="asesor en línea, online consultante, chat-widget"/>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=cyrillic-ext,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../css/site/features.css">
+    <!--<link rel="stylesheet" href="/css/admin/common.css"/>-->
+    <link rel="stylesheet" href="../css/site/footer.css">
+    <link rel="stylesheet" href="../css/site/header.css">
+
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+    <script src="../es/site/js/main.features.new.js"></script>
+    <script>
+        jQuery1 = $;
+    </script>
+    <script src="../es/js/callpy.general.js"></script>
+    <script src="../ru/js/baron.full.js"></script>
+
+
+    <link rel="stylesheet" href="../site/css/tarif.css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
+    <!-- registration form files -->
+<link rel="stylesheet" href="../css/callpy_basic.css"/>
+<link rel="stylesheet" href="../css/site/callpy_registration_box.css"/>
+<link rel="stylesheet" href="../css/site/modal.callpy.css"/>
+
+<script src="../es/js/callpy.utils.js"></script>
+<script src="../es/js/callpy.modal.js"></script>
+<script src="../es/js/callpy-tooltip.js"></script>
+<script src="../es/js/callpy-error.js"></script>
+<script src="../es/site/js/callpy_registration.js"></script>
+<!-- /registration form files -->
+</head>
+<body>
+<!-- BEGIN CALLPY CODE {literal}  --><script>(function(w,t,p,v,c,f,s,r,h,l,d){w[p]="//kallpy.com/";w[v]="3.83";w[c]=false;if(t==w){var tmp=l.callpy_data;if(tmp==null||!l.callpy_html||!l[c]){w[f]=false}else{w[f]=true;w[s]=JSON.parse(tmp);var tm=new Date().getTime();if(tm-w[s].lastSave<20000){if(w[s].insertcode){eval(w[s].insertcode)}else{w[f]=false}}else{w[f]=false}}}else{w[f]=false}var callpy_script=d.createElement("script");try{var tmp=parent.window.location.href?1:0}catch(e){var tmp=0}callpy_script.type="text/javascript";callpy_script.async=true;if(!w[f]||!l[h]){l[h]=new Date().getTime()}callpy_script.src=w[p]+"c/"+w.location.host.replace(/www./i,"")+"/"+(t==w?(w[f]?1:2):(tmp==1?4:3))+".js?id=132&m="+l[h];callpy_script.onload=function(){iowisp.init()};d.body.appendChild(callpy_script)})(window,window.top,"callpy_path","callpy_version","tiny","sven","callpy_storage","callpy_chat_scroller","callpy_lastchat",localStorage,document);</script><!-- {/literal} END CALLPY CODE  --><section class="page-wrapper">
+    <script>
+    var callpyLogin = null;
+</script>
+<header class="b-callpy-header   b-callpy-header--features">
+    <article class="h-gr-cnt">
+        <section class="h-gr-3 no_p">
+            <article class="b-logo--header">
+                <a href="../index.html" class="b-logo__link--header">
+                    <img src="../images/site/header-img/callpy-logo-header.png" width="159" height="61" title="Callpy.com" alt="Callpy.com">
+                </a>
+            </article>
+        </section>
+        <nav class="h-gr-7 no_p">
+            <ul class="b-header__menu h-gr-cnt">
+                <li class="b-header__item"><a href="../features" class="b-header__menu-link  active h-gr">Caracteristicas</a></li>
+                <li class="b-header__item"><a href="../prices" class="b-header__menu-link  h-gr">Costos</a></li>
+                <li class="b-header__item"><a href="http://blog.callpy.com" class="b-header__menu-link h-gr">Blog</a></li>
+                <li class="b-header__item"><a href="../support" class="b-header__menu-link  h-gr">Поддержка</a></li>
+                <!--<li class="b-header__item"><a href="/partner" class="b-header__menu-link  h-gr md-callpy-trigger">Para socios</a></li>-->
+            </ul>
+        </nav>
+
+                    //no authorizado        <section class="h-gr-6 no_p">
+            <p class="b-header__phone"><a href="tel:+74952483987" class="site-phone-text">+7 (495) 248-39-87</a></p>
+            <article class="b-header__connect">
+                <a href="index.html?lang=es#" class="b-header__connect-link callpy-registration-link">Conectar</a>
+            </article>
+            <article class="b-header__login">
+                <a href="index.html?lang=es#" class="b-header__login-link callpy-login-link">Entrar</a>
+            </article>
+        </section>
+        
+            </article>
+</header>
+    <section class="wrapper row2">
+        <article class="gr-cnt row2__inner">
+            <div class="gr-6"></div>
+            <hgroup class="gr-10 row2__titles">
+                <h3 class="row2__subtitle">SISTEMA DE CONSULTAS EN LINEA</h3>
+                <h2 class="row2__title">CARACTERÍSTICAS Y FUNCIONES</h2>
+                <button class="callpy-registration-link prices-button" onclick="yaCounter32384895.reachGoal('reg1'); return true;">obtener gratuitamente</button>
+            </hgroup>
+        </article>
+    </section>
+
+    <section class="wrapper row2-1">
+        <div class="row2-1__bg"></div>
+        <article class="gr-cnt row2-1__inner">
+            <section class="row2-1__content gr-7">
+                <h2 class="row2-1__title">chat de texto</h2>
+
+                <p class="row2-1__text">Chat en linea en el sitio es una forma tradicional de consultoría en línea. Chat en línea gratuito                    para el sitio para aumentar las ventas sin invertir en publicidad y permite recibir más positivos                    comentarios de sus clientes.</p>
+
+                <p class="row2-1__descriptor">Chat o ventana de audio-video llamada/de videollamada siempre permanecerá<br>en la parte superior de sitio, esto no                    desaparece o se refresca<br>durante la navegación en el sitio, aún si<br>el cliente ha abierto varios                    pestañas.</p>
+            </section>
+        </article>
+    </section>
+
+    <section class="wrapper row3">
+        <article class="gr-cnt row3__inner">
+            <section class="row3__content gr-16">
+                <h2 class="row3__title">CONTROLLING CLIENT SCREEN</h2>
+
+                <p class="row3__text">Al ver las acciones del cliente conduce a la personalización de diálogo que permite                    para aumentar la fiabilidad del cliente. Callpy ofrece la funcionalidad de la observación de la actividad de todos                    en tiempo real y ayuda a elegir perspectivas.</p>
+            </section>
+            <section class="row3__demonstration demostration gr-16">
+                <p class="demonstration__title">Consultor observa la pantalla del cliente en tiempo real!</p>
+                <section class="b-demonstration">
+                    <div class="demonstration-tooltip demonstration-tooltip--active-client b-animate js-active-client-animate" data-block-animate="animated">
+                        <div class="demonstration-tooltip__inner">
+                            <p class="demonstration-tooltip__title">Чат с активным клиентом</p>
+                        </div>
+                    </div>
+
+                    <div class="demonstration-tooltip demonstration-tooltip--tools b-animate js-tools-animate" data-block-animate="animated">
+                        <div class="demonstration-tooltip__inner">
+                            <p class="demonstration-tooltip__title">Инструменты удаленной помощи</p>
+                        </div>
+                    </div>
+
+                    <div class="demonstration-tooltip demonstration-tooltip--online b-animate js-online-animate" data-block-animate="animated">
+                        <div class="demonstration-tooltip__inner">
+                            <p class="demonstration-tooltip__title">Активные посетители на сайте</p>
+                        </div>
+                    </div>
+                    <article class="b-demonstration__inner">
+                        <section class="b-demonstration__panel b-panel js-panel">
+                            <div class="b-panel__arrow js-panel-arrow"></div>
+                        </section>
+                    </article>
+                </section>
+            </section>
+        </article>
+    </section>
+
+    <section class="wrapper row4">
+        <div class="row4__bg"></div>
+        <article class="gr-cnt row4__inner">
+            <section class="row4__content gr-9">
+                <h2 class="row4__title">Llamadas desde el sitio</h2>
+                <p class="row4__text">Los visitantes del sitio web no sólo se pueden comunicar a través de chat con un consejero, pero                    gratuitamente llamarlo directamente desde el sitio con un solo clic. Llamadas en lineas son realmente gratis                    tanto para usted como para  sus clientes.</p>
+            </section>
+
+        </article>
+    </section>
+    <section class="wrapper row5">
+        <article class="gr-cnt row5__inner">
+            <section class="row5__content gr-16">
+                <h2 class="row5__title">video-llamada</h2>
+
+                <p class="row5__text">Realizar la consulta de vídeo en vivo en línea. Está garantizado para proporcionar la retención                    de clientes, y aumentar significativamente el tiempo medio de permanencia de los visitantes del sitio. Usted acepta que                    клиент вряд ли резко развернётся и уйдёт из магазина в момент живого общения с продавцом (en nuestro                    caso cuando un audio/o videollamada).</p>
+                <div class="row5__picture"></div>
+            </section>
+        </article>
+    </section>
+    <section class="wrapper row6">
+        <article class="gr-cnt row6__inner">
+            <div class="row6__bg"></div>
+            <section class="row6__content gr-8">
+                <h2 class="row6__title">DESTACANDO REGIÓN Y<br>CONTROLES DE NAVEGACION</h2>
+
+                <p class="row6__descriptor">El elemento más importante es la capacidad de las ventas activas                    y demostrar a los visitantes el contenido.</p>
+
+                <p class="row6__text">Proceso de Navigación Callpy incluyendo la traducción de visitantes por vínculos ,
+                    de pistas contextuales y la selección de elementos en la página visitante.</p>
+            </section>
+            <section class="row6__picture gr-8"></section>
+        </article>
+    </section>
+
+    <section class="wrapper row7">
+        <article class="gr-cnt row7__inner">
+            <section class="gr-8 row7__content">
+                <h2 class="row7__title">diseño personalizable</h2>
+
+                <p class="row7__descriptor">Consulta en línea Callpy esto encaja perfectamente en el diseño de su sitio web a través                    tiene que comunicar la aparición del widget. Esta voluntad a veces para aumentar la eficacia de                    sitio.</p>
+            </section>
+            <section class="gr-8 row7__picture"></section>
+        </article>
+    </section>
+
+    <section class="wrapper row8">
+        <div class="row8__bg"></div>
+        <article class="gr-cnt row8__inner">
+            <section class="row8__content gr-7">
+                <h2 class="row8__title">respuestas tiendas</h2>
+
+                <p class="row8__text">Utilice respuestas prefabricadas a las preguntas frecuentes de los visitantes. Rapida respuesta online
+                    del asesor a la pregunta, afecta en gran medida la lealtad de los visitantes y el crecimiento de las ventas.</p>
+            </section>
+
+            <section class="row8__picture gr-9">
+
+            </section>
+        </article>
+    </section>
+    <section class="wrapper row9">
+        <div class="row9__bg"></div>
+        <article class="gr-cnt row9__inner">
+            <section class="row9__content gr-10">
+                <h2 class="row9__title">SALUDO AUTOMÁTICO</h2>
+
+                <p class="row9__descriptor">Sistema de consultas en línea Callpy ofrecerá automaticamente al visitante en el sitio                    comenzar un diálogo con un asesor.</p>
+
+                <p class="row9__text">Segun las sstadísticas, los mensajes de saludo automáticos se incrementarán<br>la conversión por 3,5 tiempos.</p>
+
+                <p class="row9__text">Hicemos todo lo posible para que se vea discreto y realmente incrementar<br>
+                    tus ventas. </p>
+            </section>
+            <section class="row9__picture gr-6"></section>
+        </article>
+    </section>
+    <section class="wrapper row10">
+        <div class="row10__bg"></div>
+        <article class="gr-cnt row10__inner">
+            <section class="row10__content gr-7">
+                <h2 class="row10__title">MENSAJES FUERA DE LINEA</h2>
+
+                <p class="row10__descriptor">Hay muchos visitantes en el sitio cuando tus asesores están fuera de línea, por ejemplo,
+                    por la noche o los fines de semana. Callpy enviarán las preguntas de los clientes e-mail, mientras consultores                    está fuera o alejado. </p>
+
+                <p class="row10__text">Esta función le permite 2,5 recibir muchos más comentarios comparados con el ordinario                    formulario de comentarios del sitio.</p>
+            </section>
+            <section class="row10__picture gr-9"></section>
+        </article>
+    </section>
+    <section class="wrapper row11">
+        <article class="gr-cnt row11__inner">
+            <section class="row11__content gr-10">
+                <h2 class="row11__title">estadística</h2>
+
+                <p class="row11__descriptor">Índices cruciales permiten evaluar la calidad del servicio                    de los visitantes del sitio rápidamente. Su calidad de consultores se muestra gráficamente, se puede controlar con claridad                     sus horas de trabajo.</p>
+            </section>
+        </article>
+    </section>
+
+    <section class="wrapper row12">
+        <article class="gr-cnt row12__inner">
+            <section class="row12__content gr-16">
+                <h2 class="row12__title">TRABAJA EN CUALQUIER NAVEGADOR</h2>
+
+                <p class="row12__text">Servicio en la nube le permite no hacer ajustes y complicadas instalaciones                    de complicados software e incorporar nuevos estándares de servicio en su empresa.
+                    Consulte visitantes en su sitio desde cualquier dispositivo en cualquier navegador. No necesita instalar. Mínimo.                    ajustes.</p>
+                <article class="row12__browsers-container gr-cnt">
+                    <section class="row12__browsers">
+
+                    </section>
+                </article>
+                <button class="callpy-registration-link  prices-button prices-button--row12" onclick="yaCounter32384895.reachGoal('reg1'); return true;">obtener gratuitamente</button>
+            </section>
+        </article>
+    </section>
+
+    <section class="wrapper row13">
+        <article class="gr-cnt row13__inner">
+
+            <section class="row13__form-holder gr-16">
+                <hgroup class="row13__titles">
+                    <h2 class="row13__form-title">TEST-DRIVE</h2>
+                    <h3 class="row13__form-subtitle">AHORA MISMO Y CORRECTO EN SU SITIO</h3>
+                </hgroup>
+                <form action="index.html?lang=es" class="row13__form gr-cnt">
+                    <input type="text" name="" id="test-drive-input" class="row13__form-input gr" placeholder="Para instancia, yoursite.com">
+                    <button class="row13__form-button gr test-drive-button"></button>
+                </form>
+                <p class="row13__descriptor">sin instalación</p>
+            </section>
+
+        </article>
+    </section>
+    <section class="wrapper row14">
+        <article class="gr-cnt row14__inner"></article>
+    </section>
+
+    <!-- FOOTER -->
+<footer class="page-foot  page-foot--features">
+    <article class="page-foot__label">
+        las mejores características para su sitio    </article>
+    <article class="f-gr-cnt">
+        <section class="f-gr-3 no_p">
+            <article class="b-logo--footer">
+                <a href="../index.html" class="b-logo__link--footer">
+                    <img src="../images/site/footer-img/callpy-logo-footer.png" width="169" height="47" title="Callpy.com" alt="Callpy.com">
+                </a>
+            </article>
+            <article class="b-footer__mail">
+                <a href="mailto: info@callpy.com" class="b-footer__mail-link">info@callpy.com</a>
+            </article>
+
+            <article class="license">
+                <a href="../doc/public_offerts_ver2.pdf" class="license__link">Acuerdo de licencia</a>
+            </article>
+        </section>
+        <nav class="f-gr-7 no_p">
+            <ul class="b-footer__menu f-gr-cnt">
+                <li class="b-footer__menu-item"><a href="index.html" class="b-footer__menu-link active f-gr">Caracteristicas</a>
+                <li class="b-footer__menu-item"><a href="../prices" class="b-footer__menu-link  f-gr">Costos</a>
+                <li class="b-footer__menu-item"><a href="http://blog.callpy.com" class="b-footer__menu-link f-gr">Blog</a>
+                <li class="b-footer__menu-item"><a href="../support" class="b-footer__menu-link  f-gr">Помощь</a>
+                <!--<li class="b-footer__menu-item"><a href="/partner" class="b-footer__menu-link  f-gr">Para socios</a>-->
+            </ul>
+            <article class="copyright">
+                <p class="copyright__link">Сallpy &copy; 2017</p>
+            </article>
+        </nav>
+
+        <section class="f-gr-6">
+            <a href="index.html?lang=es#" class="footer__connect callpy-registration-link">
+                <p href="" class="footer__connect-link">Obtener gratuito</p>
+            </a>
+
+                <article class="callpy-footer__language-switch f-gr-cnt">
+
+                    <section class="language-switch f-gr-16">
+                        <a class="language-link language-indicator language-indicator--es js-language-switch" href="index.html?lang=es#">
+                        <span class="language-link__text">
+                            Español                        </span>
+                        </a>
+                        <section class="language-popup tooltip-holder js-lang-popup">
+                            <article class="language-popup__inner">
+                                <ul class="language-popup__list languages-list">
+                                                                        <li class="languages-list__item">
+                                        <a class="language-list__link language-indicator language-indicator--az" href="index.html?lang=az">
+                                            <span class="language-list__text">Azerbaijani</span></a></li>
+                                                                        <li class="languages-list__item">
+                                        <a class="language-list__link language-indicator language-indicator--en" href="index.html?lang=en">
+                                            <span class="language-list__text">English</span></a></li>
+                                                                        <li class="languages-list__item">
+                                        <a class="language-list__link language-indicator language-indicator--es" href="index.html?lang=es">
+                                            <span class="language-list__text">Español</span></a></li>
+                                                                        <li class="languages-list__item">
+                                        <a class="language-list__link language-indicator language-indicator--fr" href="index.html?lang=fr">
+                                            <span class="language-list__text">Français</span></a></li>
+                                                                        <li class="languages-list__item">
+                                        <a class="language-list__link language-indicator language-indicator--he" href="index.html?lang=he">
+                                            <span class="language-list__text">עברית</span></a></li>
+                                                                        <li class="languages-list__item">
+                                        <a class="language-list__link language-indicator language-indicator--ru" href="index.html?lang=ru">
+                                            <span class="language-list__text">Русский</span></a></li>
+                                                                        <li class="languages-list__item">
+                                        <a class="language-list__link language-indicator language-indicator--uk" href="index.html?lang=uk">
+                                            <span class="language-list__text">Український</span></a></li>
+                                                                        <li class="languages-list__item">
+                                        <a class="language-list__link language-indicator language-indicator--zh" href="index.html?lang=zh">
+                                            <span class="language-list__text">中國</span></a></li>
+                                                                    </ul>
+                            </article>
+                        </section>
+                    </section>
+                </article>
+
+                <section class="b-footer__phone">
+                    <a href="tel:+74952483987" class="site-phone-text">+7 (495) 248-39-87</a>
+                </section>
+        </section>
+    </article>
+</footer>
+<!-- SYSTEM REG POPUP -->
+</section>
+<div class="md-callpy-modal md-callpy-effect-3" id="registration__window">
+    <!-- MODAL SIGNIN -->
+    <div class="md-callpy-content">
+        <section class="callpy-registration-container">
+            <div class="crc-close md-callpy-close"></div>
+            <div class="callpy-registration-container__logo"></div>
+            <p class="callpy-registration-container__title">Registro a 1 un click!</p>
+
+            <form class="callpy-registration-container__form" action="index.html?lang=es" method="post" id="sign-in-form">
+                <div class="callpy_default_input callpy-registration-container__input-holder" style="">
+                    <input class="callpy-registration-container__input callpy-registration-container__input--ajax" type="text" placeholder="Entre su email: "/>
+                </div>
+                <input type="submit" class="callpy-hidden-submit" value=""/>
+
+                <button class="callpy-registration-container__button callpy_button" id="sign-in-form-button" onclick="yaCounter32384895.reachGoal('reg2'); return true;">Regístrate</button>
+            </form>
+        </section>
+    </div>
+</div>
+
+
+<div class="md-callpy-modal md-callpy-effect-3" id="positive_registration_window">
+    <!-- MODAL SIGNIN POSITIVE-->
+    <div class="md-callpy-content">
+        <section class="callpy-registration-container">
+            <div class="crc-close md-callpy-close"></div>
+            <div class="callpy-registration-container__logo"></div>
+            <p class="callpy-registration-container__title">Mensaje enviado!</p>
+
+            <section class="callpy-registration-container__notification">
+                <p>Nosotros enviamos a su correo electrónico<br/>
+                    un enlaze para activar su cuenta.</p>
+            </section>
+
+            <button class="callpy-registration-container__button callpy_button md-callpy-close">Cerrar</button>
+        </section>
+    </div>
+</div>
+
+<div class="md-callpy-modal md-callpy-effect-2" id="login__window">
+    <!-- MODAL SIGN UP -->
+    <div class="md-callpy-content">
+        <section class="callpy-registration-container">
+            <div class="crc-close md-callpy-close"></div>
+            <div class="callpy-registration-container__logo--login"></div>
+            <p class="callpy-registration-container__title">Entrar a su cuenta</p>
+
+            <form class="callpy-registration-container__form" action="index.html?lang=es" id="sign-up-form">
+                <div class="callpy_default_input callpy-registration-container__input-holder" style="">
+                    <input class="callpy-registration-container__input" type="text" name="email" id="login_email" placeholder="Entre su email: "/>
+                </div>
+
+                <div class="callpy_default_input callpy-registration-container__input-holder" style="">
+                    <input class="callpy-registration-container__input" type="password" name="password" id="login_password" placeholder="Entre su contraseña: "/>
+                    <a class="callpy-registration-container__forgotten-password-link password-recovery-link" href="index.html?lang=es#">Olvidó su contraseña?</a>
+                </div>
+
+                <input type="submit" class="callpy-hidden-submit" value=""/>
+
+                <button class="callpy-registration-container__button callpy_button" id="sign-up-form-button">Entrar</button>
+            </form>
+        </section>
+    </div>
+</div>
+
+<div class="md-callpy-modal md-callpy-effect-2" id="password__recovery">
+    <!-- MODAL SIGN UP -->
+    <div class="md-callpy-content">
+        <section class="callpy-registration-container">
+            <div class="crc-close md-callpy-close"></div>
+            <div class="callpy-registration-container__logo--password-recovery"></div>
+            <p class="callpy-registration-container__title">Recuperar contraseña</p>
+            <p class="callpy-registration-container__subtitle">
+                Apunte su e-mail que usted ha usado <br/>durante el registro en nuestro sistema            </p>
+
+            <form class="callpy-registration-container__form" action="index.html?lang=es" id="password-recovery-form">
+                <div class="callpy_default_input callpy-registration-container__input-holder" style="">
+                    <input class="callpy-registration-container__input" type="text" name="email_forgot" id="email_forgot_input" placeholder="Entre su email: "/>
+                </div>
+                <input type="submit" class="callpy-hidden-submit" value=""/>
+                <button class="callpy-registration-container__button callpy_button" id="password-recovery-form-button">Recuperar</button>
+            </form>
+        </section>
+    </div>
+</div>
+
+<div class="md-callpy-modal md-callpy-effect-3" id="recovered_password">
+    <!-- MODAL SIGNIN POSITIVE-->
+    <div class="md-callpy-content">
+        <section class="callpy-registration-container">
+            <div class="crc-close md-callpy-close"></div>
+            <div class="callpy-registration-container__logo callpy-registration-container__logo--recovered-password"></div>
+            <p class="callpy-registration-container__title callpy-registration-container__title--recovered-password">
+                Enlaze para cambiar su contraseña <br/>fue enviado a su e-mail
+            </p>
+        </section>
+    </div>
+</div>
+
+<div class="md-callpy-modal md-callpy-effect-1" id="testdrive_popup">
+    <!-- TEST DRIVE POPUP-->
+    <div class="md-callpy-content">
+        <section class="callpy-registration-container--testdrive">
+            <div class="crc-close md-callpy-close"></div>
+            <p class="test-drive__title">Test-drive Callpy en <br/><span class="test-drive__subtitle">test</span></p>
+            <div class="test-drive__icon"></div>
+
+            <div class="test-drive__result-links">
+                <div class="test-drive__result-link">
+                    <p class="test-drive__result-link-title">Consultante</p>
+                    <a href="http://callpy.com/manager/" target="_blank" class="test-drive__result-button">Abrir</a>
+                    <input class="test-drive__input" type="text" value="http://callpy.com/manager/"/>
+                </div>
+                <div class="test-drive__result-link">
+                    <p class="test-drive__result-link-title">Visitante</p>
+                    <a href="index.html?lang=es#" id="user_site_link2" target="_blank" class="test-drive__result-button">Abrir</a>
+                    <input class="test-drive__input" type="text" id="user_site_link" value=''/>
+                </div>
+            </div>
+            <p class="test-drive__descriptor">
+                Para mejor entendimiento comparta enlaces <br/>
+                con colegas y amigos. En la versión demo usted puede parcial <br/>ineficiencia de algunas funciones Callpy.
+            </p>
+        </section>
+    </div>
+</div></body>
+</html>
