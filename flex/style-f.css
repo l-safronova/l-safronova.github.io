@@ -1,0 +1,30 @@
+.container {
+    display: flex; /*Элементы расположены горизонтально*/
+    /*flex-direction: column; Элементы - вертикально*/
+    flex-direction: row; /*Ряд*/
+    justify-content: center;
+    /*justify-content: space-between; *растянуты по ширине*/
+    /*justify-content: space-around; пространство поделено 1:2:2:1*/
+    align-items: center;
+    height: 550px;
+}
+.block {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background: green;
+}
+.block1 {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background: yellow;
+    /*align-self: flex-end; Смещение вниз. flex-start наверху*/
+}
+.block2 {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background: red;
+
+}

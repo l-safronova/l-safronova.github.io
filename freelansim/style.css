@@ -1,0 +1,179 @@
+.menu li {
+    display: inline;
+    text-transform: uppercase;
+    margin-left: 0;
+    margin-right: 70px;
+    margin-top: 17px;
+}
+.menu li a:hover {
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+    background: #54B3B7; /* Цвет фона под ссылкой */
+    padding: 4px; /* Поля вокруг текста */
+
+}
+
+.menu li a{
+    color:white;
+}
+.menu {
+    background-color: #246E3D;
+    color: white;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 4px;
+    margin-left: 81px;
+    margin-right: 81px;
+}
+.before {
+    width: 1400px;
+    height: 120px;
+    background: #F4F8F9;
+    margin: auto;
+
+
+
+}
+.mar {
+    width: 350px;
+    margin-left: 200px;
+    margin-top: 15px;
+}
+.my-container {
+    width: 1430px;
+    padding-left: 90px;
+    padding-right: 90px;
+    text-align: center;
+}
+.background-image {
+    background: url("background.png");
+    height: 533px;
+}
+.below {
+    width: 1240px;
+    height: 70px;
+    background: #54B3B7;
+    color: white;
+    text-align: center;
+    font-size: 19px;
+    padding-top: 19px;
+    position: relative;
+    bottom: 26px;
+    left: 81px;
+    Z-index: 1;
+
+}
+input.sign-up {
+    background: #246E3D;
+    border: none;
+    padding: 5px 20px;
+
+}
+input.email {
+    border: none;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+
+
+}
+.start {
+    width: 700px;
+    height: 200px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    padding: 30px 10px 10px;
+    position: relative;
+    top: 110px;
+    left: 320px;
+    background: rgba(44, 135, 94, 0.5);
+}
+.content {
+    background: #F4F8F9;
+    padding-top: 75px;
+    position:relative;
+    top: -24px;
+}
+.about {
+    padding-top: 30px;
+    padding-bottom: 76px;
+    text-align: left;
+    font-size: 16px;
+
+}
+.content {
+    padding-left: 76px;
+    padding-right: 76px;
+    position: relative;
+    top: -69px;
+}
+.part-1, .part-2, .part-3,.part-4 {
+    width: 280px;
+    height: 140px;
+    background: #D3EEF0;
+    margin-bottom: 15px;
+
+
+}
+.caption-1, .caption-2, .caption-3, .caption-4 {
+    text-align: left;
+    padding-top: 14px;
+    padding-left: 14px;
+    color: #54B2B6;
+    font-weight: 600; /* Жирное начертание */
+
+}
+.text-1, .text-2, .text-3, .text-4 {
+    text-align: left;
+    color: #54B2B6;
+    padding-top: 8px;
+    padding-left: 14px;
+    width: 160px;
+}
+
+.pic-1 {
+    position: absolute;
+    top: -10px;
+    right: -35px;
+}
+.pic-2 {
+    position: absolute;
+    top: 20px;
+    right: -2px;
+}
+.pic-3 {
+    position: absolute;
+    top: 4px;
+    right: -2px;
+}
+.pic-4 {
+    position: absolute;
+    top: 4px;
+    right: 8px;
+}
+.row {
+    padding-bottom: 78px;
+}
+.loc-1 {
+    text-align: left;
+    text-transform: uppercase;
+    padding-left: 0;
+}
+.loc {
+    text-align: left;
+    padding-left: 0;
+}
+.logo-loc {
+    text-align: right;
+    padding-right: 0!important;
+}
+.ls_delimiter {
+    padding-bottom: 310px;
+}
+.ls-span {
+    color: #54B3B7;
+}

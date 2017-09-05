@@ -1,0 +1,94 @@
+/*селекторы тегов*/
+body {
+    background: url(img/colors.png) no-repeat right fixed, url(img/sunflower-sm.png) ;
+    /**сначала верхнее изображение, потом нижнее. Как слои. Роза преследует человека. В итоге получаем зафиксированное изображение на текстуре**/
+
+}
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 960px;
+    height: 250px;
+}
+.block1, .block2, .block3 {
+    min-width: 200px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px;
+
+}
+h1 {
+    border: 5px solid #38A1D6;
+    background: #267101;
+    display: inline;
+    text-align: center;
+    margin: 50px;
+    padding: 5px;
+
+}
+h1:hover {
+    border-color: yellow;
+}
+
+a:hover {
+    color: red;
+
+}
+a {
+    color:inherit;
+    text-decoration: none;
+
+}
+.a, .b {
+    width: 400px;
+    height: auto;
+    background: white;
+    color: inherit;
+    font-size: 16px;
+    margin: 20px 50px;
+    padding: 30px;
+
+
+}
+ul {
+    color: brown;
+    font-family: Arial;
+}
+p {
+    margin: 20px 0;
+    font-size: 16px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+#menu {
+    font-size: 22px;
+}
+#menu a {
+    color: #f90;
+}
+#menu a:hover {
+    color: #E63A04;
+}
+#catalog {
+    font-size: 18px;
+}
+#catalog a {
+    color: #e49;
+}
+#catalog a:hover {
+    color: #E63A04;
+}
+.image {
+    width: 300px;
+    transition: width 0.5s; /**Плавное увеличение и уменьшение картинки**/
+    box-shadow: 20px 20px 50px #333;
+    border-radius: 35px;
+}
+
+.image:hover {
+    width: 400px;
+    border-radius: 35px;
+}

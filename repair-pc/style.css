@@ -1,0 +1,77 @@
+
+.header {
+    height: 123px;
+    background: white;
+}
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    height: inherit;
+    background: #F5F5F5;
+    padding: 5px;
+}
+.img1 {
+    padding-top: 10px;
+    width: 75px;
+    float: left;
+}
+.ls-title {
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.textContainer  {
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.ls-btn {
+    height: 41px;
+    width: 150px;
+    background-color: orange;
+    border: 0px;
+    border-radius: 20px;
+}
+.ls-btn-small {
+    background-color: #fff;
+    color: white;
+    width: 40px;
+    left: -155px;
+    position: relative;
+}
+.ls-buttom {
+    margin-top: 5px;
+
+}
+.ls-phone {
+    display: inline-block;
+    font-size: 16px;
+
+}
+.menu li {
+    display: inline;
+    text-transform: uppercase;
+    margin-left: 0;
+    margin-right: 70px;
+    margin-top: 17px;
+}
+.menu li a:hover {
+    color:red;
+    text-decoration: none;
+    cursor: pointer;
+
+
+}
+
+.menu li a{
+    color:white;
+}
+.menu {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 4px;
+}
