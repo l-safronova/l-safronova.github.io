@@ -124,3 +124,30 @@ h1,h2 {
 .ls-price-number li{
     list-style-type: none;
 }
+.work {
+    width: 1280px;
+    height: 853px;
+    background: #F0F0F0;
+    margin: 0 auto;
+    padding: 40px 139px 80px;
+}
+.ls-delimiter {
+    padding-top: 40px;
+}
+.ls-circle {
+    width: 105px;
+    height: 105px;
+    background: white;
+    border: 2px dotted orange;
+    border-radius: 60px;
+    padding-right: 10px;
+
+
+}
+.ls-circle-img {
+    width: 60px;
+    position: relative;
+    left: 17px;
+    bottom: -21px;
+
+}
