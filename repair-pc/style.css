@@ -147,7 +147,32 @@ h1,h2 {
 .ls-circle-img {
     width: 60px;
     position: relative;
-    left: 17px;
-    bottom: -21px;
+    left: 20px;
+    bottom: -22px;
 
+}
+.ls-repairer {
+    width: 317px;
+    height: 605px;
+    background: white;
+    border: 2px dotted orange;
+    border-radius: 5px;
+    position: relative;
+    top: -442px;
+    left: 655px;
+
+
+
+}
+.ls-text {
+    text-transform: uppercase;
+    font-size: 19px;
+    text-align: center;
+    padding-top: 45px;
+}
+.ls-male-img {
+    width: 330px;
+    position: relative;
+    top: 33px;
+    left: 5px;
 }
