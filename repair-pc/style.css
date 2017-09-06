@@ -1,5 +1,7 @@
-
-
+body
+{
+    font-family: 'Open Sans', sans-serif !important;
+}
 .header {
     height: 123px;
     background: white;
@@ -54,29 +56,31 @@
     display: inline;
     text-transform: uppercase;
     margin-left: 0;
-    margin-right: 70px;
+    margin-right: 41px;
     margin-top: 17px;
-
 }
 .menu li a:hover {
     color:red;
     text-decoration: none;
     cursor: pointer;
-
-
 }
 
 .menu li a{
     color:white;
 }
+.menu ul {
+    padding-left: 20px;
+}
 .menu {
-    background-color: black;
     color: white;
     width: 100%;
     height: 60px;
     text-align: center;
     padding-top: 14px;
     padding-bottom: 4px;
+}
+.ls-menu-wrapper {
+    background: black;
 }
 h1,h2 {
     text-align: center;
@@ -104,10 +108,19 @@ h1,h2 {
     color: orange;
     font-size: 16px;
 }
-.ls-price {
+.ls-price-title {
     color: orange;
     text-decoration: underline;
     text-align: left;
     font-size: 16px;
 
+}
+.ls-price-number {
+    /*color: orange;*/
+    text-decoration: none;
+    text-align: right;
+    font-size: 16px;
+}
+.ls-price-number li{
+    list-style-type: none;
 }
