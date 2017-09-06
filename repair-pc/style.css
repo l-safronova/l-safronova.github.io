@@ -1,4 +1,5 @@
 
+
 .header {
     height: 123px;
     background: white;
@@ -6,7 +7,7 @@
 .wrapper {
     max-width: 1000px;
     margin: 0 auto;
-    height: inherit;
+    height: 123px;
     background: #F5F5F5;
     padding: 5px;
 }
@@ -29,7 +30,7 @@
     height: 41px;
     width: 150px;
     background-color: orange;
-    border: 0px;
+    border: 0;
     border-radius: 20px;
 }
 .ls-btn-small {
@@ -41,6 +42,7 @@
 }
 .ls-buttom {
     margin-top: 5px;
+    font-size: 15px;
 
 }
 .ls-phone {
@@ -54,6 +56,7 @@
     margin-left: 0;
     margin-right: 70px;
     margin-top: 17px;
+
 }
 .menu li a:hover {
     color:red;
@@ -74,4 +77,37 @@
     text-align: center;
     padding-top: 14px;
     padding-bottom: 4px;
+}
+h1,h2 {
+    text-align: center;
+    line-height: 1.5;
+
+
+}
+
+.ls-note {
+    display: inline-block;
+    line-height: 1.5;
+    width: 650px;
+    height: 175px;
+    text-align: center;
+    border: 3px dotted gray;
+    margin: 35px;
+    font-size: 20px;
+    padding: 20px;
+    position: relative;
+    left: 80px;
+    bottom: 40px;
+
+}
+.ls-span {
+    color: orange;
+    font-size: 16px;
+}
+.ls-price {
+    color: orange;
+    text-decoration: underline;
+    text-align: left;
+    font-size: 16px;
+
 }
