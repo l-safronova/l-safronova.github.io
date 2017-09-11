@@ -22,7 +22,10 @@ body
     font-size: 25px;
     line-height: 1.5;
 }
-
+.ls-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
 .textContainer  {
     display: inline-block;
     margin-top: 20px;
@@ -30,26 +33,34 @@ body
 }
 .ls-btn {
     height: 41px;
-    width: 150px;
+    width: 170px;
+    color: white;
+    font-size: 13px;
+    padding-left: 23px;
     background-color: orange;
     border: 0;
     border-radius: 20px;
+
+
 }
 .ls-btn-small {
     background-color: #fff;
-    color: white;
     width: 40px;
-    left: -155px;
+    left: -178px;
     position: relative;
 }
-.ls-buttom {
+
+
+.ls-top, .ls-bottom {
     margin-top: 5px;
-    font-size: 15px;
+    margin-bottom: 5px;
+
+
 
 }
 .ls-phone {
     display: inline-block;
-    font-size: 16px;
+    font-size: 17px;
 
 }
 .menu li {
@@ -87,15 +98,18 @@ h1,h2 {
     line-height: 1.5;
 
 
+
 }
 
 .ls-note {
     display: inline-block;
+    background: white;
     line-height: 1.5;
     width: 650px;
     height: 175px;
     text-align: center;
-    border: 3px dotted gray;
+    border: 3px dotted orange;
+    border-radius: 5px;
     margin: 35px;
     font-size: 20px;
     padding: 20px;
@@ -125,7 +139,7 @@ h1,h2 {
     list-style-type: none;
 }
 .work {
-    width: 1280px;
+    width: 100%;
     height: 853px;
     background: #F0F0F0;
     margin: 0 auto;
@@ -155,7 +169,7 @@ h1,h2 {
     width: 317px;
     height: 605px;
     background: white;
-    border: 2px dotted orange;
+    border: 3px dotted orange;
     border-radius: 5px;
     position: relative;
     top: -555px;
@@ -198,9 +212,9 @@ h1,h2 {
 
 }
 .ls-text-sale {
-    position: relative;
-    left: 40px;
-    bottom: -280px;
+    /*position: relative;*/
+    /*left: 40px;*/
+    /*bottom: -280px;*/
     text-transform: uppercase;
     font-size: 27px;
     color: white;
@@ -213,8 +227,8 @@ h1,h2 {
     background: #FFA500;
     font-size: 40px;
     position: relative;
-    top: 300px;
-    left: 50px;
+    top: 27px;
+    left: 0;
     width: 150px;
     height: 60px;
     border-radius: 5px;
@@ -228,8 +242,63 @@ h1,h2 {
 }
 .number {
     position: relative;
-    top: 2px;
-    left: 29px;
+    top: 27px;
+    left: 0;
+    text-align: center;
+
+}
+
+.ls-sale-row {
+    background: url("img/sale.png");
+    width: 1000px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 67px;
+    margin: 0 auto;
 
 
 }
+.ls-gradient {
+    background: linear-gradient(to bottom, white, #F0F0F0);
+}
+.ls-review {
+    width: 100%;
+    background: #F8F8F8;
+    height: 970px;
+    margin-top: 70px;
+}
+.ls-paragraph {
+    margin-top: 40px;
+
+}
+.ls-container h2 {
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.pink-1, .pink-2 {
+    background: #FEC8D6;
+    width: 320px;
+    height: 400px;
+    border-radius: 5px;
+    padding-top: 25px;
+    padding-left: 10px;
+
+    outline: 3px dotted #FF385C;
+}
+.blue {
+    background: #C9EDFD;
+    width: 320px;
+    height: 400px;
+    border-radius: 5px;
+    padding-top: 25px;
+    padding-left: 10px;
+
+    outline: 3px dotted #1995E3;
+    outline-offset: 7px;
+
+}
+.ls-name {
+    width: 60px;
+    padding-top: 6px;
+}
+
