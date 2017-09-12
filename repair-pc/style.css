@@ -275,7 +275,7 @@ h1,h2 {
     padding-top: 60px;
     padding-bottom: 50px;
 }
-.pink-1, .pink-2 {
+.pink {
     background: #FEC8D6;
     width: 320px;
     height: 400px;
@@ -294,11 +294,55 @@ h1,h2 {
     padding-left: 10px;
 
     outline: 3px dotted #1995E3;
-    outline-offset: 7px;
+    /*outline-offset: 7px;*/
 
 }
 .ls-name {
     width: 60px;
-    padding-top: 6px;
+  
+}
+.ls-text-inline {
+    position: relative;
+    bottom: 293px;
+    padding-right: 15px;
+    font-size: 13px;
+
+}
+.ls-all-look {
+    text-align: center;
+    /*margin-top: 30px;*/
+    /*margin-bottom: 60px;*/
+
+}
+.ls-btn-look {
+    height: 41px;
+    width: 170px;
+    color: white;
+    font-size: 13px;
+    padding-left: 23px;
+    background-color: orange;
+    border: 0;
+    border-radius: 20px;
+
+
+}
+.ls-btn-small-look {
+    background-color: #F8F8F8;
+    width: 40px;
+    left: -178px;
+    position: relative;
+}
+.ls-footer {
+    width: 100%;
+    background: #EEECDF;
+    height: 238px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.ls-btn-small-footer {
+    background-color: #EEECDF;
+    width: 40px;
+    left: -178px;
+    position: relative;
 }
 
