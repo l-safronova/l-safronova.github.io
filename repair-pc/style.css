@@ -58,12 +58,25 @@ body
 }
 .ls-phone-btn {
     width: 25px;
+    position: relative;
+    top: -33px;
 }
 .ls-message-btn {
     width: 25px;
+    position: relative;
+    top: -33px;
+}
+.ls-message-question-btn {
+    width: 25px;
+    position: relative;
+    left: -219px;
+    top: 1px;
 }
 .ls-note-blank-btn {
     width: 25px;
+    position: relative;
+    left: -218px;
+    top: -2px;
 }
 .ls-phone {
     display: inline-block;
