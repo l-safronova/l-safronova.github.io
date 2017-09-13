@@ -190,6 +190,23 @@ h1 {
     bottom: -22px;
 
 }
+.ls-red {
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    background-color: #FE6100;
+    border-radius: 14px;
+    position: relative;
+    left: 2px;
+    top: -66px;
+}
+.ls-red-number {
+    font-size: 20px;
+    position: relative;
+    left: 8px;
+    top: 0;
+
+}
 .ls-repairer {
     width: 317px;
     height: 605px;
