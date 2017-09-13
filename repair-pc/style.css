@@ -55,8 +55,15 @@ body
     margin-top: 5px;
     margin-bottom: 5px;
 
-
-
+}
+.ls-phone-btn {
+    width: 25px;
+}
+.ls-message-btn {
+    width: 25px;
+}
+.ls-note-blank-btn {
+    width: 25px;
 }
 .ls-phone {
     display: inline-block;
@@ -122,6 +129,7 @@ h1,h2 {
     color: orange;
     font-size: 16px;
 }
+
 .ls-price-title {
     color: orange;
     text-decoration: underline;
@@ -171,9 +179,8 @@ h1,h2 {
     background: white;
     border: 3px dotted orange;
     border-radius: 5px;
-    position: relative;
-    top: -555px;
-    left: 685px;
+
+
 
 
 
@@ -186,7 +193,7 @@ h1,h2 {
 }
 .ls-male-img {
     width: 330px;
-    position: relative;
+    /*position: relative;*/
     top: 33px;
     left: 5px;
 }
@@ -264,7 +271,7 @@ h1,h2 {
 .ls-review {
     width: 100%;
     background: #F8F8F8;
-    height: 970px;
+    height: 670px;
     margin-top: 70px;
 }
 .ls-paragraph {
@@ -282,8 +289,8 @@ h1,h2 {
     border-radius: 5px;
     padding-top: 25px;
     padding-left: 10px;
-
     outline: 3px dotted #FF385C;
+    outline-offset: -8px;
 }
 .blue {
     background: #C9EDFD;
@@ -292,9 +299,8 @@ h1,h2 {
     border-radius: 5px;
     padding-top: 25px;
     padding-left: 10px;
-
     outline: 3px dotted #1995E3;
-    /*outline-offset: 7px;*/
+    outline-offset: -8px;
 
 }
 .ls-name {
@@ -302,17 +308,15 @@ h1,h2 {
   
 }
 .ls-text-inline {
-    position: relative;
-    bottom: 293px;
     padding-right: 15px;
+    padding-top: 15px;
     font-size: 13px;
 
 }
 .ls-all-look {
     text-align: center;
-    /*margin-top: 30px;*/
-    /*margin-bottom: 60px;*/
-
+    margin-top: 30px;
+    margin-bottom: 60px;
 }
 .ls-btn-look {
     height: 41px;

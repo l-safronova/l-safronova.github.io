@@ -15,9 +15,9 @@
                     <img src="svg/domestic.svg">
                 </div>
                 <div class="col-md-3 ls-title">
-                    <span class="textContainer">
-                        <p>Скорый ремонт компьютеров</p>
-                    </span>
+                    <p class="textContainer">
+                        <span>Скорый ремонт компьютеров</span>
+                    </p>
 
                 </div>
                 <div class="col-md-3">
@@ -29,17 +29,18 @@
                     <div class="ls-top">
                         <button class="ls-btn">Заказать звонок</button>
                         <button class="ls-btn ls-btn-small">_</button>
+                        <img src="svg/phone.svg" class="ls-phone-btn">
                     </div>
                     <div class="ls-bottom">
                         <button class="ls-btn">Задать вопрос</button>
                         <button class="ls-btn ls-btn-small">_</button>
+                        <img src="svg/message.svg" class="ls-message-btn">
                     </div>
                 </div>
                 <div class="col-md-2">
-                    <span class="ls-phone">
-                        +7(904)559-00-95
-                    </span>
-                    <p>Мы в соц. сетях:</p><p> <a href="#"><img src="svg/vk.svg" width="26"></a>
+                    <p><span class="ls-phone">+7(904)559-00-95</span></p>
+                    <p>Мы в соц. сетях:</p>
+                    <p> <a href="#"><img src="svg/vk.svg" width="26"></a>
                         <a href="#"><img src="svg/whatsapp.svg" width="26"></a>
                         <a href="#"><img src="svg/facebook.svg" width="26"></a>
                         <a href="#"><img src="svg/telegram.svg" width="26"></a>
@@ -54,12 +55,12 @@
         <div class="menu">
             <ul>
                 <li>
-                    <a>
+                    <a href="#prices" title="Услуги и цены">
                         Услуги и цены
                     </a>
                 </li>
                 <li>
-                    <a>
+                    <a href="#work" title="Порядок работы">
                         Порядок работы
                     </a>
                 </li>
@@ -69,7 +70,7 @@
                     </a>
                 </li>
                 <li>
-                    <a>
+                    <a href="#about company" title="О нашей компании">
                         О компании
                     </a>
                 </li>
@@ -79,7 +80,7 @@
                     </a>
                 </li>
                 <li>
-                    <a>
+                    <a href="#review" title="Отзывы наших клиентов">
                         Отзывы
                     </a>
                 </li>
@@ -186,6 +187,9 @@
                         <p>или оставьте заявку</p>
                         <button class="ls-btn">Задать вопрос</button>
                         <button class="ls-btn ls-btn-small">_</button>
+                        <img src="svg/message.svg" class="ls-message-btn">
+
+
 
                     </div>
                 </div>
@@ -207,11 +211,12 @@
         </div>
     </div>
 
-    <div class="ls-container">
+    <div class="ls-container ls-section-prices">
 
         <div class="row">
             <div class="col-md-12 text-center">
-                <h2>Наши услуги и цены</h2>
+                <a name="prices"><h2>Наши услуги и цены</h2></a>
+
                 <p>Выезд мастера на дом - <span class="ls-span">Бесплатно!</span></p>
                 <p>Диагностика ПО - <span class="ls-span">Бесплатно!</span></p>
             </div>
@@ -362,75 +367,84 @@
     <!-- начало серого блока -->
     <div class="work">
         <div class="ls-container">
-            <h2 class="align-center">Порядок работ</h2>
+            <a name="work"><h2 class="align-center">Порядок работы</h2></a>
             <div class="row">
-                <div class="col-md-3">
-                    <div class="ls-circle">
-                        <img src="svg/old-phone.svg" class="ls-circle-img">
+
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="ls-circle">
+                                <img src="svg/old-phone.svg" class="ls-circle-img">
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <h3>Связываетесь с нами</h3>
+                            <p>
+                                Указываете удобное для вас время.<br>
+                                Звоните по тел. <span class="ls-span">+7(904)559-00-95</span>  или воспользуйтесь
+                                формой онлайн заказа.
+                            </p>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                    <hr style="border-width: 1px; border-color: orange;">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h3>Приезжает мастер</h3>
+                            <p>Проводит <span class="ls-span">диагностику</span> и определяет неисправность.
+                                Сообщает стоимость работ.</p>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="ls-circle">
+                                <img src="svg/car.svg" class="ls-circle-img">
+                            </div>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                    <hr style="border-width: 1px; border-color: orange;">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="ls-circle">
+                                <img src="svg/screwdriver.svg" class="ls-circle-img">
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <h3>Делает ремонт</h3>
+                            <p>Согласовав с вами предстоящий ремонт, устранит неисправность и
+                                даст рекомендации
+                            </p>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                    <hr style="border-width: 1px; border-color: orange;">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h3>Принимаете работу</h3>
+                            <p>В конце работ мастер оставляет вам договор и отчет по формату
+                                БСО-1. Обращайтесь с этими документами, если возникнет гарантийный случай.
+                            </p>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="ls-circle">
+                                <img src="svg/contract.svg" class="ls-circle-img">
+                            </div>
+                        </div>
+                        <div class="col-md-1"></div>
                     </div>
                 </div>
-                <div class="col-md-5">
-                    <h3>Связываетесь с нами</h3>
-                    <p>
-                        Указываете удобное для вас время.<br>
-                        Звоните по тел. <span class="ls-span">+7(904)559-00-95</span>  или воспользуйтесь
-                        формой онлайн заказа.
-                    </p>
-                </div>
-                <div class="col-md-4"></div>
-            </div>
-            <hr style="border-width: 1px; border-color: #bbb4b4;">
-            <div class="row">
-                <div class="col-md-5">
-                    <h3>Приезжает мастер</h3>
-                    <p>Проводит <span class="ls-span">диагностику</span> и определяет неисправность.
-                        Сообщает стоимость работ.</p>
-                </div>
-                <div class="col-md-3">
-                    <div class="ls-circle">
-                        <img src="svg/car.svg" class="ls-circle-img">
+
+                <div class="col-md-4">
+                    <div class="ls-repairer">
+                        <p class="ls-text">Скорый<br> компьютерный ремонт,<br> мастер приезжает<br> в течение часа.</p>
+                        <img src="svg/male.svg" class="ls-male-img">
                     </div>
                 </div>
-                <div class="col-md-4"></div>
-            </div>
-            <hr style="border-width: 1px; border-color: #bbb4b4;">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="ls-circle">
-                        <img src="svg/screwdriver.svg" class="ls-circle-img">
-                    </div>
-                </div>
-                <div class="col-md-5">
-                    <h3>Делает ремонт</h3>
-                    <p>Согласовав с вами предстоящий ремонт, устранит неисправность и
-                        даст рекомендации
-                    </p>
-                </div>
-                <div class="col-md-4"></div>
-            </div>
-            <hr style="border-width: 1px; border-color: #bbb4b4;">
-            <div class="row">
-                <div class="col-md-5">
-                    <h3>Принимаете работу</h3>
-                    <p>В конце работ мастер оставляет вам договор и отчет по формату
-                        БСО-1. Обращайтесь с этими документами, если возникнет гарантийный случай.
-                    </p>
-                </div>
-                <div class="col-md-3">
-                    <div class="ls-circle">
-                        <img src="svg/contract.svg" class="ls-circle-img">
-                    </div>
-                </div>
-                <div class="col-md-4"></div>
-            </div>
-            <div class="ls-repairer">
-                <p class="ls-text">Скорый<br> компьютерный ремонт,<br> мастер приезжает<br> в течение часа.</p>
-                <img src="svg/male.svg" class="ls-male-img">
+
             </div>
         </div>
     </div>
     <!-- конец серого блока -->
-    <div class="ls-container">
+    <div class="ls-container ls-section-sale">
         <div class="ls-delimiter"></div>
         <div class="row ls-sale-row">
             <div class="col-md-4">
@@ -442,7 +456,7 @@
         <div class="ls-delimiter"></div>
         <div class="row">
             <div class="col-md-12 text-center">
-                <h2>О компании</h2>
+                <a name="about company"> <h2>О компании</h2></a>
                 <h3>Только факты</h3>
             </div>
         </div>
@@ -468,7 +482,7 @@
     </div> <!ls-container-->
     <div class="ls-review">
         <div class="ls-container">
-            <h2>Отзывы</h2>
+            <a name="review"><h2>Отзывы</h2></a>
             <div class="row">
                 <div class="col-md-4">
                     <div class="row  pink">
@@ -481,8 +495,6 @@
 
                         </div>
                         <div class="col-md-3"></div>
-                    </div>
-                    <div class="row">
                         <div class="col-md-12">
                             <p class="ls-text-inline">
                                 Отличный отель, очень-очень чисто, красиво. Приятный номер,
@@ -503,8 +515,6 @@
                             <p>10 ноября 2016</p>
                         </div>
                         <div class="col-md-3"></div>
-                    </div>
-                    <div class="row ">
                         <div class="col-md-12">
                             <p class="ls-text-inline">
                                 Администрация гумманитарно-экономического колледжа выражает благодарность
@@ -526,9 +536,6 @@
                             <p>30 августа 2016</p>
                         </div>
                         <div class="col-md-3"></div>
-                    </div>
-
-                    <div class="row">
                         <div class="col-md-12">
                             <p class="ls-text-inline">
                                 Приехали в Великий Новгород на 2 дня, остановились в гостинице "Акрон" и не
@@ -546,6 +553,7 @@
                     <div class="ls-all-look">
                         <button class="ls-btn-look">Смотреть все отзывы</button>
                         <button class="ls-btn-look ls-btn-small-look">_</button>
+                        <img src="svg/note-black.svg" class="ls-note-blank-btn">
                     </div>
                 </div>
             </div>
@@ -556,12 +564,12 @@
         <div class="menu">
             <ul>
                 <li>
-                    <a>
+                    <a href="#prices" title="Услуги и цены">
                         Услуги и цены
                     </a>
                 </li>
                 <li>
-                    <a>
+                    <a href="#work" title="Порядок работы">
                         Порядок работы
                     </a>
                 </li>
@@ -571,7 +579,7 @@
                     </a>
                 </li>
                 <li>
-                    <a>
+                    <a href="#about company" title="О нашей компании">
                         О компании
                     </a>
                 </li>
@@ -581,7 +589,7 @@
                     </a>
                 </li>
                 <li>
-                    <a>
+                    <a href="#review" title="Отзывы наших клиентов">
                         Отзывы
                     </a>
                 </li>
@@ -598,7 +606,6 @@
             <div class="row">
                 <div class="col-md-3">
                     <h4>Свяжитесь с нами</h4>
-                    <!--<p class="textContainer"><span>Свяжитесь с нами</span></p>-->
                     <p><span class="ls-phone">+7(904)559-00-95</span></p>
                     <p>Мы в соц. сетях:</p>
                     <p> <a href="#"><img src="svg/vk.svg" width="26"></a>
@@ -616,10 +623,12 @@
                     <div class="ls-top">
                         <button class="ls-btn">Заказать звонок</button>
                         <button class="ls-btn ls-btn-small-footer">_</button>
+                        <img src="svg/phone.svg" class="ls-phone-btn">
                     </div>
                     <div class="ls-bottom">
                         <button class="ls-btn">Задать вопрос</button>
                         <button class="ls-btn ls-btn-small-footer">_</button>
+                        <img src="svg/message.svg" class="ls-message-btn">
                     </div>
                 </div>
                 <div class="col-md-3 ls-title">
