@@ -12,6 +12,7 @@ body
     height: 123px;
     /*background: #F5F5F5;*/
     padding: 5px;
+
 }
 .img1 {
     padding-top: 10px;
@@ -51,11 +52,14 @@ body
 }
 
 
-.ls-top, .ls-bottom {
+/*.ls-top {
     margin-top: 5px;
     margin-bottom: 5px;
 
 }
+.ls-bottom {
+    margin-bottom: 15px;
+}*/
 .ls-phone-btn {
     width: 25px;
     position: relative;
@@ -101,6 +105,7 @@ body
 }
 .menu ul {
     padding-left: 20px;
+    padding-top: 6px;
 }
 .menu {
     color: white;
@@ -115,12 +120,11 @@ body
 }
 h1,h2 {
     text-align: center;
-    line-height: 1.5;
-
-
-
+    /*line-height: 1;*/
 }
-
+h1 {
+    padding-top: 25px;
+}
 .ls-note {
     display: inline-block;
     background: white;
@@ -192,10 +196,6 @@ h1,h2 {
     background: white;
     border: 3px dotted orange;
     border-radius: 5px;
-
-
-
-
 
 }
 .ls-text {
@@ -292,8 +292,8 @@ h1,h2 {
 
 }
 .ls-container h2 {
-    padding-top: 60px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
 .pink {
     background: #FEC8D6;
