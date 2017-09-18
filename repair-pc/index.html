@@ -6,6 +6,20 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap.min.css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <script src="jquery-1.11.1.min.js"></script>
+    <script src="jquery.bxslider.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.bxslider').bxSlider({
+                pager: false,
+                speed: 2000
+//                auto: true,
+//                autoHover: true
+
+            });
+        });
+    </script>
+
 </head>
 <body>
 
@@ -107,8 +121,13 @@
     <div class="ls-container">
         <!--Изображение под черным меню, слайдер-->
         <div class="row">
-            <div class="col-md-12 text-center">
-                <img src="img/repair1.png" width="1000px">
+            <div class="col-md-12 text-center slider">
+                <ul class="bxslider">
+                    <li><img src="img/slide1.png" alt="slide1"></li>
+                    <li><img src="img/slide2.png" alt="slide2"></li>
+                    <li><img src="img/slide3.png" alt="slide3"></li>
+                    <li><img src="img/slide4.png" alt="slide4"></li>
+                </ul>
             </div>
         </div>
     </div>
