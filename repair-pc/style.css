@@ -134,13 +134,17 @@ h1 {
     text-align: center;
     border: 3px dotted orange;
     border-radius: 5px;
-    margin: 35px;
     font-size: 20px;
     padding: 20px;
     position: relative;
     left: 80px;
     bottom: 40px;
+    margin-top: 66px;
+    margin-left: 57px;
 
+}
+.ls-question {
+    padding-left: 68px;
 }
 .ls-span {
     color: orange;
