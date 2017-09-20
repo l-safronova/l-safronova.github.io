@@ -401,29 +401,27 @@ h1 {
 }
 .bx-prev {
     display: block;
-    width: 30px;
-    height: 34px;
-    background: #fff url("img/bx-prev.png") no-repeat;
+    width: 65px;
+    height: 65px;
+    background:  url("img/back.png") no-repeat;
     position: absolute;
-    left: 0;
-    top: 50%;
-    margin-top: -17px;
-    text-indent: -9999px; /*задание красной строки обычно*/
-    border-radius: 0 3px 3px 0;
+    left: 15px;
+    bottom: 167px;
     z-index: 100;
+    text-indent: -9999px; /*задание красной строки обычно*/
+    /*border-radius: 0 3px 3px 0;*/
+
 
 }
 .bx-next {
     display: block;
-    width: 30px;
-    height: 34px;
-    background: #fff url("img/bx-next.png") no-repeat;
+    width: 65px;
+    height: 65px;
+    background: url("img/next.png") no-repeat;
     position: absolute;
-    right: 0;
-    top: 50%;
-    margin-top: -17px;
+    right: 15px;
+    bottom: 167px;
     text-indent: -9999px; /*задание красной строки обычно*/
-    border-radius: 3px 0 0 3px;
     z-index: 100;
 
 }
