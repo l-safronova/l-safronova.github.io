@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+.container {
+    /*Делаем flex элемент*/
+    display: flex;
+    height: 500px;
+    background-color: rgba(0,0,0,.1);
+    /*Выравнивание контента по горизонтали*/
+    justify-content: space-around;
+    /*Выравнивание контента по вертикали*/
+    align-items: center;
+    /*Многострочность элементов flex-wrap*/
+    flex-wrap: wrap;
+    /*Заполнение контента по вертикали*/
+    align-content: space-around;
+
+}
+.item {
+    background-color: #ccc;
+    border: 1px solid red;
+    flex-basis: 100px;
+    text-align: center;
+    /*Порядок элементов (свойство order)*/
+
+    /*Базовая ширина элементов flex-basis*/
+
+    /*Растяжение элементов flex-grow*/
+
+    /*Сужение элементов flex-shrink*/
+
+    /*Выравнивание отдельных элементов align-self*/
+}
+.active {
+    background-color: white;
+    color: #fff;
+    /*Порядок элементов (свойство order). -1 - в начало, 1- в конец строки, 0 -первоначальное положение*/
+    order: 1;
+    /*Базовая ширина элементов flex-basis*/
+    /*Растяжение элементов flex-grow*/
+    /*flex-grow: 2;*/
+    /*Сужение элементов flex-shrink*/
+    /*flex-shrink: 2; не сработало*/
+    /*Выравнивание отдельных элементов align-self*/
+    align-self: flex-end;
+
+
+
+
+}
+.active-1 {
+    align-self: flex-start;
+}
+em.fa {
+    /*font-size: 50px;*/
+    color: green;
+}
+#first-cog {
+    color: orange;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1)
+}
+#second-cog {
+    color: blue;
+}
+.text-danger {
+    color: red;
+}
