@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Кнопки</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+        body {
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    <button class="btn btn-default">Стандартная</button>
+    <input type="submit" class="btn btn-primary" value="Основная">
+    <input type="button" class="btn btn-success" value="Подтвердить">
+    <a href="#" class="btn btn-info" role="button">Уведомление</a>
+    <button class="btn btn-warning">Внимание</button>
+    <button class="btn btn-danger">Отмена</button>
+    <button class="btn btn-link">Ссылка</button>
+    <br><br>
+    <!--===========Размеры кнопок============-->
+    <!--===========Строчные=================-->
+    <button class="btn btn-default btn-lg">Кнопка</button>
+    <button class="btn btn-default btn-md">Кнопка</button>
+    <button class="btn btn-default btn-sm">Кнопка</button>
+    <button class="btn btn-default btn-xs">Кнопка</button>
+    <br><br>
+    <!--===========Блочные. Большие на весь экран=================-->
+    <button class="btn btn-success btn-md btn-block">Кнопка</button>
+    <br><br>
+    <button class="btn btn-default btn-lg active">Кнопка</button> <!--Активная, нажата-->
+    <button class="btn btn-default btn-lg disabled">Кнопка</button> <!--Отключенная-->
+    <br><br>
+    <!--====================Группы кнопок=====================================-->
+    <div class="btn-group">
+        <div class="btn-group btn-group-md" data-toggle="buttons">
+            <label class="btn btn-primary">
+                <input type="checkbox"> Параметр 1
+            </label>
+            <label class="btn btn-primary">
+                <input type="checkbox"> Параметр 2
+            </label>
+            <label class="btn btn-primary">
+                <input type="checkbox"> Параметр 3
+            </label>
+        </div>
+        <div class="btn-group btn-group-md" data-toggle="buttons">
+            <label class="btn btn-primary">
+                <input type="radio"> Параметр 1
+            </label>
+            <label class="btn btn-primary">
+                <input type="radio"> Параметр 2
+            </label>
+            <label class="btn btn-primary">
+                <input type="radio"> Параметр 3
+            </label>
+        </div>
+
+    </div>
+    <br><br>
+    <div class="btn-group-vertical btn-group-md" data-toggle="buttons"> <!--Вертикальные-->
+        <label class="btn btn-primary">
+            <input type="radio"> Параметр 1
+        </label>
+        <label class="btn btn-primary">
+            <input type="radio"> Параметр 2
+        </label>
+        <label class="btn btn-primary">
+            <input type="radio"> Параметр 3
+        </label>
+    </div>
+
+</body>
+</html>

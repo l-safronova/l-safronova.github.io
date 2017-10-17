@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Формы</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <form role="form" class="form-horizontal">
+            <!--====class="form-inline" выстраивает в одну строчку======-->
+            <div class="form-group">
+                <label for="email" class="control-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Введите email">
+                <!--<p class="help-block">Некая подсказка</p>-->
+            </div>
+
+            <div class="form-group">
+                <label for="password" class="control-label">Пароль</label>
+                <input type="password" class="form-control" id="password" placeholder="Введите пароль">
+            </div>
+            <div class="checkbox">
+                <label for="password">
+                    <input type="checkbox"> Чекбокс
+                </label>
+            </div>
+            <button type="button" class="btn btn-success">
+                Регистрация
+            </button>
+        </form>
+    </div>
+
+</body>
+</html>
