@@ -1,0 +1,16 @@
+.test {
+    font-size: 40px;
+    color: red;
+    border: 2px solid green;
+
+}
+.new {
+    background: blue;
+}
+#cool {
+    background: yellow;
+}
+
+i.fas {
+        color: green;
+}
