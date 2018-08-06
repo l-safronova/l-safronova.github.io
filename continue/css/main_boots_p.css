@@ -76,6 +76,10 @@ section {
     /*margin-bottom: 93px;*/
 }
 
+.row .photos {
+    display: block;
+}
+
 .btn {
     background: #ecac2e;
     color: #000;
