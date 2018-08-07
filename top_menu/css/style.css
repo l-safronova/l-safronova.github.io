@@ -1,0 +1,88 @@
+body {
+    background-image: url("../img/white-paper.jpg");
+    /*background-size: 100%;*/
+}
+header {
+    margin: 200px;
+    font-family: 'Cuprum', sans-serif, Arial, Helvetica;
+}
+.dws-menu *{
+    margin: 0;
+    padding: 0;
+
+}
+.dws-menu ul,
+.dws-menu ol {
+    list-style: none;
+}
+.dws-menu > ul{
+    display: flex;
+    justify-content: center;
+}
+.dws-menu > ul li a{
+    display: block;
+    background: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffffff 0%, #e5e5e5 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #ffffff 0%,#e5e5e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+;
+    padding: 15px 30px 15px 40px;
+    font-size: 14px;
+    color: #454547;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+
+}
+.dws-menu > ul li {
+    position: relative;
+    border-right: 1px solid #c7c8ca;
+
+}
+.dws-menu > ul li > a i.fa {
+    position: absolute;
+    top: 15px;
+    left: 12px;
+    font-size: 18px;
+}
+.dws-menu > ul li:first-child {
+    border-left: 1px solid #b2b3b5;
+
+}
+.dws-menu > ul li:last-child {
+    border-right: 1px solid #babbbb;
+}
+.dws-menu li a:hover {
+    background: #454547;
+    color: #ffffff;
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.3s ease;
+
+}
+/*Sub menu*/
+.dws-menu li ul {
+    position: absolute;
+    min-width: 150px;
+    display: none;
+
+}
+.dws-menu li > ul li {
+    border: 1px solid #c7c8ca;
+
+}
+.dws-menu li > ul li a {
+    padding: 10px;
+    text-transform: none;
+    background: #e4e4e5;
+
+}
+.dws-menu li > ul li ul {
+    position: absolute;
+    right: -150px;
+    top: 0;
+}
+.dws-menu li:hover > ul {
+    display: block;
+}
