@@ -18,7 +18,20 @@ h3 {
 h2 {
     text-align: center;
 }
+.title {
+    padding-top: 100px;
+    padding-bottom: 70px;
+    text-align: center;
 
+}
+.title__main {
+    font-size: 32px;
+}
+.title__text {
+    font-size: 20px;
+    width: 780px;
+    margin: 0 auto;
+}
 /*Первый экран*/
 .header {
     background: #fcdb00;
@@ -74,4 +87,16 @@ h2 {
 .ipad {
     display: block;
     margin: 60px auto 0;
+}
+/*Второй экран*/
+.feature {
+    margin-bottom: 65px;
+}
+.feature__icon {
+    font-size: 50px;
+    margin-right: 37px;
+    color: #000;
+}
+.feature__text {
+    color: #898989;
 }
