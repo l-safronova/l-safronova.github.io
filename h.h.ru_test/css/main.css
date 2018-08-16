@@ -10,8 +10,10 @@ h1, h2, h3, h4, h5 {
     font-weight: 700;
     color: #000;
 }
-h3 {
-    font-weight: 400;
+h1 {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 30px;
 
 }
 h2 {
@@ -25,8 +27,6 @@ h2 {
 }
 /*Первый экран*/
 .header {
-    /*background: #fcdb00;
-    color: #010101;*/
     padding-top: 25px;
     padding-bottom: 55px;
 }
@@ -48,4 +48,22 @@ h2 {
     border-bottom-style: solid; /* Стиль линии */
     border-bottom-width: 3px;  /* Толщина линии */
     padding-bottom: 10px;  /* Расстояние между линией и текстом */
+}
+table {
+    padding: 15px;
+    border: solid 1px gray;
+}
+td {
+    padding:12px;
+    margin-left: 10px;
+}
+
+
+.text {
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+.info {
+    padding: 15px;
+
 }
