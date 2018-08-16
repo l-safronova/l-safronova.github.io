@@ -143,6 +143,26 @@
                 </div>
 
                 <div class="col-md-5">
+                    <fieldset class="fieldset">
+                        <legend>Период</legend>
+
+                        <div>
+                            <label for="start">Start</label>
+                            <input type="date" id="start" name="trip"
+                                   value="2018-07-22"
+                                   min="2018-08-12" max="2018-12-31" />
+                        </div>
+
+                        <div>
+                            <label for="end">End</label>
+                            <input type="date" id="end" name="trip"
+                                   value="2018-07-29"
+                                   min="2018-08-12" max="2018-12-31"/ >
+                        </div>
+
+                    </fieldset>
+
+                    <input type="button" onclick="document.location.reload()" value="Обновить" />
 
                 </div>
             </div>
