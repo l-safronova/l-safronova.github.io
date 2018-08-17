@@ -11,6 +11,23 @@
 
 </head>
 <body>
+<p><strong>Сегодня</strong> -
+        <script language="javascript" type="text/javascript"><!--
+        var d = new Date();
+
+        var day=new Array("Воскресенье","Понедельник","Вторник",
+            "Среда","Четверг","Пятница","Суббота");
+
+        var month=new Array("января","февраля","марта","апреля","мая","июня",
+            "июля","августа","сентября","октября","ноября","декабря");
+
+        document.write(day[d.getDay()]+" " +d.getDate()+ " " + month[d.getMonth()]
+            + " " + d.getFullYear() + " г.");
+        //--></script>
+
+    </p>
+
+
     <p id="cool">
         Я смогу делать не <span style="color: green;">только дизайн</span>, но и верстку проектов для клиентов.
     </p>
