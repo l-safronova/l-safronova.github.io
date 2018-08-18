@@ -1,44 +1,36 @@
 body {
     font-family: 'PT Sans', sans-serif;
+    padding-bottom: 20px;
+
 }
 ul, li {
     display: block;
     padding:0;
     margin: 0;
 }
-h1, h2, h3, h4, h5 {
-    font-weight: 700;
-    color: #000;
-}
+
 h1 {
     font-weight: 700;
     font-size: 30px;
-    margin-bottom: 30px;
+
+
 
 }
-h2 {
-    text-align: center;
-}
-.title {
-    padding-top: 100px;
-    padding-bottom: 70px;
-    text-align: center;
 
-}
 /*Первый экран*/
 .header {
     padding-top: 25px;
-    padding-bottom: 55px;
+    padding-bottom: 40px;
 }
 .menu {
-    margin-top: 10px;
+    margin-top: 5px;
 }
 .menu__item {
     margin: 0 57px; /*Раздвинули пункты меню*/
 
 }
 .menu__item a {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 400;
     color: #000;
 
@@ -47,25 +39,26 @@ h2 {
     border-bottom-color: black; /* Цвет линии слева */
     border-bottom-style: solid; /* Стиль линии */
     border-bottom-width: 3px;  /* Толщина линии */
-    padding-bottom: 10px;  /* Расстояние между линией и текстом */
+    padding-bottom: 5px;  /* Расстояние между линией и текстом */
 }
-.text {
+/*.text {
     margin-left: 8px;
     margin-bottom: 5px;
-}
+}*/
 .far {
     margin-left: 5px;
     margin-right: 5px;
 }
 /*table {
 
-    border: solid 1px gray;
-    border-top: 0;
+    border: solid 1px black;
+
 }*/
 td,
 tr {
-    padding: 5px 15px;
-    margin: 5px 10px 5px 0px;
+    border: 0;
+
+    /*margin: 5px 10px 5px 0px;*/
 
 }
 
