@@ -12,15 +12,15 @@ ul, li {
 h1 {
     font-weight: 700;
     font-size: 30px;
-
-
-
 }
 
 /*Первый экран*/
 .header {
     padding-top: 25px;
     padding-bottom: 40px;
+}
+.table td {
+    border-top: 0;
 }
 .menu {
     margin-top: 5px;
@@ -41,6 +41,7 @@ h1 {
     border-bottom-width: 3px;  /* Толщина линии */
     padding-bottom: 5px;  /* Расстояние между линией и текстом */
 }
+
 /*.text {
     margin-left: 8px;
     margin-bottom: 5px;
@@ -54,8 +55,7 @@ h1 {
     border: solid 1px black;
 
 }*/
-td,
-tr {
+td {
     border: 0;
 
     /*margin: 5px 10px 5px 0px;*/
