@@ -12,6 +12,9 @@ ul, li {
 h1 {
     font-weight: 700;
     font-size: 30px;
+    margin-bottom: 8px;
+    padding-bottom: 5px;
+
 }
 
 /*Первый экран*/
@@ -22,6 +25,8 @@ h1 {
 .table td {
     border-top: 0;
 }
+
+
 .menu {
     margin-top: 5px;
 }
@@ -55,12 +60,7 @@ h1 {
     border: solid 1px black;
 
 }*/
-td {
-    border: 0;
 
-    /*margin: 5px 10px 5px 0px;*/
-
-}
 
 
 legend {
@@ -77,4 +77,10 @@ legend {
 
 input {
     margin: .4rem;
+}
+label {
+    width: 3rem;
+    display: inline-block;
+
+
 }
