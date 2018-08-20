@@ -26,7 +26,6 @@ h1 {
     border-top: 0;
 }
 
-
 .menu {
     margin-top: 5px;
 }
@@ -47,27 +46,44 @@ h1 {
     padding-bottom: 5px;  /* Расстояние между линией и текстом */
 }
 
-/*.text {
+.text {
     margin-left: 8px;
     margin-bottom: 5px;
-}*/
+}
 .far {
     margin-left: 5px;
     margin-right: 5px;
 }
-/*table {
+.candidate {
+    color: #000;
 
-    border: solid 1px black;
-
-}*/
-
-
+}
 
 legend {
     background-color: #000;
     color: #fff;
     padding: 3px 6px;
-    border-radius: 3px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+
+}
+.fieldset {
+    margin-top: 0.5rem;
+}
+.btn_onclick {
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    min-width: 141px;
+    min-height: 30px;
+    margin-left: 58px;
+
+}
+.btn_onclick:hover {
+    background-color: #555555;
+    color: #fff;
+    transition: all 0.3s ease;
 
 }
 
@@ -82,5 +98,30 @@ label {
     width: 3rem;
     display: inline-block;
 
+}
+
+a:link {
+    text-decoration: none;
+}
+.btn_reset {
+    cursor: pointer;
+    border-radius: 5px;
+    min-width: 100px;
+}
+.btn_reset:hover {
+    background-color: #555555;
+    color: #fff;
+    transition: all 0.3s ease;
 
 }
+.btn_submit {
+    cursor: pointer;
+    border-radius: 5px;
+    min-width: 100px;
+}
+.btn_submit:hover {
+     background-color: #555555;
+     color: #fff;
+     transition: all 0.3s ease;
+
+ }

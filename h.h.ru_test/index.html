@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, minimum-scale=1.0">
@@ -57,25 +57,30 @@
                         <i class="far fa-calendar-plus"></i><p class="text">НПО Антей, frontend разработчик - 3</p>
                     </div>
                     <table class="table border">
-                        <tr class="d-flex justify-content-start">
+                        <tr class="d-flex justify-content-around">
                             <td>10.08.2018 17:04</td>
                             <td>HDPR</td>
                             <td>Рассмотреть</td>
+                            <td>&nbsp</td>
                         </tr>
-                        <tr class="d-flex justify-content-start">
-                            <td><ins>Иванов Иван Иванович</ins></td>
+                        <tr class="d-flex justify-content-around">
+                            <td></td>
+                            <td><a href="#" class="candidate"><ins>Иванов Иван Иванович</ins></a></td>
+                            <td>&nbsp</td>
                         </tr>
                     </table>
                     <table class="table border">
-                        <tr class="d-flex justify-content-start">
+                        <tr class="d-flex justify-content-around">
                             <td>09.08.2018 15:40</td>
                             <td>HDPR</td>
                             <td>Принять решение</td>
+                            <td>&nbsp</td>
 
                         </tr>
-                        <tr class="d-flex justify-content-start">
+                        <tr class="d-flex justify-content-around">
                             <td>18.08.2018 20:00</td>
-                            <td><ins>Петров Петр</ins></td>
+                            <td><a href="#" class="candidate"><ins>Петров Петр</ins></a></td>
+                            <td></td>
 
                         </tr>
                     </table>
@@ -86,9 +91,9 @@
                             <td><del>Оценить</del></td>
                             <td>Выполнена</td>
                         </tr>
-                        <tr class="d-flex justify-content-start">
+                        <tr class="d-flex justify-content-around">
                             <td><del>10.07.2018 10:08</del></td>
-                            <td><del>Сидоров Сергей</del></td>
+                            <td><a href="#" class="candidate"><del>Сидоров Сергей</del></a></td>
                             <td>12.08.2018 17:30</td>
                         </tr>
                     </table>
@@ -104,13 +109,16 @@
                     </div>
 
                     <table class="table border">
-                        <tr class="d-flex justify-content-start">
+                        <tr class="d-flex justify-content-around">
                             <td>08.08.2018</td>
                             <td>HRDB</td>
                             <td>Оценить</td>
+                            <td>&nbsp</td>
                         </tr>
-                        <tr class="d-flex justify-content-start">
-                            <td><ins>Козлов Николай</ins></td>
+                        <tr class="d-flex justify-content-around">
+                            <td></td>
+                            <td><a href="#" class="candidate"><ins>Козлов Николай</ins></a></td>
+                            <td>&nbsp</td>
                         </tr>
                     </table>
                     <table class="table border">
@@ -122,9 +130,12 @@
                             <td>Отмена</td>
 
                         </tr>
-                        <tr class="d-flex justify-content-start">
-                            <td><del>Бобров Денис</del></td>
+                        <tr class="d-flex justify-content-around">
+
                             <td>12.08.2018 15:40</td>
+                            <td><a href="#" class="candidate"><del>Бобров Денис</del><a></a></td>
+                            <td>&nbsp</td>
+
                         </tr>
 
                     </table>
@@ -150,21 +161,23 @@
 
                     </fieldset>
 
-                    <input type="button" onclick="document.location.reload()" value="Обновить" />
+                    <input type="button" class="btn_onclick" onclick="document.location.reload()" value="Обновить" />
                     <br>
 
-                    <form action="#" name="MyForm">
+                    <form action="#" name="MyForm" method="post">
                         <p>
-                            <label for="sub">Все</label>
-                            <input id="sub" type="checkbox" name="sub" checked> Все
-                            <input type="checkbox" name="sub"> Открытые
-                            <input type="checkbox" name="sub"> Закрытые
-                            <input type="checkbox" name="sub"> Отменённые
+                            <label for="sub">
+                                <input id="sub" type="checkbox" name="sub" checked/> Все
+                                <input type="checkbox" name="open_tasks"/> Открытые
+                                <input type="checkbox" name="closed_tasks"/> Закрытые
+                                <input type="checkbox" name="canceled_tasks"/> Отменённые
+                                <input type="reset" value="Сбросить" class="btn_reset"/>
+                                <input type="submit" value="Отправить" class="btn_submit"/>
+
+                            </label>
+
                         </p>
                     </form>
-
-
-
                 </div>
             </div>
         </section>
