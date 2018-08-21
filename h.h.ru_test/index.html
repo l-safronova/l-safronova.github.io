@@ -142,64 +142,31 @@
                 </div>
 
                 <div class="col-md-5">
-                    <fieldset class="fieldset">
-                        <legend>Период</legend>
 
-                        <div>
-                            <label for="start">Start</label>
-                            <input type="date" id="start" name="trip"
-                                   value="2018-07-22"
-                                   min="2018-08-12" max="2018-12-31" />
-                        </div>
 
-                        <div>
-                            <label for="end">End</label>
-                            <input type="date" id="end" name="trip"
-                                   value="2018-07-29"
-                                   min="2018-08-12" max="2018-12-31"/>
-                        </div>
+                    <form action="#" name="MyForm" method="GET">
 
-                    </fieldset>
+                        <fieldset class="fieldset">
+                            <legend>Период</legend>
 
-                    <input type="button" class="btn_onclick" onclick="document.location.reload()" value="Обновить" />
-                    <br>
+                            <div>
+                                <label for="start">Start</label>
+                                <input type="date" id="start" name="trip-1"
+                                       value="2018-07-22"
+                                       min="2018-01-01" max="2018-12-31"/>
+                            </div>
 
-                    <form action="#" name="MyForm" method="post">
-                        <!--<div class="checkbox">
-                            <label for="sub"><input id="sub" type="checkbox" name="sub" checked/>Все</label>
-                            <label><input type="checkbox" name="open_tasks"/>Открытые:</label>
-                            <label><input type="checkbox" name="closed_tasks"/>Закрытые:</label>
-                            <label><input type="checkbox" name="canceled_tasks"/>Отменённые:</label>
-                        </div>-->
-                        <!--<div class="form-group">
-                            <label><input type="reset" value="Сбросить" class="btn_reset"/></label>
-                            <label><input type="submit" value="Отправить" class="btn_submit"/></label>
-                        </div>
+                            <div>
+                                <label for="end">End</label>
+                                <input type="date" id="end" name="trip-2"
+                                       value="2018-07-29"
+                                       min="2018-01-01" max="2018-12-31"/>
+                            </div>
+                            <input type="button" class="btn_onclick" onclick="document.location.reload()" value="Обновить" />
+                        </fieldset>
 
-                        <div class="form-check"><!--Бутстрап3-->
-                            <!--<label class="form-check-label">
-                                <input class="form-check-input" type="checkbox" value="">
-                                Все:
-                            </label>
-                        </div>
-                        <div class="form-check disabled">
-                            <label class="form-check-label">
-                                <input class="form-check-input" type="checkbox" value="" disabled>
-                                Открытые
-                            </label>
-                        </div>
-                        <div class="form-check disabled">
-                            <label class="form-check-label">
-                                <input class="form-check-input" type="checkbox" value="" disabled>
-                                Закрытые
-                            </label>
-                        </div>
-                        <div class="form-check disabled">
-                            <label class="form-check-label">
-                                <input class="form-check-input" type="checkbox" value="" disabled>
-                                Отмененные
-                            </label>
-                        </div>-->
+
+                        <br>
                         <div class="form-group form-check">
                             <input type="checkbox" class="form-check-input" id="all">
                             <label class="form-check-label" for="all">Все</label>
