@@ -75,9 +75,9 @@ legend {
     cursor: pointer;
     border-radius: 5px;
     margin-bottom: 2rem;
-    min-width: 141px;
-    min-height: 30px;
-    margin-left: 58px;
+    min-width: 100px;
+    min-height: 28px;
+    margin-left: 80px;
 
 }
 .btn_onclick:hover {
@@ -105,7 +105,8 @@ a:link {
 .btn_reset {
     cursor: pointer;
     border-radius: 5px;
-    min-width: 141px;
+    min-width: 100px;
+    min-height: 28px;
 
 }
 .btn_reset:hover {
@@ -117,7 +118,8 @@ a:link {
 .btn_submit {
     cursor: pointer;
     border-radius: 5px;
-    min-width: 141px;
+    min-width: 100px;
+    min-height: 28px;
     margin-left: 14px;
 
     
@@ -130,4 +132,11 @@ a:link {
 
 .one, .two, .three {
     margin-left: 20px;
+}
+.users_list {
+
+}
+
+select {
+    padding: 2px 5px;
 }

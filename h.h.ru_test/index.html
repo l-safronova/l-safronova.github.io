@@ -168,19 +168,19 @@
 
                         <br>
                         <div class="form-group form-check">
-                            <input type="checkbox" class="form-check-input" id="all">
+                            <input type="checkbox" class="form-check-input" id="all" name="all">
                             <label class="form-check-label" for="all">Все</label>
                         </div>
                         <div class="form-group form-check one">
-                            <input type="checkbox" class="form-check-input" id="open_tasks">
+                            <input type="checkbox" class="form-check-input" id="open_tasks" name="open_tasks">
                             <label class="form-check-label" for="open_tasks">Открытые</label>
                         </div>
                         <div class="form-group form-check two">
-                            <input type="checkbox" class="form-check-input" id="closed_tasks">
+                            <input type="checkbox" class="form-check-input" id="closed_tasks" name="closed_tasks">
                             <label class="form-check-label" for="closed_tasks">Закрытые</label>
                         </div>
                         <div class="form-group form-check three">
-                            <input type="checkbox" class="form-check-input" id="canceled_tasks">
+                            <input type="checkbox" class="form-check-input" id="canceled_tasks" name="canceled_tasks">
                             <label class="form-check-label" for="canceled_tasks">Отмененные</label>
                         </div>
                         <button type="reset" class="btn_reset">Сбросить</button>
@@ -188,6 +188,21 @@
 
 
                     </form>
+                    <br>
+                    <div class="users_list">
+                        <label for="users_list">Активные пользователи:</label><br>
+
+                        <select id="users_list">
+                            <option value="">--Выбрать из списка--</option>
+                            <option value="Vlada Belkina">Влада Белкина</option>
+                            <option value="Arina Penrova">Арина Петрова</option>
+                            <option value="Ivan Gudkov">Иван Гудков</option>
+                            <option value="Anton Sokolov">Антон Соколов</option>
+                            <option value="Lera Zimina">Лера Зимина</option>
+                            <option value="Marina Shtorm">Марина Шторм</option>
+                        </select>
+                    </div>
+
                 </div>
             </div>
         </section>
