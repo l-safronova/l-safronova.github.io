@@ -106,7 +106,7 @@ a:link {
 .btn_reset {
     cursor: pointer;
     border-radius: 5px;
-    min-width: 100px;
+    min-width: 141px;
 }
 .btn_reset:hover {
     background-color: #555555;
@@ -117,7 +117,8 @@ a:link {
 .btn_submit {
     cursor: pointer;
     border-radius: 5px;
-    min-width: 100px;
+    min-width: 141px;
+    
 }
 .btn_submit:hover {
      background-color: #555555;
