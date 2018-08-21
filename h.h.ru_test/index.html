@@ -165,18 +165,61 @@
                     <br>
 
                     <form action="#" name="MyForm" method="post">
-                        <p>
-                            <label for="sub"></label>
-                                <input id="sub" type="checkbox" name="sub" checked/>Все<br>
-                                <input type="checkbox" name="open_tasks"/>Открытые:<br>
-                                <input type="checkbox" name="closed_tasks"/>Закрытые:<br>
-                                <input type="checkbox" name="canceled_tasks"/>Отменённые:<br>
-                                <input type="reset" value="Сбросить" class="btn_reset"/>
-                                <input type="submit" value="Отправить" class="btn_submit"/>
+                        <!--<div class="checkbox">
+                            <label for="sub"><input id="sub" type="checkbox" name="sub" checked/>Все</label>
+                            <label><input type="checkbox" name="open_tasks"/>Открытые:</label>
+                            <label><input type="checkbox" name="closed_tasks"/>Закрытые:</label>
+                            <label><input type="checkbox" name="canceled_tasks"/>Отменённые:</label>
+                        </div>-->
+                        <!--<div class="form-group">
+                            <label><input type="reset" value="Сбросить" class="btn_reset"/></label>
+                            <label><input type="submit" value="Отправить" class="btn_submit"/></label>
+                        </div>
+
+                        <div class="form-check"><!--Бутстрап3-->
+                            <!--<label class="form-check-label">
+                                <input class="form-check-input" type="checkbox" value="">
+                                Все:
+                            </label>
+                        </div>
+                        <div class="form-check disabled">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox" value="" disabled>
+                                Открытые
+                            </label>
+                        </div>
+                        <div class="form-check disabled">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox" value="" disabled>
+                                Закрытые
+                            </label>
+                        </div>
+                        <div class="form-check disabled">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox" value="" disabled>
+                                Отмененные
+                            </label>
+                        </div>-->
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="all">
+                            <label class="form-check-label" for="all">Все</label>
+                        </div>
+                        <div class="form-group form-check one">
+                            <input type="checkbox" class="form-check-input" id="open_tasks">
+                            <label class="form-check-label" for="open_tasks">Открытые</label>
+                        </div>
+                        <div class="form-group form-check two">
+                            <input type="checkbox" class="form-check-input" id="closed_tasks">
+                            <label class="form-check-label" for="closed_tasks">Закрытые</label>
+                        </div>
+                        <div class="form-group form-check three">
+                            <input type="checkbox" class="form-check-input" id="canceled_tasks">
+                            <label class="form-check-label" for="canceled_tasks">Отмененные</label>
+                        </div>
+                        <button type="reset" class="btn_reset">Сбросить</button>
+                        <button type="submit" class="btn_submit">Отправить</button>
 
 
-
-                        </p>
                     </form>
                 </div>
             </div>

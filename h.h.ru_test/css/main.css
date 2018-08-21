@@ -107,6 +107,7 @@ a:link {
     cursor: pointer;
     border-radius: 5px;
     min-width: 141px;
+
 }
 .btn_reset:hover {
     background-color: #555555;
@@ -118,6 +119,8 @@ a:link {
     cursor: pointer;
     border-radius: 5px;
     min-width: 141px;
+    margin-left: 14px;
+
     
 }
 .btn_submit:hover {
@@ -126,3 +129,7 @@ a:link {
      transition: all 0.3s ease;
 
  }
+
+.one, .two, .three {
+    margin-left: 20px;
+}
