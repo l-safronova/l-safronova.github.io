@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>script_checkbox</title>
+    <script>
+        function checkall()
+        {
+            var totalelements = document.forms[0].elements.length;
+            //alert(totalelements);
+            for(var i=0;<totalelements;i++)
+            {
+                var elementname=document.forms[0].elements[i].name;
+                //alert(elementname);
+                if(elementname!=undefined & elementname.indexOf("chk_")!=-1)
+                {
+                   document.forms[0].elements[i].checked=document.frm.chk_all.checked;
+                }
+           }
+        }
+    </script>
+</head>
+<body>
+    <form action="/" name="frm" method="post">
+        <input type="checkbox" name="chk_all" value=""  onchange="checkall()" />Check All
+        <hr>
+        <input type="checkbox" name="chk_1" value="" />Check1
+        <input type="checkbox" name="chk_2" value="" />Check2
+        <input type="checkbox" name="chk_3" value="" />Check3
+        <input type="checkbox" name="chk_4" value="" />Check4
+        <input type="checkbox" name="chk_5" value="" />Check5
+        <input type="text" value="" />
+    </form>
+
+</body>
+</html>
