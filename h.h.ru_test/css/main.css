@@ -74,7 +74,7 @@ legend {
 .btn_onclick {
     cursor: pointer;
     border-radius: 5px;
-    margin-bottom: 2rem;
+    margin-bottom: 10px;
     min-width: 100px;
     min-height: 28px;
     margin-left: 80px;
@@ -120,7 +120,7 @@ a:link {
     border-radius: 5px;
     min-width: 100px;
     min-height: 28px;
-    margin-left: 14px;
+    margin-left: 55px;
 
     
 }
@@ -135,7 +135,8 @@ a:link {
 }
 .users_list {
     margin-left:20px;
-    margin-top: 31px;
+    margin-top: 28px;
+    margin-bottom: 40px;
 }
 
 select {
