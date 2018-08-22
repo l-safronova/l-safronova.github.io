@@ -32,12 +32,32 @@
     <div class="container">
         <header class="header">
 
-            <div class="row">
-                <div class="col-md-12">
-                    <nav>
+            <div class="row d-flex justify-content-between">
+                <div class="col-xs-12 col-md-3 item">
+                    <a href="#">
+                        Мои задачи
+                    </a>
+                </div>
+                <div class="col-xs-12 col-md-3 item">
+                    <a href="#">
+                        Вакансии
+                    </a>
+                </div>
+                <div class="col-xs-12 col-md-3 item">
+                    <a href="#">
+                        Кандидаты
+                    </a>
+                </div>
+                <div class="col-xs-12 col-md-3">
+                    <p>
+                        <script type="text/javascript">document.write(moment().format('LLLL')); </script>
+                    </p>
+                </div>
+
+                    <!--<nav>
                         <ul class="menu d-flex justify-content-between">
                             <!--Элементы встали в одну строку-->
-                            <li class="menu__item">
+                            <!--<li class="menu__item">
                                 <a href="#">
                                     Мои задачи
                                 </a>
@@ -60,14 +80,14 @@
                                 </p>
                             </li>
                         </ul>
-                    </nav>
-                </div>
+                    </nav>-->
+
             </div>
             <div class="line"></div>
         </header>
         <section class="tasks">
             <div class="row">
-                <div class="col-md-7">
+                <div class="col-xs 12 col-md-7">
                     <h1>Мои задачи</h1>
                     <div class="offer d-flex justify-content-start">
                         <i class="far fa-calendar-plus"></i><p class="text">НПО Антей, frontend разработчик - 3</p>
@@ -96,7 +116,7 @@
                         <tr class="d-flex justify-content-around">
                             <td>18.08.2018 20:00</td>
                             <td><a href="#" class="candidate"><ins>Петров Петр</ins></a></td>
-                            <td></td>
+                            <td>&nbsp</td>
 
                         </tr>
                     </table>
@@ -157,7 +177,7 @@
                     </table>
                 </div>
 
-                <div class="col-md-5">
+                <div class="col-xs 12 col-md-5">
 
 
                     <form action="#" name="frm" method="GET">
