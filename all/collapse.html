@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale-1">
+    <title>collapse</title>
+    <style>
+        .collapse {
+            background-color: #777;
+            color: white;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+        }
+        .active,
+        .collapsible:hover {
+            border-color: #555;
+
+        }
+        .content {
+            padding: 0 18px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+    <button class="collapsible">Open Collapsible</button>
+    <div class="content">
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Blanditiis dolorum esse ex explicabo facilis laboriosam omnis
+        quam voluptatibus! Amet architecto doloremque facilis illo
+            inventore maiores nemo nesciunt optio quia voluptas.10</p>
+
+    </div>
+    <button class="collapsible">Open Collapsible</button>
+    <div class="content">
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Blanditiis dolorum esse ex explicabo facilis laboriosam omnis
+            quam voluptatibus! Amet architecto doloremque facilis illo
+            inventore maiores nemo nesciunt optio quia voluptas.10</p>
+
+    </div>
+    <script>
+        let coll = document.getElementsByClassName('collapsible');
+        for (let i = 0; i < coll.length; i++) {
+         coll[i].addEventListener('click',function () {
+             this.classList.toggle('active');
+             let content = this.nextElementSibling;
+             if (content.style.maxHeight) {
+                 content.style.maxHeight = null;
+             } else {
+                 content.style.maxHeight = content.scrollHeight + "px"
+             }
+         })
+        }
+
+    </script>
+
+</body>
+</html>
