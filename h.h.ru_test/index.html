@@ -14,15 +14,15 @@
     <script>
         function checkall()
         {
-            var totalelements = document.forms[0].elements.length;
+            var totalelements = document.forms[1].elements.length;
             //alert(totalelements);
             for(var i=0;i<totalelements;i++)
             {
-                var elementname=document.forms[0].elements[i].name;
+                var elementname=document.forms[1].elements[i].name;
                 //alert(elementname);
                 if(elementname!=undefined & elementname.indexOf("chk_")!=-1)
                 {
-                    document.forms[0].elements[i].checked=document.frm.chk_all.checked;
+                    document.forms[1].elements[i].checked=document.frm.chk_all.checked;
                 }
             }
         }
@@ -123,152 +123,425 @@
             <div class="row">
                 <div class="col-xs 12 col-md-7">
                     <h1>Мои задачи</h1>
+                    <div id="vacancies">
+                        <div class="rivals">
+                            <div>
+                                <div>
+                                    <a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+                                        <!--Link with href-->
+                                        <i class="far fa-calendar-plus"></i><p class="text">НПО Антей, frontend разработчик - 3</p>
+                                    </a>
+
+                                    <div class="collapse" id="collapseExample1">
+                                        <div class="well">
+                                            <table class="table border">
+                                                <tr class="d-flex justify-content-between">
+                                                    <td>10.08.2018 17:04</td>
+                                                    <td>HDPR</td>
+                                                    <td>Рассмотреть</td>
+                                                    <td>&nbsp</td>
+                                                </tr>
+                                                <tr class="d-flex justify-content-between">
+                                                    <td></td>
+                                                    <td><a href="#" class="candidate"><ins>Иванов Иван Иванович</ins></a></td>
+                                                    <td>&nbsp</td>
+                                                </tr>
+                                            </table>
+                                            <table class="table border">
+                                                <tr class="d-flex justify-content-between">
+                                                    <td>09.08.2018 15:40</td>
+                                                    <td>HDPR</td>
+                                                    <td>Принять решение</td>
+                                                    <td>&nbsp</td>
+
+                                                </tr>
+                                                <tr class="d-flex justify-content-between">
+                                                    <td>18.08.2018 20:00</td>
+                                                    <td><a href="#" class="candidate"><ins>Петров Петр</ins></a></td>
+                                                    <td>&nbsp</td>
+
+                                                </tr>
+                                            </table>
+                                            <table class="table border">
+                                                <tr class="d-flex justify-content-between">
+                                                    <td><del>07.08.2018 20:47</del></td>
+                                                    <td><del>HDPR</del></td>
+                                                    <td><del>Оценить</del></td>
+                                                    <td>Выполнена</td>
+                                                </tr>
+                                                <tr class="d-flex justify-content-between">
+                                                    <td><del>10.07.2018 10:08</del></td>
+                                                    <td><a href="#" class="candidate"><del>Сидоров Сергей</del></a></td>
+                                                    <td>12.08.2018 17:30</td>
+                                                </tr>
+                                            </table>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div>
+                                    <a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+                                        <!--Link with href-->
+                                        <i class="far fa-calendar-minus"></i><p class="text">Возрождение, разработчик Java - 4</p>
+                                    </a>
+
+                                    <div class="collapse" id="collapseExample2">
+                                        <div class="well">
+                                            <table class="table border">
+                                                <tr class="d-flex justify-content-between">
+                                                    <td>10.08.2018 17:04</td>
+                                                    <td>HDPR</td>
+                                                    <td>Рассмотреть</td>
+                                                    <td>&nbsp</td>
+                                                </tr>
+                                                <tr class="d-flex justify-content-between">
+                                                    <td></td>
+                                                    <td><a href="#" class="candidate"><ins>Иванов Илья</ins></a></td>
+                                                    <td>&nbsp</td>
+                                                </tr>
+                                            </table>
+                                            <table class="table border">
+                                                <tr class="d-flex justify-content-between">
+                                                    <td>09.08.2018 15:40</td>
+                                                    <td>HDPR</td>
+                                                    <td>Принять решение</td>
+                                                    <td>&nbsp</td>
+
+                                                </tr>
+                                                <tr class="d-flex justify-content-between">
+                                                    <td>18.08.2018 20:00</td>
+                                                    <td><a href="#" class="candidate"><ins>Петров Денис</ins></a></td>
+                                                    <td>&nbsp</td>
+
+                                                </tr>
+                                            </table>
+                                            <table class="table border">
+                                                <tr class="d-flex justify-content-between">
+                                                    <td><del>07.08.2018 20:47</del></td>
+                                                    <td><del>HDPR</del></td>
+                                                    <td><del>Оценить</del></td>
+                                                    <td>Выполнена</td>
+                                                </tr>
+                                                <tr class="d-flex justify-content-between">
+                                                    <td><del>10.07.2018 10:08</del></td>
+                                                    <td><a href="#" class="candidate"><del>Сидоров Сергей</del></a></td>
+                                                    <td>12.08.2018 17:30</td>
+                                                </tr>
+                                            </table>
+                                            <table class="table border">
+                                                <tr class="d-flex justify-content-between">
+                                                    <td><del>07.08.2018 20:47</del></td>
+                                                    <td><del>HDPR</del></td>
+                                                    <td><del>Оценить</del></td>
+                                                    <td>Выполнена</td>
+                                                </tr>
+                                                <tr class="d-flex justify-content-between">
+                                                    <td><del>10.07.2018 10:08</del></td>
+                                                    <td><a href="#" class="candidate"><del>Сидоров Дмитрий</del></a></td>
+                                                    <td>12.08.2018 17:30</td>
+                                                </tr>
+                                            </table>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div>
+                                    <a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
+                                        <!--Link with href-->
+                                        <i class="far fa-calendar-plus"></i><p class="text">ДОСААФ, веб-разработчик (PHP) - 17</p>
+                                    </a>
+
+                                    <div class="collapse" id="collapseExample3">
+                                        <div class="well">
+                                            <table class="table border">
+                                                <tr class="d-flex justify-content-between">
+                                                    <td>10.08.2018 17:04</td>
+                                                    <td>HDPR</td>
+                                                    <td>Рассмотреть</td>
+                                                    <td>&nbsp</td>
+                                                </tr>
+                                                <tr class="d-flex justify-content-between">
+                                                    <td></td>
+                                                    <td><a href="#" class="candidate"><ins>Иванов Борис</ins></a></td>
+                                                    <td>&nbsp</td>
+                                                </tr>
+                                            </table>
+                                            <table class="table border">
+                                                <tr class="d-flex justify-content-between">
+                                                    <td>09.08.2018 15:40</td>
+                                                    <td>HDPR</td>
+                                                    <td>Принять решение</td>
+                                                    <td>&nbsp</td>
+
+                                                </tr>
+                                                <tr class="d-flex justify-content-between">
+                                                    <td>18.08.2018 20:00</td>
+                                                    <td><a href="#" class="candidate"><ins>Петров Николай</ins></a></td>
+                                                    <td>&nbsp</td>
+
+                                                </tr>
+                                            </table>
+                                            <table class="table border">
+                                                <tr class="d-flex justify-content-between">
+                                                    <td><del>07.08.2018 20:47</del></td>
+                                                    <td><del>HDPR</del></td>
+                                                    <td><del>Оценить</del></td>
+                                                    <td>Выполнена</td>
+                                                </tr>
+                                                <tr class="d-flex justify-content-between">
+                                                    <td><del>10.07.2018 10:08</del></td>
+                                                    <td><a href="#" class="candidate"><del>Сидоров Александр</del></a></td>
+                                                    <td>12.08.2018 17:30</td>
+                                                </tr>
+                                            </table>
+                                            <table class="table border">
+                                                <tr class="d-flex justify-content-between">
+                                                    <td><del>07.08.2018 20:47</del></td>
+                                                    <td><del>HDPR</del></td>
+                                                    <td><del>Оценить</del></td>
+                                                    <td>Выполнена</td>
+                                                </tr>
+                                                <tr class="d-flex justify-content-between">
+                                                    <td><del>10.07.2018 10:08</del></td>
+                                                    <td><a href="#" class="candidate"><del>Фомин Петр</del></a></td>
+                                                    <td>12.08.2018 17:30</td>
+                                                </tr>
+                                            </table>
+                                            <table class="table border">
+                                                <tr class="d-flex justify-content-between">
+                                                    <td>10.08.2018 17:04</td>
+                                                    <td>HDPR</td>
+                                                    <td>Рассмотреть</td>
+                                                    <td>&nbsp</td>
+                                                </tr>
+                                                <tr class="d-flex justify-content-between">
+                                                    <td></td>
+                                                    <td><a href="#" class="candidate"><ins>Проскурин Илья</ins></a></td>
+                                                    <td>&nbsp</td>
+                                                </tr>
+                                            </table>
+                                            <table class="table border">
+                                                <tr class="d-flex justify-content-between">
+                                                    <td>09.08.2018 15:40</td>
+                                                    <td>HDPR</td>
+                                                    <td>Принять решение</td>
+                                                    <td>&nbsp</td>
+
+                                                </tr>
+                                                <tr class="d-flex justify-content-between">
+                                                    <td>18.08.2018 20:00</td>
+                                                    <td><a href="#" class="candidate"><ins>Николаев Алексей</ins></a></td>
+                                                    <td>&nbsp</td>
+
+                                                </tr>
+                                            </table>
+                                            <table class="table border">
+                                                <tr class="d-flex justify-content-between">
+                                                    <td><del>07.08.2018 20:47</del></td>
+                                                    <td><del>HDPR</del></td>
+                                                    <td><del>Оценить</del></td>
+                                                    <td>Выполнена</td>
+                                                </tr>
+                                                <tr class="d-flex justify-content-between">
+                                                    <td><del>10.07.2018 10:08</del></td>
+                                                    <td><a href="#" class="candidate"><del>Потапов Сергей</del></a></td>
+                                                    <td>12.08.2018 17:30</td>
+                                                </tr>
+                                            </table>
+                                            <table class="table border">
+                                                <tr class="d-flex justify-content-between">
+                                                    <td><del>07.08.2018 20:47</del></td>
+                                                    <td><del>HDPR</del></td>
+                                                    <td><del>Оценить</del></td>
+                                                    <td>Выполнена</td>
+                                                </tr>
+                                                <tr class="d-flex justify-content-between">
+                                                    <td><del>10.07.2018 10:08</del></td>
+                                                    <td><a href="#" class="candidate"><del>Сидорова Дина</del></a></td>
+                                                    <td>12.08.2018 17:30</td>
+                                                </tr>
+                                            </table>
+                                            <table class="table border">
+                                                <tr class="d-flex justify-content-between">
+                                                    <td>10.08.2018 17:04</td>
+                                                    <td>HDPR</td>
+                                                    <td>Рассмотреть</td>
+                                                    <td>&nbsp</td>
+                                                </tr>
+                                                <tr class="d-flex justify-content-between">
+                                                    <td></td>
+                                                    <td><a href="#" class="candidate"><ins>Даренко Илья</ins></a></td>
+                                                    <td>&nbsp</td>
+                                                </tr>
+                                            </table>
+                                            <table class="table border">
+                                                <tr class="d-flex justify-content-between">
+                                                    <td>09.08.2018 15:40</td>
+                                                    <td>HDPR</td>
+                                                    <td>Принять решение</td>
+                                                    <td>&nbsp</td>
+
+                                                </tr>
+                                                <tr class="d-flex justify-content-between">
+                                                    <td>18.08.2018 20:00</td>
+                                                    <td><a href="#" class="candidate"><ins>Васечкин Денис</ins></a></td>
+                                                    <td>&nbsp</td>
+
+                                                </tr>
+                                            </table>
+                                            <table class="table border">
+                                                <tr class="d-flex justify-content-between">
+                                                    <td><del>07.08.2018 20:47</del></td>
+                                                    <td><del>HDPR</del></td>
+                                                    <td><del>Оценить</del></td>
+                                                    <td>Выполнена</td>
+                                                </tr>
+                                                <tr class="d-flex justify-content-between">
+                                                    <td><del>10.07.2018 10:08</del></td>
+                                                    <td><a href="#" class="candidate"><del>Петров Сергей</del></a></td>
+                                                    <td>12.08.2018 17:30</td>
+                                                </tr>
+                                            </table>
+                                            <table class="table border">
+                                                <tr class="d-flex justify-content-between">
+                                                    <td><del>07.08.2018 20:47</del></td>
+                                                    <td><del>HDPR</del></td>
+                                                    <td><del>Оценить</del></td>
+                                                    <td>Выполнена</td>
+                                                </tr>
+                                                <tr class="d-flex justify-content-between">
+                                                    <td><del>10.07.2018 10:08</del></td>
+                                                    <td><a href="#" class="candidate"><del>Сидоров Владимир</del></a></td>
+                                                    <td>12.08.2018 17:30</td>
+                                                </tr>
+                                            </table>
+                                            <table class="table border">
+                                                <tr class="d-flex justify-content-between">
+                                                    <td>10.08.2018 17:04</td>
+                                                    <td>HDPR</td>
+                                                    <td>Рассмотреть</td>
+                                                    <td>&nbsp</td>
+                                                </tr>
+                                                <tr class="d-flex justify-content-between">
+                                                    <td></td>
+                                                    <td><a href="#" class="candidate"><ins>Иванов Илья Борисович</ins></a></td>
+                                                    <td>&nbsp</td>
+                                                </tr>
+                                            </table>
+                                            <table class="table border">
+                                                <tr class="d-flex justify-content-between">
+                                                    <td>09.08.2018 15:40</td>
+                                                    <td>HDPR</td>
+                                                    <td>Принять решение</td>
+                                                    <td>&nbsp</td>
+
+                                                </tr>
+                                                <tr class="d-flex justify-content-between">
+                                                    <td>18.08.2018 20:00</td>
+                                                    <td><a href="#" class="candidate"><ins>Петрова Дарья</ins></a></td>
+                                                    <td>&nbsp</td>
+
+                                                </tr>
+                                            </table>
+                                            <table class="table border">
+                                                <tr class="d-flex justify-content-between">
+                                                    <td><del>07.08.2018 20:47</del></td>
+                                                    <td><del>HDPR</del></td>
+                                                    <td><del>Оценить</del></td>
+                                                    <td>Выполнена</td>
+                                                </tr>
+                                                <tr class="d-flex justify-content-between">
+                                                    <td><del>10.07.2018 10:08</del></td>
+                                                    <td><a href="#" class="candidate"><del>Алфеев Сергей</del></a></td>
+                                                    <td>12.08.2018 17:30</td>
+                                                </tr>
+                                            </table>
+                                            <table class="table border">
+                                                <tr class="d-flex justify-content-between">
+                                                    <td><del>07.08.2018 20:47</del></td>
+                                                    <td><del>HDPR</del></td>
+                                                    <td><del>Оценить</del></td>
+                                                    <td>Выполнена</td>
+                                                </tr>
+                                                <tr class="d-flex justify-content-between">
+                                                    <td><del>10.07.2018 10:08</del></td>
+                                                    <td><a href="#" class="candidate"><del>Семенов Дмитрий</del></a></td>
+                                                    <td>12.08.2018 17:30</td>
+                                                </tr>
+                                            </table>
+                                            <table class="table border">
+                                                <tr class="d-flex justify-content-between">
+                                                    <td><del>07.08.2018 20:47</del></td>
+                                                    <td><del>HDPR</del></td>
+                                                    <td><del>Оценить</del></td>
+                                                    <td>Выполнена</td>
+                                                </tr>
+                                                <tr class="d-flex justify-content-between">
+                                                    <td><del>10.07.2018 10:08</del></td>
+                                                    <td><a href="#" class="candidate"><del>Фоменко Глеб</del></a></td>
+                                                    <td>12.08.2018 17:30</td>
+                                                </tr>
+                                            </table>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+
+                                <div>
+                                    <a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4">
+                                        <!--Link with href-->
+                                        <i class="far fa-calendar-plus"></i><p class="text">Сбербанк, frontend-разработчик - 2</p>
+                                    </a>
+                                    <div class="collapse" id="collapseExample4">
+                                        <div class="well">
+                                            <table class="table border">
+                                                <tr class="d-flex justify-content-between">
+                                                    <td>08.08.2018</td>
+                                                    <td>HRDB</td>
+                                                    <td>Оценить</td>
+                                                    <td>&nbsp</td>
+                                                </tr>
+                                                <tr class="d-flex justify-content-between">
+                                                    <td></td>
+                                                    <td><a href="#" class="candidate"><ins>Козлов Николай</ins></a></td>
+                                                    <td>&nbsp</td>
+                                                </tr>
+                                            </table>
+                                            <table class="table border">
+
+                                                <tr class="d-flex justify-content-between">
+                                                    <td><del>05.08.2018</del></td>
+                                                    <td><del>HDPR</del></td>
+                                                    <td><del>Оценить</del></td>
+                                                    <td>Отмена</td>
+
+                                                </tr>
+                                                <tr class="d-flex justify-content-between">
+
+                                                    <td>12.08.2018 15:40</td>
+                                                    <td><a href="#" class="candidate"><del>Бобров Денис</del></a></td>
+                                                    <td>&nbsp</td>
+
+                                                </tr>
+
+                                            </table>
 
 
-                    <a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                        <!--Link with href-->
-                        <i class="far fa-calendar-plus"></i><p class="text">НПО Антей, frontend разработчик - 3</p>
-                    </a>
-                    <!--<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                        Button with data-target
-                    </button>-->
-                    <div class="collapse" id="collapseExample">
-                        <div class="well">
-                            <table class="table border">
-                                <tr class="d-flex justify-content-around">
-                                    <td>10.08.2018 17:04</td>
-                                    <td>HDPR</td>
-                                    <td>Рассмотреть</td>
-                                    <td>&nbsp</td>
-                                </tr>
-                                <tr class="d-flex justify-content-around">
-                                    <td></td>
-                                    <td><a href="#" class="candidate"><ins>Иванов Иван Иванович</ins></a></td>
-                                    <td>&nbsp</td>
-                                </tr>
-                            </table>
-                            <table class="table border">
-                                <tr class="d-flex justify-content-around">
-                                    <td>09.08.2018 15:40</td>
-                                    <td>HDPR</td>
-                                    <td>Принять решение</td>
-                                    <td>&nbsp</td>
+                                        </div>
+                                    </div>
+                                </div>
 
-                                </tr>
-                                <tr class="d-flex justify-content-around">
-                                    <td>18.08.2018 20:00</td>
-                                    <td><a href="#" class="candidate"><ins>Петров Петр</ins></a></td>
-                                    <td>&nbsp</td>
 
-                                </tr>
-                            </table>
-                            <table class="table border">
-                                <tr class="d-flex justify-content-around">
-                                    <td><del>07.08.2018 20:47</del></td>
-                                    <td><del>HDPR</del></td>
-                                    <td><del>Оценить</del></td>
-                                    <td>Выполнена</td>
-                                </tr>
-                                <tr class="d-flex justify-content-around">
-                                    <td><del>10.07.2018 10:08</del></td>
-                                    <td><a href="#" class="candidate"><del>Сидоров Сергей</del></a></td>
-                                    <td>12.08.2018 17:30</td>
-                                </tr>
-                            </table>
-
+                            </div>
                         </div>
                     </div>
 
 
-                    <!--<div class="offer d-flex justify-content-start">
-
-                            <i class="far fa-calendar-plus"></i><p class="text">НПО Антей, frontend разработчик - 3</p>
 
 
-                    </div>-->
-                    <!--<table class="table border collapse">
-                        <tr class="d-flex justify-content-around">
-                            <td>10.08.2018 17:04</td>
-                            <td>HDPR</td>
-                            <td>Рассмотреть</td>
-                            <td>&nbsp</td>
-                        </tr>
-                        <tr class="d-flex justify-content-around">
-                            <td></td>
-                            <td><a href="#" class="candidate"><ins>Иванов Иван Иванович</ins></a></td>
-                            <td>&nbsp</td>
-                        </tr>
-                    </table>
-                    <table class="table border">
-                        <tr class="d-flex justify-content-around">
-                            <td>09.08.2018 15:40</td>
-                            <td>HDPR</td>
-                            <td>Принять решение</td>
-                            <td>&nbsp</td>
-
-                        </tr>
-                        <tr class="d-flex justify-content-around">
-                            <td>18.08.2018 20:00</td>
-                            <td><a href="#" class="candidate"><ins>Петров Петр</ins></a></td>
-                            <td>&nbsp</td>
-
-                        </tr>
-                    </table>
-                    <table class="table border">
-                        <tr class="d-flex justify-content-around">
-                            <td><del>07.08.2018 20:47</del></td>
-                            <td><del>HDPR</del></td>
-                            <td><del>Оценить</del></td>
-                            <td>Выполнена</td>
-                        </tr>
-                        <tr class="d-flex justify-content-around">
-                            <td><del>10.07.2018 10:08</del></td>
-                            <td><a href="#" class="candidate"><del>Сидоров Сергей</del></a></td>
-                            <td>12.08.2018 17:30</td>
-                        </tr>
-                    </table>-->
-
-                    <div class="offer d-flex justify-content-start">
-                        <i class="far fa-calendar-minus"></i><p class="text">Возрождение, разработчик Java - 4</p>
-                    </div>
-                    <div class="offer d-flex justify-content-start">
-                        <i class="far fa-calendar-plus"></i><p class="text">ДОСААФ, веб-разработчик (PHP) - 17</p>
-                    </div>
-                    <div class="offer d-flex justify-content-start">
-                        <i class="far fa-calendar-minus"></i><p class="text">Сбербанк, frontend-разработчик - 2</p>
-                    </div>
-
-                    <table class="table border">
-                        <tr class="d-flex justify-content-around">
-                            <td>08.08.2018</td>
-                            <td>HRDB</td>
-                            <td>Оценить</td>
-                            <td>&nbsp</td>
-                        </tr>
-                        <tr class="d-flex justify-content-around">
-                            <td></td>
-                            <td><a href="#" class="candidate"><ins>Козлов Николай</ins></a></td>
-                            <td>&nbsp</td>
-                        </tr>
-                    </table>
-                    <table class="table border">
-
-                        <tr class="d-flex justify-content-around">
-                            <td><del>05.08.2018</del></td>
-                            <td><del>HDPR</del></td>
-                            <td><del>Оценить</del></td>
-                            <td>Отмена</td>
-
-                        </tr>
-                        <tr class="d-flex justify-content-around">
-
-                            <td>12.08.2018 15:40</td>
-                            <td><a href="#" class="candidate"><del>Бобров Денис</del></a></td>
-                            <td>&nbsp</td>
-
-                        </tr>
-
-                    </table>
                 </div>
 
                 <div class="col-xs 12 col-md-5">
