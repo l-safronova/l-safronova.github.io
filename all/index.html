@@ -32,6 +32,26 @@
         <input type="checkbox" name="chk_5" value="" />Check5
         <input type="text" value="" />
     </form>
+    <br>
+<!--Подстказывающий текст-->
+
+
+    <textarea rows="10" cols="50" id="content" name="content"
+              placeholder="Введите здесь комментарий. Будьте внимательны и вежливы!"></textarea>
+    <br>
+    <!--Выбор цвета-->
+    <input type="color" value="<цвет>" name="<имя>">
+    <form>
+        <p>Выберите дату: <input type="date" name="calendar">
+            <input type="submit" value="Отправить"></p>
+    </form>
+
+    <form>
+        <p>Выберите дату:
+            <input type="date" name="calendar" value="2017-06-01"
+                   max="2017-06-04" min="2017-05-29">
+            <input type="submit" value="Отправить"></p>
+    </form>
 
 </body>
 </html>

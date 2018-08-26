@@ -3,18 +3,15 @@ body {
     padding-bottom: 20px;
 
 }
-/*
-ul, li {
-    display: block;
-    padding:0;
-    margin: 0;
-}*/
+
 
 h1 {
     font-weight: 700;
     font-size: 30px;
     margin-bottom: 8px;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
 
 }
 
@@ -37,12 +34,7 @@ tr {
     text-align: left;
 }
 
-/*.menu {
-    margin-top: 5px;
-}
-.menu__item {
-    margin: 0 57px;
-}*/
+
 
 .line {
     border-bottom-color: black; /* Цвет линии слева */
@@ -67,14 +59,15 @@ tr {
 legend {
     background-color: #000;
     color: #fff;
-    padding: 3px 6px;
+    padding: 3px 23px;
     border-radius: 5px;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
+    margin-bottom: 20px;
+    margin-top: 18px;
+    max-width: 270px;
 
 }
 .fieldset {
-    margin-top: 0.5rem;
+    margin-top: 1.5rem;
 }
 .btn_onclick {
     cursor: pointer;
@@ -101,7 +94,7 @@ input {
 }
 label {
     width: 3rem;
-    display: inline-block;
+    /*display: inline-block;*/
 }
 
 a:link {
@@ -146,4 +139,47 @@ a:link {
 
 select {
     padding: 2px 3px;
+}
+
+#inputDate {
+    margin-left: 20px;
+    max-width: 270px;
+
+}
+#inputDate2 {
+
+    max-width: 270px;
+
+}
+
+
+#custom-select {
+    max-width: 270px;
+}
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: red;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+
 }
