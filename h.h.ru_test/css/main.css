@@ -137,7 +137,7 @@ a:link {
     margin-bottom: 40px;
 }
 
-select {
+#users_list {
     padding: 2px 3px;
 }
 
@@ -153,9 +153,10 @@ select {
 }*/
 
 
-/*#custom-select {
-    max-width: 270px;
-}*/
+#custom-select {
+    margin-left: 3px;
+    margin-right: 3px;
+}
 #myBtn {
     display: none;
     /* Hidden by default */
