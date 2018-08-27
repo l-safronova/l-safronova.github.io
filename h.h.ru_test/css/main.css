@@ -184,3 +184,6 @@ a:link {
     /* Rounded corners */
 
 }
+.text:before {
+    content: "+";
+}
