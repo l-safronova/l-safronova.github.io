@@ -78,84 +78,71 @@
             </div>
             <div class="line"></div>
         </header>
-
-
+        <!---->
 
         <!-- Button trigger modal -->
         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-            Launch demo modal
+            Создать задачу
         </button>
 
         <!-- Modal -->
         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Создать задачу</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="#" method="GET">
+
+                            <!--<div class="modal fade" id="examplModal" tabindex="-1" role="dialog" aria-labelledby="examplModal" aria-hidden="true"></div>-->
 
 
-                        <div class="row">
 
-                                <h5 class="modal-title">Создать задачу</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
+                                    <select class="custom-select" id="custom-select">
+                                        <option selected>Выбор задачи</option>
+                                        <option value="1">Рассмотреть</option>
+                                        <option value="2">Оценить</option>
+                                        <option value="3">Принять решение</option>
+                                        <option value="4">Выполнена</option>
+                                        <option value="5">Отмена</option>
+                                    </select>
 
-
-                                <form action="#" method="GET">
-
-                                    <!--<div class="modal fade" id="examplModal" tabindex="-1" role="dialog" aria-labelledby="examplModal" aria-hidden="true"></div>-->
-
-                                    <div class="row">
-                                        <div class="col-md-4">
-                                            <select class="custom-select" id="custom-select">
-                                                <option selected>Выбор задачи</option>
-                                                <option value="1">Рассмотреть</option>
-                                                <option value="2">Оценить</option>
-                                                <option value="3">Принять решение</option>
-                                                <option value="4">Выполнена</option>
-                                                <option value="5">Отмена</option>
-                                            </select>
-
-                                        </div>
-                                        <div class="col-md-4 d-flex justify-content-between">
-                                            <label for="inputDate">Начало задачи</label>
-                                            <input type="date" id="inputDate" class="form-control" name="inputDate">
-
-                                        </div>
-                                        <div class="col-md-4 d-flex justify-content-between">
-                                            <label for="inputDate2">Завершение задачи</label>
-                                            <input type="date" id="inputDate2" class="form-control" name="inputDate">
-
-                                        </div>
+                                    <div class="form-group">
+                                        <label for="inputDate">Начало задачи</label>
+                                        <input type="date" id="inputDate" class="form-control" name="inputDate">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="inputDate2">Завершение задачи</label>
+                                        <input type="date" id="inputDate2" class="form-control" name="inputDate">
                                     </div>
 
 
-                                    <div class="row">
-                                        <div class="col">
-                                            <input type="text" class="form-control" placeholder="Вакансия">
-                                        </div>
-                                        <div class="col">
-                                            <input type="text" class="form-control" placeholder="Фамилия">
-                                        </div>
-                                        <div class="col">
-                                            <input type="text" class="form-control" placeholder="Имя">
-                                        </div>
-                                        <div class="col">
-                                            <input type="text" class="form-control" placeholder="Отчество">
-                                        </div>
-                                    </div>
-
-                                </form>
 
 
-                                <button type="button" class="btn btn-primary">Save changes</button>
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 
-                        </div>
+                                    <input type="text" class="form-control" placeholder="Вакансия">
 
+                                    <input type="text" class="form-control" placeholder="Фамилия">
 
+                                    <input type="text" class="form-control" placeholder="Имя">
+
+                                    <input type="text" class="form-control" placeholder="Отчество">
+
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+                        <button type="button" class="btn btn-primary">Сохранить изменения</button>
+                    </div>
                 </div>
             </div>
         </div>
+<!---->
+
 
         <section class="tasks">
             <div class="row">
