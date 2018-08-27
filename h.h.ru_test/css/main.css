@@ -141,16 +141,16 @@ select {
     padding: 2px 3px;
 }
 
-#inputDate {
+/*#inputDate {
     margin-left: 20px;
-    max-width: 270px;
+    max-width: 200px;
 
 }
 #inputDate2 {
+    margin-left: 20px;
+    max-width: 200px;
 
-    max-width: 270px;
-
-}
+}*/
 
 
 #custom-select {
