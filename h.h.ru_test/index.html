@@ -98,39 +98,32 @@
                     <div class="modal-body">
                         <form action="#" method="GET">
 
-                            <!--<div class="modal fade" id="examplModal" tabindex="-1" role="dialog" aria-labelledby="examplModal" aria-hidden="true"></div>-->
+                            <select class="custom-select" id="custom-select">
+                                <option selected>Выбор задачи</option>
+                                <option value="1">Рассмотреть</option>
+                                <option value="2">Оценить</option>
+                                <option value="3">Принять решение</option>
+                                <option value="4">Выполнена</option>
+                                <option value="5">Отмена</option>
+                            </select>
 
+                            <div class="form-group row">
+                                <label for="inputDate" class="col-sm-6 col-form-label">Начало задачи</label>
+                                <div class="col-sm-6">
+                                    <input type="date" id="inputDate" class="form-control" name="inputDate">
+                                </div>
 
+                                <label for="inputDate2" class="col-sm-6 col-form-label">Завершение задачи</label>
+                                <div class="col-sm-6">
+                                    <input type="date" id="inputDate2" class="form-control" name="inputDate2">
+                                </div>
 
-                                    <select class="custom-select" id="custom-select">
-                                        <option selected>Выбор задачи</option>
-                                        <option value="1">Рассмотреть</option>
-                                        <option value="2">Оценить</option>
-                                        <option value="3">Принять решение</option>
-                                        <option value="4">Выполнена</option>
-                                        <option value="5">Отмена</option>
-                                    </select>
+                            </div>
 
-                                    <div class="form-group">
-                                        <label for="inputDate">Начало задачи</label>
-                                        <input type="date" id="inputDate" class="form-control" name="inputDate">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="inputDate2">Завершение задачи</label>
-                                        <input type="date" id="inputDate2" class="form-control" name="inputDate">
-                                    </div>
-
-
-
-
-
-                                    <input type="text" class="form-control" placeholder="Вакансия">
-
-                                    <input type="text" class="form-control" placeholder="Фамилия">
-
-                                    <input type="text" class="form-control" placeholder="Имя">
-
-                                    <input type="text" class="form-control" placeholder="Отчество">
+                            <input type="text" class="form-control" placeholder="Вакансия">
+                            <input type="text" class="form-control" placeholder="Фамилия">
+                            <input type="text" class="form-control" placeholder="Имя">
+                            <input type="text" class="form-control" placeholder="Отчество">
 
                         </form>
                     </div>
