@@ -187,6 +187,6 @@ a:link {
 .text:before {
     content: "-";
 }
-.collapse:before {
+.collapsed .text:before {
     content: "+";
 }
