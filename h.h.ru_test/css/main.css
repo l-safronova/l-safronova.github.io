@@ -92,10 +92,7 @@ legend {
 input {
     margin: .4rem;
 }
-label {
-    width: 3rem;
-    /*display: inline-block;*/
-}
+
 
 a:link {
     text-decoration: none;
