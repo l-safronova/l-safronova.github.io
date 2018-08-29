@@ -183,16 +183,17 @@ a:link {
 
 }
 .text::before {
-    content: "/f271";
+    content: "\f271";
     display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    margin-left: 5px;
 
-    color: red;
 }
 .collapsed .text::before {
-    content: "/f14a";
+    content: "\f272";
     display: inline-block;
-    font-family: "font-awesome";
-    color: red;
+    font-family: "Font Awesome 5 Free";
+
 }
 
 
