@@ -97,7 +97,10 @@ input {
 a:link {
     text-decoration: none;
 }
-.btn_reset {
+.one, .two, .three {
+    margin-left: 20px;
+}
+/*.btn_reset {
     cursor: pointer;
     border-radius: 5px;
     min-width: 100px;
@@ -125,9 +128,7 @@ a:link {
      transition: all 0.3s ease;
  }
 
-.one, .two, .three {
-    margin-left: 20px;
-}
+
 .users_list {
     margin-left:20px;
     margin-top: 28px;
@@ -181,9 +182,24 @@ a:link {
     /* Rounded corners */
 
 }
-.text:before {
-    content: "+";
+.text::before {
+    content: "/f271";
+    display: inline-block;
+
+    color: red;
 }
-.collapsed .text:before {
-    content: "-";
+.collapsed .text::before {
+    content: "/f14a";
+    display: inline-block;
+    font-family: "font-awesome";
+    color: red;
+}
+
+
+.inlineFormCustomSelect {
+    max-width: 270px;
+    margin-bottom: 20px;
+}
+.btn_reset {
+    margin-left: 77px;
 }
