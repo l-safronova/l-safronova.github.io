@@ -156,8 +156,12 @@ a:link {
     margin-left: 7px;
 }
 .start {
-    max-width: 219px;
+    max-width: 185px;
 }
+.end {
+    max-width: 185px;
+}
+
 
 #myBtn {
     display: none;
