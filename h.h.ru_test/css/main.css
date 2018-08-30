@@ -198,7 +198,7 @@ a:link {
 
 }
 .collapsed .text::before {
-    content: "\f272";
+    content: "\f14a";
     display: inline-block;
     font-family: "Font Awesome 5 Free";
 
