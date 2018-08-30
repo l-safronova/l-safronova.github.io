@@ -100,32 +100,32 @@
                     <div class="modal-body">
                         <form action="#" method="GET">
 
-                            <select class="custom-select" id="custom-select">
-                                <option selected>Выбор задачи</option>
-                                <option value="1">Рассмотреть</option>
-                                <option value="2">Оценить</option>
-                                <option value="3">Принять решение</option>
-                                <option value="4">Выполнена</option>
-                                <option value="5">Отмена</option>
-                            </select>
+                                <select class="custom-select" id="custom-select">
+                                    <option selected>Выбор задачи</option>
+                                    <option value="1">Рассмотреть</option>
+                                    <option value="2">Оценить</option>
+                                    <option value="3">Принять решение</option>
+                                    <option value="4">Выполнена</option>
+                                    <option value="5">Отмена</option>
+                                </select>
 
-                            <div class="form-group row">
-                                <label for="inputDate" class="col-sm-6 col-form-label">Начало задачи</label>
-                                <div class="col-sm-6">
-                                    <input type="date" id="inputDate" class="form-control" name="inputDate">
+                                <div class="form-group row">
+                                    <label for="inputDate" class="col-sm-6 col-form-label">Начало задачи</label>
+                                    <div class="col-sm-6">
+                                        <input type="date" id="inputDate" class="form-control" name="inputDate">
+                                    </div>
+
+                                    <label for="inputDate2" class="col-sm-6 col-form-label">Завершение задачи</label>
+                                    <div class="col-sm-6">
+                                        <input type="date" id="inputDate2" class="form-control" name="inputDate2">
+                                    </div>
+
                                 </div>
 
-                                <label for="inputDate2" class="col-sm-6 col-form-label">Завершение задачи</label>
-                                <div class="col-sm-6">
-                                    <input type="date" id="inputDate2" class="form-control" name="inputDate2">
-                                </div>
-
-                            </div>
-
-                            <input type="text" class="form-control" placeholder="Вакансия">
-                            <input type="text" class="form-control" placeholder="Фамилия">
-                            <input type="text" class="form-control" placeholder="Имя">
-                            <input type="text" class="form-control" placeholder="Отчество">
+                                <input type="text" class="form-control" placeholder="Вакансия">
+                                <input type="text" class="form-control" placeholder="Фамилия">
+                                <input type="text" class="form-control" placeholder="Имя">
+                                <input type="text" class="form-control" placeholder="Отчество">
 
                         </form>
                     </div>
@@ -138,8 +138,6 @@
             </div>
         </div>
 <!---->
-
-
         <section class="tasks">
             <div class="row">
                 <div class="col-xs-12 col-md-7">
@@ -510,7 +508,6 @@
                                     </div>
                                 </div>
                                 <br>
-
                                 <div>
                                     <a role="button" data-toggle="collapse" href="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4">
                                         <!--Link with href-->
@@ -554,41 +551,36 @@
                                         </div>
                                     </div>
                                 </div>
-
-
                             </div>
                         </div>
                     </div>
-
-
-
-
                 </div>
 
                 <div class="col-xs 12 col-md-5">
-
-
                     <form action="#" name="frm" method="GET">
-
                         <fieldset class="fieldset">
                             <legend>Период</legend>
 
-                            <div>
-                                <label for="start">Start</label>
-                                <input type="date" id="start" name="trip-1"
-                                       value="2018-07-22"
-                                       min="2018-01-01" max="2018-12-31"/>
+                            <div class="form-group row">
+                                <label for="start" class="col-sm-2 col-form-label">Start</label>
+                                <div class="col-sm-10">
+                                    <input type="date" id="start" class="form-control start" name="trip-1"
+                                           value="2018-07-22"
+                                           min="2018-01-01" max="2018-12-31"/>
+                                </div>
+
                             </div>
 
-                            <div>
-                                <label for="end">End</label>
-                                <input type="date" id="end" name="trip-2"
-                                       value="2018-07-29"
-                                       min="2018-01-01" max="2018-12-31"/>
+                            <div class="form-group row>
+                                <label for="end" class="col-sm-2 col-form-label">End</label>
+                                <div class="col-sm-10">
+                                    <input type="date" id="end" class="form-control end" name="trip-2"
+                                           value="2018-07-29"
+                                           min="2018-01-01" max="2018-12-31"/>
+                                </div>
                             </div>
-                            <input type="button" class="btn_onclick" onclick="document.location.reload()" value="Обновить" />
+                            <input type="button" class="btn btn-secondary btn_onclick" onclick="document.location.reload()" value="Обновить" />
                         </fieldset>
-
 
                         <br>
                         <div class="form-group form-check">
@@ -607,7 +599,6 @@
                             <input type="checkbox" class="form-check-input" id="canceled_tasks" name="chk_3">
                             <label class="form-check-label" for="canceled_tasks">Отмененные</label>
                         </div>
-
 
                         <!--<div class="users_list">
                             <label for="users_list">Активные пользователи:</label><br>
@@ -645,14 +636,7 @@
                         <button type="submit" class="btn btn-secondary btn_submit">Отправить</button>
                         <button type="reset" class="btn btn-secondary btn_reset">Сбросить</button>
 
-
-
-
-
-
                     </form>
-
-
                 </div>
             </div>
         </section>
