@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, minimum-scale=1.0">
+    <title>For hh.ru</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="css/main.css">
+    <script src="moment-with-locales.min.js"></script>
+    <script>
+        function checkall()
+        {
+            var totalelements = document.forms[1].elements.length;
+            //alert(totalelements);
+            for(var i=0;i<totalelements;i++)
+            {
+                var elementname=document.forms[1].elements[i].name;
+                //alert(elementname);
+                if(elementname!=undefined & elementname.indexOf("chk_")!=-1)
+                {
+                    document.forms[1].elements[i].checked=document.frm.chk_all.checked;
+                }
+            }
+        }
+    </script>
+    <script type="text/javascript">
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Chrome, Safari and Opera
+            document.documentElement.scrollTop = 0; // For IE and Firefox
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+
+
+            <div class="line"></div>
+        </header>
+        <!---->
+
+        <!-- Button trigger modal -->
+
+
+        <!-- Modal -->
+
+
+
+
+<!--start modal window 2-->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1">
+            Войти
+        </button>
+        <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel1">Войти</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="#" method="GET">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            </div>
+
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary">Отправить</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- border for modal window 2 -->
+
+
+
+    </div>
+
+    <script type="text/javascript" src="moment-with-locales.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+</body>
+</html>
