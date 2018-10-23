@@ -14,14 +14,18 @@ body
     padding: 5px;
 
 }
+
 .img1 {
-    padding-top: 10px;
+    padding-top: 35px;
     width: 75px;
     float: left;
 }
 .ls-title {
     font-size: 25px;
     line-height: 1.5;
+}
+.ls-time {
+    margin-top: 8px;
 }
 .ls-container {
     max-width: 1000px;
@@ -31,7 +35,15 @@ body
     display: inline-block;
     margin-top: 20px;
     text-transform: uppercase;
+    font-size: 25px;
 }
+.ls-top {
+    margin-top: 19px;
+}
+.ls-bottom {
+    margin-top: -20px;
+}
+
 .ls-btn {
     height: 41px;
     width: 170px;
@@ -57,8 +69,9 @@ body
     margin-bottom: 5px;
 
 }
+
 .ls-bottom {
-    margin-bottom: 15px;
+    margin-bottom: -5px;
 }*/
 .ls-phone-btn {
     width: 25px;
@@ -84,7 +97,9 @@ body
 }
 .ls-phone {
     display: inline-block;
-    font-size: 17px;
+    font-size: 14px;
+    margin-top: 18px;
+    margin-bottom: 13px;
 
 }
 .menu li {
@@ -118,12 +133,22 @@ body
 .ls-menu-wrapper {
     background: black;
 }
-h1,h2 {
+h1,h2,h3 {
     text-align: center;
-    /*line-height: 1;*/
+    margin: 0;
+
 }
 h1 {
-    padding-top: 25px;
+    padding-top: 31px;
+}
+h3 {
+    padding-bottom: 5px;
+}
+a {
+    text-decoration: none;
+}
+.text-center {
+    line-height: 0.5;
 }
 .ls-note {
     display: inline-block;
@@ -213,23 +238,32 @@ h1 {
 }
 .ls-repairer {
     width: 317px;
-    height: 605px;
-    background: white;
+    height: 570px;
+    background: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b5bdc8+0,828c95+36,28343b+100 */
+    background: #b5bdc8; /* Old browsers */
+    background: -moz-linear-gradient(top,  #b5bdc8 0%, #828c95 36%, #28343b 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #b5bdc8 0%,#828c95 36%,#28343b 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #b5bdc8 0%,#828c95 36%,#28343b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=0 ); /* IE6-9 */
+;
     border: 3px dotted orange;
     border-radius: 5px;
+    margin-top: 25px;
 
 }
 .ls-text {
+    color: #fff;
     text-transform: uppercase;
     font-size: 19px;
     text-align: center;
-    padding-top: 45px;
+    padding-top: 25px;
 }
 .ls-male-img {
-    width: 330px;
+    width: 312px;
     /*position: relative;*/
-    top: 33px;
-    left: 5px;
+    top: 34px;
+    left: 6px;
+
 }
 .ls-price-title-table td:nth-child(1){
     color: orange;
