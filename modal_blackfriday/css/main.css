@@ -222,5 +222,45 @@ a:link {
 }
 
 .modal-backdrop {
-    background-color: black;
+    background-color: #000000;
+
+}
+.bg_white {
+
+    width: 420px;
+    height: 41px;
+    background-color: #ffffff;
+    margin-top: 68px;
+    margin-left: 10px;
+
+}
+.modal_blackfriday {
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    color: #000000;
+    padding-top: 2px;
+}
+.modal_3days {
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-left: 45px;
+    margin-bottom: 10px;
+
+}
+.modal_soglasie {
+    font-weight: 300;
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 80px;
+    margin-left: 10px;
+
+}
+.close {
+    color: #ffffff;
+}
+.btn-danger {
+    margin-left: 103px;
 }
