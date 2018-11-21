@@ -221,4 +221,6 @@ a:link {
     margin-top: 15rem;
 }
 
-
+.modal-backdrop {
+    background-color: black;
+}
