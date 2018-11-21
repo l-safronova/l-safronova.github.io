@@ -16,7 +16,7 @@ body
 }
 
 .img1 {
-    padding-top: 35px;
+    padding-top: 25px;
     /*width: 75px;*/
     float: left;
 }
@@ -26,6 +26,13 @@ body
 }
 .ls-time {
     margin-top: 8px;
+}
+.ls-phone {
+    margin-top: 150px;
+}
+.ls-social {
+    margin-top: 62px;
+   
 }
 .ls-container {
     max-width: 1000px;
@@ -38,14 +45,59 @@ body
     font-size: 25px;
 }
 .ls-top {
-    margin-top: 19px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    /*margin-left: 15px;*/
 }
 .ls-bottom {
     margin-top: -20px;
 }
 
+.ls-btn-top {
+    /*height: 40px;*/
+    width: 170px;
+    color: #000;
+    /*font-size: 15px;*/
+    text-align: center;
+    font-weight: 600;
+    padding: 16px 0;
+    background: #FFA500;
+    border: 0;
+    border-radius: 10em;
+    cursor: pointer;
+    letter-spacing: 0.03em;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 05s ease; /*плавное изменение при наведении*/
+}
+.ls-btn-top:hover {
+    background: yellow;
+    text-decoration: none;
+}
+
+/*
+.ls-btn-small-top {
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 50px;
+    left: -178px;
+    position: relative;
+}
+.ls-phone-btn-top {
+    width: 25px;
+    position: relative;
+    top: -2px;
+    right: 218px;
+
+}
+/*-----------------------------------*/
+
 .ls-btn {
-    height: 41px;
+    height: 40px;
     width: 170px;
     color: white;
     font-size: 13px;
@@ -53,8 +105,6 @@ body
     background-color: orange;
     border: 0;
     border-radius: 20px;
-
-
 }
 .ls-btn-small {
     background-color: #fff;
@@ -62,7 +112,6 @@ body
     left: -178px;
     position: relative;
 }
-
 
 /*.ls-top {
     margin-top: 5px;
@@ -77,6 +126,7 @@ body
     width: 25px;
     position: relative;
     top: -33px;
+
 }
 .ls-message-btn {
     width: 25px;
@@ -153,19 +203,20 @@ a {
 .ls-note {
     display: inline-block;
     background: white;
-    line-height: 1.5;
-    width: 650px;
-    height: 175px;
+    line-height: 1;
+    width: 430px;
+    height: 160px;
     text-align: center;
     border: 3px dotted orange;
     border-radius: 5px;
     font-size: 20px;
     padding: 20px;
     position: relative;
-    left: 80px;
+    /*left: 80px;*/
     bottom: 40px;
     margin-top: 66px;
-    margin-left: 57px;
+    margin-left: 27px;
+    /*margin: 0 auto;*/
 
 }
 .ls-question {
@@ -227,12 +278,12 @@ a {
     border-radius: 14px;
     position: relative;
     left: 2px;
-    top: -66px;
+    top: -56px;
 }
 .ls-red-number {
     font-size: 12px;
     position: relative;
-    left: 8px;
+    left: 6px;
     top: 0;
 
 }

@@ -14,6 +14,9 @@
  a:hover {
      color: black;
  }
+.anchor-hack {
+    text-decoration: none;
+}
  
  a img:hover {
      /** Убрали прыганье при наведении мышки border: 3px solid #fff999;*/
@@ -73,6 +76,7 @@
  h3 {
      margin-bottom: 20px !important;
      text-align: center;
+
  }
  
  img.center {
