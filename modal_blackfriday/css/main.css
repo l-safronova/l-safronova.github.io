@@ -227,6 +227,10 @@ a:link {
     background-color: #000000;
 
 }
+.close {
+    margin-right: 12px;
+    margin-top: 5px;
+}
 .arrow-right {
     width: 0;
     height: 0;
@@ -237,15 +241,14 @@ a:link {
     margin-top: -35px;
     margin-left: 401px;
 }
-.round {
-    width: 5px;
-    height: 5px;
-    background-color: green;
-    border-radius: 100%;
-
+.black {
+    margin-left: 406px;
+    margin-top: -67px;
 
 }
-
+.square_button {
+    border-radius: 3px;
+}
 
 .bg_white {
 
