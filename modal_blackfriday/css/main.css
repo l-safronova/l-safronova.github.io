@@ -220,18 +220,40 @@ a:link {
 .modal-content {
     margin-top: 15rem;
 }
-
+.modal-body {
+    padding: 0;
+}
 .modal-backdrop {
     background-color: #000000;
 
 }
+.arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+
+    border-left: 20px solid white;
+    margin-top: -35px;
+    margin-left: 401px;
+}
+.round {
+    width: 5px;
+    height: 5px;
+    background-color: green;
+    border-radius: 100%;
+
+
+}
+
+
 .bg_white {
 
-    width: 420px;
-    height: 41px;
+    width: 401px;
+    height: 40px;
     background-color: #ffffff;
     margin-top: 68px;
-    margin-left: 10px;
+    margin-right: 50px;
 
 }
 .modal_blackfriday {
