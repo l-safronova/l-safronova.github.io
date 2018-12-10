@@ -230,6 +230,7 @@ a:link {
 .close {
     margin-right: 12px;
     margin-top: 5px;
+    color: #ffffff;
 }
 .arrow-right {
     width: 0;
@@ -283,9 +284,10 @@ a:link {
     margin-left: 10px;
 
 }
-.close {
-    color: #ffffff;
+.email_button {
+    width: 240px;
 }
-.btn-danger {
-    margin-left: 103px;
+
+.submit_button {
+    margin-left: 18px;
 }
