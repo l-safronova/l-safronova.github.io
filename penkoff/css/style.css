@@ -2,6 +2,7 @@ body {
     background: #fff;
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    color: #272727;
 }
 .header {
     background-color: #F4F4F4;
@@ -40,6 +41,52 @@ body {
     color: #95989a;
     text-decoration: none;
     text-transform: uppercase;
-
+}
+.tabs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 20px;
+}
+.tabs-logo {
+    font-size: 20px;
+    color: #95989a;
 
 }
+.tabs-menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+
+}
+.tabs-menu__item {
+    margin-left: 15px;
+    position: relative;
+
+}
+.tabs-content {
+    background: #f2f4ff url("https://i.imgur.com/iBd59zk.png") no-repeat bottom right 135px;
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 43px;
+}
+.tabs-content__title {
+    font-size: 36px;
+}
+.tabs-content__text {
+    font-size: 18px;
+    max-width: 320px;
+    margin-bottom: 90px;
+}
+.button {
+    border-radius: 6px;
+    background-color: #fcde29;
+    padding: 16px 33px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+}
+
