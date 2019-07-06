@@ -1,3 +1,6 @@
+*, *:after, *:before {
+    box-sizing: border-box;
+}
 body {
     background: #fff;
     margin: 0;
@@ -10,7 +13,7 @@ body {
     width: 100%;
     top: 0;
     left: 0;
-    z-index: 99;
+    z-index: 99;/*Так фиксируется header*/
     background-color: #F4F4F4;
     padding-top: 14px;
     padding-bottom: 14px;
@@ -189,4 +192,158 @@ body {
     margin: auto;
     text-align: center;
     margin-top: 20px;
+}
+.delivery {
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+.form {
+    max-width: 600px;
+    margin: auto;
+}
+.delivery__form {
+    margin-top: 60px;
+}
+.input {
+    background-color: #f7f8ff;
+    font-size: 16px;
+    border: none;
+    padding: 20px;
+    width: 100%;
+    border-radius: 7px;
+}
+.form__input {
+    margin-bottom: 30px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.col-100 {
+    flex-basis: 100%;
+}
+.col-50 {
+    flex-basis: 49%;
+}
+.button-block {
+    display: flex;
+    justify-content: flex-end;
+}
+.footer {
+    background-color: #f7f7f7;
+    padding: 60px 0;
+
+}
+.footer__text {
+    text-align: center;
+    max-width: 670px;
+    margin: auto;
+    font-size: 13px;
+
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .best-card {
+        width: 200px;
+        height: 250px;
+        overflow: hidden;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 760px;
+    }
+    .tabs-content {
+        background-size: 200px;
+    }
+    .card_bottom {
+        background-size: contain;
+        background-position: center right 0;
+    }
+    .card__text {
+        max-width: 300px;
+
+
+    }
+    .card-wrap {
+        flex-wrap: wrap;
+    }
+    .card-block {
+        flex-basis: 45%;
+
+    }
+    .best__card-block {
+        margin-bottom: 30px;
+    }
+    .best-card {
+        margin: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    .tabs-content {
+        background-size: 180px;
+        background-position: bottom right 50px;
+    }
+    .card_bottom {
+        background-image: none;
+
+    }
+    .section__card {
+        margin-right: 0;
+        flex-basis: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .container {
+        width: 95%;
+    }
+    .nav {
+        display: none;
+    }
+    .tabs-menu__item {
+        font-size: 12px;
+    }
+    .tabs-logo {
+        display: none;
+    }
+    .tabs-content__title {
+        font-size: 24px;
+    }
+    .tabs-content__text {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    .tabs-content {
+        background-image: none;
+    }
+    .section-title {
+        font-size: 20px;
+    }
+    .form__input{
+        margin-bottom: 15px;
+    }
+    .row {
+        flex-wrap: wrap;
+    }
+    .col-50 {
+        flex-basis: 100%;
+    }
+    .button-block {
+        justify-content: center;
+    }
+    .delivery__form {
+        margin-top: 20px;
+    }
 }
