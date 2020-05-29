@@ -1,0 +1,43 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #222222;
+
+}
+button {
+
+}
+
+h1  {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    color: #333333;
+    line-height: 65px;
+}
+
+h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 142.5%;
+}
+.header {
+
+}
+.nav {
+    padding-top: 30px;
+}
+.logo {
+
+}
+.mail {
+
+}
+.phone {
+
+}
+.offer-cont_title {
+    font-size: 53px;
+
+}

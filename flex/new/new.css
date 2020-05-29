@@ -1,0 +1,9 @@
+.wrapper {
+    display: flex;
+    background-color: red;
+}
+.item {
+    width: 400px;
+    background-color: green;
+    height: 100px;
+}
