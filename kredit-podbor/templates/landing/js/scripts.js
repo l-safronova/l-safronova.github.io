@@ -225,7 +225,7 @@ jQuery(function ($) {
 					'width':'100%',
 					'height':'100%',
 					'z-index':'9000',
-					'background-image':'url("/templates/landing/images/sending.gif")',
+					'background-image':'url("/templates/landing/img/sending.gif")',
 					'background-repeat':'no-repeat',
 					'background-position':'50% 36%'
 				});
@@ -295,7 +295,7 @@ jQuery(function ($) {
 					'width':'100%',
 					'height':'100%',
 					'z-index':'9000',
-					'background-image':'url("/templates/landing/images/sending.gif")',
+					'background-image':'url("/templates/landing/img/sending.gif")',
 					'background-repeat':'no-repeat',
 					'background-position':'50% 36%'
 				});

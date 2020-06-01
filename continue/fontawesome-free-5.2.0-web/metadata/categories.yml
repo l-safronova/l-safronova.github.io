@@ -717,7 +717,7 @@ images:
     - id-badge
     - id-card
     - image
-    - images
+    - img
     - portrait
     - sliders-h
     - tint
@@ -933,7 +933,7 @@ maps:
     - home
     - hospital
     - image
-    - images
+    - img
     - industry
     - info
     - info-circle
@@ -1182,7 +1182,7 @@ objects:
     - hospital
     - hourglass
     - image
-    - images
+    - img
     - industry
     - key
     - keyboard

@@ -13225,7 +13225,7 @@ x-ray:
   label: X-Ray
   search:
     terms:
-      - radiological images
+      - radiological img
       - radiology
   styles:
     - solid

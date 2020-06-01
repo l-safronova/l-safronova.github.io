@@ -1,32 +1,68 @@
 body {
     font-family: 'Open Sans', sans-serif;
     color: #222222;
+    font-cize:16px;
 
 }
 button {
+    display: block;
+    border: none;
+    background: transparent;
+
+
+
+}
+.be-static {
+    position: static;
 
 }
 
-h1  {
+h1, h2, h3, h4 {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     color: #333333;
-    line-height: 65px;
+    margin:0;
+    padding:0;
+
+}
+h1 {
+    font-size: 53px;
 }
 
-h2 {
+/*h2 {
     font-family: Montserrat;
     font-style: normal;
+    color: #333333;
     font-weight: 600;
     font-size: 36px;
-    line-height: 142.5%;
+    margin:0;
+    padding:0;
+}*/
+
+.btn {
+    background: #01B1AF;
+    color: #333;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 14px 28px;
+    display: inline;
+    border-radius: 0;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+.btn:hover {
+    background: #1B7271;
+    color: #ffffff;
 }
 .header {
 
 }
 .nav {
-    padding-top: 30px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 15px
+
 }
 .logo {
 
@@ -37,7 +73,44 @@ h2 {
 .phone {
 
 }
-.offer-cont_title {
-    font-size: 53px;
+.offer-cont__title {
+    line-height: 1.2em;
+    margin-top: 55px;
 
+
+}
+.offer-cont__text {
+    margin: 30px 0 60px;
+}
+li {
+    color: #01B1AF; /* Цвет маркера */
+}
+li span {
+    color: #222222; /* Цвет текста */
+    font-size: 17px;
+}
+.offer-cont__btn {
+
+}
+
+.hero {
+    background: url("../img/hero.jpg") no-repeat right top;
+    width: 700px;
+    height: 542px;
+    position: absolute;
+    right: 0;
+    top: 142px;
+}
+
+.phones {
+    text-align: right;
+}
+
+.phones a {
+    color: #222222;
+    text-decoration: none;
+}
+.email a {
+    color: #222222;
+    text-decoration: none;
 }
